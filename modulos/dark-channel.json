@@ -17,7 +17,7 @@
   "saude": {
     "motivo": "Saúde pelo push mais recente (24/10/2026)."
   },
-  "atualizado_em": "2026-10-24T19:22:13+00:00",
+  "atualizado_em": "2026-10-24T23:51:44+00:00",
   "projetos": [
     {
       "id": "dark-channel-playbook",
@@ -29,7 +29,7 @@
       "saude": "saudavel",
       "saude_motivo": "Último push em 24/10/2026.",
       "progresso": null,
-      "ultima_atividade": "2026-10-24T19:22:13+00:00",
+      "ultima_atividade": "2026-10-24T23:51:44+00:00",
       "nota": "Só metadados. Arquivo e issue não são lidos.",
       "frentes": [],
       "destaques": []
@@ -39,6 +39,12 @@
   "rotinas": [],
   "aguardando_samuel": [],
   "atividade": [
+    {
+      "quando": "2026-10-24T23:51:42+00:00",
+      "resumo": "dark-channel-playbook: docs: BACKLOG e DUVIDAS para o painel",
+      "projeto_id": "dark-channel-playbook",
+      "link": "https://github.com/SamAlencar/dark-channel-playbook"
+    },
     {
       "quando": "2026-10-24T19:22:11+00:00",
       "resumo": "dark-channel-playbook: TTS: OmniVoice principal; F5-TTS e TTSMaker alternativas; Piper removido",
@@ -60,12 +66,6 @@
     {
       "quando": "2026-10-24T17:10:59+00:00",
       "resumo": "dark-channel-playbook: PLANO: skills dos agentes (passo 06) e teste de viabilidade (passo 31); README: como funciona na prática",
-      "projeto_id": "dark-channel-playbook",
-      "link": "https://github.com/SamAlencar/dark-channel-playbook"
-    },
-    {
-      "quando": "2026-10-24T16:20:49+00:00",
-      "resumo": "dark-channel-playbook: Estrutura inicial, PLANO em 6 fases/45 passos e levantamento de ferramentas",
       "projeto_id": "dark-channel-playbook",
       "link": "https://github.com/SamAlencar/dark-channel-playbook"
     }
