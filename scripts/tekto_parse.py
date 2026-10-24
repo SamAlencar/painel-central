@@ -397,7 +397,23 @@ def gerar_projeto(cfg):
     backlog = gh_api(f"repos/{repo}/contents/{CAMINHO_BACKLOG}?ref={branch}", raw=True) if info else None
     duvidas = gh_api(f"repos/{repo}/contents/{CAMINHO_DUVIDAS}?ref={branch}", raw=True) if info else None
     tarefas = parse_backlog(backlog) if backlog else []
-    entregas = prs_mesclados(repo) if info else []
+    entregas = []
+    sem_prs = False
+    if info:
+        try:
+            entregas = prs_mesclados(repo)
+        except Exception as exc:
+            sem_prs = True
+            print(f"aviso: PRs de {repo} indisponíveis ({str(exc)[:160]}); seguindo só com BACKLOG e DUVIDAS.")
+    ultima_commit = None
+    if info and not entregas:
+        try:
+            cs = gh_api(f"repos/{repo}/commits?sha={branch}&per_page=1") or []
+            if cs:
+                dt = datetime.fromisoformat(cs[0]["commit"]["committer"]["date"].replace("Z", "+00:00")).astimezone(TZ)
+                ultima_commit = dt.isoformat(timespec="minutes")
+        except Exception as exc:
+            print(f"aviso: commits de {repo} indisponíveis ({str(exc)[:160]}).")
 
     areas = {}
     for t in tarefas:
@@ -453,7 +469,8 @@ def gerar_projeto(cfg):
         "proximas": [{k: t[k] for k in ("id", "titulo", "normas", "disciplina")} for t in tarefas if not t["feito"]][:8],
         "entregas": entregas[:12],
         "total_entregas": len(entregas),
-        "ultima_entrega": entregas[0]["data"] if entregas else None,
+        "ultima_entrega": entregas[0]["data"] if entregas else ultima_commit,
+        "sem_prs": sem_prs,
         "normas": normas,
         "normas_cobertas": sorted({n for t in tarefas if t["feito"] for n in t["normas"]}),
         "duvidas": lista_duv,

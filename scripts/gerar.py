@@ -474,6 +474,9 @@ def mapear_tekto(dados: dict, origem: str, hoje=None) -> dict:
     avisos = []
     if origem != "github":
         avisos.append("Sem token do GitHub nesta execução. Os números vêm do painel público, que já é um resumo.")
+    sem = [p.get("nome") for p in dados.get("projetos") or [] if p.get("sem_prs")]
+    if sem:
+        avisos.append("PRs mesclados indisponíveis nesta leitura; a última atividade vem do último commit.")
     if any(len(p.get("areas") or []) > 12 for p in dados.get("projetos") or []):
         avisos.append("Cada projeto mostra no máximo 12 frentes, as de maior volume.")
     if filtro.omitidos:

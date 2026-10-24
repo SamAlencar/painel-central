@@ -33,6 +33,14 @@ jobs:
           node-version: "22"
           cache: npm
       - run: python3 -m pip install -r requirements.txt
+      - name: Diagnóstico do token (só códigos HTTP)
+        env:
+          T: ${{ secrets.PAINEL_LEITURA_TOKEN }}
+        run: |
+          for ep in repos/SamAlencar/tek-catalog repos/SamAlencar/tek-catalog/contents/docs/BACKLOG.md "repos/SamAlencar/tek-catalog/pulls?state=closed&per_page=1"; do
+            c=$(curl -s -o /dev/null -w '%{http_code}' -H "Authorization: Bearer $T" -H "Accept: application/vnd.github+json" "https://api.github.com/$ep")
+            echo "HTTP $c  /$ep"
+          done
       - name: Gerar módulos a partir dos repositórios
         env:
           # Token fine-grained só-leitura (Contents + Metadata) nos repositórios dos projetos.
