@@ -1,0 +1,21 @@
+{
+  "name": "painel-central",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 4471 --strictPort",
+    "build": "python3 scripts/validar.py && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4471 --strictPort",
+    "validar": "python3 scripts/validar.py",
+    "testar": "python3 scripts/testar.py",
+    "gerar": "python3 scripts/gerar.py"
+  },
+  "devDependencies": {
+    "vite": "^8.3.4"
+  },
+  "dependencies": {
+    "@fontsource/fraunces": "^5.2.0",
+    "@fontsource/outfit": "^5.2.0"
+  }
+}

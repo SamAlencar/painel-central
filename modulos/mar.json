@@ -1,0 +1,65 @@
+{
+  "$schema": "../schema/modulo.schema.json",
+  "id": "mar",
+  "nome": "Mar",
+  "agente": {
+    "id": "mar",
+    "nome": "Mar",
+    "papel": "Marketing"
+  },
+  "resumo": "Exemplo — calendário de peças ainda ilustrativo. Sem verba, mídia paga ou lista de contatos.",
+  "exemplo": true,
+  "fonte": {
+    "tipo": "exemplo",
+    "detalhe": "Semente ilustrativa. Nenhuma campanha ou audiência é lida."
+  },
+  "status": "planejado",
+  "saude": {
+    "motivo": "Exemplo — marketing sem fonte automática."
+  },
+  "atualizado_em": null,
+  "projetos": [
+    {
+      "id": "calendario",
+      "nome": "Calendário de peças",
+      "repo": null,
+      "url": null,
+      "descricao": "Exemplo — calendário ilustrativo, sem campanha real.",
+      "status": "preparacao",
+      "saude": "planejado",
+      "saude_motivo": "Exemplo — fonte ainda não conectada.",
+      "progresso": null,
+      "ultima_atividade": null,
+      "nota": "Exemplo — sem leitura de arquivos.",
+      "frentes": [],
+      "destaques": []
+    }
+  ],
+  "prazos": [],
+  "rotinas": [
+    {
+      "nome": "Exemplo — revisão do calendário",
+      "frequencia": "a definir",
+      "ultima_execucao": null,
+      "status": "desconhecida",
+      "nota": "Exemplo — nenhuma execução real."
+    }
+  ],
+  "aguardando_samuel": [
+    {
+      "id": "ex-mar-1",
+      "titulo": "Exemplo — peça ilustrativa aguardando um olhar",
+      "detalhe": "Sem nome de campanha, sem verba e sem lista de contatos.",
+      "desde": null,
+      "projeto_id": "calendario",
+      "urgencia": "baixa",
+      "tipo": "exemplo",
+      "link": null
+    }
+  ],
+  "atividade": [],
+  "links": [],
+  "avisos": [
+    "Dados de exemplo. Não representam pedidos reais ao Samuel."
+  ]
+}

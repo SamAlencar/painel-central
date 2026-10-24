@@ -1,0 +1,65 @@
+{
+  "$schema": "../schema/modulo.schema.json",
+  "id": "jur",
+  "nome": "Jur",
+  "agente": {
+    "id": "jur",
+    "nome": "Jur",
+    "papel": "Rotinas jurídicas"
+  },
+  "resumo": "Exemplo — o painel público só mostra que existe rotina jurídica, nunca o conteúdo.",
+  "exemplo": true,
+  "fonte": {
+    "tipo": "exemplo",
+    "detalhe": "Semente ilustrativa. Não há repositório ligado e nenhum documento é lido."
+  },
+  "status": "planejado",
+  "saude": {
+    "motivo": "Exemplo — frente jurídica sem fonte automática, de propósito."
+  },
+  "atualizado_em": null,
+  "projetos": [
+    {
+      "id": "rotina",
+      "nome": "Rotina jurídica",
+      "repo": null,
+      "url": null,
+      "descricao": "Exemplo — existência da rotina, sem peça, parte ou número.",
+      "status": "preparacao",
+      "saude": "planejado",
+      "saude_motivo": "Exemplo — fonte ainda não conectada.",
+      "progresso": null,
+      "ultima_atividade": null,
+      "nota": "Exemplo — sem leitura de arquivos.",
+      "frentes": [],
+      "destaques": []
+    }
+  ],
+  "prazos": [],
+  "rotinas": [
+    {
+      "nome": "Exemplo — leitura da fila jurídica",
+      "frequencia": "a definir",
+      "ultima_execucao": null,
+      "status": "desconhecida",
+      "nota": "Exemplo — nenhuma execução real."
+    }
+  ],
+  "aguardando_samuel": [
+    {
+      "id": "ex-jur-1",
+      "titulo": "Exemplo — item de leitura pendente",
+      "detalhe": "Peças, partes e números ficam de fora. Quando houver dado real, grave só o tipo da pendência.",
+      "desde": null,
+      "projeto_id": "rotina",
+      "urgencia": "baixa",
+      "tipo": "exemplo",
+      "link": null
+    }
+  ],
+  "atividade": [],
+  "links": [],
+  "avisos": [
+    "Dados de exemplo. Não representam pedidos reais ao Samuel."
+  ]
+}

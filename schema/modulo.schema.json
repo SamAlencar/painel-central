@@ -1,0 +1,388 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "modulo.schema.json",
+  "title": "Módulo do Painel Central",
+  "description": "Resumo público de uma frente tocada por um agente do Grok Bot. Não coloque valores, processos, nomes de clientes, mensagens, credenciais nem o corpo de arquivos. Cada arquivo em modulos/<id>.json valida contra este schema. Rode python3 scripts/validar.py antes de publicar.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "id",
+    "nome",
+    "agente",
+    "resumo",
+    "exemplo",
+    "fonte",
+    "status",
+    "saude",
+    "atualizado_em",
+    "projetos",
+    "prazos",
+    "rotinas",
+    "aguardando_samuel",
+    "atividade",
+    "links",
+    "avisos"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "description": "Caminho deste schema, para o editor. Use ../schema/modulo.schema.json a partir de modulos/."
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]{0,30}$",
+      "description": "Igual ao nome do arquivo, sem .json. Entre também em config/ordem.json."
+    },
+    "nome": {
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 60,
+      "description": "Nome da frente como o Samuel lê no cartão."
+    },
+    "agente": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "nome", "papel"],
+      "description": "Agente responsável pela frente.",
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]{0,30}$" },
+        "nome": { "type": "string", "minLength": 2, "maxLength": 40 },
+        "papel": {
+          "type": "string",
+          "minLength": 2,
+          "maxLength": 120,
+          "description": "O que esse agente cuida, em uma linha, sem dado sensível."
+        }
+      }
+    },
+    "resumo": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 600,
+      "description": "Parágrafo curto. Se exemplo for true, a frase precisa conter a palavra Exemplo."
+    },
+    "exemplo": {
+      "type": "boolean",
+      "description": "True enquanto o conteúdo for ilustrativo. O site tira esses itens da fila real do Samuel."
+    },
+    "fonte": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["tipo", "detalhe"],
+      "description": "De onde veio o JSON. manual não é reescrito pelo gerador.",
+      "properties": {
+        "tipo": {
+          "type": "string",
+          "enum": ["github", "espelho", "manual", "exemplo"],
+          "description": "github: API do GitHub. espelho: painel público já sanitizado. manual: o agente gravou o arquivo. exemplo: semente ilustrativa."
+        },
+        "detalhe": { "type": "string", "minLength": 5, "maxLength": 400 }
+      }
+    },
+    "status": {
+      "type": "string",
+      "enum": ["saudavel", "atencao", "bloqueado", "parado", "planejado"],
+      "description": "Saúde da frente inteira. saudavel = rotina em dia. atencao = fila grande, ritmo baixo ou entrega parada há mais de 7 dias. bloqueado = fonte configurada e inacessível. parado = sem atividade há mais de 30 dias. planejado = ainda sem trabalho medido."
+    },
+    "saude": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["motivo"],
+      "properties": {
+        "motivo": {
+          "type": "string",
+          "minLength": 5,
+          "maxLength": 400,
+          "description": "Por que o status está assim, com datas absolutas. Sem valores nem nomes de clientes."
+        }
+      }
+    },
+    "atualizado_em": {
+      "description": "Instante da fonte (espelho, push ou commit), não o horário em que o gerador rodou. Null se for exemplo.",
+      "anyOf": [
+        { "type": "string", "format": "date-time" },
+        { "type": "null" }
+      ]
+    },
+    "projetos": {
+      "type": "array",
+      "maxItems": 30,
+      "description": "Repositórios ou frentes internas deste módulo.",
+      "items": { "$ref": "#/$defs/projeto" }
+    },
+    "prazos": {
+      "type": "array",
+      "maxItems": 40,
+      "description": "Próximos prazos. Previsão de término calculada usa tipo previsao — não é compromisso fechado.",
+      "items": { "$ref": "#/$defs/prazo" }
+    },
+    "rotinas": {
+      "type": "array",
+      "maxItems": 40,
+      "items": { "$ref": "#/$defs/rotina" }
+    },
+    "aguardando_samuel": {
+      "type": "array",
+      "maxItems": 200,
+      "description": "O que espera o Samuel. Dúvida de backlog entra com tipo duvida. Não cole o texto de um processo, de um e-mail ou de um lançamento.",
+      "items": { "$ref": "#/$defs/espera" }
+    },
+    "atividade": {
+      "type": "array",
+      "maxItems": 40,
+      "description": "O que o agente fez por último, em frases curtas.",
+      "items": { "$ref": "#/$defs/atividade" }
+    },
+    "links": {
+      "type": "array",
+      "maxItems": 20,
+      "items": { "$ref": "#/$defs/link" }
+    },
+    "avisos": {
+      "type": "array",
+      "maxItems": 12,
+      "items": { "type": "string", "minLength": 3, "maxLength": 300 },
+      "description": "Limites da fonte. Exemplo: leitura via espelho porque não havia token."
+    }
+  },
+  "$defs": {
+    "projeto": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "nome",
+        "repo",
+        "url",
+        "descricao",
+        "status",
+        "saude",
+        "saude_motivo",
+        "progresso",
+        "ultima_atividade",
+        "nota",
+        "frentes",
+        "destaques"
+      ],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]{0,40}$" },
+        "nome": { "type": "string", "minLength": 2, "maxLength": 80 },
+        "repo": {
+          "description": "dono/nome no GitHub, ou null se não houver repositório.",
+          "anyOf": [
+            { "type": "string", "pattern": "^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$" },
+            { "type": "null" }
+          ]
+        },
+        "url": {
+          "anyOf": [
+            { "type": "string", "format": "uri", "maxLength": 300 },
+            { "type": "null" }
+          ]
+        },
+        "descricao": { "type": "string", "minLength": 2, "maxLength": 400 },
+        "status": {
+          "type": "string",
+          "enum": ["ativo", "preparacao", "pausado", "concluido", "indisponivel"],
+          "description": "Ciclo de vida, diferente da saúde."
+        },
+        "saude": {
+          "type": "string",
+          "enum": ["saudavel", "atencao", "bloqueado", "parado", "planejado"]
+        },
+        "saude_motivo": { "type": "string", "minLength": 2, "maxLength": 300 },
+        "progresso": {
+          "anyOf": [
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["feitos", "total", "percentual"],
+              "properties": {
+                "feitos": { "type": "integer", "minimum": 0 },
+                "total": { "type": "integer", "minimum": 0 },
+                "percentual": { "type": "number", "minimum": 0, "maximum": 100 }
+              }
+            },
+            { "type": "null" }
+          ]
+        },
+        "ultima_atividade": {
+          "anyOf": [
+            { "type": "string", "format": "date-time" },
+            { "type": "null" }
+          ]
+        },
+        "nota": {
+          "anyOf": [
+            { "type": "string", "maxLength": 300 },
+            { "type": "null" }
+          ]
+        },
+        "frentes": {
+          "type": "array",
+          "maxItems": 20,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["nome", "feitos", "total", "percentual"],
+            "properties": {
+              "nome": { "type": "string", "minLength": 1, "maxLength": 80 },
+              "feitos": { "type": "integer", "minimum": 0 },
+              "total": { "type": "integer", "minimum": 0 },
+              "percentual": { "type": "number", "minimum": 0, "maximum": 100 }
+            }
+          }
+        },
+        "destaques": {
+          "type": "array",
+          "maxItems": 8,
+          "description": "Próximas tarefas, só id e título curto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["id", "texto"],
+            "properties": {
+              "id": {
+                "anyOf": [
+                  { "type": "string", "maxLength": 40 },
+                  { "type": "null" }
+                ]
+              },
+              "texto": { "type": "string", "minLength": 2, "maxLength": 180 }
+            }
+          }
+        }
+      }
+    },
+    "prazo": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "titulo", "data", "projeto_id", "tipo"],
+      "properties": {
+        "id": { "type": "string", "minLength": 2, "maxLength": 60 },
+        "titulo": { "type": "string", "minLength": 2, "maxLength": 180 },
+        "data": {
+          "anyOf": [
+            { "type": "string", "format": "date" },
+            { "type": "null" }
+          ]
+        },
+        "projeto_id": {
+          "anyOf": [
+            { "type": "string", "maxLength": 40 },
+            { "type": "null" }
+          ]
+        },
+        "tipo": {
+          "type": "string",
+          "enum": ["previsao", "rotina", "decisao", "exemplo"]
+        }
+      }
+    },
+    "rotina": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["nome", "frequencia", "ultima_execucao", "status", "nota"],
+      "properties": {
+        "nome": { "type": "string", "minLength": 2, "maxLength": 120 },
+        "frequencia": {
+          "type": "string",
+          "minLength": 2,
+          "maxLength": 80,
+          "description": "Texto livre: diária, semanal, dias úteis, a cada 2 dias."
+        },
+        "ultima_execucao": {
+          "anyOf": [
+            { "type": "string", "format": "date-time" },
+            { "type": "null" }
+          ]
+        },
+        "status": {
+          "type": "string",
+          "enum": ["em_dia", "atrasada", "desconhecida", "pausada"]
+        },
+        "nota": {
+          "anyOf": [
+            { "type": "string", "maxLength": 200 },
+            { "type": "null" }
+          ]
+        }
+      }
+    },
+    "espera": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "titulo", "detalhe", "desde", "projeto_id", "urgencia", "tipo", "link"],
+      "properties": {
+        "id": { "type": "string", "minLength": 2, "maxLength": 80 },
+        "titulo": { "type": "string", "minLength": 2, "maxLength": 180 },
+        "detalhe": {
+          "anyOf": [
+            { "type": "string", "maxLength": 280 },
+            { "type": "null" }
+          ]
+        },
+        "desde": {
+          "anyOf": [
+            { "type": "string", "format": "date" },
+            { "type": "null" }
+          ]
+        },
+        "projeto_id": {
+          "anyOf": [
+            { "type": "string", "maxLength": 40 },
+            { "type": "null" }
+          ]
+        },
+        "urgencia": { "type": "string", "enum": ["baixa", "media", "alta"] },
+        "tipo": {
+          "type": "string",
+          "enum": ["duvida", "aprovacao", "leitura", "rotina", "exemplo"],
+          "description": "duvida = pergunta aberta no backlog. aprovacao = decisão pedida ao Samuel. exemplo = ilustração."
+        },
+        "link": {
+          "anyOf": [
+            { "type": "string", "format": "uri", "maxLength": 300 },
+            { "type": "null" }
+          ]
+        }
+      }
+    },
+    "atividade": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["quando", "resumo", "projeto_id", "link"],
+      "properties": {
+        "quando": {
+          "anyOf": [
+            { "type": "string", "format": "date-time" },
+            { "type": "null" }
+          ]
+        },
+        "resumo": { "type": "string", "minLength": 2, "maxLength": 240 },
+        "projeto_id": {
+          "anyOf": [
+            { "type": "string", "maxLength": 40 },
+            { "type": "null" }
+          ]
+        },
+        "link": {
+          "anyOf": [
+            { "type": "string", "format": "uri", "maxLength": 300 },
+            { "type": "null" }
+          ]
+        }
+      }
+    },
+    "link": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["rotulo", "url"],
+      "properties": {
+        "rotulo": { "type": "string", "minLength": 2, "maxLength": 80 },
+        "url": { "type": "string", "format": "uri", "maxLength": 300 }
+      }
+    }
+  }
+}

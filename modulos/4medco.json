@@ -1,0 +1,65 @@
+{
+  "$schema": "../schema/modulo.schema.json",
+  "id": "4medco",
+  "nome": "4medco",
+  "agente": {
+    "id": "bil",
+    "nome": "Bil",
+    "papel": "Produtos e operação da 4medco"
+  },
+  "resumo": "Exemplo — frente da 4medco sem repositórios 4medco-* visíveis nesta leitura. Nenhum dado de paciente, clínica ou contrato entra neste painel.",
+  "exemplo": true,
+  "fonte": {
+    "tipo": "exemplo",
+    "detalhe": "Semente ilustrativa. O gerador troca este arquivo se a API listar repositórios com prefixo 4medco-, e mesmo assim só grava metadados."
+  },
+  "status": "planejado",
+  "saude": {
+    "motivo": "Exemplo — o gerador ainda não encontrou repositórios com prefixo 4medco-."
+  },
+  "atualizado_em": null,
+  "projetos": [
+    {
+      "id": "4medco",
+      "nome": "4medco",
+      "repo": null,
+      "url": null,
+      "descricao": "Exemplo — família de repositórios com prefixo 4medco-*. O conteúdo dos arquivos não é lido.",
+      "status": "preparacao",
+      "saude": "planejado",
+      "saude_motivo": "Exemplo — fonte ainda não conectada.",
+      "progresso": null,
+      "ultima_atividade": null,
+      "nota": "Exemplo — sem leitura de arquivos.",
+      "frentes": [],
+      "destaques": []
+    }
+  ],
+  "prazos": [],
+  "rotinas": [
+    {
+      "nome": "Exemplo — rotina ainda não ligada",
+      "frequencia": "a definir",
+      "ultima_execucao": null,
+      "status": "desconhecida",
+      "nota": "Exemplo — nenhuma execução real."
+    }
+  ],
+  "aguardando_samuel": [
+    {
+      "id": "ex-4medco-1",
+      "titulo": "Exemplo — revisão de texto institucional",
+      "detalhe": "O conteúdo fica de fora de propósito: este painel não publica material de paciente, clínica ou contrato.",
+      "desde": null,
+      "projeto_id": "4medco",
+      "urgencia": "baixa",
+      "tipo": "exemplo",
+      "link": null
+    }
+  ],
+  "atividade": [],
+  "links": [],
+  "avisos": [
+    "Dados de exemplo. Não representam pedidos reais ao Samuel."
+  ]
+}

@@ -1,0 +1,4 @@
+# Termos que nunca podem aparecer no painel público.
+# Um termo por linha. Linhas vazias e linhas com # são ignoradas.
+# Use o nome próprio do cliente ou um identificador distinto.
+# Não coloque palavras comuns (cliente, obra, contrato, token): elas apagam tarefas legítimas de engenharia.
