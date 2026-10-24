@@ -183,7 +183,20 @@
       "link": null
     }
   ],
-  "atividade": [],
+  "atividade": [
+    {
+      "quando": "2026-10-24T18:41:00-03:00",
+      "resumo": "Mesclou em Tek Catalog: Corrige formatação Markdown",
+      "projeto_id": "catalog",
+      "link": "https://github.com/SamAlencar/tek-catalog/pull/2"
+    },
+    {
+      "quando": "2026-10-24T18:41:00-03:00",
+      "resumo": "Mesclou em Tek Catalog: Material, texturas e variantes (TK-028..TK-031); D-004/D-005",
+      "projeto_id": "catalog",
+      "link": "https://github.com/SamAlencar/tek-catalog/pull/1"
+    }
+  ],
   "links": [
     {
       "rotulo": "Tek Catalog",
@@ -191,7 +204,6 @@
     }
   ],
   "avisos": [
-    "PRs mesclados indisponíveis nesta leitura; a última atividade vem do último commit.",
     "Cada projeto mostra no máximo 12 frentes, as de maior volume."
   ]
 }

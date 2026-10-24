@@ -118,7 +118,20 @@
     }
   ],
   "aguardando_samuel": [],
-  "atividade": [],
+  "atividade": [
+    {
+      "quando": "2026-10-24T10:39:00-03:00",
+      "resumo": "Mesclou em Tekto Studio: TS-061: gravação automática da auditoria",
+      "projeto_id": "studio",
+      "link": "https://github.com/SamAlencar/tekto-studio/pull/6"
+    },
+    {
+      "quando": "2026-10-23T10:41:00-03:00",
+      "resumo": "Mesclou em Tekto Studio: TS-060: esquema do registro JSONL da auditoria",
+      "projeto_id": "studio",
+      "link": "https://github.com/SamAlencar/tekto-studio/pull/5"
+    }
+  ],
   "links": [
     {
       "rotulo": "Tekto Studio",
@@ -126,7 +139,6 @@
     }
   ],
   "avisos": [
-    "PRs mesclados indisponíveis nesta leitura; a última atividade vem do último commit.",
     "Cada projeto mostra no máximo 12 frentes, as de maior volume."
   ]
 }
