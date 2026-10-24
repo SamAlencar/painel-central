@@ -1,6 +1,6 @@
 # Painel Central
 
-Painel público e estático com os projetos tocados pelos agentes do Samuel: **Tekto**, **VTX**, **4med.co** e **Dark Channel**. Visual inspirado no [painel da VTX](https://samalencar.github.io/vtx_painel/): cartões de resumo, barras de progresso, roscas e gráfico de tarefas por projeto.
+Painel público e estático com os projetos tocados pelos agentes do Samuel: **Tekto**, **VTX**, **4med.co** e **Dark Channel**. Visual inspirado no antigo painel da VTX: cartões de resumo, barras de progresso, roscas e gráfico de tarefas por projeto.
 
 Publicado em <https://samalencar.github.io/painel-central/>.
 
@@ -8,10 +8,10 @@ Publicado em <https://samalencar.github.io/painel-central/>.
 
 | Módulo | Frente | Fonte |
 | --- | --- | --- |
-| `tekto-calc`, `tekto-docs`, `tekto-model`, `tekto-studio`, `tek-team`, `tek-hunter` | Tekto (um módulo por projeto) | Backlogs lidos via GitHub (`gh`); sem token, espelho do `tekto-calc-painel` |
-| `vtx` | VTX | Backlog do `vtx-core` via GitHub; sem ele, espelho do `vtx_painel` |
+| um por repositório `tek-*`/`tekto-*` (descoberta automática) | Tekto | `docs/BACKLOG.md`, `docs/DUVIDAS.md` e PRs de cada repo via API |
+| `vtx` | VTX | `vtx-core/backlog/*.yaml` via API |
 | `4medco` | 4med.co | Metadados dos repositórios `4medco-*` + títulos de commit filtrados |
-| `dark-channel` | Dark Channel | Metadados de `dark-channel-playbook` e `engenharia-explicada` + títulos de commit filtrados |
+| `dark-channel` | Dark Channel | Metadados de `dark-channel-playbook` + títulos de commit filtrados |
 
 Se uma fonte não estiver acessível, o gerador usa uma semente marcada como **Exemplo** (`exemplo: true`), exibida com aviso no site.
 
@@ -49,3 +49,7 @@ Pull requests passam por `.github/workflows/validar.yml` (schema, filtro públic
 ## Se um dia o painel deixar de ser público
 
 Não coloque o dado sensível neste repositório enquanto o Pages estiver ligado. Caminhos sem custo, se a decisão mudar:
+
+## Atualização automática
+
+`.github/workflows/atualizar.yml` roda a cada 30 min (e via `workflow_dispatch` / `repository_dispatch` tipo `projeto-atualizado`), regenera os módulos, valida, testa, faz build e só comita/publica se os dados mudaram. Repositórios privados exigem o secret `PAINEL_LEITURA_TOKEN` (token fine-grained, só leitura de Contents + Metadata).

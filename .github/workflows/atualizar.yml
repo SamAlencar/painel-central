@@ -1,0 +1,66 @@
+name: Atualizar dados do painel
+
+# Lê os repositórios de cada projeto (Tekto tek-*/tekto-*, vtx-core, 4medco-*,
+# dark-channel-playbook), regenera modulos/*.json e publica se algo mudou.
+on:
+  schedule:
+    - cron: "*/30 * * * *"   # a cada 30 min
+  workflow_dispatch:
+  repository_dispatch:
+    types: [projeto-atualizado]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: atualizar-painel
+  cancel-in-progress: false
+
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    outputs:
+      mudou: ${{ steps.commit.outputs.mudou }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+      - run: python3 -m pip install -r requirements.txt
+      - name: Gerar módulos a partir dos repositórios
+        env:
+          # Token fine-grained só-leitura (Contents + Metadata) nos repositórios dos projetos.
+          # Sem ele, só repositórios públicos são lidos e os módulos privados ficam como estão.
+          GH_TOKEN: ${{ secrets.PAINEL_LEITURA_TOKEN }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then unset GH_TOKEN; echo "::warning::secret PAINEL_LEITURA_TOKEN ausente; módulos privados mantidos."; fi
+          python3 scripts/gerar.py
+      - run: python3 scripts/testar.py
+      - run: python3 scripts/validar.py
+      - run: npm ci
+      - run: npm run build
+      - run: python3 scripts/checar_build.py
+      - name: Commit se mudou
+        id: commit
+        run: |
+          git config user.name "painel-bot"
+          git config user.email "painel-bot@users.noreply.github.com"
+          git add modulos config/ordem.json PAINEL.md
+          if git diff --cached --quiet; then
+            echo "mudou=false" >> "$GITHUB_OUTPUT"; echo "Sem mudanças."
+          else
+            git commit -m "chore(dados): atualizar painel $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+            echo "mudou=true" >> "$GITHUB_OUTPUT"
+          fi
+
+  publicar:
+    needs: gerar
+    if: needs.gerar.outputs.mudou == 'true'
+    uses: ./.github/workflows/pages.yml

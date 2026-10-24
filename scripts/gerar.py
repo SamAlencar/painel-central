@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Monta modulos/*.json e o PAINEL.md.
 
-Tekto (um módulo por projeto) e VTX vêm da API do GitHub quando `gh` está autenticado ou há
-GITHUB_TOKEN/GH_TOKEN. Sem token, usam o espelho público já sanitizado
-(tekto-calc-painel e vtx_painel).
+Tekto (um módulo por repositório tek-*/tekto-*, descobertos na listagem) e VTX
+(vtx-core/backlog/*.yaml) vêm direto dos repositórios via API do GitHub, com `gh`
+autenticado ou GITHUB_TOKEN/GH_TOKEN. Sem token, os módulos privados ficam como estão.
 
 4med.co e Dark Channel, se aparecerem na listagem, entram só com nome, descrição e data
 de push — o gerador não lê arquivo, issue nem comentário.
@@ -40,9 +40,8 @@ MODULOS = ROOT / "modulos"
 ORDEM = json.loads((ROOT / "config" / "ordem.json").read_text(encoding="utf-8"))
 TZ = ZoneInfo("America/Sao_Paulo")
 SCHEMA_REF = "../schema/modulo.schema.json"
-TEKTO_ESPELHO = "https://raw.githubusercontent.com/SamAlencar/tekto-calc-painel/main/data.json"
-VTX_ESPELHO = "https://raw.githubusercontent.com/SamAlencar/vtx_painel/main/data/backlog.json"
-SLUG_REPO = {p["slug"]: p["repo"] for p in tekto_parse.PROJETOS}
+ORDEM_FIXA = ["vtx", "4medco", "dark-channel"]
+DARK_REPOS = {"dark-channel-playbook"}
 RE_DATA = re.compile(r"\((20\d{2}-\d{2}-\d{2})\)\s*$")
 RE_ID = re.compile(r"\b([A-Z]{1,6}-\d{1,4})\b")
 GENERICO = re.compile(r"(?i)^(?:verifica(?:ção|cao)|geral|notas|introdução|introducao)$")
@@ -275,15 +274,14 @@ def semente(mid: str) -> dict:
             links=[], avisos=aviso, **comum,
         )
     if mid == "dark-channel":
-        repos = ("dark-channel-playbook", "engenharia-explicada")
+        repos = ("dark-channel-playbook",)
         return base(
-            "dark-channel", "Dark Channel", ("dar", "Dar", "Canal dark educacional Engenharia Explicada"),
-            "Exemplo — canais dark-channel-playbook e engenharia-explicada sem metadados visíveis. Sem audiência, receita ou anunciante.",
+            "dark-channel", "Dark Channel", ("dar", "Dar", "Canal dark educacional"),
+            "Exemplo — dark-channel-playbook sem metadados visíveis. Sem audiência, receita ou anunciante.",
             fonte_detalhe="Semente ilustrativa até a API enxergar esses repositórios. A coleta futura é só de metadados.",
             motivo="Exemplo — repositórios previstos ainda não apareceram na listagem pública.",
             projetos=[
                 projeto_vazio("dark-channel-playbook", "Dark channel playbook", "Exemplo — playbook do canal. Sem números de audiência ou receita.", f"SamAlencar/{repos[0]}"),
-                projeto_vazio("engenharia-explicada", "Engenharia explicada", "Exemplo — canal de engenharia explicada. Sem pauta real nem anunciante.", f"SamAlencar/{repos[1]}"),
             ],
             rotinas=[rotina_exemplo("Exemplo — pauta da semana")],
             fila=[fila_exemplo("ex-dark-1", "Exemplo — pauta ilustrativa da semana", "Sem título real de vídeo, sem métrica e sem anunciante.", "dark-channel-playbook")],
@@ -329,7 +327,7 @@ def mapear_tekto(dados: dict, origem: str, hoje=None) -> dict:
     vistos = set()
     for bruto in dados.get("projetos") or []:
         slug = bruto.get("slug") or "projeto"
-        repo = SLUG_REPO.get(slug)
+        repo = {p["slug"]: p["repo"] for p in tekto_parse.PROJETOS}.get(slug)
         nome = filtro.txt(bruto.get("nome"), 80) or slug
         descricao = filtro.txt(bruto.get("descricao"), 300) or "Sem descrição publicada."
         if not bruto.get("repo_encontrado", True):
@@ -472,7 +470,7 @@ def mapear_tekto(dados: dict, origem: str, hoje=None) -> dict:
     if origem == "github":
         fonte = ("github", "Lido via API do GitHub: docs/BACKLOG.md, docs/DUVIDAS.md e PRs mesclados. Só entram contagens, títulos curtos e datas.")
     else:
-        fonte = ("espelho", "Espelho do painel público tekto-calc-painel/data.json. Com gh autenticado, a leitura passa a ser direta nos repositórios.")
+        fonte = ("espelho", "Dados de teste (sem leitura direta dos repositórios).")
     avisos = []
     if origem != "github":
         avisos.append("Sem token do GitHub nesta execução. Os números vêm do painel público, que já é um resumo.")
@@ -480,10 +478,7 @@ def mapear_tekto(dados: dict, origem: str, hoje=None) -> dict:
         avisos.append("Cada projeto mostra no máximo 12 frentes, as de maior volume.")
     if filtro.omitidos:
         avisos.append(f"{filtro.omitidos} trechos omitidos pelo filtro público.")
-    links = [
-        {"rotulo": "Painel Tekto (legado)", "url": "https://samalencar.github.io/tekto-calc-painel/"},
-        {"rotulo": "Repositório do painel legado", "url": "https://github.com/SamAlencar/tekto-calc-painel"},
-    ]
+    links = []
     for projeto in projetos:
         if projeto["url"]:
             links.append({"rotulo": projeto["nome"], "url": projeto["url"]})
@@ -605,9 +600,9 @@ def mapear_vtx(dados: dict, origem: str, hoje=None) -> dict:
             "nota": "Conclusões do dia no backlog público.",
         })
     if origem == "github":
-        fonte = ("github", "Lido via API em SamAlencar/vtx-core. Só entram id, título, área, fase e status.")
+        fonte = ("github", "Lido via API em SamAlencar/vtx-core/backlog (projeto.yaml e diários). Só entram id, título, área, fase e status.")
     else:
-        fonte = ("espelho", "Espelho do painel público vtx_painel/data/backlog.json. Só entram id, título, área, fase e status.")
+        fonte = ("espelho", "Dados de teste (sem leitura direta de vtx-core).")
     avisos = ["Nenhum item do backlog está marcado como aprovação pendente do Samuel."]
     if origem != "github":
         avisos.insert(0, "Sem token do GitHub nesta execução. Os números vêm do painel público, que já é um resumo.")
@@ -617,11 +612,7 @@ def mapear_vtx(dados: dict, origem: str, hoje=None) -> dict:
         f"{descricao.rstrip('.')}. {feitos} de {total} tarefas concluídas. "
         f"A rotina diária tem registro em {data_curta(ultima)}."
     )
-    links = [
-        {"rotulo": "Painel VTX (legado)", "url": "https://samalencar.github.io/vtx_painel/"},
-        {"rotulo": "Repositório do painel legado", "url": "https://github.com/SamAlencar/vtx_painel"},
-        {"rotulo": "vtx-core", "url": "https://github.com/SamAlencar/vtx-core"},
-    ]
+    links = [{"rotulo": "vtx-core", "url": "https://github.com/SamAlencar/vtx-core"}]
     return base(
         "vtx", "VTX", ("vix", "Vix", "Operação da VTX, empresa de TI tocada por agentes"),
         resumo, False, fonte[0], fonte[1], psaude, pmotivo, gerado or ultima,
@@ -630,31 +621,60 @@ def mapear_vtx(dados: dict, origem: str, hoje=None) -> dict:
 
 
 def produzir_tekto(gh: ClienteGitHub, hoje):
-    if gh.modo != "publico":
-        try:
-            tekto_parse.usar_github(lambda path, raw=False: gh.get(path, raw=raw))
-            dados = tekto_parse.coletar()
-            dados["atualizado_em"] = datetime.now(TZ).isoformat(timespec="seconds")
-            if any(p.get("repo_encontrado") for p in dados.get("projetos") or []):
-                return mapear_tekto(dados, "github", hoje)
-        except Exception as exc:
-            print(f"aviso: leitura direta da Tekto falhou ({exc}); usando o espelho público.")
-    return mapear_tekto(json.loads(baixar(TEKTO_ESPELHO)), "espelho", hoje)
+    if gh.modo == "publico":
+        raise RuntimeError("sem token: repositórios da Tekto são privados")
+    tekto_parse.usar_github(lambda path, raw=False: gh.get(path, raw=raw))
+    dados = tekto_parse.coletar()
+    if not any(p.get("repo_encontrado") for p in dados.get("projetos") or []):
+        raise RuntimeError("nenhum repositório da Tekto legível")
+    return mapear_tekto(dados, "github", hoje)
+
+
+def ler_backlog_vtx(gh: ClienteGitHub) -> dict:
+    """Reproduz vtx-core/scripts/exportar_painel.py lendo vtx-core/backlog pela API."""
+    import yaml
+    lista = gh.get("repos/SamAlencar/vtx-core/contents/backlog") or []
+    nomes = sorted(x["name"] for x in lista if isinstance(x, dict))
+    if "projeto.yaml" not in nomes:
+        raise RuntimeError("vtx-core/backlog/projeto.yaml não encontrado")
+    ler = lambda n: yaml.safe_load(gh.get(f"repos/SamAlencar/vtx-core/contents/backlog/{n}", raw=True) or "") or {}
+    st = lambda v: (str(v or "").strip().lower() if str(v or "").strip().lower() in ("a fazer", "em andamento", "concluído") else "a fazer")
+    dias = []
+    for n in nomes:
+        if re.fullmatch(r"\d{4}-\d{2}-\d{2}\.yaml", n):
+            doc = ler(n)
+            dias.append({"data": str(doc.get("data") or n[:10]), "tarefas": doc.get("tarefas") or []})
+    dias.sort(key=lambda d: d["data"])
+    projeto = ler("projeto.yaml")
+    idx = {t["id"]: t for t in projeto.get("tarefas", [])}
+    for dia in dias:
+        for t in dia["tarefas"]:
+            if t.get("id") in idx:
+                idx[t["id"]]["status"] = t.get("status")
+    return {
+        "gerado_em": None,
+        "projeto": {
+            "nome": str(projeto.get("projeto", "")),
+            "fases": [{"id": str(f["id"]), "nome": str(f["nome"])} for f in projeto.get("fases", [])],
+            "tarefas": [
+                {"id": str(t.get("id", "")), "titulo": str(t.get("titulo", "")), "fase": str(t.get("fase", "")),
+                 "area": str(t.get("area", "")), "status": st(t.get("status"))}
+                for t in sorted(projeto.get("tarefas", []), key=lambda t: int(t.get("prioridade") or 0))
+            ],
+        },
+        "dias": [
+            {"data": d["data"], "tarefas": [
+                {"id": str(t.get("id", "")), "titulo": str(t.get("titulo", "")), "area": str(t.get("area", "")), "status": st(t.get("status"))}
+                for t in d["tarefas"]]}
+            for d in sorted(dias, key=lambda d: d["data"], reverse=True)
+        ],
+    }
 
 
 def produzir_vtx(gh: ClienteGitHub, hoje):
-    if gh.modo != "publico":
-        for caminho in ("data/backlog.json", "backlog.json", "docs/backlog.json"):
-            raw = gh.get(f"repos/SamAlencar/vtx-core/contents/{caminho}", raw=True)
-            if not raw:
-                continue
-            try:
-                dados = json.loads(raw)
-            except json.JSONDecodeError:
-                continue
-            if isinstance(dados, dict) and ("projeto" in dados or "dias" in dados):
-                return mapear_vtx(dados, "github", hoje)
-    return mapear_vtx(json.loads(baixar(VTX_ESPELHO)), "espelho", hoje)
+    if gh.modo == "publico":
+        raise RuntimeError("sem token: vtx-core é privado")
+    return mapear_vtx(ler_backlog_vtx(gh), "github", hoje)
 
 
 def produzir_descoberta(gh: ClienteGitHub, hoje, mid, nome, agente, prefixo=None, nomes=None):
@@ -718,14 +738,28 @@ def produzir_descoberta(gh: ClienteGitHub, hoje, mid, nome, agente, prefixo=None
     )
 
 
-TEKTO_MODULOS = {
-    "tekto-calc": "calc",
-    "tekto-docs": "docs",
-    "tekto-model": "model",
-    "tekto-studio": "studio",
-    "tek-team": "team",
-    "tek-hunter": "hunter",
-}
+TEKTO_MODULOS: dict[str, str] = {}  # id do módulo (nome do repo) -> slug
+
+
+def montar_ordem(gh: ClienteGitHub) -> list[str]:
+    """Descobre os repositórios tek-*/tekto-* e devolve a ordem dos módulos."""
+    atual = list(ORDEM)
+    if gh.modo != "publico":
+        try:
+            tekto_parse.descobrir(gh.repos())
+        except Exception as exc:
+            print(f"aviso: descoberta da Tekto falhou ({exc}); mantendo a lista conhecida.")
+    elif any(m not in ORDEM_FIXA for m in atual):
+        # Sem token, mantém os módulos Tekto que já existem.
+        nomes = {m for m in atual if m not in ORDEM_FIXA}
+        tekto_parse.PROJETOS[:] = [c for c in tekto_parse.PROJETOS if c["repo"].split("/", 1)[1] in nomes]
+    TEKTO_MODULOS.clear()
+    for c in tekto_parse.PROJETOS:
+        TEKTO_MODULOS[c["repo"].split("/", 1)[1]] = c["slug"]
+    tek = [m for m in atual if m in TEKTO_MODULOS] + [m for m in TEKTO_MODULOS if m not in atual]
+    return tek + ORDEM_FIXA
+
+
 _CACHE_TEKTO = {}
 
 
@@ -742,7 +776,7 @@ def separar_tekto(doc: dict, mid: str) -> dict | None:
     else:
         resumo = f"{nome}: sem contagem de backlog publicada. {len(fila)} dúvidas de backlog abertas."
     rotinas = [r for r in doc["rotinas"] if nome.lower() in r["nome"].lower()]
-    links = [l for l in doc["links"] if l["rotulo"] == nome or "legado" in l["rotulo"].lower()]
+    links = [l for l in doc["links"] if l["rotulo"] == nome]
     return base(
         mid, nome, (doc["agente"]["id"], doc["agente"]["nome"], doc["agente"]["papel"]),
         resumo[:600], False, doc["fonte"]["tipo"], doc["fonte"]["detalhe"],
@@ -767,8 +801,8 @@ def produzir(mid: str, gh: ClienteGitHub, hoje):
         return produzir_descoberta(gh, hoje, "4medco", "4med.co", ("bil", "Bil", "Produtos e operação da 4med.co"), prefixo="4medco-")
     if mid == "dark-channel":
         return produzir_descoberta(
-            gh, hoje, "dark-channel", "Dark Channel", ("dar", "Dar", "Canal dark educacional Engenharia Explicada"),
-            nomes={"dark-channel-playbook", "engenharia-explicada"},
+            gh, hoje, "dark-channel", "Dark Channel", ("dar", "Dar", "Canal dark educacional"),
+            nomes=DARK_REPOS,
         )
     return None
 
@@ -861,10 +895,6 @@ def escrever_painel(docs: list[dict]):
     for doc in exemplos:
         linhas.append(f"- **{doc['nome']}** ({doc['agente']['nome']}) — {_md(doc['resumo'])}")
     linhas.append("")
-    linhas.append("## Migração")
-    linhas.append("")
-    linhas.append("Os painéis [tekto-calc-painel](https://github.com/SamAlencar/tekto-calc-painel) e [vtx_painel](https://github.com/SamAlencar/vtx_painel) continuam no ar. Este gerador não arquiva nada.")
-    linhas.append("")
     (ROOT / "PAINEL.md").write_text("\n".join(linhas), encoding="utf-8")
 
 
@@ -886,6 +916,14 @@ def main(argv: list[str]) -> int:
     hoje = datetime.now(TZ)
     print(f"github: {gh.modo}")
     MODULOS.mkdir(exist_ok=True)
+    global ORDEM
+    if not painel_apenas:
+        ORDEM = montar_ordem(gh)
+        (ROOT / "config" / "ordem.json").write_text(json.dumps(ORDEM, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        for arq in MODULOS.glob("*.json"):
+            if arq.stem not in ORDEM:
+                arq.unlink()
+                print(f"{arq.stem}: removido (repositório não existe mais)")
     for mid in ORDEM:
         atual = carregar(mid)
         if painel_apenas:

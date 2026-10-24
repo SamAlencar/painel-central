@@ -63,6 +63,8 @@ def mensagens(doc, nome: str = "modulo") -> list[str]:
 
 
 def validar_arquivos() -> list[str]:
+    global ORDEM
+    ORDEM = json.loads((ROOT / "config" / "ordem.json").read_text(encoding="utf-8"))
     arquivos = sorted(MODULOS.glob("*.json"))
     ids = []
     erros = []

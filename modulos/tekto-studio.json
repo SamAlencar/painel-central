@@ -134,14 +134,6 @@
   ],
   "links": [
     {
-      "rotulo": "Painel Tekto (legado)",
-      "url": "https://samalencar.github.io/tekto-calc-painel/"
-    },
-    {
-      "rotulo": "Repositório do painel legado",
-      "url": "https://github.com/SamAlencar/tekto-calc-painel"
-    },
-    {
       "rotulo": "Tekto Studio",
       "url": "https://github.com/SamAlencar/tekto-studio"
     }

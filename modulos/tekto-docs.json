@@ -579,23 +579,9 @@
       "resumo": "Mesclou em Tekto Docs: TD-022: ficha comparativa de concreto pré-moldado (NBR 9062:2017)",
       "projeto_id": "docs",
       "link": "https://github.com/SamAlencar/tekto-docs/pull/24"
-    },
-    {
-      "quando": "2026-10-23T08:22:00-03:00",
-      "resumo": "Mesclou em Tekto Docs: TD-021: ficha comparativa de light steel framing",
-      "projeto_id": "docs",
-      "link": "https://github.com/SamAlencar/tekto-docs/pull/23"
     }
   ],
   "links": [
-    {
-      "rotulo": "Painel Tekto (legado)",
-      "url": "https://samalencar.github.io/tekto-calc-painel/"
-    },
-    {
-      "rotulo": "Repositório do painel legado",
-      "url": "https://github.com/SamAlencar/tekto-calc-painel"
-    },
     {
       "rotulo": "Tekto Docs",
       "url": "https://github.com/SamAlencar/tekto-docs"

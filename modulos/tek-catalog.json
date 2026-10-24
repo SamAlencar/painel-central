@@ -1,0 +1,209 @@
+{
+  "$schema": "../schema/modulo.schema.json",
+  "id": "tek-catalog",
+  "nome": "Tek Catalog",
+  "agente": {
+    "id": "tek",
+    "nome": "Eng/Tek",
+    "papel": "Engenharia: cálculo, documento, modelo e estúdio"
+  },
+  "resumo": "Tek Catalog: 2 de 31 tarefas concluídas (6,5%). 10 dúvidas de backlog abertas.",
+  "exemplo": false,
+  "fonte": {
+    "tipo": "github",
+    "detalhe": "Lido via API do GitHub: docs/BACKLOG.md, docs/DUVIDAS.md e PRs mesclados. Só entram contagens, títulos curtos e datas."
+  },
+  "status": "saudavel",
+  "saude": {
+    "motivo": "Entrega em 24/10/2026."
+  },
+  "atualizado_em": "2026-10-24T18:41:00-03:00",
+  "projetos": [
+    {
+      "id": "catalog",
+      "nome": "Tek Catalog",
+      "repo": "SamAlencar/tek-catalog",
+      "url": "https://github.com/SamAlencar/tek-catalog",
+      "descricao": "Catálogo Tekto de materiais da construção civil com IFC 4.3",
+      "status": "ativo",
+      "saude": "saudavel",
+      "saude_motivo": "Entrega em 24/10/2026.",
+      "progresso": {
+        "feitos": 2,
+        "total": 31,
+        "percentual": 6.5
+      },
+      "ultima_atividade": "2026-10-24T18:41:00-03:00",
+      "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2026-11-22.",
+      "frentes": [
+        {
+          "nome": "Etapas",
+          "feitos": 2,
+          "total": 31,
+          "percentual": 6.5
+        }
+      ],
+      "destaques": [
+        {
+          "id": "TK-003",
+          "texto": "Esquema JSON da ficha (item.schema.json)"
+        },
+        {
+          "id": "TK-004",
+          "texto": "Script gerar_indice.py (index.json)"
+        },
+        {
+          "id": "TK-005",
+          "texto": "Script buscar.py para agentes"
+        },
+        {
+          "id": "TK-006",
+          "texto": "Base comum IfcOpenShell (projeto, unidades, tipo, material)"
+        }
+      ]
+    }
+  ],
+  "prazos": [
+    {
+      "id": "catalog-previsao",
+      "titulo": "Previsão de término no ritmo planejado — Tek Catalog",
+      "data": "2026-11-22",
+      "projeto_id": "catalog",
+      "tipo": "previsao"
+    }
+  ],
+  "rotinas": [
+    {
+      "nome": "Backlog do Tek Catalog",
+      "frequencia": "diária",
+      "ultima_execucao": "2026-10-24T18:41:00-03:00",
+      "status": "em_dia",
+      "nota": "1 tarefa/dia"
+    }
+  ],
+  "aguardando_samuel": [
+    {
+      "id": "catalog-1",
+      "titulo": "Status: decidido por Samuel em 24/10/2026",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "catalog",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "catalog-10",
+      "titulo": "Decisão: a textura importa e variantes de textura por item são válidas. Só ficam no repo texturas próprias ou de licença livre (CC0), com fonte e licença; imagens de fabricantes f…",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "catalog",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "catalog-2",
+      "titulo": "Decisão: itens genéricos, com dimensões normalizadas, e links para os fabricantes.",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "catalog",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "catalog-3",
+      "titulo": "Status: decidido por Samuel em 24/10/2026",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "catalog",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "catalog-4",
+      "titulo": "Decisão: guardar somente links (com data de acesso e licença). Nunca guardar arquivos de fabricantes.",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "catalog",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "catalog-5",
+      "titulo": "Status: decidido por Samuel em 24/10/2026",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "catalog",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "catalog-6",
+      "titulo": "Decisão: só IFC agora; famílias do Revit depois, via plug-in do Tekto Model.",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "catalog",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "catalog-7",
+      "titulo": "Status: decidido por Samuel em 24/10/2026",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "catalog",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "catalog-8",
+      "titulo": "Decisão: sim, rotina diária \"Tek Catalog: uma tarefa por dia\".",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "catalog",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "catalog-9",
+      "titulo": "Status: decidido por Samuel em 24/10/2026",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "catalog",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    }
+  ],
+  "atividade": [
+    {
+      "quando": "2026-10-24T18:41:00-03:00",
+      "resumo": "Mesclou em Tek Catalog: Corrige formatação Markdown",
+      "projeto_id": "catalog",
+      "link": "https://github.com/SamAlencar/tek-catalog/pull/2"
+    },
+    {
+      "quando": "2026-10-24T18:41:00-03:00",
+      "resumo": "Mesclou em Tek Catalog: Material, texturas e variantes (TK-028..TK-031); D-004/D-005",
+      "projeto_id": "catalog",
+      "link": "https://github.com/SamAlencar/tek-catalog/pull/1"
+    }
+  ],
+  "links": [
+    {
+      "rotulo": "Tek Catalog",
+      "url": "https://github.com/SamAlencar/tek-catalog"
+    }
+  ],
+  "avisos": [
+    "Cada projeto mostra no máximo 12 frentes, as de maior volume."
+  ]
+}

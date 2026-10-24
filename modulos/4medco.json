@@ -7,11 +7,11 @@
     "nome": "Bil",
     "papel": "Produtos e operação da 4med.co"
   },
-  "resumo": "Repositórios visíveis: 4medco-base-conhecimento, 4medco-platform, 4medco-website. Só metadados públicos; arquivo, issue e comentário não entram no painel.",
+  "resumo": "Repositórios visíveis: 4medco-base-conhecimento, 4medco-platform, 4medco-website. Entram só metadados e títulos de commits já filtrados; arquivos e issues não entram no painel.",
   "exemplo": false,
   "fonte": {
     "tipo": "github",
-    "detalhe": "Listagem da API do GitHub. Conteúdo de arquivo não é lido nesta frente."
+    "detalhe": "Listagem da API do GitHub. Conteúdo de arquivo não é lido nesta frente; títulos de commit passam pelo filtro público."
   },
   "status": "parado",
   "saude": {

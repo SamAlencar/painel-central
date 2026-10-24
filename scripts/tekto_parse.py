@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Lê os backlogs da Tekto e devolve metadados de progresso.
 
-Adaptado de SamAlencar/tekto-calc-painel (gerar_dados.py). Aqui não há commit
+Lógica de leitura própria do painel-central (sem depender de outro painel). Aqui não há commit
 nem push: o painel-central só consome o dicionário e publica o resumo sanitizado.
 """
 import json, re, subprocess
@@ -64,6 +64,11 @@ PROJETOS = [
         "descricao": "Plataforma de engenharia com agente de IA e núcleo determinístico",
         "ritmo_planejado": 1.0,   # um item por dia (TS-D04)
     },
+    {
+        "slug": "catalog", "nome": "Tek Catalog", "repo": "SamAlencar/tek-catalog", "prefixo": "TK",
+        "descricao": "Catálogo Tekto de materiais da construção civil com IFC 4.3",
+        "ritmo_planejado": 1.0,
+    },
 ]
 CAMINHO_BACKLOG = "docs/BACKLOG.md"
 RITMO_PADRAO = 1.0        # tarefas/dia quando o projeto não define ritmo_planejado (7 dias por semana)
@@ -74,6 +79,39 @@ CAMINHO_DUVIDAS = "docs/DUVIDAS.md"
 
 TZ = ZoneInfo("America/Sao_Paulo")
 _getter = None
+
+
+RE_REPO_TEKTO = re.compile(r"^(tekto|tek)-[a-z0-9][a-z0-9-]*$")
+IGNORAR_TEKTO = re.compile(r"-painel$")
+
+
+def _slug_de(nome_repo):
+    return re.sub(r"^(tekto|tek)-", "", nome_repo)
+
+
+def descobrir(repos):
+    """Acrescenta a PROJETOS todo repositório tek-*/tekto-* ainda não configurado.
+
+    Devolve a lista final (configurados que existem + descobertos), na ordem de PROJETOS
+    e depois por nome. Repositórios -painel (painéis legados) ficam de fora.
+    """
+    nomes = {(r.get("name") or "") for r in repos}
+    conhecidos = {c["repo"].split("/", 1)[1] for c in PROJETOS}
+    for r in sorted(repos, key=lambda r: r.get("name") or ""):
+        nome = r.get("name") or ""
+        if not RE_REPO_TEKTO.match(nome) or IGNORAR_TEKTO.search(nome) or nome in conhecidos:
+            continue
+        PROJETOS.append({
+            "slug": _slug_de(nome),
+            "nome": " ".join(p.capitalize() for p in nome.split("-")),
+            "repo": r.get("full_name") or f"SamAlencar/{nome}",
+            "descricao": r.get("description") or "",
+            "ritmo_planejado": RITMO_PADRAO,
+        })
+        conhecidos.add(nome)
+    if nomes:
+        PROJETOS[:] = [c for c in PROJETOS if c["repo"].split("/", 1)[1] in nomes]
+    return PROJETOS
 
 
 def usar_github(fn):

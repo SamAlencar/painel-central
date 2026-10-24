@@ -44,6 +44,15 @@ Dúvida aberta no backlog não é, sozinha, uma aprovação formal. Itens de mó
 - D-005 — Áreas disputadas entre CAU e CONFEA — desde 20/10/2026
 - … e mais 6 no site e em `modulos/tek-team.json`
 
+### Tek Catalog · Eng/Tek · 10
+
+- Status: decidido por Samuel em 24/10/2026
+- Decisão: a textura importa e variantes de textura por item são válidas. Só ficam no repo texturas próprias ou de licença livre (CC0), com fonte e licença; imagens de fabricantes f…
+- Decisão: itens genéricos, com dimensões normalizadas, e links para os fabricantes.
+- Status: decidido por Samuel em 24/10/2026
+- Decisão: guardar somente links (com data de acesso e licença). Nunca guardar arquivos de fabricantes.
+- … e mais 5 no site e em `modulos/tek-catalog.json`
+
 ## Frentes
 
 ### Tekto Calc · Eng/Tek · saudável
@@ -178,11 +187,33 @@ Prazos:
 
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
 
+### Tek Catalog · Eng/Tek · saudável
+
+Tek Catalog: 2 de 31 tarefas concluídas (6,5%). 10 dúvidas de backlog abertas.
+
+Fonte: github. Atualizado em: 24/10/2026.
+
+Entrega em 24/10/2026.
+
+| Projeto | Saúde | Progresso | Última atividade |
+| --- | --- | --- | --- |
+| Tek Catalog | saudável | 2/31 (6,5%) | 24/10/2026 |
+
+Rotinas:
+
+- Backlog do Tek Catalog — diária — última 24/10/2026 — em dia
+
+Prazos:
+
+- 22/11/2026 — Previsão de término no ritmo planejado — Tek Catalog
+
+> Cada projeto mostra no máximo 12 frentes, as de maior volume.
+
 ### VTX · Vix · saudável
 
 Criação da base de conhecimento e documentação de diretrizes. 36 de 142 tarefas concluídas. A rotina diária tem registro em 24/10/2026.
 
-Fonte: espelho. Atualizado em: 24/10/2026.
+Fonte: github. Atualizado em: 24/10/2026.
 
 Rotina diária em 24/10/2026.
 
@@ -194,12 +225,11 @@ Rotinas:
 
 - Backlog diário da VTX — diária — última 24/10/2026 — em dia
 
-> Sem token do GitHub nesta execução. Os números vêm do painel público, que já é um resumo.
 > Nenhum item do backlog está marcado como aprovação pendente do Samuel.
 
 ### 4med.co · Bil · parado
 
-Repositórios visíveis: 4medco-base-conhecimento, 4medco-platform, 4medco-website. Só metadados públicos; arquivo, issue e comentário não entram no painel.
+Repositórios visíveis: 4medco-base-conhecimento, 4medco-platform, 4medco-website. Entram só metadados e títulos de commits já filtrados; arquivos e issues não entram no painel.
 
 Fonte: github. Atualizado em: 23/10/2026.
 
@@ -215,7 +245,7 @@ Saúde pelo push mais recente (23/10/2026).
 
 ### Dark Channel · Dar · saudável
 
-Repositórios visíveis: dark-channel-playbook, engenharia-explicada. Só metadados públicos; arquivo, issue e comentário não entram no painel.
+Repositórios visíveis: dark-channel-playbook. Entram só metadados e títulos de commits já filtrados; arquivos e issues não entram no painel.
 
 Fonte: github. Atualizado em: 24/10/2026.
 
@@ -224,7 +254,6 @@ Saúde pelo push mais recente (24/10/2026).
 | Projeto | Saúde | Progresso | Última atividade |
 | --- | --- | --- | --- |
 | dark-channel-playbook | saudável | sem contagem | 24/10/2026 |
-| engenharia-explicada | saudável | sem contagem | 24/10/2026 |
 
 > Issues e arquivos não são lidos. Esta frente não leva valor, cliente nem conteúdo interno.
 
@@ -232,7 +261,3 @@ Saúde pelo push mais recente (24/10/2026).
 
 Estes módulos não têm fonte ligada. Não são pedidos reais.
 
-
-## Migração
-
-Os painéis [tekto-calc-painel](https://github.com/SamAlencar/tekto-calc-painel) e [vtx_painel](https://github.com/SamAlencar/vtx_painel) continuam no ar. Este gerador não arquiva nada.

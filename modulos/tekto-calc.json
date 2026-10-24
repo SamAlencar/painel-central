@@ -195,23 +195,9 @@
       "resumo": "Mesclou em Tekto Calc: TC-122: Pydantic na borda das ferramentas de SPDA, projeto (5)",
       "projeto_id": "calc",
       "link": "https://github.com/SamAlencar/tekto-calc/pull/40"
-    },
-    {
-      "quando": "2026-10-23T07:46:00-03:00",
-      "resumo": "Mesclou em Tekto Calc: TC-121: Pydantic na borda das ferramentas de ações, sapata corrida, empuxo e alvenaria (7)",
-      "projeto_id": "calc",
-      "link": "https://github.com/SamAlencar/tekto-calc/pull/39"
     }
   ],
   "links": [
-    {
-      "rotulo": "Painel Tekto (legado)",
-      "url": "https://samalencar.github.io/tekto-calc-painel/"
-    },
-    {
-      "rotulo": "Repositório do painel legado",
-      "url": "https://github.com/SamAlencar/tekto-calc-painel"
-    },
     {
       "rotulo": "Tekto Calc",
       "url": "https://github.com/SamAlencar/tekto-calc"
