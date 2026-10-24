@@ -227,21 +227,21 @@ Rotinas:
 
 > Nenhum item do backlog está marcado como aprovação pendente do Samuel.
 
-### 4med.co · Bil · parado
+### 4med.co · Bil · saudável
 
-Repositórios visíveis: 4medco-base-conhecimento, 4medco-platform, 4medco-website. Entram só metadados e títulos de commits já filtrados; arquivos e issues não entram no painel.
+Repositório ativo: 4medco-base-conhecimento. 5 de 18 tarefas da etapa 4 concluídas (27,8%). Em espera: 4medco-platform, 4medco-website.
 
 Fonte: github. Atualizado em: 23/10/2026.
 
-Saúde pelo push mais recente (23/10/2026).
+Último push em 23/10/2026.
 
 | Projeto | Saúde | Progresso | Última atividade |
 | --- | --- | --- | --- |
-| 4medco-base-conhecimento | saudável | sem contagem | 23/10/2026 |
-| 4medco-platform | parado | sem contagem | 17/02/2026 |
-| 4medco-website | parado | sem contagem | 26/12/2025 |
+| 4medco-base-conhecimento | saudável | 5/18 (27,8%) | 23/10/2026 |
+| 4medco-platform | planejado | sem contagem | 17/02/2026 |
+| 4medco-website | planejado | sem contagem | 26/12/2025 |
 
-> Issues e arquivos não são lidos. Esta frente não leva valor, cliente nem conteúdo interno.
+> Só entram contagem e títulos de tarefa filtrados. Esta frente não leva valor, cliente nem conteúdo interno.
 
 ### Dark Channel · Dar · saudável
 

@@ -738,6 +738,61 @@ def produzir_descoberta(gh: ClienteGitHub, hoje, mid, nome, agente, prefixo=None
     )
 
 
+MEDCO_PRINCIPAL = "4medco-base-conhecimento"
+MEDCO_PLANO = "planejamento/etapa4-plano.md"
+RE_CHECK_ITEM = re.compile(r"^\s*[-*+]\s*\[([ xX])\]\s*(.+)$")
+
+
+def produzir_4medco(gh: ClienteGitHub, hoje):
+    doc = produzir_descoberta(gh, hoje, "4medco", "4med.co", ("bil", "Bil", "Produtos e operação da 4med.co"), prefixo="4medco-")
+    if doc is None:
+        return None
+    filtro = Filtro()
+    md = gh.get(f"repos/SamAlencar/{MEDCO_PRINCIPAL}/contents/{MEDCO_PLANO}", raw=True) or ""
+    itens = [(m.group(1).lower() == "x", m.group(2).strip()) for m in map(RE_CHECK_ITEM.match, md.splitlines()) if m]
+    feitos = sum(f for f, _ in itens)
+    total = len(itens)
+    principal = None
+    for proj in doc["projetos"]:
+        if proj["nome"] == MEDCO_PRINCIPAL:
+            principal = proj
+            proj["status"] = "ativo"
+            proj["nota"] = f"Progresso do checklist {MEDCO_PLANO} (uma tarefa por dia útil)."
+            if total:
+                proj["progresso"] = {"feitos": feitos, "total": total, "percentual": pct(feitos, total)}
+                proj["frentes"] = [{"nome": "Etapa 4", "feitos": feitos, "total": total, "percentual": pct(feitos, total)}]
+            dest = []
+            for feito, texto in itens:
+                if feito:
+                    continue
+                t = filtro.txt(texto, 160)
+                if t:
+                    acha = re.match(r"(T\d{1,3})\b", t)
+                    dest.append({"id": acha.group(1) if acha else None, "texto": t})
+                if len(dest) == 4:
+                    break
+            proj["destaques"] = dest
+        else:
+            proj["status"] = "pausado"
+            proj["saude"] = "planejado"
+            proj["saude_motivo"] = f"Em espera. Último push em {data_curta(proj['ultima_atividade'])}."
+            proj["nota"] = "Em espera; só metadados."
+    if principal is None:
+        return doc
+    doc["projetos"].sort(key=lambda p: p["nome"] != MEDCO_PRINCIPAL)
+    doc["status"] = principal["saude"]
+    doc["saude"] = {"motivo": principal["saude_motivo"]}
+    pausados = [p["nome"] for p in doc["projetos"] if p["status"] == "pausado"]
+    doc["resumo"] = (
+        f"Repositório ativo: {MEDCO_PRINCIPAL}. {feitos} de {total} tarefas da etapa 4 concluídas ({pct_txt(pct(feitos, total))}%)."
+        + (f" Em espera: {', '.join(pausados)}." if pausados else "")
+    )
+    doc["fonte"]["detalhe"] = f"API do GitHub: checklist {MEDCO_PLANO} de {MEDCO_PRINCIPAL} (só contagem e títulos curtos filtrados) e metadados dos demais repositórios."
+    doc["avisos"] = ["Só entram contagem e títulos de tarefa filtrados. Esta frente não leva valor, cliente nem conteúdo interno."] + (
+        [f"{filtro.omitidos} trechos omitidos pelo filtro público."] if filtro.omitidos else [])
+    return doc
+
+
 TEKTO_MODULOS: dict[str, str] = {}  # id do módulo (nome do repo) -> slug
 
 
@@ -798,7 +853,7 @@ def produzir(mid: str, gh: ClienteGitHub, hoje):
     if mid == "vtx":
         return produzir_vtx(gh, hoje)
     if mid == "4medco":
-        return produzir_descoberta(gh, hoje, "4medco", "4med.co", ("bil", "Bil", "Produtos e operação da 4med.co"), prefixo="4medco-")
+        return produzir_4medco(gh, hoje)
     if mid == "dark-channel":
         return produzir_descoberta(
             gh, hoje, "dark-channel", "Dark Channel", ("dar", "Dar", "Canal dark educacional"),

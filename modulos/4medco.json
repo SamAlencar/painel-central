@@ -7,15 +7,15 @@
     "nome": "Bil",
     "papel": "Produtos e operação da 4med.co"
   },
-  "resumo": "Repositórios visíveis: 4medco-base-conhecimento, 4medco-platform, 4medco-website. Entram só metadados e títulos de commits já filtrados; arquivos e issues não entram no painel.",
+  "resumo": "Repositório ativo: 4medco-base-conhecimento. 5 de 18 tarefas da etapa 4 concluídas (27,8%). Em espera: 4medco-platform, 4medco-website.",
   "exemplo": false,
   "fonte": {
     "tipo": "github",
-    "detalhe": "Listagem da API do GitHub. Conteúdo de arquivo não é lido nesta frente; títulos de commit passam pelo filtro público."
+    "detalhe": "API do GitHub: checklist planejamento/etapa4-plano.md de 4medco-base-conhecimento (só contagem e títulos curtos filtrados) e metadados dos demais repositórios."
   },
-  "status": "parado",
+  "status": "saudavel",
   "saude": {
-    "motivo": "Saúde pelo push mais recente (23/10/2026)."
+    "motivo": "Último push em 23/10/2026."
   },
   "atualizado_em": "2026-10-23T12:04:59+00:00",
   "projetos": [
@@ -28,11 +28,39 @@
       "status": "ativo",
       "saude": "saudavel",
       "saude_motivo": "Último push em 23/10/2026.",
-      "progresso": null,
+      "progresso": {
+        "feitos": 5,
+        "total": 18,
+        "percentual": 27.8
+      },
       "ultima_atividade": "2026-10-23T12:04:59+00:00",
-      "nota": "Só metadados. Arquivo e issue não são lidos.",
-      "frentes": [],
-      "destaques": []
+      "nota": "Progresso do checklist planejamento/etapa4-plano.md (uma tarefa por dia útil).",
+      "frentes": [
+        {
+          "nome": "Etapa 4",
+          "feitos": 5,
+          "total": 18,
+          "percentual": 27.8
+        }
+      ],
+      "destaques": [
+        {
+          "id": "T06",
+          "texto": "T06 (seg 26/10): ISS e sociedade uniprofissional"
+        },
+        {
+          "id": "T07",
+          "texto": "T07 (ter 27/10): Pró-labore e INSS"
+        },
+        {
+          "id": "T08",
+          "texto": "T08 (qua 28/10): Distribuição de lucros e Lei 15.270/2025"
+        },
+        {
+          "id": "T09",
+          "texto": "T09 (qui 29/10): Tabelas estruturadas: Presumido, INSS, IRRF e ISS municipal"
+        }
+      ]
     },
     {
       "id": "4medco-platform",
@@ -40,12 +68,12 @@
       "repo": "SamAlencar/4medco-platform",
       "url": "https://github.com/SamAlencar/4medco-platform",
       "descricao": "plataforma de suporte ao cliente",
-      "status": "ativo",
-      "saude": "parado",
-      "saude_motivo": "Último push em 17/02/2026.",
+      "status": "pausado",
+      "saude": "planejado",
+      "saude_motivo": "Em espera. Último push em 17/02/2026.",
       "progresso": null,
       "ultima_atividade": "2026-02-17T02:37:06+00:00",
-      "nota": "Só metadados. Arquivo e issue não são lidos.",
+      "nota": "Em espera; só metadados.",
       "frentes": [],
       "destaques": []
     },
@@ -55,12 +83,12 @@
       "repo": "SamAlencar/4medco-website",
       "url": "https://github.com/SamAlencar/4medco-website",
       "descricao": "Sem descrição pública.",
-      "status": "ativo",
-      "saude": "parado",
-      "saude_motivo": "Último push em 26/12/2025.",
+      "status": "pausado",
+      "saude": "planejado",
+      "saude_motivo": "Em espera. Último push em 26/12/2025.",
       "progresso": null,
       "ultima_atividade": "2025-12-26T00:31:32+00:00",
-      "nota": "Só metadados. Arquivo e issue não são lidos.",
+      "nota": "Em espera; só metadados.",
       "frentes": [],
       "destaques": []
     }
@@ -157,6 +185,6 @@
     }
   ],
   "avisos": [
-    "Issues e arquivos não são lidos. Esta frente não leva valor, cliente nem conteúdo interno."
+    "Só entram contagem e títulos de tarefa filtrados. Esta frente não leva valor, cliente nem conteúdo interno."
   ]
 }
