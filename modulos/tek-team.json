@@ -247,20 +247,7 @@
       "link": null
     }
   ],
-  "atividade": [
-    {
-      "quando": "2026-10-24T09:54:00-03:00",
-      "resumo": "Mesclou em Tek Team: TT-008 — Pesquisa: padrão aberto AGENTS.md",
-      "projeto_id": "team",
-      "link": "https://github.com/SamAlencar/tek-team/pull/12"
-    },
-    {
-      "quando": "2026-10-23T09:50:00-03:00",
-      "resumo": "Mesclou em Tek Team: TT-007 — Pesquisa: configuração de agentes no Cursor",
-      "projeto_id": "team",
-      "link": "https://github.com/SamAlencar/tek-team/pull/11"
-    }
-  ],
+  "atividade": [],
   "links": [
     {
       "rotulo": "Tek Team",
@@ -268,6 +255,7 @@
     }
   ],
   "avisos": [
+    "PRs mesclados indisponíveis nesta leitura; a última atividade vem do último commit.",
     "Cada projeto mostra no máximo 12 frentes, as de maior volume."
   ]
 }

@@ -573,14 +573,7 @@
       "link": null
     }
   ],
-  "atividade": [
-    {
-      "quando": "2026-10-24T08:20:00-03:00",
-      "resumo": "Mesclou em Tekto Docs: TD-022: ficha comparativa de concreto pré-moldado (NBR 9062:2017)",
-      "projeto_id": "docs",
-      "link": "https://github.com/SamAlencar/tekto-docs/pull/24"
-    }
-  ],
+  "atividade": [],
   "links": [
     {
       "rotulo": "Tekto Docs",
@@ -588,6 +581,7 @@
     }
   ],
   "avisos": [
+    "PRs mesclados indisponíveis nesta leitura; a última atividade vem do último commit.",
     "Cada projeto mostra no máximo 12 frentes, as de maior volume."
   ]
 }

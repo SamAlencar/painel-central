@@ -189,14 +189,7 @@
       "link": null
     }
   ],
-  "atividade": [
-    {
-      "quando": "2026-10-24T07:48:00-03:00",
-      "resumo": "Mesclou em Tekto Calc: TC-122: Pydantic na borda das ferramentas de SPDA, projeto (5)",
-      "projeto_id": "calc",
-      "link": "https://github.com/SamAlencar/tekto-calc/pull/40"
-    }
-  ],
+  "atividade": [],
   "links": [
     {
       "rotulo": "Tekto Calc",
@@ -204,6 +197,7 @@
     }
   ],
   "avisos": [
+    "PRs mesclados indisponíveis nesta leitura; a última atividade vem do último commit.",
     "Cada projeto mostra no máximo 12 frentes, as de maior volume."
   ]
 }

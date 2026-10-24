@@ -75,6 +75,7 @@ Prazos:
 
 - 17/01/2027 — Previsão de término no ritmo planejado — Tekto Calc
 
+> PRs mesclados indisponíveis nesta leitura; a última atividade vem do último commit.
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
 
 ### Tekto Docs · Eng/Tek · saudável
@@ -97,6 +98,7 @@ Prazos:
 
 - 16/12/2026 — Previsão de término no ritmo planejado — Tekto Docs
 
+> PRs mesclados indisponíveis nesta leitura; a última atividade vem do último commit.
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
 
 ### Tekto Model · Eng/Tek · saudável
@@ -119,6 +121,7 @@ Prazos:
 
 - 09/01/2027 — Previsão de término no ritmo planejado — Tekto Model
 
+> PRs mesclados indisponíveis nesta leitura; a última atividade vem do último commit.
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
 
 ### Tekto Studio · Eng/Tek · saudável
@@ -141,6 +144,7 @@ Prazos:
 
 - 20/11/2026 — Previsão de término no ritmo planejado — Tekto Studio
 
+> PRs mesclados indisponíveis nesta leitura; a última atividade vem do último commit.
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
 
 ### Tek Team · Eng/Tek · saudável
@@ -163,6 +167,7 @@ Prazos:
 
 - 07/02/2027 — Previsão de término no ritmo planejado — Tek Team
 
+> PRs mesclados indisponíveis nesta leitura; a última atividade vem do último commit.
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
 
 ### Tek Hunter · Eng/Tek · saudável
@@ -185,6 +190,7 @@ Prazos:
 
 - 09/01/2027 — Previsão de término no ritmo planejado — Tek Hunter
 
+> PRs mesclados indisponíveis nesta leitura; a última atividade vem do último commit.
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
 
 ### Tek Catalog · Eng/Tek · saudável
@@ -207,6 +213,7 @@ Prazos:
 
 - 22/11/2026 — Previsão de término no ritmo planejado — Tek Catalog
 
+> PRs mesclados indisponíveis nesta leitura; a última atividade vem do último commit.
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
 
 ### VTX · Vix · saudável

@@ -769,32 +769,7 @@
       "link": null
     }
   ],
-  "atividade": [
-    {
-      "quando": "2026-10-24T15:56:00-03:00",
-      "resumo": "Mesclou em Tekto Model: TM-234: botão pyRevit Dimensionar da viga no tekto-calc",
-      "projeto_id": "model",
-      "link": "https://github.com/SamAlencar/tekto-model/pull/45"
-    },
-    {
-      "quando": "2026-10-24T08:55:00-03:00",
-      "resumo": "Mesclou em Tekto Model: Contrato de leitura de esforços com mock do Robot (TM-175); abre D-072, verifica D-042",
-      "projeto_id": "model",
-      "link": "https://github.com/SamAlencar/tekto-model/pull/44"
-    },
-    {
-      "quando": "2026-10-23T15:56:00-03:00",
-      "resumo": "Mesclou em Tekto Model: Viga de concreto no mock do Revit e no nó Dynamo TrocarViga (TM-045); abre D-071, verifica D-066",
-      "projeto_id": "model",
-      "link": "https://github.com/SamAlencar/tekto-model/pull/43"
-    },
-    {
-      "quando": "2026-10-23T08:52:00-03:00",
-      "resumo": "Mesclou em Tekto Model: TM-041: pilar de concreto no mock do Revit e no nó Dynamo; abre D-070, verifica D-069",
-      "projeto_id": "model",
-      "link": "https://github.com/SamAlencar/tekto-model/pull/42"
-    }
-  ],
+  "atividade": [],
   "links": [
     {
       "rotulo": "Tekto Model",
@@ -802,6 +777,7 @@
     }
   ],
   "avisos": [
+    "PRs mesclados indisponíveis nesta leitura; a última atividade vem do último commit.",
     "Cada projeto mostra no máximo 12 frentes, as de maior volume."
   ]
 }
