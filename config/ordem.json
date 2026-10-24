@@ -1,13 +1,11 @@
 [
-  "tekto",
+  "tekto-calc",
+  "tekto-docs",
+  "tekto-model",
+  "tekto-studio",
+  "tek-team",
+  "tek-hunter",
   "vtx",
   "4medco",
-  "dar",
-  "jur",
-  "fin",
-  "stu",
-  "mar",
-  "sys",
-  "tzu",
-  "pub"
+  "dark-channel"
 ]

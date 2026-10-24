@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """Monta modulos/*.json e o PAINEL.md.
 
-Tekto e VTX vêm da API do GitHub quando `gh` está autenticado ou há
+Tekto (um módulo por projeto) e VTX vêm da API do GitHub quando `gh` está autenticado ou há
 GITHUB_TOKEN/GH_TOKEN. Sem token, usam o espelho público já sanitizado
-(tekto-calc-painel e vtx_painel). Pub usa só metadados do repositório público.
+(tekto-calc-painel e vtx_painel).
 
-4medco e Dar, se aparecerem na listagem, entram só com nome, descrição e data
+4med.co e Dark Channel, se aparecerem na listagem, entram só com nome, descrição e data
 de push — o gerador não lê arquivo, issue nem comentário.
 
 Módulos com fonte.tipo manual nunca são reescritos. Exemplos só são reescritos
@@ -274,10 +274,10 @@ def semente(mid: str) -> dict:
             fila=[fila_exemplo("ex-4medco-1", "Exemplo — revisão de texto institucional", "O conteúdo fica de fora de propósito: este painel não publica material de paciente, clínica ou contrato.", "4medco")],
             links=[], avisos=aviso, **comum,
         )
-    if mid == "dar":
+    if mid == "dark-channel":
         repos = ("dark-channel-playbook", "engenharia-explicada")
         return base(
-            "dar", "Dar", ("dar", "Dar", "Canais e publicação"),
+            "dark-channel", "Dark Channel", ("dar", "Dar", "Canal dark educacional Engenharia Explicada"),
             "Exemplo — canais dark-channel-playbook e engenharia-explicada sem metadados visíveis. Sem audiência, receita ou anunciante.",
             fonte_detalhe="Semente ilustrativa até a API enxergar esses repositórios. A coleta futura é só de metadados.",
             motivo="Exemplo — repositórios previstos ainda não apareceram na listagem pública.",
@@ -286,86 +286,9 @@ def semente(mid: str) -> dict:
                 projeto_vazio("engenharia-explicada", "Engenharia explicada", "Exemplo — canal de engenharia explicada. Sem pauta real nem anunciante.", f"SamAlencar/{repos[1]}"),
             ],
             rotinas=[rotina_exemplo("Exemplo — pauta da semana")],
-            fila=[fila_exemplo("ex-dar-1", "Exemplo — pauta ilustrativa da semana", "Sem título real de vídeo, sem métrica e sem anunciante.", "dark-channel-playbook")],
+            fila=[fila_exemplo("ex-dark-1", "Exemplo — pauta ilustrativa da semana", "Sem título real de vídeo, sem métrica e sem anunciante.", "dark-channel-playbook")],
             links=[{"rotulo": f"Repositório previsto · {nome}", "url": f"https://github.com/SamAlencar/{nome}"} for nome in repos],
             avisos=aviso, **comum,
-        )
-    if mid == "jur":
-        return base(
-            "jur", "Jur", ("jur", "Jur", "Rotinas jurídicas"),
-            "Exemplo — o painel público só mostra que existe rotina jurídica, nunca o conteúdo.",
-            fonte_detalhe="Semente ilustrativa. Não há repositório ligado e nenhum documento é lido.",
-            motivo="Exemplo — frente jurídica sem fonte automática, de propósito.",
-            projetos=[projeto_vazio("rotina", "Rotina jurídica", "Exemplo — existência da rotina, sem peça, parte ou número.")],
-            rotinas=[rotina_exemplo("Exemplo — leitura da fila jurídica")],
-            fila=[fila_exemplo("ex-jur-1", "Exemplo — item de leitura pendente", "Peças, partes e números ficam de fora. Quando houver dado real, grave só o tipo da pendência.", "rotina")],
-            links=[], avisos=aviso, **comum,
-        )
-    if mid == "fin":
-        return base(
-            "fin", "Fin / Pow", ("fin", "Fin/Pow", "Rotinas financeiras"),
-            "Exemplo — o painel público não mostra valores, contas, notas nem instituições.",
-            fonte_detalhe="Semente ilustrativa. Nenhum extrato ou planilha é lido.",
-            motivo="Exemplo — frente financeira sem fonte automática, de propósito.",
-            projetos=[projeto_vazio("rotina", "Rotina financeira", "Exemplo — existência da rotina, sem lançamento e sem valor.")],
-            rotinas=[rotina_exemplo("Exemplo — conciliação periódica")],
-            fila=[fila_exemplo("ex-fin-1", "Exemplo — conciliação periódica pendente", "Valores, contas e instituições ficam de fora. O painel só pode dizer que a rotina existe.", "rotina")],
-            links=[], avisos=aviso, **comum,
-        )
-    if mid == "stu":
-        return base(
-            "stu", "Stu", ("stu", "Stu", "STUQUI e estudos no SESI-SENAI"),
-            "Exemplo — rotina de estudo do STUQUI e do SESI-SENAI. Sem nomes de alunos, notas ou documentos.",
-            fonte_detalhe="Semente ilustrativa. Nenhum boletim ou lista de presença é lido.",
-            motivo="Exemplo — estudos sem fonte automática.",
-            projetos=[
-                projeto_vazio("stuqui", "STUQUI", "Exemplo — rotina do STUQUI, sem aluno e sem nota."),
-                projeto_vazio("sesi-senai", "SESI-SENAI", "Exemplo — estudos no SESI-SENAI, sem turma real e sem documento."),
-            ],
-            rotinas=[rotina_exemplo("Exemplo — checkpoint de estudo")],
-            fila=[fila_exemplo("ex-stu-1", "Exemplo — checkpoint ilustrativo de estudo", "Sem disciplina real, sem nota e sem nome de aluno.", "stuqui")],
-            links=[], avisos=aviso, **comum,
-        )
-    if mid == "mar":
-        return base(
-            "mar", "Mar", ("mar", "Mar", "Marketing"),
-            "Exemplo — calendário de peças ainda ilustrativo. Sem verba, mídia paga ou lista de contatos.",
-            fonte_detalhe="Semente ilustrativa. Nenhuma campanha ou audiência é lida.",
-            motivo="Exemplo — marketing sem fonte automática.",
-            projetos=[projeto_vazio("calendario", "Calendário de peças", "Exemplo — calendário ilustrativo, sem campanha real.")],
-            rotinas=[rotina_exemplo("Exemplo — revisão do calendário")],
-            fila=[fila_exemplo("ex-mar-1", "Exemplo — peça ilustrativa aguardando um olhar", "Sem nome de campanha, sem verba e sem lista de contatos.", "calendario")],
-            links=[], avisos=aviso, **comum,
-        )
-    if mid == "sys":
-        return base(
-            "sys", "Sys", ("sys", "Sys", "TI e infraestrutura"),
-            "Exemplo — rotinas de casa de máquinas. Sem nomes de servidor, usuários ou credenciais.",
-            fonte_detalhe="Semente ilustrativa. Inventário, log e segredo não são lidos.",
-            motivo="Exemplo — TI sem fonte automática.",
-            projetos=[projeto_vazio("casa", "Casa de máquinas", "Exemplo — rotina de infraestrutura, sem host e sem credencial.")],
-            rotinas=[rotina_exemplo("Exemplo — checagem de backup")],
-            fila=[fila_exemplo("ex-sys-1", "Exemplo — checagem ilustrativa de backup", "Sem nome de servidor, sem usuário e sem segredo.", "casa")],
-            links=[], avisos=aviso, **comum,
-        )
-    if mid == "tzu":
-        return base(
-            "tzu", "Tzu", ("tzu", "Tzu", "Pessoal: e-mail, agenda e faculdade"),
-            "Exemplo — e-mail, agenda e faculdade Uninter. O painel público não mostra mensagens, compromissos reais nem dados acadêmicos.",
-            fonte_detalhe="Semente ilustrativa. Caixa de entrada, agenda e portal da faculdade não são lidos.",
-            motivo="Exemplo — frente pessoal sem fonte automática, de propósito.",
-            projetos=[
-                projeto_vazio("email", "E-mail", "Exemplo — triagem da caixa. Sem remetente, assunto ou corpo."),
-                projeto_vazio("agenda", "Agenda", "Exemplo — existência da agenda. Sem horário real, local ou convidado."),
-                projeto_vazio("uninter", "Uninter", "Exemplo — estudos na Uninter. Sem matrícula, disciplina ou nota."),
-            ],
-            rotinas=[rotina_exemplo("Exemplo — triagem de e-mail e agenda")],
-            fila=[
-                fila_exemplo("ex-tzu-email", "Exemplo — triagem da caixa de entrada", "Sem remetente, assunto ou corpo de mensagem.", "email"),
-                fila_exemplo("ex-tzu-agenda", "Exemplo — compromisso ilustrativo na agenda", "Horário, local e convidados são fictícios e não devem ser preenchidos com dado real.", "agenda"),
-                fila_exemplo("ex-tzu-uninter", "Exemplo — entrega ilustrativa de estudo", "Sem disciplina, nota ou matrícula.", "uninter"),
-            ],
-            links=[], avisos=aviso, **comum,
         )
     raise KeyError(mid)
 
@@ -734,49 +657,6 @@ def produzir_vtx(gh: ClienteGitHub, hoje):
     return mapear_vtx(json.loads(baixar(VTX_ESPELHO)), "espelho", hoje)
 
 
-def produzir_pub(gh: ClienteGitHub, hoje):
-    info = gh.get("repos/SamAlencar/pub-policy")
-    if not isinstance(info, dict):
-        return None
-    pushed = instante(info.get("pushed_at"))
-    saude, motivo = saude_por_idade(pushed, hoje, "Último push")
-    links = [{"rotulo": "Repositório", "url": info.get("html_url") or "https://github.com/SamAlencar/pub-policy"}]
-    homepage = url_publica(info.get("homepage") or "")
-    if homepage and homepage != links[0]["url"]:
-        links.append({"rotulo": "Página", "url": homepage})
-    projeto = {
-        "id": "pub-policy",
-        "nome": "Pub",
-        "repo": "SamAlencar/pub-policy",
-        "url": links[0]["url"],
-        "descricao": "Página pública com a política de privacidade do Pub. O texto da política não é copiado para cá.",
-        "status": "ativo",
-        "saude": saude,
-        "saude_motivo": motivo,
-        "progresso": None,
-        "ultima_atividade": pushed,
-        "nota": "Sem backlog ligado a este painel.",
-        "frentes": [],
-        "destaques": [],
-    }
-    atividade = []
-    if pushed:
-        atividade.append({
-            "quando": pushed,
-            "resumo": "Atualizou a página pública da política de privacidade.",
-            "projeto_id": "pub-policy",
-            "link": links[0]["url"],
-        })
-    return base(
-        "pub", "Pub", ("pub", "Pub", "Política de privacidade do Pub"),
-        "Política de privacidade do Pub publicada no GitHub. Sem fila e sem rotina cadastradas neste painel.",
-        False, "github",
-        "Metadados públicos de SamAlencar/pub-policy. O HTML da política não é copiado.",
-        saude, motivo, pushed, [projeto], [], [], [], atividade, links,
-        ["Nenhuma rotina foi inferida: o repositório público só tem a página da política."],
-    )
-
-
 def produzir_descoberta(gh: ClienteGitHub, hoje, mid, nome, agente, prefixo=None, nomes=None):
     achados = []
     for repo in gh.repos():
@@ -810,17 +690,27 @@ def produzir_descoberta(gh: ClienteGitHub, hoje, mid, nome, agente, prefixo=None
             "frentes": [],
             "destaques": [],
         })
+    atividade = []
+    for proj in projetos:
+        commits = gh.get(f"repos/{proj['repo']}/commits?per_page=5") or []
+        for c in commits if isinstance(commits, list) else []:
+            msg = filtro.txt(((c.get("commit") or {}).get("message") or "").split("\n")[0], 200)
+            quando = instante(((c.get("commit") or {}).get("committer") or {}).get("date"))
+            if msg:
+                atividade.append({"quando": quando, "resumo": f"{proj['nome']}: {msg}", "projeto_id": proj["id"], "link": proj["url"]})
+    atividade.sort(key=lambda x: x["quando"] or "", reverse=True)
+    atividade = atividade[:12]
     status = pior([p["saude"] for p in projetos])
     ultima = max((p["ultima_atividade"] for p in projetos if p["ultima_atividade"]), default=None)
     lista = ", ".join(p["nome"] for p in projetos)
     return base(
         mid, nome, agente,
-        f"Repositórios visíveis: {lista}. Só metadados públicos; arquivo, issue e comentário não entram no painel.",
+        f"Repositórios visíveis: {lista}. Entram só metadados e títulos de commits já filtrados; arquivos e issues não entram no painel.",
         False, "github",
-        "Listagem da API do GitHub. Conteúdo de arquivo não é lido nesta frente.",
+        "Listagem da API do GitHub. Conteúdo de arquivo não é lido nesta frente; títulos de commit passam pelo filtro público.",
         status,
         f"Saúde pelo push mais recente ({data_curta(ultima)})." if ultima else "Sem data de push.",
-        ultima, projetos, [], [], [], [],
+        ultima, projetos, [], [], [], atividade,
         [{"rotulo": p["nome"], "url": p["url"]} for p in projetos if p["url"]],
         ["Issues e arquivos não são lidos. Esta frente não leva valor, cliente nem conteúdo interno."] + (
             [f"{filtro.omitidos} descrições omitidas pelo filtro público."] if filtro.omitidos else []
@@ -828,18 +718,56 @@ def produzir_descoberta(gh: ClienteGitHub, hoje, mid, nome, agente, prefixo=None
     )
 
 
+TEKTO_MODULOS = {
+    "tekto-calc": "calc",
+    "tekto-docs": "docs",
+    "tekto-model": "model",
+    "tekto-studio": "studio",
+    "tek-team": "team",
+    "tek-hunter": "hunter",
+}
+_CACHE_TEKTO = {}
+
+
+def separar_tekto(doc: dict, mid: str) -> dict | None:
+    pid = TEKTO_MODULOS[mid]
+    projeto = next((p for p in doc["projetos"] if p["id"] == pid), None)
+    if projeto is None:
+        return None
+    nome = projeto["nome"]
+    prog = projeto.get("progresso")
+    fila = [i for i in doc["aguardando_samuel"] if i.get("projeto_id") == pid]
+    if prog:
+        resumo = f"{nome}: {prog['feitos']} de {prog['total']} tarefas concluídas ({pct_txt(prog['percentual'])}%). {len(fila)} dúvidas de backlog abertas."
+    else:
+        resumo = f"{nome}: sem contagem de backlog publicada. {len(fila)} dúvidas de backlog abertas."
+    rotinas = [r for r in doc["rotinas"] if nome.lower() in r["nome"].lower()]
+    links = [l for l in doc["links"] if l["rotulo"] == nome or "legado" in l["rotulo"].lower()]
+    return base(
+        mid, nome, (doc["agente"]["id"], doc["agente"]["nome"], doc["agente"]["papel"]),
+        resumo[:600], False, doc["fonte"]["tipo"], doc["fonte"]["detalhe"],
+        projeto["saude"], projeto["saude_motivo"] if len(projeto["saude_motivo"]) >= 5 else doc["saude"]["motivo"],
+        projeto.get("ultima_atividade") or doc.get("atualizado_em"),
+        [projeto],
+        [x for x in doc["prazos"] if x.get("projeto_id") == pid],
+        rotinas, fila,
+        [x for x in doc["atividade"] if x.get("projeto_id") == pid],
+        links, doc["avisos"],
+    )
+
+
 def produzir(mid: str, gh: ClienteGitHub, hoje):
-    if mid == "tekto":
-        return produzir_tekto(gh, hoje)
+    if mid in TEKTO_MODULOS:
+        if "doc" not in _CACHE_TEKTO:
+            _CACHE_TEKTO["doc"] = produzir_tekto(gh, hoje)
+        return separar_tekto(_CACHE_TEKTO["doc"], mid)
     if mid == "vtx":
         return produzir_vtx(gh, hoje)
-    if mid == "pub":
-        return produzir_pub(gh, hoje)
     if mid == "4medco":
-        return produzir_descoberta(gh, hoje, "4medco", "4medco", ("bil", "Bil", "Produtos e operação da 4medco"), prefixo="4medco-")
-    if mid == "dar":
+        return produzir_descoberta(gh, hoje, "4medco", "4med.co", ("bil", "Bil", "Produtos e operação da 4med.co"), prefixo="4medco-")
+    if mid == "dark-channel":
         return produzir_descoberta(
-            gh, hoje, "dar", "Dar", ("dar", "Dar", "Canais e publicação"),
+            gh, hoje, "dark-channel", "Dark Channel", ("dar", "Dar", "Canal dark educacional Engenharia Explicada"),
             nomes={"dark-channel-playbook", "engenharia-explicada"},
         )
     return None

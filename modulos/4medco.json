@@ -1,65 +1,162 @@
 {
   "$schema": "../schema/modulo.schema.json",
   "id": "4medco",
-  "nome": "4medco",
+  "nome": "4med.co",
   "agente": {
     "id": "bil",
     "nome": "Bil",
-    "papel": "Produtos e operação da 4medco"
+    "papel": "Produtos e operação da 4med.co"
   },
-  "resumo": "Exemplo — frente da 4medco sem repositórios 4medco-* visíveis nesta leitura. Nenhum dado de paciente, clínica ou contrato entra neste painel.",
-  "exemplo": true,
+  "resumo": "Repositórios visíveis: 4medco-base-conhecimento, 4medco-platform, 4medco-website. Só metadados públicos; arquivo, issue e comentário não entram no painel.",
+  "exemplo": false,
   "fonte": {
-    "tipo": "exemplo",
-    "detalhe": "Semente ilustrativa. O gerador troca este arquivo se a API listar repositórios com prefixo 4medco-, e mesmo assim só grava metadados."
+    "tipo": "github",
+    "detalhe": "Listagem da API do GitHub. Conteúdo de arquivo não é lido nesta frente."
   },
-  "status": "planejado",
+  "status": "parado",
   "saude": {
-    "motivo": "Exemplo — o gerador ainda não encontrou repositórios com prefixo 4medco-."
+    "motivo": "Saúde pelo push mais recente (23/10/2026)."
   },
-  "atualizado_em": null,
+  "atualizado_em": "2026-10-23T12:04:59+00:00",
   "projetos": [
     {
-      "id": "4medco",
-      "nome": "4medco",
-      "repo": null,
-      "url": null,
-      "descricao": "Exemplo — família de repositórios com prefixo 4medco-*. O conteúdo dos arquivos não é lido.",
-      "status": "preparacao",
-      "saude": "planejado",
-      "saude_motivo": "Exemplo — fonte ainda não conectada.",
+      "id": "4medco-base-conhecimento",
+      "nome": "4medco-base-conhecimento",
+      "repo": "SamAlencar/4medco-base-conhecimento",
+      "url": "https://github.com/SamAlencar/4medco-base-conhecimento",
+      "descricao": "Base de conhecimento e planejamento do 4med.co (med-hub): escopo, funcionalidades, MCPs e conteúdo contábil/jurídico",
+      "status": "ativo",
+      "saude": "saudavel",
+      "saude_motivo": "Último push em 23/10/2026.",
       "progresso": null,
-      "ultima_atividade": null,
-      "nota": "Exemplo — sem leitura de arquivos.",
+      "ultima_atividade": "2026-10-23T12:04:59+00:00",
+      "nota": "Só metadados. Arquivo e issue não são lidos.",
+      "frentes": [],
+      "destaques": []
+    },
+    {
+      "id": "4medco-platform",
+      "nome": "4medco-platform",
+      "repo": "SamAlencar/4medco-platform",
+      "url": "https://github.com/SamAlencar/4medco-platform",
+      "descricao": "plataforma de suporte ao cliente",
+      "status": "ativo",
+      "saude": "parado",
+      "saude_motivo": "Último push em 17/02/2026.",
+      "progresso": null,
+      "ultima_atividade": "2026-02-17T02:37:06+00:00",
+      "nota": "Só metadados. Arquivo e issue não são lidos.",
+      "frentes": [],
+      "destaques": []
+    },
+    {
+      "id": "4medco-website",
+      "nome": "4medco-website",
+      "repo": "SamAlencar/4medco-website",
+      "url": "https://github.com/SamAlencar/4medco-website",
+      "descricao": "Sem descrição pública.",
+      "status": "ativo",
+      "saude": "parado",
+      "saude_motivo": "Último push em 26/12/2025.",
+      "progresso": null,
+      "ultima_atividade": "2025-12-26T00:31:32+00:00",
+      "nota": "Só metadados. Arquivo e issue não são lidos.",
       "frentes": [],
       "destaques": []
     }
   ],
   "prazos": [],
-  "rotinas": [
+  "rotinas": [],
+  "aguardando_samuel": [],
+  "atividade": [
     {
-      "nome": "Exemplo — rotina ainda não ligada",
-      "frequencia": "a definir",
-      "ultima_execucao": null,
-      "status": "desconhecida",
-      "nota": "Exemplo — nenhuma execução real."
+      "quando": "2026-10-23T12:04:58+00:00",
+      "resumo": "4medco-base-conhecimento: Etapa 4, T05: Lucro Presumido e equiparação hospitalar (IN RFB 2.343/2026, LC 224/2025); glossário 61 termos",
+      "projeto_id": "4medco-base-conhecimento",
+      "link": "https://github.com/SamAlencar/4medco-base-conhecimento"
+    },
+    {
+      "quando": "2026-10-23T09:52:19+00:00",
+      "resumo": "4medco-base-conhecimento: T04: tabelas estruturadas do Simples Nacional (dados JSON e conferência)",
+      "projeto_id": "4medco-base-conhecimento",
+      "link": "https://github.com/SamAlencar/4medco-base-conhecimento"
+    },
+    {
+      "quando": "2026-10-23T09:51:02+00:00",
+      "resumo": "4medco-base-conhecimento: T04: tabelas estruturadas do Simples Nacional (Anexos III e V 2026 e 2027-2028, limites)",
+      "projeto_id": "4medco-base-conhecimento",
+      "link": "https://github.com/SamAlencar/4medco-base-conhecimento"
+    },
+    {
+      "quando": "2026-10-21T12:16:37+00:00",
+      "resumo": "4medco-base-conhecimento: Etapa 4, T03: Simples Nacional, Anexos III e V e Fator R; glossário 58 termos",
+      "projeto_id": "4medco-base-conhecimento",
+      "link": "https://github.com/SamAlencar/4medco-base-conhecimento"
+    },
+    {
+      "quando": "2026-10-20T16:54:21+00:00",
+      "resumo": "4medco-base-conhecimento: planejamento/vtx: PRD, ADRs 001-004, pesquisa de domínio e guia de importação para o vtx-core",
+      "projeto_id": "4medco-base-conhecimento",
+      "link": "https://github.com/SamAlencar/4medco-base-conhecimento"
+    },
+    {
+      "quando": "2026-02-17T02:36:30+00:00",
+      "resumo": "4medco-platform: chore: admin settings, secrets, Cloudflare/Gemini cards, Edge Functions e migrations",
+      "projeto_id": "4medco-platform",
+      "link": "https://github.com/SamAlencar/4medco-platform"
+    },
+    {
+      "quando": "2026-02-10T15:41:46+00:00",
+      "resumo": "4medco-platform: feat: legal docs, referrals, insurance and RLS updates",
+      "projeto_id": "4medco-platform",
+      "link": "https://github.com/SamAlencar/4medco-platform"
+    },
+    {
+      "quando": "2026-01-09T05:52:40+00:00",
+      "resumo": "4medco-platform: feat: remover logo do escritório e sincronizar dados reais da aba informações",
+      "projeto_id": "4medco-platform",
+      "link": "https://github.com/SamAlencar/4medco-platform"
+    },
+    {
+      "quando": "2026-01-03T02:44:14+00:00",
+      "resumo": "4medco-platform: feat: implementar sistema unificado de assinaturas de seguros e melhorias",
+      "projeto_id": "4medco-platform",
+      "link": "https://github.com/SamAlencar/4medco-platform"
+    },
+    {
+      "quando": "2026-01-02T17:47:33+00:00",
+      "resumo": "4medco-platform: feat: melhorias de responsividade mobile e ajustes de UI - Ajustes de responsividade para mobile em cards, botões e componentes - Melhorias na topbar mobile com logo como botão - Ajustes em component…",
+      "projeto_id": "4medco-platform",
+      "link": "https://github.com/SamAlencar/4medco-platform"
+    },
+    {
+      "quando": "2025-12-19T03:34:54+00:00",
+      "resumo": "4medco-website: feat: implementar pÃ¡ginas pÃºblicas e roteamento",
+      "projeto_id": "4medco-website",
+      "link": "https://github.com/SamAlencar/4medco-website"
+    },
+    {
+      "quando": "2025-12-19T03:34:43+00:00",
+      "resumo": "4medco-website: feat: adicionar componentes pÃºblicos do website",
+      "projeto_id": "4medco-website",
+      "link": "https://github.com/SamAlencar/4medco-website"
     }
   ],
-  "aguardando_samuel": [
+  "links": [
     {
-      "id": "ex-4medco-1",
-      "titulo": "Exemplo — revisão de texto institucional",
-      "detalhe": "O conteúdo fica de fora de propósito: este painel não publica material de paciente, clínica ou contrato.",
-      "desde": null,
-      "projeto_id": "4medco",
-      "urgencia": "baixa",
-      "tipo": "exemplo",
-      "link": null
+      "rotulo": "4medco-base-conhecimento",
+      "url": "https://github.com/SamAlencar/4medco-base-conhecimento"
+    },
+    {
+      "rotulo": "4medco-platform",
+      "url": "https://github.com/SamAlencar/4medco-platform"
+    },
+    {
+      "rotulo": "4medco-website",
+      "url": "https://github.com/SamAlencar/4medco-website"
     }
   ],
-  "atividade": [],
-  "links": [],
   "avisos": [
-    "Dados de exemplo. Não representam pedidos reais ao Samuel."
+    "Issues e arquivos não são lidos. Esta frente não leva valor, cliente nem conteúdo interno."
   ]
 }

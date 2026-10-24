@@ -1,0 +1,131 @@
+{
+  "$schema": "../schema/modulo.schema.json",
+  "id": "dark-channel",
+  "nome": "Dark Channel",
+  "agente": {
+    "id": "dar",
+    "nome": "Dar",
+    "papel": "Canal dark educacional Engenharia Explicada"
+  },
+  "resumo": "Repositórios visíveis: dark-channel-playbook, engenharia-explicada. Só metadados públicos; arquivo, issue e comentário não entram no painel.",
+  "exemplo": false,
+  "fonte": {
+    "tipo": "github",
+    "detalhe": "Listagem da API do GitHub. Conteúdo de arquivo não é lido nesta frente."
+  },
+  "status": "saudavel",
+  "saude": {
+    "motivo": "Saúde pelo push mais recente (24/10/2026)."
+  },
+  "atualizado_em": "2026-10-24T19:22:13+00:00",
+  "projetos": [
+    {
+      "id": "dark-channel-playbook",
+      "nome": "dark-channel-playbook",
+      "repo": "SamAlencar/dark-channel-playbook",
+      "url": "https://github.com/SamAlencar/dark-channel-playbook",
+      "descricao": "Sem descrição pública.",
+      "status": "ativo",
+      "saude": "saudavel",
+      "saude_motivo": "Último push em 24/10/2026.",
+      "progresso": null,
+      "ultima_atividade": "2026-10-24T19:22:13+00:00",
+      "nota": "Só metadados. Arquivo e issue não são lidos.",
+      "frentes": [],
+      "destaques": []
+    },
+    {
+      "id": "engenharia-explicada",
+      "nome": "engenharia-explicada",
+      "repo": "SamAlencar/engenharia-explicada",
+      "url": "https://github.com/SamAlencar/engenharia-explicada",
+      "descricao": "Canal dark Engenharia Explicada: planos, roteiros, vídeos, agentes, ferramentas e skills",
+      "status": "ativo",
+      "saude": "saudavel",
+      "saude_motivo": "Último push em 24/10/2026.",
+      "progresso": null,
+      "ultima_atividade": "2026-10-24T01:47:15+00:00",
+      "nota": "Só metadados. Arquivo e issue não são lidos.",
+      "frentes": [],
+      "destaques": []
+    }
+  ],
+  "prazos": [],
+  "rotinas": [],
+  "aguardando_samuel": [],
+  "atividade": [
+    {
+      "quando": "2026-10-24T19:22:11+00:00",
+      "resumo": "dark-channel-playbook: TTS: OmniVoice principal; F5-TTS e TTSMaker alternativas; Piper removido",
+      "projeto_id": "dark-channel-playbook",
+      "link": "https://github.com/SamAlencar/dark-channel-playbook"
+    },
+    {
+      "quando": "2026-10-24T19:11:58+00:00",
+      "resumo": "dark-channel-playbook: RunPod Serverless como parte planejada do pipeline: passos 34-36, orçamento/alertas, fallback local",
+      "projeto_id": "dark-channel-playbook",
+      "link": "https://github.com/SamAlencar/dark-channel-playbook"
+    },
+    {
+      "quando": "2026-10-24T19:11:04+00:00",
+      "resumo": "dark-channel-playbook: Pipeline híbrido documentado e avaliado; PLANO 51 passos; trilhas visuais e render_nuvem no template",
+      "projeto_id": "dark-channel-playbook",
+      "link": "https://github.com/SamAlencar/dark-channel-playbook"
+    },
+    {
+      "quando": "2026-10-24T17:10:59+00:00",
+      "resumo": "dark-channel-playbook: PLANO: skills dos agentes (passo 06) e teste de viabilidade (passo 31); README: como funciona na prática",
+      "projeto_id": "dark-channel-playbook",
+      "link": "https://github.com/SamAlencar/dark-channel-playbook"
+    },
+    {
+      "quando": "2026-10-24T16:20:49+00:00",
+      "resumo": "dark-channel-playbook: Estrutura inicial, PLANO em 6 fases/45 passos e levantamento de ferramentas",
+      "projeto_id": "dark-channel-playbook",
+      "link": "https://github.com/SamAlencar/dark-channel-playbook"
+    },
+    {
+      "quando": "2026-10-24T01:47:12+00:00",
+      "resumo": "engenharia-explicada: montar: frames do contador",
+      "projeto_id": "engenharia-explicada",
+      "link": "https://github.com/SamAlencar/engenharia-explicada"
+    },
+    {
+      "quando": "2026-10-24T01:47:06+00:00",
+      "resumo": "engenharia-explicada: P2-01: contador do selo em ordem (dia 0→7→14→28 até 'trincar'), sem sobreposição",
+      "projeto_id": "engenharia-explicada",
+      "link": "https://github.com/SamAlencar/engenharia-explicada"
+    },
+    {
+      "quando": "2026-10-24T01:24:04+00:00",
+      "resumo": "engenharia-explicada: P2-01 episódio: remap de cenas para narração seed 11 (voz oficial), CTA localizado na narração, equilíbrio 4-8 s",
+      "projeto_id": "engenharia-explicada",
+      "link": "https://github.com/SamAlencar/engenharia-explicada"
+    },
+    {
+      "quando": "2026-10-24T01:15:32+00:00",
+      "resumo": "engenharia-explicada: Voz oficial do canal fixada (seed 11, amostra escolhida por Samuel): skills/voz-oficial.yaml, .env.example, agente 04, fluxo",
+      "projeto_id": "engenharia-explicada",
+      "link": "https://github.com/SamAlencar/engenharia-explicada"
+    },
+    {
+      "quando": "2026-10-24T01:05:11+00:00",
+      "resumo": "engenharia-explicada: CTA em 2 cenas (inscrição / comentário), corte entre as frases",
+      "projeto_id": "engenharia-explicada",
+      "link": "https://github.com/SamAlencar/engenharia-explicada"
+    }
+  ],
+  "links": [
+    {
+      "rotulo": "dark-channel-playbook",
+      "url": "https://github.com/SamAlencar/dark-channel-playbook"
+    },
+    {
+      "rotulo": "engenharia-explicada",
+      "url": "https://github.com/SamAlencar/engenharia-explicada"
+    }
+  ],
+  "avisos": [
+    "Issues e arquivos não são lidos. Esta frente não leva valor, cliente nem conteúdo interno."
+  ]
+}

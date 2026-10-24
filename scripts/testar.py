@@ -43,7 +43,7 @@ def test_filtro():
 
 
 def test_exemplos():
-    for mid in ("4medco", "dar", "jur", "fin", "stu", "mar", "sys", "tzu"):
+    for mid in ("4medco", "dark-channel"):
         doc = semente(mid)
         erros = mensagens(doc, mid)
         assert not erros, erros

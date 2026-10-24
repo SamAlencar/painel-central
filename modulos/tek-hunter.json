@@ -1,0 +1,133 @@
+{
+  "$schema": "../schema/modulo.schema.json",
+  "id": "tek-hunter",
+  "nome": "Tek Hunter",
+  "agente": {
+    "id": "tek",
+    "nome": "Eng/Tek",
+    "papel": "Engenharia: cálculo, documento, modelo e estúdio"
+  },
+  "resumo": "Tek Hunter: 2 de 24 tarefas concluídas (8,3%). 0 dúvidas de backlog abertas.",
+  "exemplo": false,
+  "fonte": {
+    "tipo": "github",
+    "detalhe": "Lido via API do GitHub: docs/BACKLOG.md, docs/DUVIDAS.md e PRs mesclados. Só entram contagens, títulos curtos e datas."
+  },
+  "status": "saudavel",
+  "saude": {
+    "motivo": "Entrega em 23/10/2026."
+  },
+  "atualizado_em": "2026-10-23T00:34:00-03:00",
+  "projetos": [
+    {
+      "id": "hunter",
+      "nome": "Tek Hunter",
+      "repo": "SamAlencar/tek-hunter",
+      "url": "https://github.com/SamAlencar/tek-hunter",
+      "descricao": "Base para captação de elaboração de projetos",
+      "status": "ativo",
+      "saude": "saudavel",
+      "saude_motivo": "Entrega em 23/10/2026.",
+      "progresso": {
+        "feitos": 2,
+        "total": 24,
+        "percentual": 8.3
+      },
+      "ultima_atividade": "2026-10-23T00:34:00-03:00",
+      "nota": "Ritmo planejado: 2 etapas/semana. Previsão de término: 2027-01-09.",
+      "frentes": [
+        {
+          "nome": "Amostra",
+          "feitos": 0,
+          "total": 7,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Fontes",
+          "feitos": 1,
+          "total": 6,
+          "percentual": 16.7
+        },
+        {
+          "nome": "Sínteses",
+          "feitos": 0,
+          "total": 6,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Uso",
+          "feitos": 0,
+          "total": 3,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Convenções",
+          "feitos": 1,
+          "total": 1,
+          "percentual": 100.0
+        },
+        {
+          "nome": "Fechamento",
+          "feitos": 0,
+          "total": 1,
+          "percentual": 0.0
+        }
+      ],
+      "destaques": [
+        {
+          "id": "TH-003",
+          "texto": "Catálogo dos portais estaduais"
+        },
+        {
+          "id": "TH-004",
+          "texto": "Catálogo de plataformas privadas de licitação"
+        },
+        {
+          "id": "TH-005",
+          "texto": "Catálogo de diários oficiais e sites municipais"
+        },
+        {
+          "id": "TH-006",
+          "texto": "Catálogo de plataformas de freelancer e portais de cotação"
+        }
+      ]
+    }
+  ],
+  "prazos": [
+    {
+      "id": "hunter-previsao",
+      "titulo": "Previsão de término no ritmo planejado — Tek Hunter",
+      "data": "2027-01-09",
+      "projeto_id": "hunter",
+      "tipo": "previsao"
+    }
+  ],
+  "rotinas": [
+    {
+      "nome": "Backlog do Tek Hunter",
+      "frequencia": "semanal",
+      "ultima_execucao": "2026-10-23T00:34:00-03:00",
+      "status": "em_dia",
+      "nota": "2 etapas/semana"
+    }
+  ],
+  "aguardando_samuel": [],
+  "atividade": [],
+  "links": [
+    {
+      "rotulo": "Painel Tekto (legado)",
+      "url": "https://samalencar.github.io/tekto-calc-painel/"
+    },
+    {
+      "rotulo": "Repositório do painel legado",
+      "url": "https://github.com/SamAlencar/tekto-calc-painel"
+    },
+    {
+      "rotulo": "Tek Hunter",
+      "url": "https://github.com/SamAlencar/tek-hunter"
+    }
+  ],
+  "avisos": [
+    "Cada projeto mostra no máximo 12 frentes, as de maior volume."
+  ]
+}

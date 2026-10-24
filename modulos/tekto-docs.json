@@ -1,0 +1,607 @@
+{
+  "$schema": "../schema/modulo.schema.json",
+  "id": "tekto-docs",
+  "nome": "Tekto Docs",
+  "agente": {
+    "id": "tek",
+    "nome": "Eng/Tek",
+    "papel": "Engenharia: cálculo, documento, modelo e estúdio"
+  },
+  "resumo": "Tekto Docs: 31 de 84 tarefas concluídas (36,9%). 43 dúvidas de backlog abertas.",
+  "exemplo": false,
+  "fonte": {
+    "tipo": "github",
+    "detalhe": "Lido via API do GitHub: docs/BACKLOG.md, docs/DUVIDAS.md e PRs mesclados. Só entram contagens, títulos curtos e datas."
+  },
+  "status": "saudavel",
+  "saude": {
+    "motivo": "Entrega em 24/10/2026."
+  },
+  "atualizado_em": "2026-10-24T08:20:00-03:00",
+  "projetos": [
+    {
+      "id": "docs",
+      "nome": "Tekto Docs",
+      "repo": "SamAlencar/tekto-docs",
+      "url": "https://github.com/SamAlencar/tekto-docs",
+      "descricao": "Memoriais, especificações, laudos e fichas técnicas",
+      "status": "ativo",
+      "saude": "saudavel",
+      "saude_motivo": "Entrega em 24/10/2026.",
+      "progresso": {
+        "feitos": 31,
+        "total": 84,
+        "percentual": 36.9
+      },
+      "ultima_atividade": "2026-10-24T08:20:00-03:00",
+      "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2026-12-16.",
+      "frentes": [
+        {
+          "nome": "Instalações",
+          "feitos": 8,
+          "total": 37,
+          "percentual": 21.6
+        },
+        {
+          "nome": "Normas",
+          "feitos": 0,
+          "total": 8,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Normas internacionais (comparativos)",
+          "feitos": 0,
+          "total": 7,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Memoriais",
+          "feitos": 6,
+          "total": 6,
+          "percentual": 100.0
+        },
+        {
+          "nome": "Métodos construtivos",
+          "feitos": 5,
+          "total": 6,
+          "percentual": 83.3
+        },
+        {
+          "nome": "Especificações",
+          "feitos": 5,
+          "total": 5,
+          "percentual": 100.0
+        },
+        {
+          "nome": "Laudos",
+          "feitos": 4,
+          "total": 4,
+          "percentual": 100.0
+        },
+        {
+          "nome": "Materiais",
+          "feitos": 1,
+          "total": 4,
+          "percentual": 25.0
+        },
+        {
+          "nome": "BIM",
+          "feitos": 0,
+          "total": 3,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Base da escola",
+          "feitos": 1,
+          "total": 3,
+          "percentual": 33.3
+        },
+        {
+          "nome": "Estrutura NBR 6118:2026",
+          "feitos": 1,
+          "total": 1,
+          "percentual": 100.0
+        }
+      ],
+      "destaques": [
+        {
+          "id": "TD-016",
+          "texto": "BEP modelo para edificação"
+        },
+        {
+          "id": "TD-017",
+          "texto": "Padrão de nomenclatura BIM"
+        },
+        {
+          "id": "TD-018",
+          "texto": "Nível de informação necessário por disciplina"
+        },
+        {
+          "id": "TD-023",
+          "texto": "Ficha comparativa de sistemas de impermeabilização"
+        }
+      ]
+    }
+  ],
+  "prazos": [
+    {
+      "id": "docs-previsao",
+      "titulo": "Previsão de término no ritmo planejado — Tekto Docs",
+      "data": "2026-12-16",
+      "projeto_id": "docs",
+      "tipo": "previsao"
+    }
+  ],
+  "rotinas": [
+    {
+      "nome": "Backlog do Tekto Docs",
+      "frequencia": "diária",
+      "ultima_execucao": "2026-10-24T08:20:00-03:00",
+      "status": "em_dia",
+      "nota": "1 tarefa/dia"
+    }
+  ],
+  "aguardando_samuel": [
+    {
+      "id": "docs-D-001",
+      "titulo": "D-001 — Edições vigentes no acervo da Tekto",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "docs",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "docs-D-002",
+      "titulo": "D-002 — Identificador estável das rotinas do tekto-calc",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "docs",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "docs-D-003",
+      "titulo": "D-003 — Tipos de obra no escopo imediato",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "docs",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "docs-D-004",
+      "titulo": "D-004 — Estrutura de laudo diante da NBR 13752 e da NBR 16747",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "docs",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "docs-D-005",
+      "titulo": "D-005 — Escala de nível de desenvolvimento BIM",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "docs",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "docs-D-006",
+      "titulo": "D-006 — UF do Corpo de Bombeiros no escopo imediato",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "docs",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "docs-D-008",
+      "titulo": "D-008 — NBR 15358 ao lado da NBR 15526",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "docs",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "docs-D-009",
+      "titulo": "D-009 — Aplicabilidade obrigatória da NBR 9050 à residência unifamiliar",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "docs",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "docs-D-010",
+      "titulo": "D-010 — Nível de desempenho no memorial de arquitetura",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "docs",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "docs-D-011",
+      "titulo": "D-011 — Subitens e valores numéricos da NBR 15575 no memorial de arquitetura",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "docs",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "docs-D-012",
+      "titulo": "D-012 — Subitens e valores numéricos da NBR 9050 no memorial de arquitetura",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "docs",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "docs-D-014",
+      "titulo": "D-014 — Parte da NBR 15575 que rege escada, rampa e guarda-corpo",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "docs",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "docs-D-015",
+      "titulo": "D-015 — Células das Tabelas 7.1 e 7.2 e caracterização das classes da Tabela 6.1",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "docs",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "docs-D-016",
+      "titulo": "D-016 — Pesos específicos da Tabela 1 e ações fora da lista residencial conferida",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "docs",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "docs-D-017",
+      "titulo": "D-017 — Valores de γg, γq, ψ0, ψ1 e ψ2 na NBR 8681:2025",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "docs",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "docs-D-018",
+      "titulo": "D-018 — Tolerâncias numéricas, cura e retirada de fôrmas na NBR 14931:2023",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "docs",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "docs-D-019",
+      "titulo": "D-019 — Grandezas numéricas do concreto e do aço nas seções 8.2 e 8.3",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "docs",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "docs-D-020",
+      "titulo": "D-020 — Item de dimensionamento do elemento na NBR 6118:2026",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "docs",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "docs-D-021",
+      "titulo": "D-021 — Programa mínimo de investigação da seção 4 da NBR 6122:2022",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "docs",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "docs-D-022",
+      "titulo": "D-022 — Valores do fator de segurança da seção 6 da NBR 6122:2022",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "docs",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "docs-D-023",
+      "titulo": "D-023 — Critério que separa fundação rasa e fundação profunda",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "docs",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "docs-D-024",
+      "titulo": "D-024 — Caso em que a prova de carga é obrigatória na NBR 6122:2022",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "docs",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "docs-D-025",
+      "titulo": "D-025 — Anexo executivo de cada tipo na NBR 6122:2022",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "docs",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "docs-D-026",
+      "titulo": "D-026 — Lista e valores das ações da seção 5 da NBR 6122:2022",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "docs",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "docs-D-027",
+      "titulo": "D-027 — Nomes dos tipos da seção 4.1 da NBR 9575:2010 não registrados na consulta",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "docs",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "docs-D-028",
+      "titulo": "D-028 — Referências datadas do item 2 da NBR 9574:2008",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "docs",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "docs-D-029",
+      "titulo": "D-029 — Ação de ocupação de escola na NBR 6120",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "docs",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "docs-D-030",
+      "titulo": "D-030 — Edição e item da NR-18",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "docs",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "docs-D-031",
+      "titulo": "D-031 — Itens da NBR 12655 para preparo, controle e recebimento",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "docs",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "docs-D-032",
+      "titulo": "D-032 — Itens da NBR 7480 para aceitação da armadura passiva",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "docs",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "docs-D-033",
+      "titulo": "D-033 — Itens da NBR 16868 e da NBR 6136",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "docs",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "docs-D-034",
+      "titulo": "D-034 — Itens da NBR 15270 para o componente cerâmico",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "docs",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "docs-D-036",
+      "titulo": "D-036 — Fatores de prazo, custo e risco sem fonte",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "docs",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "docs-D-038",
+      "titulo": "D-038 — Fonte da intensidade e dos parâmetros além da NBR 10844:1989",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "docs",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "docs-D-039",
+      "titulo": "D-039 — Itens da NBR 5626:2020 e da NBR 8160:1999 ainda não lidos",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "docs",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "docs-D-040",
+      "titulo": "D-040 — Itens da NBR 5410:2004 Versão Corrigida:2008 ainda não lidos",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "docs",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "docs-D-041",
+      "titulo": "D-041 — Ensaios, argamassa e execução da alvenaria de vedação",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "docs",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "docs-D-042",
+      "titulo": "D-042 — Ensaios dos produtos e controle da impermeabilização",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "docs",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "docs-D-043",
+      "titulo": "D-043 — Pontos da NBR 16747:2020 ainda não registrados",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "docs",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "docs-D-044",
+      "titulo": "D-044 — Pontos da NBR 13752:2024 ainda não registrados",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "docs",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "docs-D-045",
+      "titulo": "D-045 — Pontos da vistoria cautelar sem critério registrado",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "docs",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "docs-D-046",
+      "titulo": "D-046 — Itens da NBR 14762:2010 e das partes 2 e 3 da NBR 16970 não registrados",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "docs",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "docs-D-047",
+      "titulo": "D-047 — Pontos da NBR 9062:2017 ainda não registrados",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "docs",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    }
+  ],
+  "atividade": [
+    {
+      "quando": "2026-10-24T08:20:00-03:00",
+      "resumo": "Mesclou em Tekto Docs: TD-022: ficha comparativa de concreto pré-moldado (NBR 9062:2017)",
+      "projeto_id": "docs",
+      "link": "https://github.com/SamAlencar/tekto-docs/pull/24"
+    },
+    {
+      "quando": "2026-10-23T08:22:00-03:00",
+      "resumo": "Mesclou em Tekto Docs: TD-021: ficha comparativa de light steel framing",
+      "projeto_id": "docs",
+      "link": "https://github.com/SamAlencar/tekto-docs/pull/23"
+    }
+  ],
+  "links": [
+    {
+      "rotulo": "Painel Tekto (legado)",
+      "url": "https://samalencar.github.io/tekto-calc-painel/"
+    },
+    {
+      "rotulo": "Repositório do painel legado",
+      "url": "https://github.com/SamAlencar/tekto-calc-painel"
+    },
+    {
+      "rotulo": "Tekto Docs",
+      "url": "https://github.com/SamAlencar/tekto-docs"
+    }
+  ],
+  "avisos": [
+    "Cada projeto mostra no máximo 12 frentes, as de maior volume."
+  ]
+}
