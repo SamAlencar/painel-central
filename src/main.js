@@ -7,10 +7,10 @@ const porId = Object.fromEntries(Object.values(brutos).map((m) => [m.id, m]))
 const modulos = ordem.filter((id) => porId[id]).map((id) => porId[id])
 
 const GRUPOS = [
-  { id: "tekto", nome: "Tekto", sub: "Engenharia: cálculo, documentos, modelo e estúdio", cor: "#38bdf8", ids: ["tekto-calc", "tekto-docs", "tekto-model", "tekto-studio", "tek-team", "tek-hunter"] },
+  { id: "tekto", nome: "Tekto", sub: "Engenharia: cálculo, documentos, modelo e estúdio", cor: "#38bdf8", ids: ordem.filter((id) => /^tek(to)?-/.test(id)) },
   { id: "vtx", nome: "VTX", sub: "Empresa de TI operada por agentes de IA", cor: "#a78bfa", ids: ["vtx"] },
   { id: "4medco", nome: "4med.co", sub: "Produtos e base de conhecimento", cor: "#34d399", ids: ["4medco"] },
-  { id: "dark", nome: "Dark Channel", sub: "Canal educacional Engenharia Explicada", cor: "#f472b6", ids: ["dark-channel"] },
+  { id: "dark", nome: "Dark Channel", sub: "Canal dark educacional", cor: "#f472b6", ids: ["dark-channel"] },
 ]
 const STATUS = { saudavel: ["Saudável", "ok"], atencao: ["Atenção", "and"], bloqueado: ["Bloqueado", "bad"], parado: ["Parado", "fz"], planejado: ["Planejado", "fz"] }
 const FONTE = { github: "Lido do GitHub", espelho: "Espelho do painel público", manual: "Atualizado pelo agente", exemplo: "Exemplo" }

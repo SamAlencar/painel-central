@@ -15,9 +15,9 @@
   },
   "status": "saudavel",
   "saude": {
-    "motivo": "Saúde pelo push mais recente (24/10/2026)."
+    "motivo": "Saúde pelo push mais recente (25/10/2026)."
   },
-  "atualizado_em": "2026-10-24T23:51:44+00:00",
+  "atualizado_em": "2026-10-25T12:12:12+00:00",
   "projetos": [
     {
       "id": "dark-channel-playbook",
@@ -27,9 +27,9 @@
       "descricao": "Sem descrição pública.",
       "status": "ativo",
       "saude": "saudavel",
-      "saude_motivo": "Último push em 24/10/2026.",
+      "saude_motivo": "Último push em 25/10/2026.",
       "progresso": null,
-      "ultima_atividade": "2026-10-24T23:51:44+00:00",
+      "ultima_atividade": "2026-10-25T12:12:12+00:00",
       "nota": "Só metadados. Arquivo e issue não são lidos.",
       "frentes": [],
       "destaques": []
@@ -39,6 +39,12 @@
   "rotinas": [],
   "aguardando_samuel": [],
   "atividade": [
+    {
+      "quando": "2026-10-25T12:12:10+00:00",
+      "resumo": "dark-channel-playbook: Passo 01: visão do negócio e modelo multi-canal (YPP, receitas, metas 6/12 meses, ciclo de vida do canal)",
+      "projeto_id": "dark-channel-playbook",
+      "link": "https://github.com/SamAlencar/dark-channel-playbook"
+    },
     {
       "quando": "2026-10-24T23:51:42+00:00",
       "resumo": "dark-channel-playbook: docs: BACKLOG e DUVIDAS para o painel",
@@ -60,12 +66,6 @@
     {
       "quando": "2026-10-24T19:11:04+00:00",
       "resumo": "dark-channel-playbook: Pipeline híbrido documentado e avaliado; PLANO 51 passos; trilhas visuais e render_nuvem no template",
-      "projeto_id": "dark-channel-playbook",
-      "link": "https://github.com/SamAlencar/dark-channel-playbook"
-    },
-    {
-      "quando": "2026-10-24T17:10:59+00:00",
-      "resumo": "dark-channel-playbook: PLANO: skills dos agentes (passo 06) e teste de viabilidade (passo 31); README: como funciona na prática",
       "projeto_id": "dark-channel-playbook",
       "link": "https://github.com/SamAlencar/dark-channel-playbook"
     }

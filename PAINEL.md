@@ -17,32 +17,32 @@ Dúvida aberta no backlog não é, sozinha, uma aprovação formal. Itens de mó
 - D-013 — Itens da NBR 10844:1989 não lidos no dimensionamento pluvial
 - D-014 — Armadura mínima e máxima da seção T
 
-### Tekto Docs · Eng/Tek · 43
+### Tekto Docs · Eng/Tek · 44
 
 - D-001 — Edições vigentes no acervo da Tekto
 - D-002 — Identificador estável das rotinas do tekto-calc
 - D-003 — Tipos de obra no escopo imediato
 - D-004 — Estrutura de laudo diante da NBR 13752 e da NBR 16747
 - D-005 — Escala de nível de desenvolvimento BIM
-- … e mais 38 no site e em `modulos/tekto-docs.json`
+- … e mais 39 no site e em `modulos/tek-docs.json`
 
-### Tekto Model · Eng/Tek · 62
+### Tekto Model · Eng/Tek · 64
 
 - Verificação de 21/10/2026
 - Verificação de 24/10/2026
+- Verificação de 25/10/2026
 - Verificação de 18/10/2026
 - Verificação de 23/10/2026
-- Verificação de 21/10/2026
-- … e mais 57 no site e em `modulos/tekto-model.json`
+- … e mais 59 no site e em `modulos/tek-model.json`
 
-### Tek Team · Eng/Tek · 11
+### Tek Team · Eng/Tek · 12
 
 - D-001 — Termos em português da série ISO 19650 — desde 17/10/2026
 - D-002 — Contrato do Tekto Model incompatível com a resposta real do MCP do Tekto Calc — desde 18/10/2026
 - D-003 — Estado de capacidade quando código e backlog divergem — desde 18/10/2026
 - D-004 — Organograma de referência e cargos sem código CBO — desde 19/10/2026
 - D-005 — Áreas disputadas entre CAU e CONFEA — desde 20/10/2026
-- … e mais 6 no site e em `modulos/tek-team.json`
+- … e mais 7 no site e em `modulos/tek-team.json`
 
 ### Tek Catalog · Eng/Tek · 10
 
@@ -57,67 +57,67 @@ Dúvida aberta no backlog não é, sozinha, uma aprovação formal. Itens de mó
 
 ### Tekto Calc · Eng/Tek · saudável
 
-Tekto Calc: 41 de 126 tarefas concluídas (32,5%). 4 dúvidas de backlog abertas.
+Tekto Calc: 42 de 126 tarefas concluídas (33,3%). 4 dúvidas de backlog abertas.
 
-Fonte: github. Atualizado em: 24/10/2026.
+Fonte: github. Atualizado em: 25/10/2026.
 
-Entrega em 24/10/2026.
+Entrega em 25/10/2026.
 
 | Projeto | Saúde | Progresso | Última atividade |
 | --- | --- | --- | --- |
-| Tekto Calc | saudável | 41/126 (32,5%) | 24/10/2026 |
+| Tekto Calc | saudável | 42/126 (33,3%) | 25/10/2026 |
 
 Rotinas:
 
-- Backlog do Tekto Calc — diária — última 24/10/2026 — em dia
+- Backlog do Tekto Calc — diária — última 25/10/2026 — em dia
 
 Prazos:
 
-- 18/01/2027 — Previsão de término no ritmo planejado — Tekto Calc
+- 17/01/2027 — Previsão de término no ritmo planejado — Tekto Calc
 
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
 
 ### Tekto Docs · Eng/Tek · saudável
 
-Tekto Docs: 31 de 84 tarefas concluídas (36,9%). 43 dúvidas de backlog abertas.
+Tekto Docs: 32 de 84 tarefas concluídas (38,1%). 44 dúvidas de backlog abertas.
 
-Fonte: github. Atualizado em: 24/10/2026.
+Fonte: github. Atualizado em: 25/10/2026.
 
-Entrega em 24/10/2026.
+Entrega em 25/10/2026.
 
 | Projeto | Saúde | Progresso | Última atividade |
 | --- | --- | --- | --- |
-| Tekto Docs | saudável | 31/84 (36,9%) | 24/10/2026 |
+| Tekto Docs | saudável | 32/84 (38,1%) | 25/10/2026 |
 
 Rotinas:
 
-- Backlog do Tekto Docs — diária — última 24/10/2026 — em dia
+- Backlog do Tekto Docs — diária — última 25/10/2026 — em dia
 
 Prazos:
 
-- 17/12/2026 — Previsão de término no ritmo planejado — Tekto Docs
+- 16/12/2026 — Previsão de término no ritmo planejado — Tekto Docs
 
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
 
 ### Tekto Model · Eng/Tek · saudável
 
-Tekto Model: 87 de 240 tarefas concluídas (36,2%). 62 dúvidas de backlog abertas.
+Tekto Model: 88 de 240 tarefas concluídas (36,7%). 64 dúvidas de backlog abertas.
 
-Fonte: github. Atualizado em: 24/10/2026.
+Fonte: github. Atualizado em: 25/10/2026.
 
-Entrega em 24/10/2026.
+Entrega em 25/10/2026.
 
 | Projeto | Saúde | Progresso | Última atividade |
 | --- | --- | --- | --- |
-| Tekto Model | saudável | 87/240 (36,2%) | 24/10/2026 |
+| Tekto Model | saudável | 88/240 (36,7%) | 25/10/2026 |
 
 Rotinas:
 
-- Backlog do Tekto Model — diária — última 24/10/2026 — em dia
+- Backlog do Tekto Model — diária — última 25/10/2026 — em dia
 
 Prazos:
 
-- 10/01/2027 — Previsão de término no ritmo planejado — Tekto Model
+- 09/01/2027 — Previsão de término no ritmo planejado — Tekto Model
 
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
 
@@ -125,17 +125,17 @@ Prazos:
 
 Tekto Studio: 10 de 37 tarefas concluídas (27%). 0 dúvidas de backlog abertas.
 
-Fonte: github. Atualizado em: 24/10/2026.
+Fonte: github. Atualizado em: 25/10/2026.
 
-Entrega em 24/10/2026.
+Entrega em 25/10/2026.
 
 | Projeto | Saúde | Progresso | Última atividade |
 | --- | --- | --- | --- |
-| Tekto Studio | saudável | 10/37 (27%) | 24/10/2026 |
+| Tekto Studio | saudável | 10/37 (27%) | 25/10/2026 |
 
 Rotinas:
 
-- Backlog do Tekto Studio — diária — última 24/10/2026 — em dia
+- Backlog do Tekto Studio — diária — última 25/10/2026 — em dia
 
 Prazos:
 
@@ -145,23 +145,23 @@ Prazos:
 
 ### Tek Team · Eng/Tek · saudável
 
-Tek Team: 8 de 114 tarefas concluídas (7%). 11 dúvidas de backlog abertas.
+Tek Team: 9 de 114 tarefas concluídas (7,9%). 12 dúvidas de backlog abertas.
 
-Fonte: github. Atualizado em: 24/10/2026.
+Fonte: github. Atualizado em: 25/10/2026.
 
-Entrega em 24/10/2026.
+Entrega em 25/10/2026.
 
 | Projeto | Saúde | Progresso | Última atividade |
 | --- | --- | --- | --- |
-| Tek Team | saudável | 8/114 (7%) | 24/10/2026 |
+| Tek Team | saudável | 9/114 (7,9%) | 25/10/2026 |
 
 Rotinas:
 
-- Backlog do Tek Team — diária — última 24/10/2026 — em dia
+- Backlog do Tek Team — diária — última 25/10/2026 — em dia
 
 Prazos:
 
-- 08/02/2027 — Previsão de término no ritmo planejado — Tek Team
+- 07/02/2027 — Previsão de término no ritmo planejado — Tek Team
 
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
 
@@ -211,19 +211,19 @@ Prazos:
 
 ### VTX · Vix · saudável
 
-Criação da base de conhecimento e documentação de diretrizes. 36 de 142 tarefas concluídas. A rotina diária tem registro em 24/10/2026.
+Criação da base de conhecimento e documentação de diretrizes. 38 de 142 tarefas concluídas. A rotina diária tem registro em 25/10/2026.
 
-Fonte: github. Atualizado em: 24/10/2026.
+Fonte: github. Atualizado em: 25/10/2026.
 
-Rotina diária em 24/10/2026.
+Rotina diária em 25/10/2026.
 
 | Projeto | Saúde | Progresso | Última atividade |
 | --- | --- | --- | --- |
-| VTX Core | saudável | 36/142 (25,4%) | 24/10/2026 |
+| VTX Core | saudável | 38/142 (26,8%) | 25/10/2026 |
 
 Rotinas:
 
-- Backlog diário da VTX — diária — última 24/10/2026 — em dia
+- Backlog diário da VTX — diária — última 25/10/2026 — em dia
 
 > Nenhum item do backlog está marcado como aprovação pendente do Samuel.
 
@@ -247,13 +247,13 @@ Fonte: github. Atualizado em: 23/10/2026.
 
 Repositórios visíveis: dark-channel-playbook. Entram só metadados e títulos de commits já filtrados; arquivos e issues não entram no painel.
 
-Fonte: github. Atualizado em: 24/10/2026.
+Fonte: github. Atualizado em: 25/10/2026.
 
-Saúde pelo push mais recente (24/10/2026).
+Saúde pelo push mais recente (25/10/2026).
 
 | Projeto | Saúde | Progresso | Última atividade |
 | --- | --- | --- | --- |
-| dark-channel-playbook | saudável | sem contagem | 24/10/2026 |
+| dark-channel-playbook | saudável | sem contagem | 25/10/2026 |
 
 > Issues e arquivos não são lidos. Esta frente não leva valor, cliente nem conteúdo interno.
 

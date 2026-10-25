@@ -1,13 +1,13 @@
 {
   "$schema": "../schema/modulo.schema.json",
-  "id": "tekto-model",
+  "id": "tek-model",
   "nome": "Tekto Model",
   "agente": {
     "id": "tek",
     "nome": "Eng/Tek",
     "papel": "Engenharia: cálculo, documento, modelo e estúdio"
   },
-  "resumo": "Tekto Model: 87 de 240 tarefas concluídas (36,2%). 62 dúvidas de backlog abertas.",
+  "resumo": "Tekto Model: 88 de 240 tarefas concluídas (36,7%). 64 dúvidas de backlog abertas.",
   "exemplo": false,
   "fonte": {
     "tipo": "github",
@@ -15,26 +15,26 @@
   },
   "status": "saudavel",
   "saude": {
-    "motivo": "Entrega em 24/10/2026."
+    "motivo": "Entrega em 25/10/2026."
   },
-  "atualizado_em": "2026-10-24T15:56:00-03:00",
+  "atualizado_em": "2026-10-25T10:35:00-03:00",
   "projetos": [
     {
       "id": "model",
       "nome": "Tekto Model",
-      "repo": "SamAlencar/tekto-model",
-      "url": "https://github.com/SamAlencar/tekto-model",
+      "repo": "SamAlencar/tek-model",
+      "url": "https://github.com/SamAlencar/tek-model",
       "descricao": "Modelagem e BIM",
       "status": "ativo",
       "saude": "saudavel",
-      "saude_motivo": "Entrega em 24/10/2026.",
+      "saude_motivo": "Entrega em 25/10/2026.",
       "progresso": {
-        "feitos": 87,
+        "feitos": 88,
         "total": 240,
-        "percentual": 36.2
+        "percentual": 36.7
       },
-      "ultima_atividade": "2026-10-24T15:56:00-03:00",
-      "nota": "Ritmo planejado: 2 tarefas/dia. Previsão de término: 2027-01-10.",
+      "ultima_atividade": "2026-10-25T10:35:00-03:00",
+      "nota": "Ritmo planejado: 2 tarefas/dia. Previsão de término: 2027-01-09.",
       "frentes": [
         {
           "nome": "Viabilidade para a plataforma",
@@ -115,16 +115,16 @@
           "texto": "Botão Dimensionar: pilar de concreto"
         },
         {
-          "id": "TM-235",
-          "texto": "Memorial do tekto-calc ao lado do projeto"
-        },
-        {
           "id": "TM-236",
           "texto": "Instalação do plug-in express e roteiro de aceite"
         },
         {
           "id": "TM-018",
           "texto": "Famílias de fundação Tekto"
+        },
+        {
+          "id": "TM-237",
+          "texto": "Tipos de parede de alvenaria e de sapata corrida no template Tekto"
         }
       ]
     }
@@ -133,7 +133,7 @@
     {
       "id": "model-previsao",
       "titulo": "Previsão de término no ritmo planejado — Tekto Model",
-      "data": "2027-01-10",
+      "data": "2027-01-09",
       "projeto_id": "model",
       "tipo": "previsao"
     }
@@ -142,7 +142,7 @@
     {
       "nome": "Backlog do Tekto Model",
       "frequencia": "diária",
-      "ultima_execucao": "2026-10-24T15:56:00-03:00",
+      "ultima_execucao": "2026-10-25T10:35:00-03:00",
       "status": "em_dia",
       "nota": "2 tarefas/dia"
     }
@@ -169,6 +169,16 @@
       "link": null
     },
     {
+      "id": "model-65",
+      "titulo": "Verificação de 25/10/2026",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "model",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
       "id": "model-7",
       "titulo": "Verificação de 18/10/2026",
       "detalhe": null,
@@ -179,7 +189,7 @@
       "link": null
     },
     {
-      "id": "model-73",
+      "id": "model-74",
       "titulo": "Verificação de 23/10/2026",
       "detalhe": null,
       "desde": null,
@@ -189,7 +199,7 @@
       "link": null
     },
     {
-      "id": "model-75",
+      "id": "model-76",
       "titulo": "Verificação de 21/10/2026",
       "detalhe": null,
       "desde": null,
@@ -199,7 +209,7 @@
       "link": null
     },
     {
-      "id": "model-77",
+      "id": "model-78",
       "titulo": "Verificação de 23/10/2026",
       "detalhe": null,
       "desde": null,
@@ -209,7 +219,7 @@
       "link": null
     },
     {
-      "id": "model-79",
+      "id": "model-80",
       "titulo": "Verificação de 23/10/2026",
       "detalhe": null,
       "desde": null,
@@ -759,6 +769,16 @@
       "link": null
     },
     {
+      "id": "model-D-074",
+      "titulo": "D-074 — Pasta, nome e caminho do memorial do tekto-calc no Windows",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "model",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
       "id": "model-TM-234",
       "titulo": "Decisão na TM-234 (24/10/2026)",
       "detalhe": null,
@@ -771,34 +791,28 @@
   ],
   "atividade": [
     {
+      "quando": "2026-10-25T10:35:00-03:00",
+      "resumo": "Mesclou em Tekto Model: docs: atualiza URLs para o novo nome do repositório (tek-*)",
+      "projeto_id": "model",
+      "link": "https://github.com/SamAlencar/tek-model/pull/47"
+    },
+    {
+      "quando": "2026-10-25T09:00:00-03:00",
+      "resumo": "Mesclou em Tekto Model: TM-235: memorial do tekto-calc ao lado do .rvt (Tekto_Memorial_Calc)",
+      "projeto_id": "model",
+      "link": "https://github.com/SamAlencar/tek-model/pull/46"
+    },
+    {
       "quando": "2026-10-24T15:56:00-03:00",
       "resumo": "Mesclou em Tekto Model: TM-234: botão pyRevit Dimensionar da viga no tekto-calc",
       "projeto_id": "model",
-      "link": "https://github.com/SamAlencar/tekto-model/pull/45"
-    },
-    {
-      "quando": "2026-10-24T08:55:00-03:00",
-      "resumo": "Mesclou em Tekto Model: Contrato de leitura de esforços com mock do Robot (TM-175); abre D-072, verifica D-042",
-      "projeto_id": "model",
-      "link": "https://github.com/SamAlencar/tekto-model/pull/44"
-    },
-    {
-      "quando": "2026-10-23T15:56:00-03:00",
-      "resumo": "Mesclou em Tekto Model: Viga de concreto no mock do Revit e no nó Dynamo TrocarViga (TM-045); abre D-071, verifica D-066",
-      "projeto_id": "model",
-      "link": "https://github.com/SamAlencar/tekto-model/pull/43"
-    },
-    {
-      "quando": "2026-10-23T08:52:00-03:00",
-      "resumo": "Mesclou em Tekto Model: TM-041: pilar de concreto no mock do Revit e no nó Dynamo; abre D-070, verifica D-069",
-      "projeto_id": "model",
-      "link": "https://github.com/SamAlencar/tekto-model/pull/42"
+      "link": "https://github.com/SamAlencar/tek-model/pull/45"
     }
   ],
   "links": [
     {
       "rotulo": "Tekto Model",
-      "url": "https://github.com/SamAlencar/tekto-model"
+      "url": "https://github.com/SamAlencar/tek-model"
     }
   ],
   "avisos": [

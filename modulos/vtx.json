@@ -7,7 +7,7 @@
     "nome": "Vix",
     "papel": "Operação da VTX, empresa de TI tocada por agentes"
   },
-  "resumo": "Criação da base de conhecimento e documentação de diretrizes. 36 de 142 tarefas concluídas. A rotina diária tem registro em 24/10/2026.",
+  "resumo": "Criação da base de conhecimento e documentação de diretrizes. 38 de 142 tarefas concluídas. A rotina diária tem registro em 25/10/2026.",
   "exemplo": false,
   "fonte": {
     "tipo": "github",
@@ -15,9 +15,9 @@
   },
   "status": "saudavel",
   "saude": {
-    "motivo": "Rotina diária em 24/10/2026."
+    "motivo": "Rotina diária em 25/10/2026."
   },
-  "atualizado_em": "2026-10-24T12:00:00-03:00",
+  "atualizado_em": "2026-10-25T12:00:00-03:00",
   "projetos": [
     {
       "id": "vtx-core",
@@ -27,13 +27,13 @@
       "descricao": "Criação da base de conhecimento e documentação de diretrizes",
       "status": "ativo",
       "saude": "saudavel",
-      "saude_motivo": "Rotina diária em 24/10/2026.",
+      "saude_motivo": "Rotina diária em 25/10/2026.",
       "progresso": {
-        "feitos": 36,
+        "feitos": 38,
         "total": 142,
-        "percentual": 25.4
+        "percentual": 26.8
       },
-      "ultima_atividade": "2026-10-24T12:00:00-03:00",
+      "ultima_atividade": "2026-10-25T12:00:00-03:00",
       "nota": "Tarefas de construir a fila de aprovação não entram como pedido ao Samuel.",
       "frentes": [
         {
@@ -86,9 +86,9 @@
         },
         {
           "nome": "Tecnologia e plataformas",
-          "feitos": 1,
+          "feitos": 3,
           "total": 6,
-          "percentual": 16.7
+          "percentual": 50.0
         },
         {
           "nome": "Templates de artefatos",
@@ -111,20 +111,20 @@
       ],
       "destaques": [
         {
-          "id": "VTX-024",
-          "texto": "Design de APIs"
-        },
-        {
-          "id": "VTX-025",
-          "texto": "Modelagem de dados e bancos de dados"
-        },
-        {
           "id": "VTX-026",
           "texto": "Desenvolvimento frontend web"
         },
         {
           "id": "VTX-027",
           "texto": "Desenvolvimento mobile"
+        },
+        {
+          "id": "VTX-028",
+          "texto": "UX/UI e acessibilidade"
+        },
+        {
+          "id": "VTX-099",
+          "texto": "Ferramenta: Vercel"
         }
       ]
     }
@@ -134,13 +134,25 @@
     {
       "nome": "Backlog diário da VTX",
       "frequencia": "diária",
-      "ultima_execucao": "2026-10-24T12:00:00-03:00",
+      "ultima_execucao": "2026-10-25T12:00:00-03:00",
       "status": "em_dia",
       "nota": "Conclusões do dia no backlog público."
     }
   ],
   "aguardando_samuel": [],
   "atividade": [
+    {
+      "quando": "2026-10-25T12:00:00-03:00",
+      "resumo": "Concluiu VTX-024 — Design de APIs",
+      "projeto_id": "vtx-core",
+      "link": null
+    },
+    {
+      "quando": "2026-10-25T12:00:00-03:00",
+      "resumo": "Concluiu VTX-025 — Modelagem de dados e bancos de dados",
+      "projeto_id": "vtx-core",
+      "link": null
+    },
     {
       "quando": "2026-10-24T12:00:00-03:00",
       "resumo": "Concluiu VTX-022 — Observabilidade (logs, métricas, traces)",
@@ -198,18 +210,6 @@
     {
       "quando": "2026-10-20T12:00:00-03:00",
       "resumo": "Concluiu VTX-016 — Padrões de projeto e DDD",
-      "projeto_id": "vtx-core",
-      "link": null
-    },
-    {
-      "quando": "2026-10-19T12:00:00-03:00",
-      "resumo": "Concluiu VTX-013 — Operação de agentes: prompts, contexto e memória",
-      "projeto_id": "vtx-core",
-      "link": null
-    },
-    {
-      "quando": "2026-10-19T12:00:00-03:00",
-      "resumo": "Concluiu VTX-014 — Governança e aprovações (humano no circuito)",
       "projeto_id": "vtx-core",
       "link": null
     }

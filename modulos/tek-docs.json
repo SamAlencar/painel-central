@@ -1,13 +1,13 @@
 {
   "$schema": "../schema/modulo.schema.json",
-  "id": "tekto-docs",
+  "id": "tek-docs",
   "nome": "Tekto Docs",
   "agente": {
     "id": "tek",
     "nome": "Eng/Tek",
     "papel": "Engenharia: cálculo, documento, modelo e estúdio"
   },
-  "resumo": "Tekto Docs: 31 de 84 tarefas concluídas (36,9%). 43 dúvidas de backlog abertas.",
+  "resumo": "Tekto Docs: 32 de 84 tarefas concluídas (38,1%). 44 dúvidas de backlog abertas.",
   "exemplo": false,
   "fonte": {
     "tipo": "github",
@@ -15,26 +15,26 @@
   },
   "status": "saudavel",
   "saude": {
-    "motivo": "Entrega em 24/10/2026."
+    "motivo": "Entrega em 25/10/2026."
   },
-  "atualizado_em": "2026-10-24T08:20:00-03:00",
+  "atualizado_em": "2026-10-25T10:35:00-03:00",
   "projetos": [
     {
       "id": "docs",
       "nome": "Tekto Docs",
-      "repo": "SamAlencar/tekto-docs",
-      "url": "https://github.com/SamAlencar/tekto-docs",
+      "repo": "SamAlencar/tek-docs",
+      "url": "https://github.com/SamAlencar/tek-docs",
       "descricao": "Memoriais, especificações, laudos e fichas técnicas",
       "status": "ativo",
       "saude": "saudavel",
-      "saude_motivo": "Entrega em 24/10/2026.",
+      "saude_motivo": "Entrega em 25/10/2026.",
       "progresso": {
-        "feitos": 31,
+        "feitos": 32,
         "total": 84,
-        "percentual": 36.9
+        "percentual": 38.1
       },
-      "ultima_atividade": "2026-10-24T08:20:00-03:00",
-      "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2026-12-17.",
+      "ultima_atividade": "2026-10-25T10:35:00-03:00",
+      "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2026-12-16.",
       "frentes": [
         {
           "nome": "Instalações",
@@ -80,9 +80,9 @@
         },
         {
           "nome": "Materiais",
-          "feitos": 1,
+          "feitos": 2,
           "total": 4,
-          "percentual": 25.0
+          "percentual": 50.0
         },
         {
           "nome": "BIM",
@@ -127,7 +127,7 @@
     {
       "id": "docs-previsao",
       "titulo": "Previsão de término no ritmo planejado — Tekto Docs",
-      "data": "2026-12-17",
+      "data": "2026-12-16",
       "projeto_id": "docs",
       "tipo": "previsao"
     }
@@ -136,7 +136,7 @@
     {
       "nome": "Backlog do Tekto Docs",
       "frequencia": "diária",
-      "ultima_execucao": "2026-10-24T08:20:00-03:00",
+      "ultima_execucao": "2026-10-25T10:35:00-03:00",
       "status": "em_dia",
       "nota": "1 tarefa/dia"
     }
@@ -571,20 +571,36 @@
       "urgencia": "media",
       "tipo": "duvida",
       "link": null
+    },
+    {
+      "id": "docs-D-048",
+      "titulo": "D-048 — Pontos da NBR 16697:2018 ainda não registrados",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "docs",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
     }
   ],
   "atividade": [
     {
-      "quando": "2026-10-24T08:20:00-03:00",
-      "resumo": "Mesclou em Tekto Docs: TD-022: ficha comparativa de concreto pré-moldado (NBR 9062:2017)",
+      "quando": "2026-10-25T10:35:00-03:00",
+      "resumo": "Mesclou em Tekto Docs: docs: atualiza URLs para o novo nome do repositório (tek-*)",
       "projeto_id": "docs",
-      "link": "https://github.com/SamAlencar/tekto-docs/pull/24"
+      "link": "https://github.com/SamAlencar/tek-docs/pull/26"
+    },
+    {
+      "quando": "2026-10-25T08:17:00-03:00",
+      "resumo": "Mesclou em Tekto Docs: TD-025: ficha de cimento Portland (NBR 16697:2018)",
+      "projeto_id": "docs",
+      "link": "https://github.com/SamAlencar/tek-docs/pull/25"
     }
   ],
   "links": [
     {
       "rotulo": "Tekto Docs",
-      "url": "https://github.com/SamAlencar/tekto-docs"
+      "url": "https://github.com/SamAlencar/tek-docs"
     }
   ],
   "avisos": [

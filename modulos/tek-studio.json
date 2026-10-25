@@ -1,6 +1,6 @@
 {
   "$schema": "../schema/modulo.schema.json",
-  "id": "tekto-studio",
+  "id": "tek-studio",
   "nome": "Tekto Studio",
   "agente": {
     "id": "tek",
@@ -15,25 +15,25 @@
   },
   "status": "saudavel",
   "saude": {
-    "motivo": "Entrega em 24/10/2026."
+    "motivo": "Entrega em 25/10/2026."
   },
-  "atualizado_em": "2026-10-24T10:39:00-03:00",
+  "atualizado_em": "2026-10-25T10:35:00-03:00",
   "projetos": [
     {
       "id": "studio",
       "nome": "Tekto Studio",
-      "repo": "SamAlencar/tekto-studio",
-      "url": "https://github.com/SamAlencar/tekto-studio",
+      "repo": "SamAlencar/tek-studio",
+      "url": "https://github.com/SamAlencar/tek-studio",
       "descricao": "Plataforma de engenharia com agente de IA e núcleo determinístico",
       "status": "ativo",
       "saude": "saudavel",
-      "saude_motivo": "Entrega em 24/10/2026.",
+      "saude_motivo": "Entrega em 25/10/2026.",
       "progresso": {
         "feitos": 10,
         "total": 37,
         "percentual": 27.0
       },
-      "ultima_atividade": "2026-10-24T10:39:00-03:00",
+      "ultima_atividade": "2026-10-25T10:35:00-03:00",
       "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2026-11-21.",
       "frentes": [
         {
@@ -112,7 +112,7 @@
     {
       "nome": "Backlog do Tekto Studio",
       "frequencia": "diária",
-      "ultima_execucao": "2026-10-24T10:39:00-03:00",
+      "ultima_execucao": "2026-10-25T10:35:00-03:00",
       "status": "em_dia",
       "nota": "1 tarefa/dia"
     }
@@ -120,22 +120,22 @@
   "aguardando_samuel": [],
   "atividade": [
     {
+      "quando": "2026-10-25T10:35:00-03:00",
+      "resumo": "Mesclou em Tekto Studio: docs: atualiza URLs para o novo nome do repositório (tek-*)",
+      "projeto_id": "studio",
+      "link": "https://github.com/SamAlencar/tek-studio/pull/7"
+    },
+    {
       "quando": "2026-10-24T10:39:00-03:00",
       "resumo": "Mesclou em Tekto Studio: TS-061: gravação automática da auditoria",
       "projeto_id": "studio",
-      "link": "https://github.com/SamAlencar/tekto-studio/pull/6"
-    },
-    {
-      "quando": "2026-10-23T10:41:00-03:00",
-      "resumo": "Mesclou em Tekto Studio: TS-060: esquema do registro JSONL da auditoria",
-      "projeto_id": "studio",
-      "link": "https://github.com/SamAlencar/tekto-studio/pull/5"
+      "link": "https://github.com/SamAlencar/tek-studio/pull/6"
     }
   ],
   "links": [
     {
       "rotulo": "Tekto Studio",
-      "url": "https://github.com/SamAlencar/tekto-studio"
+      "url": "https://github.com/SamAlencar/tek-studio"
     }
   ],
   "avisos": [

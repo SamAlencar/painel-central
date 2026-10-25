@@ -21,7 +21,7 @@ from zoneinfo import ZoneInfo
 # ---------------------------------------------------------------------------
 PROJETOS = [
     {
-        "slug": "calc", "nome": "Tekto Calc", "repo": "SamAlencar/tekto-calc", "prefixo": "TC",
+        "slug": "calc", "nome": "Tekto Calc", "repo": "SamAlencar/tek-calc", "prefixo": "TC",
         "descricao": "Rotinas de cálculo de engenharia em Python",
         "ritmo_planejado": 1.0,
         "normas_escopo": [
@@ -39,12 +39,12 @@ PROJETOS = [
         ],
     },
     {
-        "slug": "docs", "nome": "Tekto Docs", "repo": "SamAlencar/tekto-docs", "prefixo": "TD",
+        "slug": "docs", "nome": "Tekto Docs", "repo": "SamAlencar/tek-docs", "prefixo": "TD",
         "descricao": "Memoriais, especificações, laudos e fichas técnicas",
         "ritmo_planejado": 1.0,
     },
     {
-        "slug": "model", "nome": "Tekto Model", "repo": "SamAlencar/tekto-model", "prefixo": "TM",
+        "slug": "model", "nome": "Tekto Model", "repo": "SamAlencar/tek-model", "prefixo": "TM",
         "descricao": "Modelagem e BIM",
         "ritmo_planejado": 2.0,   # rotina roda duas vezes por dia
     },
@@ -60,7 +60,7 @@ PROJETOS = [
         "ritmo_planejado": 1.0,   # uma etapa por dia
     },
     {
-        "slug": "studio", "nome": "Tekto Studio", "repo": "SamAlencar/tekto-studio", "prefixo": "TS",
+        "slug": "studio", "nome": "Tekto Studio", "repo": "SamAlencar/tek-studio", "prefixo": "TS",
         "descricao": "Plataforma de engenharia com agente de IA e núcleo determinístico",
         "ritmo_planejado": 1.0,   # um item por dia (TS-D04)
     },
