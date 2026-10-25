@@ -34,7 +34,7 @@
         "percentual": 32.5
       },
       "ultima_atividade": "2026-10-24T07:48:00-03:00",
-      "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2027-01-17.",
+      "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2027-01-18.",
       "frentes": [
         {
           "nome": "Concreto armado",
@@ -133,7 +133,7 @@
     {
       "id": "calc-previsao",
       "titulo": "Previsão de término no ritmo planejado — Tekto Calc",
-      "data": "2027-01-17",
+      "data": "2027-01-18",
       "projeto_id": "calc",
       "tipo": "previsao"
     }

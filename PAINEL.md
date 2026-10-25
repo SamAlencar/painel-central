@@ -73,7 +73,7 @@ Rotinas:
 
 Prazos:
 
-- 17/01/2027 — Previsão de término no ritmo planejado — Tekto Calc
+- 18/01/2027 — Previsão de término no ritmo planejado — Tekto Calc
 
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
 
@@ -95,7 +95,7 @@ Rotinas:
 
 Prazos:
 
-- 16/12/2026 — Previsão de término no ritmo planejado — Tekto Docs
+- 17/12/2026 — Previsão de término no ritmo planejado — Tekto Docs
 
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
 
@@ -117,7 +117,7 @@ Rotinas:
 
 Prazos:
 
-- 09/01/2027 — Previsão de término no ritmo planejado — Tekto Model
+- 10/01/2027 — Previsão de término no ritmo planejado — Tekto Model
 
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
 
@@ -139,7 +139,7 @@ Rotinas:
 
 Prazos:
 
-- 20/11/2026 — Previsão de término no ritmo planejado — Tekto Studio
+- 21/11/2026 — Previsão de término no ritmo planejado — Tekto Studio
 
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
 
@@ -161,7 +161,7 @@ Rotinas:
 
 Prazos:
 
-- 07/02/2027 — Previsão de término no ritmo planejado — Tek Team
+- 08/02/2027 — Previsão de término no ritmo planejado — Tek Team
 
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
 
@@ -183,7 +183,7 @@ Rotinas:
 
 Prazos:
 
-- 09/01/2027 — Previsão de término no ritmo planejado — Tek Hunter
+- 10/01/2027 — Previsão de término no ritmo planejado — Tek Hunter
 
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
 
@@ -205,7 +205,7 @@ Rotinas:
 
 Prazos:
 
-- 22/11/2026 — Previsão de término no ritmo planejado — Tek Catalog
+- 23/11/2026 — Previsão de término no ritmo planejado — Tek Catalog
 
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
 

@@ -34,7 +34,7 @@
         "percentual": 27.0
       },
       "ultima_atividade": "2026-10-24T10:39:00-03:00",
-      "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2026-11-20.",
+      "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2026-11-21.",
       "frentes": [
         {
           "nome": "Fase 2 — Integração do núcleo (8)",
@@ -103,7 +103,7 @@
     {
       "id": "studio-previsao",
       "titulo": "Previsão de término no ritmo planejado — Tekto Studio",
-      "data": "2026-11-20",
+      "data": "2026-11-21",
       "projeto_id": "studio",
       "tipo": "previsao"
     }

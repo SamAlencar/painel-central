@@ -34,7 +34,7 @@
         "percentual": 8.3
       },
       "ultima_atividade": "2026-10-23T00:34:00-03:00",
-      "nota": "Ritmo planejado: 2 etapas/semana. Previsão de término: 2027-01-09.",
+      "nota": "Ritmo planejado: 2 etapas/semana. Previsão de término: 2027-01-10.",
       "frentes": [
         {
           "nome": "Amostra",
@@ -97,7 +97,7 @@
     {
       "id": "hunter-previsao",
       "titulo": "Previsão de término no ritmo planejado — Tek Hunter",
-      "data": "2027-01-09",
+      "data": "2027-01-10",
       "projeto_id": "hunter",
       "tipo": "previsao"
     }
