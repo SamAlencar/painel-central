@@ -17,7 +17,7 @@
   "saude": {
     "motivo": "Saúde pelo push mais recente (25/10/2026)."
   },
-  "atualizado_em": "2026-10-25T12:12:12+00:00",
+  "atualizado_em": "2026-10-25T18:57:41+00:00",
   "projetos": [
     {
       "id": "dark-channel-playbook",
@@ -29,7 +29,7 @@
       "saude": "saudavel",
       "saude_motivo": "Último push em 25/10/2026.",
       "progresso": null,
-      "ultima_atividade": "2026-10-25T12:12:12+00:00",
+      "ultima_atividade": "2026-10-25T18:57:41+00:00",
       "nota": "Só metadados. Arquivo e issue não são lidos.",
       "frentes": [],
       "destaques": []
@@ -39,6 +39,12 @@
   "rotinas": [],
   "aguardando_samuel": [],
   "atividade": [
+    {
+      "quando": "2026-10-25T18:57:39+00:00",
+      "resumo": "dark-channel-playbook: Ferramentas: Hypit avaliado (Passo 08)",
+      "projeto_id": "dark-channel-playbook",
+      "link": "https://github.com/SamAlencar/dark-channel-playbook"
+    },
     {
       "quando": "2026-10-25T12:12:10+00:00",
       "resumo": "dark-channel-playbook: Passo 01: visão do negócio e modelo multi-canal (YPP, receitas, metas 6/12 meses, ciclo de vida do canal)",
@@ -60,12 +66,6 @@
     {
       "quando": "2026-10-24T19:11:58+00:00",
       "resumo": "dark-channel-playbook: RunPod Serverless como parte planejada do pipeline: passos 34-36, orçamento/alertas, fallback local",
-      "projeto_id": "dark-channel-playbook",
-      "link": "https://github.com/SamAlencar/dark-channel-playbook"
-    },
-    {
-      "quando": "2026-10-24T19:11:04+00:00",
-      "resumo": "dark-channel-playbook: Pipeline híbrido documentado e avaliado; PLANO 51 passos; trilhas visuais e render_nuvem no template",
       "projeto_id": "dark-channel-playbook",
       "link": "https://github.com/SamAlencar/dark-channel-playbook"
     }

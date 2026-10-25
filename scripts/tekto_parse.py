@@ -65,6 +65,12 @@ PROJETOS = [
         "ritmo_planejado": 1.0,   # um item por dia (TS-D04)
     },
     {
+        "slug": "token", "nome": "Tek Token", "repo": "SamAlencar/tek-token", "prefixo": "TK-T",
+        "descricao": "",
+        "ritmo_planejado": 1.0,
+        # Repositório previsto para 26/10/2026; até existir, descobrir() o remove sem erro.
+    },
+    {
         "slug": "catalog", "nome": "Tek Catalog", "repo": "SamAlencar/tek-catalog", "prefixo": "TK",
         "descricao": "Catálogo Tekto de materiais da construção civil com IFC 4.3",
         "ritmo_planejado": 1.0,
@@ -109,6 +115,11 @@ def descobrir(repos):
             "ritmo_planejado": RITMO_PADRAO,
         })
         conhecidos.add(nome)
+    por_nome = {(r.get("name") or ""): r for r in repos}
+    for c in PROJETOS:
+        r = por_nome.get(c["repo"].split("/", 1)[1])
+        if r and not c.get("descricao"):
+            c["descricao"] = r.get("description") or ""
     if nomes:
         PROJETOS[:] = [c for c in PROJETOS if c["repo"].split("/", 1)[1] in nomes]
     return PROJETOS

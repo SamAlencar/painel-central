@@ -43,7 +43,7 @@ SCHEMA_REF = "../schema/modulo.schema.json"
 ORDEM_FIXA = ["vtx", "4medco", "dark-channel"]
 DARK_REPOS = {"dark-channel-playbook"}
 RE_DATA = re.compile(r"\((20\d{2}-\d{2}-\d{2})\)\s*$")
-RE_ID = re.compile(r"\b([A-Z]{1,6}-\d{1,4})\b")
+RE_ID = re.compile(r"\b([A-Z]{1,6}-(?:[A-Z]{1,3}-?)?\d{1,4})\b")
 GENERICO = re.compile(r"(?i)^(?:verifica(?:ção|cao)|geral|notas|introdução|introducao)$")
 
 

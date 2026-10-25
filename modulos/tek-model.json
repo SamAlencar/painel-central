@@ -7,7 +7,7 @@
     "nome": "Eng/Tek",
     "papel": "Engenharia: cálculo, documento, modelo e estúdio"
   },
-  "resumo": "Tekto Model: 88 de 260 tarefas concluídas (33,8%). 64 dúvidas de backlog abertas.",
+  "resumo": "Tekto Model: 89 de 260 tarefas concluídas (34,2%). 65 dúvidas de backlog abertas.",
   "exemplo": false,
   "fonte": {
     "tipo": "github",
@@ -17,7 +17,7 @@
   "saude": {
     "motivo": "Entrega em 25/10/2026."
   },
-  "atualizado_em": "2026-10-25T11:21:00-03:00",
+  "atualizado_em": "2026-10-25T15:47:00-03:00",
   "projetos": [
     {
       "id": "model",
@@ -29,11 +29,11 @@
       "saude": "saudavel",
       "saude_motivo": "Entrega em 25/10/2026.",
       "progresso": {
-        "feitos": 88,
+        "feitos": 89,
         "total": 260,
-        "percentual": 33.8
+        "percentual": 34.2
       },
-      "ultima_atividade": "2026-10-25T11:21:00-03:00",
+      "ultima_atividade": "2026-10-25T15:47:00-03:00",
       "nota": "Ritmo planejado: 2 tarefas/dia. Previsão de término: 2027-01-19.",
       "frentes": [
         {
@@ -56,9 +56,9 @@
         },
         {
           "nome": "Nova visão do Model (D-075)",
-          "feitos": 0,
+          "feitos": 1,
           "total": 20,
-          "percentual": 0.0
+          "percentual": 5.0
         },
         {
           "nome": "Aço",
@@ -111,10 +111,6 @@
       ],
       "destaques": [
         {
-          "id": "TM-241",
-          "texto": "Estrutura de pastas da nova visão"
-        },
-        {
           "id": "TM-242",
           "texto": "Formato da lista de modificações pendentes"
         },
@@ -125,6 +121,10 @@
         {
           "id": "TM-244",
           "texto": "Aba pyRevit Tekto.tab mínima"
+        },
+        {
+          "id": "TM-245",
+          "texto": "Botão Pendências: listar e destacar elementos"
         }
       ]
     }
@@ -142,7 +142,7 @@
     {
       "nome": "Backlog do Tekto Model",
       "frequencia": "diária",
-      "ultima_execucao": "2026-10-25T11:21:00-03:00",
+      "ultima_execucao": "2026-10-25T15:47:00-03:00",
       "status": "em_dia",
       "nota": "2 tarefas/dia"
     }
@@ -779,6 +779,16 @@
       "link": null
     },
     {
+      "id": "model-D-077",
+      "titulo": "D-077 — Duas pastas Tekto.extension e README.md dentro da aba pyRevit",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "model",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
       "id": "model-TM-234",
       "titulo": "Decisão na TM-234 (24/10/2026)",
       "detalhe": null,
@@ -790,6 +800,12 @@
     }
   ],
   "atividade": [
+    {
+      "quando": "2026-10-25T15:47:00-03:00",
+      "resumo": "Mesclou em Tekto Model: TM-241: estrutura de pastas da nova visão",
+      "projeto_id": "model",
+      "link": "https://github.com/SamAlencar/tek-model/pull/52"
+    },
     {
       "quando": "2026-10-25T11:21:00-03:00",
       "resumo": "Mesclou em Tekto Model: docs: D-076, tek-model também serve o tek-studio (TM-256..259)",

@@ -26,14 +26,14 @@ Dúvida aberta no backlog não é, sozinha, uma aprovação formal. Itens de mó
 - D-005 — Escala de nível de desenvolvimento BIM
 - … e mais 39 no site e em `modulos/tek-docs.json`
 
-### Tekto Model · Eng/Tek · 64
+### Tekto Model · Eng/Tek · 65
 
 - Verificação de 21/10/2026
 - Verificação de 24/10/2026
 - Verificação de 25/10/2026
 - Verificação de 18/10/2026
 - Verificação de 23/10/2026
-- … e mais 59 no site e em `modulos/tek-model.json`
+- … e mais 60 no site e em `modulos/tek-model.json`
 
 ### Tek Team · Eng/Tek · 12
 
@@ -101,7 +101,7 @@ Prazos:
 
 ### Tekto Model · Eng/Tek · saudável
 
-Tekto Model: 88 de 260 tarefas concluídas (33,8%). 64 dúvidas de backlog abertas.
+Tekto Model: 89 de 260 tarefas concluídas (34,2%). 65 dúvidas de backlog abertas.
 
 Fonte: github. Atualizado em: 25/10/2026.
 
@@ -109,7 +109,7 @@ Entrega em 25/10/2026.
 
 | Projeto | Saúde | Progresso | Última atividade |
 | --- | --- | --- | --- |
-| Tekto Model | saudável | 88/260 (33,8%) | 25/10/2026 |
+| Tekto Model | saudável | 89/260 (34,2%) | 25/10/2026 |
 
 Rotinas:
 
