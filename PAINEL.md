@@ -123,7 +123,7 @@ Prazos:
 
 ### Tekto Studio · Eng/Tek · saudável
 
-Tekto Studio: 10 de 37 tarefas concluídas (27%). 0 dúvidas de backlog abertas.
+Tekto Studio: 11 de 38 tarefas concluídas (28,9%). 0 dúvidas de backlog abertas.
 
 Fonte: github. Atualizado em: 25/10/2026.
 
@@ -131,7 +131,7 @@ Entrega em 25/10/2026.
 
 | Projeto | Saúde | Progresso | Última atividade |
 | --- | --- | --- | --- |
-| Tekto Studio | saudável | 10/37 (27%) | 25/10/2026 |
+| Tekto Studio | saudável | 11/38 (28,9%) | 25/10/2026 |
 
 Rotinas:
 
