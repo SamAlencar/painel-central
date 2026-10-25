@@ -829,12 +829,6 @@
       "resumo": "Mesclou em Tekto Model: D-075: nova visão do Model",
       "projeto_id": "model",
       "link": "https://github.com/SamAlencar/tek-model/pull/48"
-    },
-    {
-      "quando": "2026-10-25T10:35:00-03:00",
-      "resumo": "Mesclou em Tekto Model: docs: atualiza URLs para o novo nome do repositório (tek-*)",
-      "projeto_id": "model",
-      "link": "https://github.com/SamAlencar/tek-model/pull/47"
     }
   ],
   "links": [

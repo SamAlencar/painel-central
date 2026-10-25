@@ -7,7 +7,7 @@
     "nome": "Eng/Tek",
     "papel": "Engenharia: cálculo, documento, modelo e estúdio"
   },
-  "resumo": "Tekto Studio: 11 de 55 tarefas concluídas (20%). 0 dúvidas de backlog abertas.",
+  "resumo": "Tekto Studio: 11 de 58 tarefas concluídas (19%). 0 dúvidas de backlog abertas.",
   "exemplo": false,
   "fonte": {
     "tipo": "github",
@@ -17,7 +17,7 @@
   "saude": {
     "motivo": "Entrega em 25/10/2026."
   },
-  "atualizado_em": "2026-10-25T11:21:00-03:00",
+  "atualizado_em": "2026-10-25T18:19:00-03:00",
   "projetos": [
     {
       "id": "studio",
@@ -30,16 +30,16 @@
       "saude_motivo": "Entrega em 25/10/2026.",
       "progresso": {
         "feitos": 11,
-        "total": 55,
-        "percentual": 20.0
+        "total": 58,
+        "percentual": 19.0
       },
-      "ultima_atividade": "2026-10-25T11:21:00-03:00",
-      "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2026-12-08.",
+      "ultima_atividade": "2026-10-25T18:19:00-03:00",
+      "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2026-12-11.",
       "frentes": [
         {
           "nome": "Fase M — MVP da especificação \"Vibe Coding BIM\" (25/10/2026, TS-D12)",
           "feitos": 0,
-          "total": 17,
+          "total": 20,
           "percentual": 0.0
         },
         {
@@ -109,7 +109,7 @@
     {
       "id": "studio-previsao",
       "titulo": "Previsão de término no ritmo planejado — Tekto Studio",
-      "data": "2026-12-08",
+      "data": "2026-12-11",
       "projeto_id": "studio",
       "tipo": "previsao"
     }
@@ -118,13 +118,19 @@
     {
       "nome": "Backlog do Tekto Studio",
       "frequencia": "diária",
-      "ultima_execucao": "2026-10-25T11:21:00-03:00",
+      "ultima_execucao": "2026-10-25T18:19:00-03:00",
       "status": "em_dia",
       "nota": "1 tarefa/dia"
     }
   ],
   "aguardando_samuel": [],
   "atividade": [
+    {
+      "quando": "2026-10-25T18:19:00-03:00",
+      "resumo": "Mesclou em Tekto Studio: docs: estudo do BIMCraft como referência (TS-D15, propostas TS-087..089)",
+      "projeto_id": "studio",
+      "link": "https://github.com/SamAlencar/tek-studio/pull/11"
+    },
     {
       "quando": "2026-10-25T11:21:00-03:00",
       "resumo": "Mesclou em Tekto Studio: docs: TS-D13 respondida, TS-D14 resolução de elementos (catálogo → tek-model → usuário), TS-083..085",
