@@ -589,12 +589,6 @@
       "resumo": "Mesclou em Tekto Docs: docs: atualiza URLs para o novo nome do repositório (tek-*)",
       "projeto_id": "docs",
       "link": "https://github.com/SamAlencar/tek-docs/pull/26"
-    },
-    {
-      "quando": "2026-10-25T08:17:00-03:00",
-      "resumo": "Mesclou em Tekto Docs: TD-025: ficha de cimento Portland (NBR 16697:2018)",
-      "projeto_id": "docs",
-      "link": "https://github.com/SamAlencar/tek-docs/pull/25"
     }
   ],
   "links": [

@@ -101,7 +101,7 @@ Prazos:
 
 ### Tekto Model · Eng/Tek · saudável
 
-Tekto Model: 88 de 240 tarefas concluídas (36,7%). 64 dúvidas de backlog abertas.
+Tekto Model: 88 de 260 tarefas concluídas (33,8%). 64 dúvidas de backlog abertas.
 
 Fonte: github. Atualizado em: 25/10/2026.
 
@@ -109,7 +109,7 @@ Entrega em 25/10/2026.
 
 | Projeto | Saúde | Progresso | Última atividade |
 | --- | --- | --- | --- |
-| Tekto Model | saudável | 88/240 (36,7%) | 25/10/2026 |
+| Tekto Model | saudável | 88/260 (33,8%) | 25/10/2026 |
 
 Rotinas:
 
@@ -117,13 +117,13 @@ Rotinas:
 
 Prazos:
 
-- 09/01/2027 — Previsão de término no ritmo planejado — Tekto Model
+- 19/01/2027 — Previsão de término no ritmo planejado — Tekto Model
 
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
 
 ### Tekto Studio · Eng/Tek · saudável
 
-Tekto Studio: 11 de 38 tarefas concluídas (28,9%). 0 dúvidas de backlog abertas.
+Tekto Studio: 11 de 55 tarefas concluídas (20%). 0 dúvidas de backlog abertas.
 
 Fonte: github. Atualizado em: 25/10/2026.
 
@@ -131,7 +131,7 @@ Entrega em 25/10/2026.
 
 | Projeto | Saúde | Progresso | Última atividade |
 | --- | --- | --- | --- |
-| Tekto Studio | saudável | 11/38 (28,9%) | 25/10/2026 |
+| Tekto Studio | saudável | 11/55 (20%) | 25/10/2026 |
 
 Rotinas:
 
@@ -139,7 +139,7 @@ Rotinas:
 
 Prazos:
 
-- 21/11/2026 — Previsão de término no ritmo planejado — Tekto Studio
+- 08/12/2026 — Previsão de término no ritmo planejado — Tekto Studio
 
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
 
@@ -189,23 +189,23 @@ Prazos:
 
 ### Tek Catalog · Eng/Tek · saudável
 
-Tek Catalog: 2 de 31 tarefas concluídas (6,5%). 10 dúvidas de backlog abertas.
+Tek Catalog: 3 de 31 tarefas concluídas (9,7%). 10 dúvidas de backlog abertas.
 
-Fonte: github. Atualizado em: 24/10/2026.
+Fonte: github. Atualizado em: 25/10/2026.
 
-Entrega em 24/10/2026.
+Entrega em 25/10/2026.
 
 | Projeto | Saúde | Progresso | Última atividade |
 | --- | --- | --- | --- |
-| Tek Catalog | saudável | 2/31 (6,5%) | 24/10/2026 |
+| Tek Catalog | saudável | 3/31 (9,7%) | 25/10/2026 |
 
 Rotinas:
 
-- Backlog do Tek Catalog — diária — última 24/10/2026 — em dia
+- Backlog do Tek Catalog — diária — última 25/10/2026 — em dia
 
 Prazos:
 
-- 23/11/2026 — Previsão de término no ritmo planejado — Tek Catalog
+- 22/11/2026 — Previsão de término no ritmo planejado — Tek Catalog
 
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
 

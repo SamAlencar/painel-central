@@ -189,14 +189,7 @@
       "link": null
     }
   ],
-  "atividade": [
-    {
-      "quando": "2026-10-25T07:50:00-03:00",
-      "resumo": "Mesclou em Tekto Calc: TC-123: Pydantic na borda das ferramentas de SPDA, risco (7)",
-      "projeto_id": "calc",
-      "link": "https://github.com/SamAlencar/tek-calc/pull/41"
-    }
-  ],
+  "atividade": [],
   "links": [
     {
       "rotulo": "Tekto Calc",

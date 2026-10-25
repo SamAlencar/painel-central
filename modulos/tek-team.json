@@ -263,12 +263,6 @@
       "resumo": "Mesclou em Tek Team: docs: atualiza URLs para o novo nome do repositório (tek-*)",
       "projeto_id": "team",
       "link": "https://github.com/SamAlencar/tek-team/pull/14"
-    },
-    {
-      "quando": "2026-10-25T09:57:00-03:00",
-      "resumo": "Mesclou em Tek Team: TT-009 — Pesquisa: agentes, skills e rotinas do Grok Bot",
-      "projeto_id": "team",
-      "link": "https://github.com/SamAlencar/tek-team/pull/13"
     }
   ],
   "links": [

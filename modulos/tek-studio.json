@@ -7,7 +7,7 @@
     "nome": "Eng/Tek",
     "papel": "Engenharia: cálculo, documento, modelo e estúdio"
   },
-  "resumo": "Tekto Studio: 11 de 38 tarefas concluídas (28,9%). 0 dúvidas de backlog abertas.",
+  "resumo": "Tekto Studio: 11 de 55 tarefas concluídas (20%). 0 dúvidas de backlog abertas.",
   "exemplo": false,
   "fonte": {
     "tipo": "github",
@@ -17,7 +17,7 @@
   "saude": {
     "motivo": "Entrega em 25/10/2026."
   },
-  "atualizado_em": "2026-10-25T10:39:00-03:00",
+  "atualizado_em": "2026-10-25T11:21:00-03:00",
   "projetos": [
     {
       "id": "studio",
@@ -30,12 +30,18 @@
       "saude_motivo": "Entrega em 25/10/2026.",
       "progresso": {
         "feitos": 11,
-        "total": 38,
-        "percentual": 28.9
+        "total": 55,
+        "percentual": 20.0
       },
-      "ultima_atividade": "2026-10-25T10:39:00-03:00",
-      "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2026-11-21.",
+      "ultima_atividade": "2026-10-25T11:21:00-03:00",
+      "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2026-12-08.",
       "frentes": [
+        {
+          "nome": "Fase M — MVP da especificação \"Vibe Coding BIM\" (25/10/2026, TS-D12)",
+          "feitos": 0,
+          "total": 17,
+          "percentual": 0.0
+        },
         {
           "nome": "Fase 2 — Integração do núcleo (8)",
           "feitos": 0,
@@ -81,20 +87,20 @@
       ],
       "destaques": [
         {
-          "id": "TS-006 (bloqueado: TS-D10)",
-          "texto": "Dependência do tekto-model (via git, versão fixada; DT-005 do Model)"
+          "id": "TS-070",
+          "texto": "Registro de licenças das dependências previstas (Speckle, IfcOpenShell, PgVector etc.) em docs/LICENCAS.md"
         },
         {
-          "id": "TS-013 [S]",
-          "texto": "Piloto: Samuel roda REA no Robot 2027 e preenche 1 spec da flexão de viga de concreto armado (TS-D06)"
+          "id": "TS-071",
+          "texto": "Esquema Pydantic do cartão de proposta (regra aplicada, cálculo, ação proposta, situação)"
         },
         {
-          "id": "TS-014",
-          "texto": "Revisão do piloto e ajuste do template"
+          "id": "TS-072",
+          "texto": "Fila de propostas com aprovar / editar parâmetros / recusar, gravando cada decisão na auditoria"
         },
         {
-          "id": "TS-020 (aguarda TS-013: ainda não há sp…",
-          "texto": "Mapear specs do Robot contra o que o tekto-calc já tem; listar lacunas"
+          "id": "TS-079",
+          "texto": "Cliente MCP direto ao servidor tekto-calc (sem tek-model)"
         }
       ]
     }
@@ -103,7 +109,7 @@
     {
       "id": "studio-previsao",
       "titulo": "Previsão de término no ritmo planejado — Tekto Studio",
-      "data": "2026-11-21",
+      "data": "2026-12-08",
       "projeto_id": "studio",
       "tipo": "previsao"
     }
@@ -112,7 +118,7 @@
     {
       "nome": "Backlog do Tekto Studio",
       "frequencia": "diária",
-      "ultima_execucao": "2026-10-25T10:39:00-03:00",
+      "ultima_execucao": "2026-10-25T11:21:00-03:00",
       "status": "em_dia",
       "nota": "1 tarefa/dia"
     }
@@ -120,16 +126,22 @@
   "aguardando_samuel": [],
   "atividade": [
     {
+      "quando": "2026-10-25T11:21:00-03:00",
+      "resumo": "Mesclou em Tekto Studio: docs: TS-D13 respondida, TS-D14 resolução de elementos (catálogo → tek-model → usuário), TS-083..085",
+      "projeto_id": "studio",
+      "link": "https://github.com/SamAlencar/tek-studio/pull/10"
+    },
+    {
+      "quando": "2026-10-25T11:09:00-03:00",
+      "resumo": "Mesclou em Tekto Studio: docs: especificação Vibe Coding BIM, análise, Fase M no backlog e TS-D12/TS-D13",
+      "projeto_id": "studio",
+      "link": "https://github.com/SamAlencar/tek-studio/pull/9"
+    },
+    {
       "quando": "2026-10-25T10:39:00-03:00",
       "resumo": "Mesclou em Tekto Studio: TS-062: exportação da auditoria em Markdown anexável ao memorial (CLI)",
       "projeto_id": "studio",
       "link": "https://github.com/SamAlencar/tek-studio/pull/8"
-    },
-    {
-      "quando": "2026-10-25T10:35:00-03:00",
-      "resumo": "Mesclou em Tekto Studio: docs: atualiza URLs para o novo nome do repositório (tek-*)",
-      "projeto_id": "studio",
-      "link": "https://github.com/SamAlencar/tek-studio/pull/7"
     }
   ],
   "links": [

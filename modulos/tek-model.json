@@ -7,7 +7,7 @@
     "nome": "Eng/Tek",
     "papel": "Engenharia: cálculo, documento, modelo e estúdio"
   },
-  "resumo": "Tekto Model: 88 de 240 tarefas concluídas (36,7%). 64 dúvidas de backlog abertas.",
+  "resumo": "Tekto Model: 88 de 260 tarefas concluídas (33,8%). 64 dúvidas de backlog abertas.",
   "exemplo": false,
   "fonte": {
     "tipo": "github",
@@ -17,7 +17,7 @@
   "saude": {
     "motivo": "Entrega em 25/10/2026."
   },
-  "atualizado_em": "2026-10-25T10:35:00-03:00",
+  "atualizado_em": "2026-10-25T11:21:00-03:00",
   "projetos": [
     {
       "id": "model",
@@ -30,11 +30,11 @@
       "saude_motivo": "Entrega em 25/10/2026.",
       "progresso": {
         "feitos": 88,
-        "total": 240,
-        "percentual": 36.7
+        "total": 260,
+        "percentual": 33.8
       },
-      "ultima_atividade": "2026-10-25T10:35:00-03:00",
-      "nota": "Ritmo planejado: 2 tarefas/dia. Previsão de término: 2027-01-09.",
+      "ultima_atividade": "2026-10-25T11:21:00-03:00",
+      "nota": "Ritmo planejado: 2 tarefas/dia. Previsão de término: 2027-01-19.",
       "frentes": [
         {
           "nome": "Viabilidade para a plataforma",
@@ -52,6 +52,12 @@
           "nome": "Instalações elétricas",
           "feitos": 0,
           "total": 21,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Nova visão do Model (D-075)",
+          "feitos": 0,
+          "total": 20,
           "percentual": 0.0
         },
         {
@@ -101,30 +107,24 @@
           "feitos": 0,
           "total": 8,
           "percentual": 0.0
-        },
-        {
-          "nome": "Núcleo transversal",
-          "feitos": 7,
-          "total": 7,
-          "percentual": 100.0
         }
       ],
       "destaques": [
         {
-          "id": "TM-240",
-          "texto": "Botão Dimensionar: pilar de concreto"
+          "id": "TM-241",
+          "texto": "Estrutura de pastas da nova visão"
         },
         {
-          "id": "TM-236",
-          "texto": "Instalação do plug-in express e roteiro de aceite"
+          "id": "TM-242",
+          "texto": "Formato da lista de modificações pendentes"
         },
         {
-          "id": "TM-018",
-          "texto": "Famílias de fundação Tekto"
+          "id": "TM-243",
+          "texto": "Primeiras regras de trabalho da IA no Revit"
         },
         {
-          "id": "TM-237",
-          "texto": "Tipos de parede de alvenaria e de sapata corrida no template Tekto"
+          "id": "TM-244",
+          "texto": "Aba pyRevit Tekto.tab mínima"
         }
       ]
     }
@@ -133,7 +133,7 @@
     {
       "id": "model-previsao",
       "titulo": "Previsão de término no ritmo planejado — Tekto Model",
-      "data": "2027-01-09",
+      "data": "2027-01-19",
       "projeto_id": "model",
       "tipo": "previsao"
     }
@@ -142,7 +142,7 @@
     {
       "nome": "Backlog do Tekto Model",
       "frequencia": "diária",
-      "ultima_execucao": "2026-10-25T10:35:00-03:00",
+      "ultima_execucao": "2026-10-25T11:21:00-03:00",
       "status": "em_dia",
       "nota": "2 tarefas/dia"
     }
@@ -250,7 +250,7 @@
     },
     {
       "id": "model-D-009",
-      "titulo": "D-009 — Contrato publicado do tekto-calc",
+      "titulo": "D-009 — Contrato publicado do tek-calc",
       "detalhe": null,
       "desde": null,
       "projeto_id": "model",
@@ -791,22 +791,34 @@
   ],
   "atividade": [
     {
+      "quando": "2026-10-25T11:21:00-03:00",
+      "resumo": "Mesclou em Tekto Model: docs: D-076, tek-model também serve o tek-studio (TM-256..259)",
+      "projeto_id": "model",
+      "link": "https://github.com/SamAlencar/tek-model/pull/51"
+    },
+    {
+      "quando": "2026-10-25T11:13:00-03:00",
+      "resumo": "Mesclou em Tekto Model: D-075: mais 10 tarefas Revit/Dynamo viram scripts de exemplo para a IA",
+      "projeto_id": "model",
+      "link": "https://github.com/SamAlencar/tek-model/pull/50"
+    },
+    {
+      "quando": "2026-10-25T11:08:00-03:00",
+      "resumo": "Mesclou em Tekto Model: D-075: fecha a dúvida (meta de janeiro e scripts de exemplo)",
+      "projeto_id": "model",
+      "link": "https://github.com/SamAlencar/tek-model/pull/49"
+    },
+    {
+      "quando": "2026-10-25T10:52:00-03:00",
+      "resumo": "Mesclou em Tekto Model: D-075: nova visão do Model",
+      "projeto_id": "model",
+      "link": "https://github.com/SamAlencar/tek-model/pull/48"
+    },
+    {
       "quando": "2026-10-25T10:35:00-03:00",
       "resumo": "Mesclou em Tekto Model: docs: atualiza URLs para o novo nome do repositório (tek-*)",
       "projeto_id": "model",
       "link": "https://github.com/SamAlencar/tek-model/pull/47"
-    },
-    {
-      "quando": "2026-10-25T09:00:00-03:00",
-      "resumo": "Mesclou em Tekto Model: TM-235: memorial do tekto-calc ao lado do .rvt (Tekto_Memorial_Calc)",
-      "projeto_id": "model",
-      "link": "https://github.com/SamAlencar/tek-model/pull/46"
-    },
-    {
-      "quando": "2026-10-24T15:56:00-03:00",
-      "resumo": "Mesclou em Tekto Model: TM-234: botão pyRevit Dimensionar da viga no tekto-calc",
-      "projeto_id": "model",
-      "link": "https://github.com/SamAlencar/tek-model/pull/45"
     }
   ],
   "links": [

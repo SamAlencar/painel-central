@@ -7,7 +7,7 @@
     "nome": "Eng/Tek",
     "papel": "Engenharia: cálculo, documento, modelo e estúdio"
   },
-  "resumo": "Tek Catalog: 2 de 31 tarefas concluídas (6,5%). 10 dúvidas de backlog abertas.",
+  "resumo": "Tek Catalog: 3 de 31 tarefas concluídas (9,7%). 10 dúvidas de backlog abertas.",
   "exemplo": false,
   "fonte": {
     "tipo": "github",
@@ -15,9 +15,9 @@
   },
   "status": "saudavel",
   "saude": {
-    "motivo": "Entrega em 24/10/2026."
+    "motivo": "Entrega em 25/10/2026."
   },
-  "atualizado_em": "2026-10-24T18:41:00-03:00",
+  "atualizado_em": "2026-10-25T11:17:00-03:00",
   "projetos": [
     {
       "id": "catalog",
@@ -27,27 +27,23 @@
       "descricao": "Catálogo Tekto de materiais da construção civil com IFC 4.3",
       "status": "ativo",
       "saude": "saudavel",
-      "saude_motivo": "Entrega em 24/10/2026.",
+      "saude_motivo": "Entrega em 25/10/2026.",
       "progresso": {
-        "feitos": 2,
+        "feitos": 3,
         "total": 31,
-        "percentual": 6.5
+        "percentual": 9.7
       },
-      "ultima_atividade": "2026-10-24T18:41:00-03:00",
-      "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2026-11-23.",
+      "ultima_atividade": "2026-10-25T11:17:00-03:00",
+      "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2026-11-22.",
       "frentes": [
         {
           "nome": "Etapas",
-          "feitos": 2,
+          "feitos": 3,
           "total": 31,
-          "percentual": 6.5
+          "percentual": 9.7
         }
       ],
       "destaques": [
-        {
-          "id": "TK-003",
-          "texto": "Esquema JSON da ficha (item.schema.json)"
-        },
         {
           "id": "TK-004",
           "texto": "Script gerar_indice.py (index.json)"
@@ -59,6 +55,10 @@
         {
           "id": "TK-006",
           "texto": "Base comum IfcOpenShell (projeto, unidades, tipo, material)"
+        },
+        {
+          "id": "TK-007",
+          "texto": "IDS base por categoria (classe, PredefinedType, Psets)"
         }
       ]
     }
@@ -67,7 +67,7 @@
     {
       "id": "catalog-previsao",
       "titulo": "Previsão de término no ritmo planejado — Tek Catalog",
-      "data": "2026-11-23",
+      "data": "2026-11-22",
       "projeto_id": "catalog",
       "tipo": "previsao"
     }
@@ -76,7 +76,7 @@
     {
       "nome": "Backlog do Tek Catalog",
       "frequencia": "diária",
-      "ultima_execucao": "2026-10-24T18:41:00-03:00",
+      "ultima_execucao": "2026-10-25T11:17:00-03:00",
       "status": "em_dia",
       "nota": "1 tarefa/dia"
     }
@@ -185,16 +185,16 @@
   ],
   "atividade": [
     {
-      "quando": "2026-10-24T18:41:00-03:00",
-      "resumo": "Mesclou em Tek Catalog: Corrige formatação Markdown",
+      "quando": "2026-10-25T11:17:00-03:00",
+      "resumo": "Mesclou em Tek Catalog: docs: nota de que o tek-studio consome o catálogo (complementa o tek-model)",
       "projeto_id": "catalog",
-      "link": "https://github.com/SamAlencar/tek-catalog/pull/2"
+      "link": "https://github.com/SamAlencar/tek-catalog/pull/4"
     },
     {
-      "quando": "2026-10-24T18:41:00-03:00",
-      "resumo": "Mesclou em Tek Catalog: Material, texturas e variantes (TK-028..TK-031); D-004/D-005",
+      "quando": "2026-10-25T11:14:00-03:00",
+      "resumo": "Mesclou em Tek Catalog: TK-003: esquema JSON da ficha (item.schema.json)",
       "projeto_id": "catalog",
-      "link": "https://github.com/SamAlencar/tek-catalog/pull/1"
+      "link": "https://github.com/SamAlencar/tek-catalog/pull/3"
     }
   ],
   "links": [
