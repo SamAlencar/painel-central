@@ -830,9 +830,9 @@ def separar_tekto(doc: dict, mid: str) -> dict | None:
     prog = projeto.get("progresso")
     fila = [i for i in doc["aguardando_samuel"] if i.get("projeto_id") == pid]
     if prog:
-        resumo = f"{nome}: {prog['feitos']} de {prog['total']} tarefas concluídas ({pct_txt(prog['percentual'])}%). {len(fila)} dúvidas de backlog abertas."
+        resumo = f"{nome} — {prog['feitos']} de {prog['total']} tarefas concluídas ({pct_txt(prog['percentual'])}%). {len(fila)} dúvidas de backlog abertas."
     else:
-        resumo = f"{nome}: sem contagem de backlog publicada. {len(fila)} dúvidas de backlog abertas."
+        resumo = f"{nome} — sem contagem de backlog publicada. {len(fila)} dúvidas de backlog abertas."
     rotinas = [r for r in doc["rotinas"] if nome.lower() in r["nome"].lower()]
     links = [l for l in doc["links"] if l["rotulo"] == nome]
     return base(
@@ -975,6 +975,7 @@ def main(argv: list[str]) -> int:
     print(f"github: {gh.modo}")
     MODULOS.mkdir(exist_ok=True)
     global ORDEM
+    pulados = []
     if not painel_apenas:
         ORDEM = montar_ordem(gh)
         (ROOT / "config" / "ordem.json").write_text(json.dumps(ORDEM, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
@@ -1000,8 +1001,9 @@ def main(argv: list[str]) -> int:
             if atual:
                 print(f"aviso: {mid} mantido após falha ({exc})")
                 continue
-            print(f"erro: {mid} falhou e não há arquivo anterior ({exc})", file=sys.stderr)
-            return 1
+            print(f"aviso: {mid} falhou e não há arquivo anterior ({exc}); módulo fica de fora nesta execução.")
+            pulados.append(mid)
+            continue
         if novo is None:
             if atual is None or (semear and atual.get("fonte", {}).get("tipo") == "exemplo"):
                 novo = semente(mid)
@@ -1011,9 +1013,21 @@ def main(argv: list[str]) -> int:
         elif atual and atual.get("fonte", {}).get("tipo") == "exemplo" and novo.get("fonte", {}).get("tipo") == "exemplo" and not semear:
             print(f"{mid}: exemplo mantido")
             continue
-        _checar(novo)
+        erros_mod = mensagens(novo, novo.get("id", mid))
+        if erros_mod:
+            for linha in erros_mod:
+                print(f"aviso: {linha}")
+            if atual:
+                print(f"aviso: {mid} reprovado no filtro; mantida a versão anterior.")
+            else:
+                print(f"aviso: {mid} reprovado no filtro e sem versão anterior; módulo fica de fora nesta execução.")
+                pulados.append(mid)
+            continue
         gravar(novo)
         print(f"{mid}: escrito ({novo['fonte']['tipo']}, {novo['status']})")
+    if pulados:
+        ORDEM = [m for m in ORDEM if m not in pulados]
+        (ROOT / "config" / "ordem.json").write_text(json.dumps(ORDEM, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     docs = []
     for mid in ORDEM:
         doc = carregar(mid)
