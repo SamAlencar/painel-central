@@ -7,7 +7,7 @@
     "nome": "Vix",
     "papel": "Operação da VTX, empresa de TI tocada por agentes"
   },
-  "resumo": "Criação da base de conhecimento e documentação de diretrizes. 38 de 142 tarefas concluídas. A rotina diária tem registro em 25/10/2026.",
+  "resumo": "Criação da base de conhecimento e documentação de diretrizes. 42 de 142 tarefas concluídas. A rotina diária tem registro em 27/10/2026.",
   "exemplo": false,
   "fonte": {
     "tipo": "github",
@@ -15,9 +15,9 @@
   },
   "status": "saudavel",
   "saude": {
-    "motivo": "Rotina diária em 25/10/2026."
+    "motivo": "Rotina diária em 27/10/2026."
   },
-  "atualizado_em": "2026-10-25T12:00:00-03:00",
+  "atualizado_em": "2026-10-27T12:00:00-03:00",
   "projetos": [
     {
       "id": "vtx-core",
@@ -27,20 +27,20 @@
       "descricao": "Criação da base de conhecimento e documentação de diretrizes",
       "status": "ativo",
       "saude": "saudavel",
-      "saude_motivo": "Rotina diária em 25/10/2026.",
+      "saude_motivo": "Rotina diária em 27/10/2026.",
       "progresso": {
-        "feitos": 38,
+        "feitos": 42,
         "total": 142,
-        "percentual": 26.8
+        "percentual": 29.6
       },
-      "ultima_atividade": "2026-10-25T12:00:00-03:00",
+      "ultima_atividade": "2026-10-27T12:00:00-03:00",
       "nota": "Tarefas de construir a fila de aprovação não entram como pedido ao Samuel.",
       "frentes": [
         {
           "nome": "Catálogo de ferramentas",
-          "feitos": 2,
+          "feitos": 3,
           "total": 35,
-          "percentual": 5.7
+          "percentual": 8.6
         },
         {
           "nome": "Plataforma de acompanhamento (projeto interno)",
@@ -86,9 +86,9 @@
         },
         {
           "nome": "Tecnologia e plataformas",
-          "feitos": 3,
+          "feitos": 6,
           "total": 6,
-          "percentual": 50.0
+          "percentual": 100.0
         },
         {
           "nome": "Templates de artefatos",
@@ -111,20 +111,20 @@
       ],
       "destaques": [
         {
-          "id": "VTX-026",
-          "texto": "Desenvolvimento frontend web"
+          "id": "VTX-100",
+          "texto": "Ferramenta: Supabase (banco, auth, storage)"
         },
         {
-          "id": "VTX-027",
-          "texto": "Desenvolvimento mobile"
+          "id": "VTX-101",
+          "texto": "Ferramenta: GitHub e GitHub Actions"
         },
         {
-          "id": "VTX-028",
-          "texto": "UX/UI e acessibilidade"
+          "id": "VTX-102",
+          "texto": "Ferramenta: Cursor (regras, agentes locais e na nuvem)"
         },
         {
-          "id": "VTX-099",
-          "texto": "Ferramenta: Vercel"
+          "id": "VTX-142",
+          "texto": "Vídeos de divulgação com HyperFrames (render local)"
         }
       ]
     }
@@ -134,13 +134,37 @@
     {
       "nome": "Backlog diário da VTX",
       "frequencia": "diária",
-      "ultima_execucao": "2026-10-25T12:00:00-03:00",
+      "ultima_execucao": "2026-10-27T12:00:00-03:00",
       "status": "em_dia",
       "nota": "Conclusões do dia no backlog público."
     }
   ],
   "aguardando_samuel": [],
   "atividade": [
+    {
+      "quando": "2026-10-27T12:00:00-03:00",
+      "resumo": "Concluiu VTX-028 — UX/UI e acessibilidade",
+      "projeto_id": "vtx-core",
+      "link": null
+    },
+    {
+      "quando": "2026-10-27T12:00:00-03:00",
+      "resumo": "Concluiu VTX-099 — Ferramenta: Vercel",
+      "projeto_id": "vtx-core",
+      "link": null
+    },
+    {
+      "quando": "2026-10-26T12:00:00-03:00",
+      "resumo": "Concluiu VTX-026 — Desenvolvimento frontend web",
+      "projeto_id": "vtx-core",
+      "link": null
+    },
+    {
+      "quando": "2026-10-26T12:00:00-03:00",
+      "resumo": "Concluiu VTX-027 — Desenvolvimento mobile",
+      "projeto_id": "vtx-core",
+      "link": null
+    },
     {
       "quando": "2026-10-25T12:00:00-03:00",
       "resumo": "Concluiu VTX-024 — Design de APIs",
@@ -186,30 +210,6 @@
     {
       "quando": "2026-10-22T12:00:00-03:00",
       "resumo": "Concluiu VTX-019 — Git e CI/CD",
-      "projeto_id": "vtx-core",
-      "link": null
-    },
-    {
-      "quando": "2026-10-21T12:00:00-03:00",
-      "resumo": "Concluiu VTX-130 — Pesquisa de domínio e base de conhecimento do projeto do cliente",
-      "projeto_id": "vtx-core",
-      "link": null
-    },
-    {
-      "quando": "2026-10-21T12:00:00-03:00",
-      "resumo": "Concluiu VTX-017 — Padrões de código, Clean Code e code review",
-      "projeto_id": "vtx-core",
-      "link": null
-    },
-    {
-      "quando": "2026-10-20T12:00:00-03:00",
-      "resumo": "Concluiu VTX-015 — Arquitetura de software (estilos, C4, ADRs)",
-      "projeto_id": "vtx-core",
-      "link": null
-    },
-    {
-      "quando": "2026-10-20T12:00:00-03:00",
-      "resumo": "Concluiu VTX-016 — Padrões de projeto e DDD",
       "projeto_id": "vtx-core",
       "link": null
     }

@@ -7,7 +7,7 @@
     "nome": "Eng/Tek",
     "papel": "Engenharia: cálculo, documento, modelo e estúdio"
   },
-  "resumo": "Tekto Model: 89 de 260 tarefas concluídas (34,2%). 65 dúvidas de backlog abertas.",
+  "resumo": "Tekto Model — 92 de 260 tarefas concluídas (35,4%). 67 dúvidas de backlog abertas.",
   "exemplo": false,
   "fonte": {
     "tipo": "github",
@@ -15,9 +15,9 @@
   },
   "status": "saudavel",
   "saude": {
-    "motivo": "Entrega em 25/10/2026."
+    "motivo": "Entrega em 26/10/2026."
   },
-  "atualizado_em": "2026-10-25T15:47:00-03:00",
+  "atualizado_em": "2026-10-26T15:53:00-03:00",
   "projetos": [
     {
       "id": "model",
@@ -27,14 +27,14 @@
       "descricao": "Modelagem e BIM",
       "status": "ativo",
       "saude": "saudavel",
-      "saude_motivo": "Entrega em 25/10/2026.",
+      "saude_motivo": "Entrega em 26/10/2026.",
       "progresso": {
-        "feitos": 89,
+        "feitos": 92,
         "total": 260,
-        "percentual": 34.2
+        "percentual": 35.4
       },
-      "ultima_atividade": "2026-10-25T15:47:00-03:00",
-      "nota": "Ritmo planejado: 2 tarefas/dia. Previsão de término: 2027-01-20.",
+      "ultima_atividade": "2026-10-26T15:53:00-03:00",
+      "nota": "Ritmo planejado: 2 tarefas/dia. Previsão de término: 2027-01-19.",
       "frentes": [
         {
           "nome": "Viabilidade para a plataforma",
@@ -56,9 +56,9 @@
         },
         {
           "nome": "Nova visão do Model (D-075)",
-          "feitos": 1,
+          "feitos": 4,
           "total": 20,
-          "percentual": 5.0
+          "percentual": 20.0
         },
         {
           "nome": "Aço",
@@ -111,20 +111,20 @@
       ],
       "destaques": [
         {
-          "id": "TM-242",
-          "texto": "Formato da lista de modificações pendentes"
-        },
-        {
-          "id": "TM-243",
-          "texto": "Primeiras regras de trabalho da IA no Revit"
-        },
-        {
-          "id": "TM-244",
-          "texto": "Aba pyRevit Tekto.tab mínima"
-        },
-        {
           "id": "TM-245",
           "texto": "Botão Pendências: listar e destacar elementos"
+        },
+        {
+          "id": "TM-256",
+          "texto": "Pasta de exemplos IfcOpenShell para o tek-studio"
+        },
+        {
+          "id": "TM-257",
+          "texto": "Índice da base de conhecimento legível por máquina"
+        },
+        {
+          "id": "TM-258",
+          "texto": "Primeiro script de exemplo IfcOpenShell: criar parede genérica"
         }
       ]
     }
@@ -133,7 +133,7 @@
     {
       "id": "model-previsao",
       "titulo": "Previsão de término no ritmo planejado — Tekto Model",
-      "data": "2027-01-20",
+      "data": "2027-01-19",
       "projeto_id": "model",
       "tipo": "previsao"
     }
@@ -142,14 +142,14 @@
     {
       "nome": "Backlog do Tekto Model",
       "frequencia": "diária",
-      "ultima_execucao": "2026-10-25T15:47:00-03:00",
+      "ultima_execucao": "2026-10-26T15:53:00-03:00",
       "status": "em_dia",
       "nota": "2 tarefas/dia"
     }
   ],
   "aguardando_samuel": [
     {
-      "id": "model-26",
+      "id": "model-27",
       "titulo": "Verificação de 21/10/2026",
       "detalhe": null,
       "desde": null,
@@ -159,7 +159,7 @@
       "link": null
     },
     {
-      "id": "model-58",
+      "id": "model-59",
       "titulo": "Verificação de 24/10/2026",
       "detalhe": null,
       "desde": null,
@@ -169,7 +169,7 @@
       "link": null
     },
     {
-      "id": "model-65",
+      "id": "model-66",
       "titulo": "Verificação de 25/10/2026",
       "detalhe": null,
       "desde": null,
@@ -189,7 +189,7 @@
       "link": null
     },
     {
-      "id": "model-74",
+      "id": "model-75",
       "titulo": "Verificação de 23/10/2026",
       "detalhe": null,
       "desde": null,
@@ -199,7 +199,7 @@
       "link": null
     },
     {
-      "id": "model-76",
+      "id": "model-77",
       "titulo": "Verificação de 21/10/2026",
       "detalhe": null,
       "desde": null,
@@ -209,7 +209,7 @@
       "link": null
     },
     {
-      "id": "model-78",
+      "id": "model-79",
       "titulo": "Verificação de 23/10/2026",
       "detalhe": null,
       "desde": null,
@@ -219,7 +219,7 @@
       "link": null
     },
     {
-      "id": "model-80",
+      "id": "model-81",
       "titulo": "Verificação de 23/10/2026",
       "detalhe": null,
       "desde": null,
@@ -789,6 +789,26 @@
       "link": null
     },
     {
+      "id": "model-D-078",
+      "titulo": "D-078 — Formato do UniqueId e regras de estado na lista de pendências",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "model",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "model-D-079",
+      "titulo": "D-079 — Exclusão aprovada antes e lote no IFC nas regras da IA",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "model",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
       "id": "model-TM-234",
       "titulo": "Decisão na TM-234 (24/10/2026)",
       "detalhe": null,
@@ -801,34 +821,22 @@
   ],
   "atividade": [
     {
-      "quando": "2026-10-25T15:47:00-03:00",
-      "resumo": "Mesclou em Tekto Model: TM-241: estrutura de pastas da nova visão",
+      "quando": "2026-10-26T15:53:00-03:00",
+      "resumo": "Mesclou em Tekto Model: TM-243: primeiras regras de trabalho da IA no Revit",
       "projeto_id": "model",
-      "link": "https://github.com/SamAlencar/tek-model/pull/52"
+      "link": "https://github.com/SamAlencar/tek-model/pull/55"
     },
     {
-      "quando": "2026-10-25T11:21:00-03:00",
-      "resumo": "Mesclou em Tekto Model: docs: D-076, tek-model também serve o tek-studio (TM-256..259)",
+      "quando": "2026-10-26T09:01:00-03:00",
+      "resumo": "Mesclou em Tekto Model: TM-244: aba pyRevit Tekto.tab mínima",
       "projeto_id": "model",
-      "link": "https://github.com/SamAlencar/tek-model/pull/51"
+      "link": "https://github.com/SamAlencar/tek-model/pull/54"
     },
     {
-      "quando": "2026-10-25T11:13:00-03:00",
-      "resumo": "Mesclou em Tekto Model: D-075: mais 10 tarefas Revit/Dynamo viram scripts de exemplo para a IA",
+      "quando": "2026-10-26T08:56:00-03:00",
+      "resumo": "Mesclou em Tekto Model: TM-242: formato da lista de modificações pendentes",
       "projeto_id": "model",
-      "link": "https://github.com/SamAlencar/tek-model/pull/50"
-    },
-    {
-      "quando": "2026-10-25T11:08:00-03:00",
-      "resumo": "Mesclou em Tekto Model: D-075: fecha a dúvida (meta de janeiro e scripts de exemplo)",
-      "projeto_id": "model",
-      "link": "https://github.com/SamAlencar/tek-model/pull/49"
-    },
-    {
-      "quando": "2026-10-25T10:52:00-03:00",
-      "resumo": "Mesclou em Tekto Model: D-075: nova visão do Model",
-      "projeto_id": "model",
-      "link": "https://github.com/SamAlencar/tek-model/pull/48"
+      "link": "https://github.com/SamAlencar/tek-model/pull/53"
     }
   ],
   "links": [
@@ -838,6 +846,7 @@
     }
   ],
   "avisos": [
-    "Cada projeto mostra no máximo 12 frentes, as de maior volume."
+    "Cada projeto mostra no máximo 12 frentes, as de maior volume.",
+    "3 trechos omitidos pelo filtro público."
   ]
 }

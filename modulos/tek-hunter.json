@@ -7,7 +7,7 @@
     "nome": "Eng/Tek",
     "papel": "Engenharia: cálculo, documento, modelo e estúdio"
   },
-  "resumo": "Tek Hunter: 2 de 24 tarefas concluídas (8,3%). 0 dúvidas de backlog abertas.",
+  "resumo": "Tek Hunter — 3 de 24 tarefas concluídas (12,5%). 2 dúvidas de backlog abertas.",
   "exemplo": false,
   "fonte": {
     "tipo": "github",
@@ -15,9 +15,9 @@
   },
   "status": "saudavel",
   "saude": {
-    "motivo": "Entrega em 23/10/2026."
+    "motivo": "Entrega em 26/10/2026."
   },
-  "atualizado_em": "2026-10-23T00:34:00-03:00",
+  "atualizado_em": "2026-10-26T09:49:00-03:00",
   "projetos": [
     {
       "id": "hunter",
@@ -27,14 +27,14 @@
       "descricao": "Base para captação de elaboração de projetos",
       "status": "ativo",
       "saude": "saudavel",
-      "saude_motivo": "Entrega em 23/10/2026.",
+      "saude_motivo": "Entrega em 26/10/2026.",
       "progresso": {
-        "feitos": 2,
+        "feitos": 3,
         "total": 24,
-        "percentual": 8.3
+        "percentual": 12.5
       },
-      "ultima_atividade": "2026-10-23T00:34:00-03:00",
-      "nota": "Ritmo planejado: 2 etapas/semana. Previsão de término: 2027-01-11.",
+      "ultima_atividade": "2026-10-26T09:49:00-03:00",
+      "nota": "Ritmo planejado: 2 etapas/semana. Previsão de término: 2027-01-09.",
       "frentes": [
         {
           "nome": "Amostra",
@@ -44,9 +44,9 @@
         },
         {
           "nome": "Fontes",
-          "feitos": 1,
+          "feitos": 2,
           "total": 6,
-          "percentual": 16.7
+          "percentual": 33.3
         },
         {
           "nome": "Sínteses",
@@ -75,10 +75,6 @@
       ],
       "destaques": [
         {
-          "id": "TH-003",
-          "texto": "Catálogo dos portais estaduais"
-        },
-        {
           "id": "TH-004",
           "texto": "Catálogo de plataformas privadas de licitação"
         },
@@ -89,6 +85,10 @@
         {
           "id": "TH-006",
           "texto": "Catálogo de plataformas de freelancer e portais de cotação"
+        },
+        {
+          "id": "TH-007",
+          "texto": "Guia da API pública do PNCP"
         }
       ]
     }
@@ -97,7 +97,7 @@
     {
       "id": "hunter-previsao",
       "titulo": "Previsão de término no ritmo planejado — Tek Hunter",
-      "data": "2027-01-11",
+      "data": "2027-01-09",
       "projeto_id": "hunter",
       "tipo": "previsao"
     }
@@ -106,13 +106,41 @@
     {
       "nome": "Backlog do Tek Hunter",
       "frequencia": "semanal",
-      "ultima_execucao": "2026-10-23T00:34:00-03:00",
+      "ultima_execucao": "2026-10-26T09:49:00-03:00",
       "status": "em_dia",
       "nota": "2 etapas/semana"
     }
   ],
-  "aguardando_samuel": [],
-  "atividade": [],
+  "aguardando_samuel": [
+    {
+      "id": "hunter-D-001",
+      "titulo": "D-001 — Catalogar órgãos de infraestrutura além do portal central de compras?",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "hunter",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "hunter-D-002",
+      "titulo": "D-002 — Reconferir PI, AP e MT",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "hunter",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    }
+  ],
+  "atividade": [
+    {
+      "quando": "2026-10-26T09:49:00-03:00",
+      "resumo": "Mesclou em Tek Hunter: TH-003: catálogo dos portais estaduais de compras (27 UFs)",
+      "projeto_id": "hunter",
+      "link": "https://github.com/SamAlencar/tek-hunter/pull/6"
+    }
+  ],
   "links": [
     {
       "rotulo": "Tek Hunter",
@@ -120,6 +148,7 @@
     }
   ],
   "avisos": [
-    "Cada projeto mostra no máximo 12 frentes, as de maior volume."
+    "Cada projeto mostra no máximo 12 frentes, as de maior volume.",
+    "3 trechos omitidos pelo filtro público."
   ]
 }

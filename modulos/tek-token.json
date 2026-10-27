@@ -1,0 +1,240 @@
+{
+  "$schema": "../schema/modulo.schema.json",
+  "id": "tek-token",
+  "nome": "Tek Token",
+  "agente": {
+    "id": "tek",
+    "nome": "Eng/Tek",
+    "papel": "Engenharia: cálculo, documento, modelo e estúdio"
+  },
+  "resumo": "Tek Token — 2 de 46 tarefas concluídas (4,3%). 10 dúvidas de backlog abertas.",
+  "exemplo": false,
+  "fonte": {
+    "tipo": "github",
+    "detalhe": "Lido via API do GitHub: docs/BACKLOG.md, docs/DUVIDAS.md e PRs mesclados. Só entram contagens, títulos curtos e datas."
+  },
+  "status": "saudavel",
+  "saude": {
+    "motivo": "Entrega em 26/10/2026."
+  },
+  "atualizado_em": "2026-10-26T11:55:00-03:00",
+  "projetos": [
+    {
+      "id": "token",
+      "nome": "Tek Token",
+      "repo": "SamAlencar/tek-token",
+      "url": "https://github.com/SamAlencar/tek-token",
+      "descricao": "Sem descrição publicada.",
+      "status": "ativo",
+      "saude": "saudavel",
+      "saude_motivo": "Entrega em 26/10/2026.",
+      "progresso": {
+        "feitos": 2,
+        "total": 46,
+        "percentual": 4.3
+      },
+      "ultima_atividade": "2026-10-26T11:55:00-03:00",
+      "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2026-12-10.",
+      "frentes": [
+        {
+          "nome": "M4 — Governança e conformidade",
+          "feitos": 0,
+          "total": 10,
+          "percentual": 0.0
+        },
+        {
+          "nome": "M3 — Tokenomics e crowdfunding",
+          "feitos": 0,
+          "total": 9,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Fundação",
+          "feitos": 2,
+          "total": 7,
+          "percentual": 28.6
+        },
+        {
+          "nome": "M1 — Tokenização de PI",
+          "feitos": 0,
+          "total": 7,
+          "percentual": 0.0
+        },
+        {
+          "nome": "M2 — Orçamento BIM 5D",
+          "feitos": 0,
+          "total": 7,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Roadmap e consolidação",
+          "feitos": 0,
+          "total": 6,
+          "percentual": 0.0
+        }
+      ],
+      "destaques": [
+        {
+          "id": "TK-T003",
+          "texto": "Convenções do repositório"
+        },
+        {
+          "id": "TK-T004",
+          "texto": "Glossário inicial"
+        },
+        {
+          "id": "TK-T005",
+          "texto": "Catálogo de fontes oficiais"
+        },
+        {
+          "id": "TK-T006",
+          "texto": "Relação com os repositórios Tekto"
+        }
+      ]
+    }
+  ],
+  "prazos": [
+    {
+      "id": "token-previsao",
+      "titulo": "Previsão de término no ritmo planejado — Tek Token",
+      "data": "2026-12-10",
+      "projeto_id": "token",
+      "tipo": "previsao"
+    }
+  ],
+  "rotinas": [
+    {
+      "nome": "Backlog do Tek Token",
+      "frequencia": "diária",
+      "ultima_execucao": "2026-10-26T11:55:00-03:00",
+      "status": "em_dia",
+      "nota": "1 tarefa/dia"
+    }
+  ],
+  "aguardando_samuel": [
+    {
+      "id": "token-D-001",
+      "titulo": "D-001 — Licença do repositório",
+      "detalhe": null,
+      "desde": "2026-10-26",
+      "projeto_id": "token",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "token-D-002",
+      "titulo": "D-002 — Plataforma própria registrada na CVM ou parceria com plataforma registrada",
+      "detalhe": null,
+      "desde": "2026-10-26",
+      "projeto_id": "token",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "token-D-003",
+      "titulo": "D-003 — O IP-NFT pode ser tratado como valor mobiliário?",
+      "detalhe": null,
+      "desde": "2026-10-26",
+      "projeto_id": "token",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "token-D-004",
+      "titulo": "D-004 — Escrow em moeda nacional ou em ativo virtual",
+      "detalhe": null,
+      "desde": "2026-10-26",
+      "projeto_id": "token",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "token-D-005",
+      "titulo": "D-005 — Quem atesta o marco físico que libera uma tranche",
+      "detalhe": null,
+      "desde": "2026-10-26",
+      "projeto_id": "token",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "token-D-006",
+      "titulo": "D-006 — Conflito de interesses quando a Tekto é autora, orçamentista e originadora",
+      "detalhe": null,
+      "desde": "2026-10-26",
+      "projeto_id": "token",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "token-D-007",
+      "titulo": "D-007 — Dados pessoais em registro imutável",
+      "detalhe": null,
+      "desde": "2026-10-26",
+      "projeto_id": "token",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "token-D-008",
+      "titulo": "D-008 — Repositório público com material sobre oferta",
+      "detalhe": null,
+      "desde": "2026-10-26",
+      "projeto_id": "token",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "token-D-009",
+      "titulo": "D-009 — Público investidor das primeiras ofertas",
+      "detalhe": null,
+      "desde": "2026-10-26",
+      "projeto_id": "token",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "token-D-010",
+      "titulo": "D-010 — Tratamento tributário",
+      "detalhe": null,
+      "desde": "2026-10-26",
+      "projeto_id": "token",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    }
+  ],
+  "atividade": [
+    {
+      "quando": "2026-10-26T11:55:00-03:00",
+      "resumo": "Mesclou uma entrega em Tek Token.",
+      "projeto_id": "token",
+      "link": "https://github.com/SamAlencar/tek-token/pull/2"
+    },
+    {
+      "quando": "2026-10-26T11:54:00-03:00",
+      "resumo": "Mesclou uma entrega em Tek Token.",
+      "projeto_id": "token",
+      "link": "https://github.com/SamAlencar/tek-token/pull/1"
+    }
+  ],
+  "links": [
+    {
+      "rotulo": "Tek Token",
+      "url": "https://github.com/SamAlencar/tek-token"
+    }
+  ],
+  "avisos": [
+    "Cada projeto mostra no máximo 12 frentes, as de maior volume.",
+    "3 trechos omitidos pelo filtro público."
+  ]
+}

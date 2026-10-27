@@ -7,7 +7,7 @@
     "nome": "Eng/Tek",
     "papel": "Engenharia: cálculo, documento, modelo e estúdio"
   },
-  "resumo": "Tekto Docs: 32 de 84 tarefas concluídas (38,1%). 44 dúvidas de backlog abertas.",
+  "resumo": "Tekto Docs — 34 de 84 tarefas concluídas (40,5%). 46 dúvidas de backlog abertas.",
   "exemplo": false,
   "fonte": {
     "tipo": "github",
@@ -15,9 +15,9 @@
   },
   "status": "saudavel",
   "saude": {
-    "motivo": "Entrega em 25/10/2026."
+    "motivo": "Entrega em 27/10/2026."
   },
-  "atualizado_em": "2026-10-25T10:35:00-03:00",
+  "atualizado_em": "2026-10-27T08:18:00-03:00",
   "projetos": [
     {
       "id": "docs",
@@ -27,14 +27,14 @@
       "descricao": "Memoriais, especificações, laudos e fichas técnicas",
       "status": "ativo",
       "saude": "saudavel",
-      "saude_motivo": "Entrega em 25/10/2026.",
+      "saude_motivo": "Entrega em 27/10/2026.",
       "progresso": {
-        "feitos": 32,
+        "feitos": 34,
         "total": 84,
-        "percentual": 38.1
+        "percentual": 40.5
       },
-      "ultima_atividade": "2026-10-25T10:35:00-03:00",
-      "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2026-12-17.",
+      "ultima_atividade": "2026-10-27T08:18:00-03:00",
+      "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2026-12-16.",
       "frentes": [
         {
           "nome": "Instalações",
@@ -62,9 +62,9 @@
         },
         {
           "nome": "Métodos construtivos",
-          "feitos": 5,
+          "feitos": 6,
           "total": 6,
-          "percentual": 83.3
+          "percentual": 100.0
         },
         {
           "nome": "Especificações",
@@ -80,9 +80,9 @@
         },
         {
           "nome": "Materiais",
-          "feitos": 2,
+          "feitos": 3,
           "total": 4,
-          "percentual": 50.0
+          "percentual": 75.0
         },
         {
           "nome": "BIM",
@@ -117,8 +117,8 @@
           "texto": "Nível de informação necessário por disciplina"
         },
         {
-          "id": "TD-023",
-          "texto": "Ficha comparativa de sistemas de impermeabilização"
+          "id": "TD-027",
+          "texto": "Ficha de barras e fios de aço para armadura"
         }
       ]
     }
@@ -127,7 +127,7 @@
     {
       "id": "docs-previsao",
       "titulo": "Previsão de término no ritmo planejado — Tekto Docs",
-      "data": "2026-12-17",
+      "data": "2026-12-16",
       "projeto_id": "docs",
       "tipo": "previsao"
     }
@@ -136,7 +136,7 @@
     {
       "nome": "Backlog do Tekto Docs",
       "frequencia": "diária",
-      "ultima_execucao": "2026-10-25T10:35:00-03:00",
+      "ultima_execucao": "2026-10-27T08:18:00-03:00",
       "status": "em_dia",
       "nota": "1 tarefa/dia"
     }
@@ -581,14 +581,40 @@
       "urgencia": "media",
       "tipo": "duvida",
       "link": null
+    },
+    {
+      "id": "docs-D-049",
+      "titulo": "D-049 — Pontos da comparação de sistemas de impermeabilização sem fonte",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "docs",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "docs-D-050",
+      "titulo": "D-050 — Pontos da NBR 7211:2022 ainda não registrados",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "docs",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
     }
   ],
   "atividade": [
     {
-      "quando": "2026-10-25T10:35:00-03:00",
-      "resumo": "Mesclou em Tekto Docs: docs: atualiza URLs para o novo nome do repositório (tek-*)",
+      "quando": "2026-10-27T08:18:00-03:00",
+      "resumo": "Mesclou em Tekto Docs: TD-026: ficha de agregados para concreto (NBR 7211:2022)",
       "projeto_id": "docs",
-      "link": "https://github.com/SamAlencar/tek-docs/pull/26"
+      "link": "https://github.com/SamAlencar/tek-docs/pull/28"
+    },
+    {
+      "quando": "2026-10-26T08:16:00-03:00",
+      "resumo": "Mesclou em Tekto Docs: TD-023: ficha comparativa de sistemas de impermeabilização",
+      "projeto_id": "docs",
+      "link": "https://github.com/SamAlencar/tek-docs/pull/27"
     }
   ],
   "links": [
@@ -598,6 +624,7 @@
     }
   ],
   "avisos": [
-    "Cada projeto mostra no máximo 12 frentes, as de maior volume."
+    "Cada projeto mostra no máximo 12 frentes, as de maior volume.",
+    "3 trechos omitidos pelo filtro público."
   ]
 }

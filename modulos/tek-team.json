@@ -7,7 +7,7 @@
     "nome": "Eng/Tek",
     "papel": "Engenharia: cálculo, documento, modelo e estúdio"
   },
-  "resumo": "Tek Team: 9 de 114 tarefas concluídas (7,9%). 12 dúvidas de backlog abertas.",
+  "resumo": "Tek Team — 10 de 114 tarefas concluídas (8,8%). 13 dúvidas de backlog abertas.",
   "exemplo": false,
   "fonte": {
     "tipo": "github",
@@ -15,9 +15,9 @@
   },
   "status": "saudavel",
   "saude": {
-    "motivo": "Entrega em 25/10/2026."
+    "motivo": "Entrega em 26/10/2026."
   },
-  "atualizado_em": "2026-10-25T10:35:00-03:00",
+  "atualizado_em": "2026-10-26T09:48:00-03:00",
   "projetos": [
     {
       "id": "team",
@@ -27,13 +27,13 @@
       "descricao": "Equipe de agentes de IA: papéis, skills e diretrizes BIM",
       "status": "ativo",
       "saude": "saudavel",
-      "saude_motivo": "Entrega em 25/10/2026.",
+      "saude_motivo": "Entrega em 26/10/2026.",
       "progresso": {
-        "feitos": 9,
+        "feitos": 10,
         "total": 114,
-        "percentual": 7.9
+        "percentual": 8.8
       },
-      "ultima_atividade": "2026-10-25T10:35:00-03:00",
+      "ultima_atividade": "2026-10-26T09:48:00-03:00",
       "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2027-02-08.",
       "frentes": [
         {
@@ -56,9 +56,9 @@
         },
         {
           "nome": "Fundamentos",
-          "feitos": 9,
+          "feitos": 10,
           "total": 11,
-          "percentual": 81.8
+          "percentual": 90.9
         },
         {
           "nome": "Diretrizes",
@@ -99,10 +99,6 @@
       ],
       "destaques": [
         {
-          "id": "TT-010",
-          "texto": "Pesquisa: subagentes no estilo Claude Code e Codex"
-        },
-        {
           "id": "TT-011",
           "texto": "Pesquisa: MCP na prática"
         },
@@ -113,6 +109,10 @@
         {
           "id": "TT-013",
           "texto": "Pesquisa: papéis e funções de gestão da informação na ISO 19650"
+        },
+        {
+          "id": "TT-014",
+          "texto": "Pesquisa: BEP, EIR/OIR/AIR/PIR e plano de entrega (MIDP/TIDP)"
         }
       ]
     }
@@ -130,7 +130,7 @@
     {
       "nome": "Backlog do Tek Team",
       "frequencia": "diária",
-      "ultima_execucao": "2026-10-25T10:35:00-03:00",
+      "ultima_execucao": "2026-10-26T09:48:00-03:00",
       "status": "em_dia",
       "nota": "1 tarefa/dia"
     }
@@ -255,9 +255,26 @@
       "urgencia": "media",
       "tipo": "duvida",
       "link": null
+    },
+    {
+      "id": "team-D-013",
+      "titulo": "D-013 — Revisor só leitura no Codex",
+      "detalhe": null,
+      "desde": "2026-10-26",
+      "projeto_id": "team",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
     }
   ],
-  "atividade": [],
+  "atividade": [
+    {
+      "quando": "2026-10-26T09:48:00-03:00",
+      "resumo": "Mesclou em Tek Team: TT-010 — Pesquisa: subagentes no estilo Claude Code e Codex",
+      "projeto_id": "team",
+      "link": "https://github.com/SamAlencar/tek-team/pull/15"
+    }
+  ],
   "links": [
     {
       "rotulo": "Tek Team",
@@ -265,6 +282,7 @@
     }
   ],
   "avisos": [
-    "Cada projeto mostra no máximo 12 frentes, as de maior volume."
+    "Cada projeto mostra no máximo 12 frentes, as de maior volume.",
+    "3 trechos omitidos pelo filtro público."
   ]
 }

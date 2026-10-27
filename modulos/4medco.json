@@ -7,7 +7,7 @@
     "nome": "Bil",
     "papel": "Produtos e operação da 4med.co"
   },
-  "resumo": "Repositório ativo: 4medco-base-conhecimento. 5 de 18 tarefas da etapa 4 concluídas (27,8%). Em espera: 4medco-platform, 4medco-website.",
+  "resumo": "Repositório ativo: 4medco-base-conhecimento. 6 de 18 tarefas da etapa 4 concluídas (33,3%). Em espera: 4medco-platform, 4medco-website.",
   "exemplo": false,
   "fonte": {
     "tipo": "github",
@@ -15,9 +15,9 @@
   },
   "status": "saudavel",
   "saude": {
-    "motivo": "Último push em 23/10/2026."
+    "motivo": "Último push em 26/10/2026."
   },
-  "atualizado_em": "2026-10-23T12:04:59+00:00",
+  "atualizado_em": "2026-10-26T12:09:44+00:00",
   "projetos": [
     {
       "id": "4medco-base-conhecimento",
@@ -27,27 +27,23 @@
       "descricao": "Base de conhecimento e planejamento do 4med.co (med-hub): escopo, funcionalidades, MCPs e conteúdo contábil/jurídico",
       "status": "ativo",
       "saude": "saudavel",
-      "saude_motivo": "Último push em 23/10/2026.",
+      "saude_motivo": "Último push em 26/10/2026.",
       "progresso": {
-        "feitos": 5,
+        "feitos": 6,
         "total": 18,
-        "percentual": 27.8
+        "percentual": 33.3
       },
-      "ultima_atividade": "2026-10-23T12:04:59+00:00",
+      "ultima_atividade": "2026-10-26T12:09:44+00:00",
       "nota": "Progresso do checklist planejamento/etapa4-plano.md (uma tarefa por dia útil).",
       "frentes": [
         {
           "nome": "Etapa 4",
-          "feitos": 5,
+          "feitos": 6,
           "total": 18,
-          "percentual": 27.8
+          "percentual": 33.3
         }
       ],
       "destaques": [
-        {
-          "id": "T06",
-          "texto": "T06 (seg 26/10): ISS e sociedade uniprofissional"
-        },
         {
           "id": "T07",
           "texto": "T07 (ter 27/10): Pró-labore e INSS"
@@ -59,6 +55,10 @@
         {
           "id": "T09",
           "texto": "T09 (qui 29/10): Tabelas estruturadas: Presumido, INSS, IRRF e ISS municipal"
+        },
+        {
+          "id": "T10",
+          "texto": "T10 (sex 30/10): NFS-e de plantão e retenções"
         }
       ]
     },
@@ -98,6 +98,12 @@
   "aguardando_samuel": [],
   "atividade": [
     {
+      "quando": "2026-10-26T12:09:42+00:00",
+      "resumo": "4medco-base-conhecimento: Etapa 4, T06: ISS e sociedade uniprofissional (STF Tema 918 confirmado, STJ Tema 1.323, SP/DF/BH 2026); glossário 66 termos",
+      "projeto_id": "4medco-base-conhecimento",
+      "link": "https://github.com/SamAlencar/4medco-base-conhecimento"
+    },
+    {
       "quando": "2026-10-23T12:04:58+00:00",
       "resumo": "4medco-base-conhecimento: Etapa 4, T05: Lucro Presumido e equiparação hospitalar (IN RFB 2.343/2026, LC 224/2025); glossário 61 termos",
       "projeto_id": "4medco-base-conhecimento",
@@ -118,12 +124,6 @@
     {
       "quando": "2026-10-21T12:16:37+00:00",
       "resumo": "4medco-base-conhecimento: Etapa 4, T03: Simples Nacional, Anexos III e V e Fator R; glossário 58 termos",
-      "projeto_id": "4medco-base-conhecimento",
-      "link": "https://github.com/SamAlencar/4medco-base-conhecimento"
-    },
-    {
-      "quando": "2026-10-20T16:54:21+00:00",
-      "resumo": "4medco-base-conhecimento: planejamento/vtx: PRD, ADRs 001-004, pesquisa de domínio e guia de importação para o vtx-core",
       "projeto_id": "4medco-base-conhecimento",
       "link": "https://github.com/SamAlencar/4medco-base-conhecimento"
     },
