@@ -133,14 +133,7 @@
       "link": null
     }
   ],
-  "atividade": [
-    {
-      "quando": "2026-10-26T09:49:00-03:00",
-      "resumo": "Mesclou em Tek Hunter: TH-003: catálogo dos portais estaduais de compras (27 UFs)",
-      "projeto_id": "hunter",
-      "link": "https://github.com/SamAlencar/tek-hunter/pull/6"
-    }
-  ],
+  "atividade": [],
   "links": [
     {
       "rotulo": "Tek Hunter",
@@ -149,6 +142,6 @@
   ],
   "avisos": [
     "Cada projeto mostra no máximo 12 frentes, as de maior volume.",
-    "3 trechos omitidos pelo filtro público."
+    "4 trechos omitidos pelo filtro público."
   ]
 }

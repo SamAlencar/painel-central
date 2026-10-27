@@ -7,7 +7,7 @@
     "nome": "Eng/Tek",
     "papel": "Engenharia: cálculo, documento, modelo e estúdio"
   },
-  "resumo": "Tek Team — 10 de 114 tarefas concluídas (8,8%). 13 dúvidas de backlog abertas.",
+  "resumo": "Tek Team — 11 de 114 tarefas concluídas (9,6%). 14 dúvidas de backlog abertas.",
   "exemplo": false,
   "fonte": {
     "tipo": "github",
@@ -15,9 +15,9 @@
   },
   "status": "saudavel",
   "saude": {
-    "motivo": "Entrega em 26/10/2026."
+    "motivo": "Entrega em 27/10/2026."
   },
-  "atualizado_em": "2026-10-26T09:48:00-03:00",
+  "atualizado_em": "2026-10-27T09:52:00-03:00",
   "projetos": [
     {
       "id": "team",
@@ -27,14 +27,14 @@
       "descricao": "Equipe de agentes de IA: papéis, skills e diretrizes BIM",
       "status": "ativo",
       "saude": "saudavel",
-      "saude_motivo": "Entrega em 26/10/2026.",
+      "saude_motivo": "Entrega em 27/10/2026.",
       "progresso": {
-        "feitos": 10,
+        "feitos": 11,
         "total": 114,
-        "percentual": 8.8
+        "percentual": 9.6
       },
-      "ultima_atividade": "2026-10-26T09:48:00-03:00",
-      "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2027-02-08.",
+      "ultima_atividade": "2026-10-27T09:52:00-03:00",
+      "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2027-02-07.",
       "frentes": [
         {
           "nome": "Papéis",
@@ -56,9 +56,9 @@
         },
         {
           "nome": "Fundamentos",
-          "feitos": 10,
+          "feitos": 11,
           "total": 11,
-          "percentual": 90.9
+          "percentual": 100.0
         },
         {
           "nome": "Diretrizes",
@@ -99,10 +99,6 @@
       ],
       "destaques": [
         {
-          "id": "TT-011",
-          "texto": "Pesquisa: MCP na prática"
-        },
-        {
           "id": "TT-012",
           "texto": "Pesquisa: ISO 19650 e NBR ISO 19650"
         },
@@ -113,6 +109,10 @@
         {
           "id": "TT-014",
           "texto": "Pesquisa: BEP, EIR/OIR/AIR/PIR e plano de entrega (MIDP/TIDP)"
+        },
+        {
+          "id": "TT-015",
+          "texto": "Pesquisa: CDE, estados da informação, nomenclatura e metadados"
         }
       ]
     }
@@ -121,7 +121,7 @@
     {
       "id": "team-previsao",
       "titulo": "Previsão de término no ritmo planejado — Tek Team",
-      "data": "2027-02-08",
+      "data": "2027-02-07",
       "projeto_id": "team",
       "tipo": "previsao"
     }
@@ -130,7 +130,7 @@
     {
       "nome": "Backlog do Tek Team",
       "frequencia": "diária",
-      "ultima_execucao": "2026-10-26T09:48:00-03:00",
+      "ultima_execucao": "2026-10-27T09:52:00-03:00",
       "status": "em_dia",
       "nota": "1 tarefa/dia"
     }
@@ -265,14 +265,24 @@
       "urgencia": "media",
       "tipo": "duvida",
       "link": null
+    },
+    {
+      "id": "team-D-014",
+      "titulo": "D-014 — Servidores MCP de terceiros e aprovação automática",
+      "detalhe": null,
+      "desde": "2026-10-27",
+      "projeto_id": "team",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
     }
   ],
   "atividade": [
     {
-      "quando": "2026-10-26T09:48:00-03:00",
-      "resumo": "Mesclou em Tek Team: TT-010 — Pesquisa: subagentes no estilo Claude Code e Codex",
+      "quando": "2026-10-27T09:52:00-03:00",
+      "resumo": "Mesclou em Tek Team: TT-011 — Pesquisa: MCP na prática — clientes, servidores, transporte e segurança",
       "projeto_id": "team",
-      "link": "https://github.com/SamAlencar/tek-team/pull/15"
+      "link": "https://github.com/SamAlencar/tek-team/pull/16"
     }
   ],
   "links": [
@@ -283,6 +293,6 @@
   ],
   "avisos": [
     "Cada projeto mostra no máximo 12 frentes, as de maior volume.",
-    "3 trechos omitidos pelo filtro público."
+    "4 trechos omitidos pelo filtro público."
   ]
 }

@@ -7,7 +7,7 @@
     "nome": "Eng/Tek",
     "papel": "Engenharia: cálculo, documento, modelo e estúdio"
   },
-  "resumo": "Tekto Studio — 12 de 58 tarefas concluídas (20,7%). 0 dúvidas de backlog abertas.",
+  "resumo": "Tekto Studio — 13 de 58 tarefas concluídas (22,4%). 0 dúvidas de backlog abertas.",
   "exemplo": false,
   "fonte": {
     "tipo": "github",
@@ -15,9 +15,9 @@
   },
   "status": "saudavel",
   "saude": {
-    "motivo": "Entrega em 26/10/2026."
+    "motivo": "Entrega em 27/10/2026."
   },
-  "atualizado_em": "2026-10-26T10:43:00-03:00",
+  "atualizado_em": "2026-10-27T10:45:00-03:00",
   "projetos": [
     {
       "id": "studio",
@@ -27,20 +27,20 @@
       "descricao": "Plataforma de engenharia com agente de IA e núcleo determinístico",
       "status": "ativo",
       "saude": "saudavel",
-      "saude_motivo": "Entrega em 26/10/2026.",
+      "saude_motivo": "Entrega em 27/10/2026.",
       "progresso": {
-        "feitos": 12,
+        "feitos": 13,
         "total": 58,
-        "percentual": 20.7
+        "percentual": 22.4
       },
-      "ultima_atividade": "2026-10-26T10:43:00-03:00",
-      "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2026-12-12.",
+      "ultima_atividade": "2026-10-27T10:45:00-03:00",
+      "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2026-12-11.",
       "frentes": [
         {
           "nome": "Fase M — MVP da especificação \"Vibe Coding BIM\" (25/10/2026, TS-D12)",
-          "feitos": 1,
+          "feitos": 2,
           "total": 20,
-          "percentual": 5.0
+          "percentual": 10.0
         },
         {
           "nome": "Fase 2 — Integração do núcleo (8)",
@@ -87,10 +87,6 @@
       ],
       "destaques": [
         {
-          "id": "TS-071",
-          "texto": "Esquema Pydantic do cartão de proposta (regra aplicada, cálculo, ação proposta, situação)"
-        },
-        {
           "id": "TS-072",
           "texto": "Fila de propostas com aprovar / editar parâmetros / recusar, gravando cada decisão na auditoria"
         },
@@ -101,6 +97,10 @@
         {
           "id": "TS-073",
           "texto": "Ponte tek-calc → cartão: resultado da flexão de viga vira proposta"
+        },
+        {
+          "id": "TS-074",
+          "texto": "CLI tekto-studio propostas (listar, aprovar, recusar)"
         }
       ]
     }
@@ -109,7 +109,7 @@
     {
       "id": "studio-previsao",
       "titulo": "Previsão de término no ritmo planejado — Tekto Studio",
-      "data": "2026-12-12",
+      "data": "2026-12-11",
       "projeto_id": "studio",
       "tipo": "previsao"
     }
@@ -118,7 +118,7 @@
     {
       "nome": "Backlog do Tekto Studio",
       "frequencia": "diária",
-      "ultima_execucao": "2026-10-26T10:43:00-03:00",
+      "ultima_execucao": "2026-10-27T10:45:00-03:00",
       "status": "em_dia",
       "nota": "1 tarefa/dia"
     }
@@ -126,10 +126,10 @@
   "aguardando_samuel": [],
   "atividade": [
     {
-      "quando": "2026-10-26T10:43:00-03:00",
-      "resumo": "Mesclou em Tekto Studio: TS-070: registro de licenças das dependências (docs/LICENCAS.md)",
+      "quando": "2026-10-27T10:45:00-03:00",
+      "resumo": "Mesclou em Tekto Studio: TS-071: esquema Pydantic do cartão de proposta",
       "projeto_id": "studio",
-      "link": "https://github.com/SamAlencar/tek-studio/pull/12"
+      "link": "https://github.com/SamAlencar/tek-studio/pull/13"
     }
   ],
   "links": [
@@ -140,6 +140,6 @@
   ],
   "avisos": [
     "Cada projeto mostra no máximo 12 frentes, as de maior volume.",
-    "3 trechos omitidos pelo filtro público."
+    "4 trechos omitidos pelo filtro público."
   ]
 }

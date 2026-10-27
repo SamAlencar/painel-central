@@ -609,12 +609,6 @@
       "resumo": "Mesclou em Tekto Docs: TD-026: ficha de agregados para concreto (NBR 7211:2022)",
       "projeto_id": "docs",
       "link": "https://github.com/SamAlencar/tek-docs/pull/28"
-    },
-    {
-      "quando": "2026-10-26T08:16:00-03:00",
-      "resumo": "Mesclou em Tekto Docs: TD-023: ficha comparativa de sistemas de impermeabilização",
-      "projeto_id": "docs",
-      "link": "https://github.com/SamAlencar/tek-docs/pull/27"
     }
   ],
   "links": [
@@ -625,6 +619,6 @@
   ],
   "avisos": [
     "Cada projeto mostra no máximo 12 frentes, as de maior volume.",
-    "3 trechos omitidos pelo filtro público."
+    "4 trechos omitidos pelo filtro público."
   ]
 }
