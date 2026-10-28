@@ -7,7 +7,7 @@
     "nome": "Eng/Tek",
     "papel": "Engenharia: cálculo, documento, modelo e estúdio"
   },
-  "resumo": "Tekto Calc — 45 de 126 tarefas concluídas (35,7%). 5 dúvidas de backlog abertas.",
+  "resumo": "Tekto Calc — 46 de 126 tarefas concluídas (36,5%). 6 dúvidas de backlog abertas.",
   "exemplo": false,
   "fonte": {
     "tipo": "github",
@@ -15,9 +15,9 @@
   },
   "status": "saudavel",
   "saude": {
-    "motivo": "Entrega em 27/10/2026."
+    "motivo": "Entrega em 28/10/2026."
   },
-  "atualizado_em": "2026-10-27T07:45:00-03:00",
+  "atualizado_em": "2026-10-28T07:47:00-03:00",
   "projetos": [
     {
       "id": "calc",
@@ -27,20 +27,20 @@
       "descricao": "Rotinas de cálculo de engenharia em Python",
       "status": "ativo",
       "saude": "saudavel",
-      "saude_motivo": "Entrega em 27/10/2026.",
+      "saude_motivo": "Entrega em 28/10/2026.",
       "progresso": {
-        "feitos": 45,
+        "feitos": 46,
         "total": 126,
-        "percentual": 35.7
+        "percentual": 36.5
       },
-      "ultima_atividade": "2026-10-27T07:45:00-03:00",
-      "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2027-01-17.",
+      "ultima_atividade": "2026-10-28T07:47:00-03:00",
+      "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2027-01-16.",
       "frentes": [
         {
           "nome": "Concreto armado",
-          "feitos": 12,
+          "feitos": 13,
           "total": 22,
-          "percentual": 54.5
+          "percentual": 59.1
         },
         {
           "nome": "Normas internacionais (comparativos)",
@@ -115,16 +115,16 @@
           "texto": "Comprimento de traspasse"
         },
         {
-          "id": "TC-009",
-          "texto": "Flecha imediata de viga biapoiada"
-        },
-        {
           "id": "TC-010",
           "texto": "Flecha diferida no tempo"
         },
         {
           "id": "TC-011",
           "texto": "Abertura característica de fissuras"
+        },
+        {
+          "id": "TC-012",
+          "texto": "Armadura de pele"
         }
       ]
     }
@@ -133,7 +133,7 @@
     {
       "id": "calc-previsao",
       "titulo": "Previsão de término no ritmo planejado — Tekto Calc",
-      "data": "2027-01-17",
+      "data": "2027-01-16",
       "projeto_id": "calc",
       "tipo": "previsao"
     }
@@ -142,7 +142,7 @@
     {
       "nome": "Backlog do Tekto Calc",
       "frequencia": "diária",
-      "ultima_execucao": "2026-10-27T07:45:00-03:00",
+      "ultima_execucao": "2026-10-28T07:47:00-03:00",
       "status": "em_dia",
       "nota": "1 tarefa/dia"
     }
@@ -197,14 +197,24 @@
       "urgencia": "media",
       "tipo": "duvida",
       "link": null
+    },
+    {
+      "id": "calc-D-016",
+      "titulo": "D-016 — Definição de Ic e yt no momento de fissuração e na inércia equivalente",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "calc",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
     }
   ],
   "atividade": [
     {
-      "quando": "2026-10-27T07:45:00-03:00",
-      "resumo": "Mesclou em Tekto Calc: TC-007: comprimento de ancoragem necessário com gancho",
+      "quando": "2026-10-28T07:47:00-03:00",
+      "resumo": "Mesclou em Tekto Calc: TC-009: flecha imediata de viga biapoiada",
       "projeto_id": "calc",
-      "link": "https://github.com/SamAlencar/tek-calc/pull/44"
+      "link": "https://github.com/SamAlencar/tek-calc/pull/45"
     }
   ],
   "links": [
@@ -215,6 +225,6 @@
   ],
   "avisos": [
     "Cada projeto mostra no máximo 12 frentes, as de maior volume.",
-    "4 trechos omitidos pelo filtro público."
+    "2 trechos omitidos pelo filtro público."
   ]
 }

@@ -10,13 +10,14 @@ Os horários abaixo são o `atualizado_em` de cada módulo (a fonte), não o ins
 
 Dúvida aberta no backlog não é, sozinha, uma aprovação formal. Itens de módulos de exemplo ficam fora desta lista.
 
-### Tekto Calc · Eng/Tek · 5
+### Tekto Calc · Eng/Tek · 6
 
 - D-005 — Fichas do catálogo ABNT não abertas nas instalações
 - D-012 — Célula ilegível da classe IV na tabela de cobrimento da NBR 6118:2026
 - D-013 — Itens da NBR 10844:1989 não lidos no dimensionamento pluvial
 - D-014 — Armadura mínima e máxima da seção T
 - D-015 — Gancho com cobrimento menor que 3φ no item 9.4.2.5
+- … e mais 1 no site e em `modulos/tek-calc.json`
 
 ### Tekto Docs · Eng/Tek · 46
 
@@ -27,23 +28,23 @@ Dúvida aberta no backlog não é, sozinha, uma aprovação formal. Itens de mó
 - D-005 — Escala de nível de desenvolvimento BIM
 - … e mais 41 no site e em `modulos/tek-docs.json`
 
-### Tekto Model · Eng/Tek · 69
+### Tekto Model · Eng/Tek · 70
 
 - Verificação de 21/10/2026
 - Verificação de 24/10/2026
 - Verificação de 25/10/2026
 - Verificação de 18/10/2026
 - Verificação de 23/10/2026
-- … e mais 64 no site e em `modulos/tek-model.json`
+- … e mais 65 no site e em `modulos/tek-model.json`
 
-### Tek Team · Eng/Tek · 14
+### Tek Team · Eng/Tek · 15
 
 - D-001 — Termos em português da série ISO 19650 — desde 17/10/2026
 - D-002 — Contrato do Tekto Model incompatível com a resposta real do MCP do Tekto Calc — desde 18/10/2026
 - D-003 — Estado de capacidade quando código e backlog divergem — desde 18/10/2026
 - D-004 — Organograma de referência e cargos sem código CBO — desde 19/10/2026
 - D-005 — Áreas disputadas entre CAU e CONFEA — desde 20/10/2026
-- … e mais 9 no site e em `modulos/tek-team.json`
+- … e mais 10 no site e em `modulos/tek-team.json`
 
 ### Tek Hunter · Eng/Tek · 2
 
@@ -72,72 +73,72 @@ Dúvida aberta no backlog não é, sozinha, uma aprovação formal. Itens de mó
 
 ### Tekto Calc · Eng/Tek · saudável
 
-Tekto Calc — 45 de 126 tarefas concluídas (35,7%). 5 dúvidas de backlog abertas.
+Tekto Calc — 46 de 126 tarefas concluídas (36,5%). 6 dúvidas de backlog abertas.
 
-Fonte: github. Atualizado em: 27/10/2026.
+Fonte: github. Atualizado em: 28/10/2026.
 
-Entrega em 27/10/2026.
+Entrega em 28/10/2026.
 
 | Projeto | Saúde | Progresso | Última atividade |
 | --- | --- | --- | --- |
-| Tekto Calc | saudável | 45/126 (35,7%) | 27/10/2026 |
+| Tekto Calc | saudável | 46/126 (36,5%) | 28/10/2026 |
 
 Rotinas:
 
-- Backlog do Tekto Calc — diária — última 27/10/2026 — em dia
+- Backlog do Tekto Calc — diária — última 28/10/2026 — em dia
 
 Prazos:
 
-- 17/01/2027 — Previsão de término no ritmo planejado — Tekto Calc
+- 16/01/2027 — Previsão de término no ritmo planejado — Tekto Calc
 
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
-> 4 trechos omitidos pelo filtro público.
+> 2 trechos omitidos pelo filtro público.
 
 ### Tekto Docs · Eng/Tek · saudável
 
-Tekto Docs — 34 de 84 tarefas concluídas (40,5%). 46 dúvidas de backlog abertas.
+Tekto Docs — 35 de 84 tarefas concluídas (41,7%). 46 dúvidas de backlog abertas.
 
-Fonte: github. Atualizado em: 27/10/2026.
+Fonte: github. Atualizado em: 28/10/2026.
 
-Entrega em 27/10/2026.
+Entrega em 28/10/2026.
 
 | Projeto | Saúde | Progresso | Última atividade |
 | --- | --- | --- | --- |
-| Tekto Docs | saudável | 34/84 (40,5%) | 27/10/2026 |
+| Tekto Docs | saudável | 35/84 (41,7%) | 28/10/2026 |
 
 Rotinas:
 
-- Backlog do Tekto Docs — diária — última 27/10/2026 — em dia
+- Backlog do Tekto Docs — diária — última 28/10/2026 — em dia
 
 Prazos:
 
-- 17/12/2026 — Previsão de término no ritmo planejado — Tekto Docs
+- 16/12/2026 — Previsão de término no ritmo planejado — Tekto Docs
 
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
-> 4 trechos omitidos pelo filtro público.
+> 2 trechos omitidos pelo filtro público.
 
 ### Tekto Model · Eng/Tek · saudável
 
-Tekto Model — 95 de 260 tarefas concluídas (36,5%). 69 dúvidas de backlog abertas.
+Tekto Model — 96 de 260 tarefas concluídas (36,9%). 70 dúvidas de backlog abertas.
 
-Fonte: github. Atualizado em: 27/10/2026.
+Fonte: github. Atualizado em: 28/10/2026.
 
-Entrega em 27/10/2026.
+Entrega em 28/10/2026.
 
 | Projeto | Saúde | Progresso | Última atividade |
 | --- | --- | --- | --- |
-| Tekto Model | saudável | 95/260 (36,5%) | 27/10/2026 |
+| Tekto Model | saudável | 96/260 (36,9%) | 28/10/2026 |
 
 Rotinas:
 
-- Backlog do Tekto Model — diária — última 27/10/2026 — em dia
+- Backlog do Tekto Model — diária — última 28/10/2026 — em dia
 
 Prazos:
 
-- 19/01/2027 — Previsão de término no ritmo planejado — Tekto Model
+- 18/01/2027 — Previsão de término no ritmo planejado — Tekto Model
 
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
-> 4 trechos omitidos pelo filtro público.
+> 2 trechos omitidos pelo filtro público.
 
 ### Tekto Studio · Eng/Tek · saudável
 
@@ -160,30 +161,30 @@ Prazos:
 - 12/12/2026 — Previsão de término no ritmo planejado — Tekto Studio
 
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
-> 4 trechos omitidos pelo filtro público.
+> 2 trechos omitidos pelo filtro público.
 
 ### Tek Team · Eng/Tek · saudável
 
-Tek Team — 11 de 114 tarefas concluídas (9,6%). 14 dúvidas de backlog abertas.
+Tek Team — 12 de 114 tarefas concluídas (10,5%). 15 dúvidas de backlog abertas.
 
-Fonte: github. Atualizado em: 27/10/2026.
+Fonte: github. Atualizado em: 28/10/2026.
 
-Entrega em 27/10/2026.
+Entrega em 28/10/2026.
 
 | Projeto | Saúde | Progresso | Última atividade |
 | --- | --- | --- | --- |
-| Tek Team | saudável | 11/114 (9,6%) | 27/10/2026 |
+| Tek Team | saudável | 12/114 (10,5%) | 28/10/2026 |
 
 Rotinas:
 
-- Backlog do Tek Team — diária — última 27/10/2026 — em dia
+- Backlog do Tek Team — diária — última 28/10/2026 — em dia
 
 Prazos:
 
-- 08/02/2027 — Previsão de término no ritmo planejado — Tek Team
+- 07/02/2027 — Previsão de término no ritmo planejado — Tek Team
 
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
-> 4 trechos omitidos pelo filtro público.
+> 2 trechos omitidos pelo filtro público.
 
 ### Tek Hunter · Eng/Tek · saudável
 
@@ -206,7 +207,7 @@ Prazos:
 - 10/01/2027 — Previsão de término no ritmo planejado — Tek Hunter
 
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
-> 4 trechos omitidos pelo filtro público.
+> 2 trechos omitidos pelo filtro público.
 
 ### Tek Catalog · Eng/Tek · saudável
 
@@ -229,7 +230,7 @@ Prazos:
 - 23/11/2026 — Previsão de término no ritmo planejado — Tek Catalog
 
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
-> 4 trechos omitidos pelo filtro público.
+> 2 trechos omitidos pelo filtro público.
 
 ### Tek Token · Eng/Tek · saudável
 
@@ -252,37 +253,37 @@ Prazos:
 - 10/12/2026 — Previsão de término no ritmo planejado — Tek Token
 
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
-> 4 trechos omitidos pelo filtro público.
+> 2 trechos omitidos pelo filtro público.
 
 ### VTX · Vix · saudável
 
-Criação da base de conhecimento e documentação de diretrizes. 42 de 142 tarefas concluídas. A rotina diária tem registro em 27/10/2026.
+Criação da base de conhecimento e documentação de diretrizes. 44 de 142 tarefas concluídas. A rotina diária tem registro em 28/10/2026.
 
-Fonte: github. Atualizado em: 27/10/2026.
+Fonte: github. Atualizado em: 28/10/2026.
 
-Rotina diária em 27/10/2026.
+Rotina diária em 28/10/2026.
 
 | Projeto | Saúde | Progresso | Última atividade |
 | --- | --- | --- | --- |
-| VTX Core | saudável | 42/142 (29,6%) | 27/10/2026 |
+| VTX Core | saudável | 44/142 (31%) | 28/10/2026 |
 
 Rotinas:
 
-- Backlog diário da VTX — diária — última 27/10/2026 — em dia
+- Backlog diário da VTX — diária — última 28/10/2026 — em dia
 
 > Nenhum item do backlog está marcado como aprovação pendente do Samuel.
 
 ### 4med.co · Bil · saudável
 
-Repositório ativo: 4medco-base-conhecimento. 7 de 18 tarefas da etapa 4 concluídas (38,9%). Em espera: 4medco-platform, 4medco-website.
+Repositório ativo: 4medco-base-conhecimento. 8 de 18 tarefas da etapa 4 concluídas (44,4%). Em espera: 4medco-platform, 4medco-website.
 
-Fonte: github. Atualizado em: 27/10/2026.
+Fonte: github. Atualizado em: 28/10/2026.
 
-Último push em 27/10/2026.
+Último push em 28/10/2026.
 
 | Projeto | Saúde | Progresso | Última atividade |
 | --- | --- | --- | --- |
-| 4medco-base-conhecimento | saudável | 7/18 (38,9%) | 27/10/2026 |
+| 4medco-base-conhecimento | saudável | 8/18 (44,4%) | 28/10/2026 |
 | 4medco-platform | planejado | sem contagem | 17/02/2026 |
 | 4medco-website | planejado | sem contagem | 26/12/2025 |
 
@@ -292,13 +293,13 @@ Fonte: github. Atualizado em: 27/10/2026.
 
 Repositórios visíveis: dark-channel-playbook. Entram só metadados e títulos de commits já filtrados; arquivos e issues não entram no painel.
 
-Fonte: github. Atualizado em: 27/10/2026.
+Fonte: github. Atualizado em: 28/10/2026.
 
-Saúde pelo push mais recente (27/10/2026).
+Saúde pelo push mais recente (28/10/2026).
 
 | Projeto | Saúde | Progresso | Última atividade |
 | --- | --- | --- | --- |
-| dark-channel-playbook | saudável | sem contagem | 27/10/2026 |
+| dark-channel-playbook | saudável | sem contagem | 28/10/2026 |
 
 > Issues e arquivos não são lidos. Esta frente não leva valor, cliente nem conteúdo interno.
 

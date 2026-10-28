@@ -219,18 +219,6 @@
       "resumo": "Mesclou uma entrega em Tek Token.",
       "projeto_id": "token",
       "link": "https://github.com/SamAlencar/tek-token/pull/3"
-    },
-    {
-      "quando": "2026-10-26T11:55:00-03:00",
-      "resumo": "Mesclou uma entrega em Tek Token.",
-      "projeto_id": "token",
-      "link": "https://github.com/SamAlencar/tek-token/pull/2"
-    },
-    {
-      "quando": "2026-10-26T11:54:00-03:00",
-      "resumo": "Mesclou uma entrega em Tek Token.",
-      "projeto_id": "token",
-      "link": "https://github.com/SamAlencar/tek-token/pull/1"
     }
   ],
   "links": [
@@ -241,6 +229,6 @@
   ],
   "avisos": [
     "Cada projeto mostra no máximo 12 frentes, as de maior volume.",
-    "4 trechos omitidos pelo filtro público."
+    "2 trechos omitidos pelo filtro público."
   ]
 }
