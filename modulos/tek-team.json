@@ -17,7 +17,7 @@
   "saude": {
     "motivo": "Entrega em 28/10/2026."
   },
-  "atualizado_em": "2026-10-28T09:53:00-03:00",
+  "atualizado_em": "2026-10-28T10:47:00-03:00",
   "projetos": [
     {
       "id": "team",
@@ -33,7 +33,7 @@
         "total": 114,
         "percentual": 10.5
       },
-      "ultima_atividade": "2026-10-28T09:53:00-03:00",
+      "ultima_atividade": "2026-10-28T10:47:00-03:00",
       "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2027-02-07.",
       "frentes": [
         {
@@ -130,7 +130,7 @@
     {
       "nome": "Backlog do Tek Team",
       "frequencia": "diária",
-      "ultima_execucao": "2026-10-28T09:53:00-03:00",
+      "ultima_execucao": "2026-10-28T10:47:00-03:00",
       "status": "em_dia",
       "nota": "1 tarefa/dia"
     }
@@ -289,16 +289,16 @@
   ],
   "atividade": [
     {
+      "quando": "2026-10-28T10:47:00-03:00",
+      "resumo": "Mesclou em Tek Team: Manutenção quinzenal 2026-10-28",
+      "projeto_id": "team",
+      "link": "https://github.com/SamAlencar/tek-team/pull/18"
+    },
+    {
       "quando": "2026-10-28T09:53:00-03:00",
       "resumo": "Mesclou em Tek Team: TT-018 — Pesquisa: departamentos e funções de uma empresa completa de engenharia e arquitetura",
       "projeto_id": "team",
       "link": "https://github.com/SamAlencar/tek-team/pull/17"
-    },
-    {
-      "quando": "2026-10-27T09:52:00-03:00",
-      "resumo": "Mesclou em Tek Team: TT-011 — Pesquisa: MCP na prática — clientes, servidores, transporte e segurança",
-      "projeto_id": "team",
-      "link": "https://github.com/SamAlencar/tek-team/pull/16"
     }
   ],
   "links": [

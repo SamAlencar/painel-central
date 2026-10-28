@@ -17,7 +17,7 @@
   "saude": {
     "motivo": "Entrega em 28/10/2026."
   },
-  "atualizado_em": "2026-10-28T07:47:00-03:00",
+  "atualizado_em": "2026-10-28T10:46:00-03:00",
   "projetos": [
     {
       "id": "calc",
@@ -33,7 +33,7 @@
         "total": 126,
         "percentual": 36.5
       },
-      "ultima_atividade": "2026-10-28T07:47:00-03:00",
+      "ultima_atividade": "2026-10-28T10:46:00-03:00",
       "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2027-01-16.",
       "frentes": [
         {
@@ -142,7 +142,7 @@
     {
       "nome": "Backlog do Tekto Calc",
       "frequencia": "diária",
-      "ultima_execucao": "2026-10-28T07:47:00-03:00",
+      "ultima_execucao": "2026-10-28T10:46:00-03:00",
       "status": "em_dia",
       "nota": "1 tarefa/dia"
     }
@@ -211,10 +211,10 @@
   ],
   "atividade": [
     {
-      "quando": "2026-10-28T07:47:00-03:00",
-      "resumo": "Mesclou em Tekto Calc: TC-009: flecha imediata de viga biapoiada",
+      "quando": "2026-10-28T10:46:00-03:00",
+      "resumo": "Mesclou em Tekto Calc: Manutenção quinzenal 2026-10-28",
       "projeto_id": "calc",
-      "link": "https://github.com/SamAlencar/tek-calc/pull/45"
+      "link": "https://github.com/SamAlencar/tek-calc/pull/46"
     }
   ],
   "links": [

@@ -17,7 +17,7 @@
   "saude": {
     "motivo": "Entrega em 28/10/2026."
   },
-  "atualizado_em": "2026-10-28T08:16:00-03:00",
+  "atualizado_em": "2026-10-28T10:46:00-03:00",
   "projetos": [
     {
       "id": "docs",
@@ -33,7 +33,7 @@
         "total": 84,
         "percentual": 41.7
       },
-      "ultima_atividade": "2026-10-28T08:16:00-03:00",
+      "ultima_atividade": "2026-10-28T10:46:00-03:00",
       "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2026-12-16.",
       "frentes": [
         {
@@ -136,7 +136,7 @@
     {
       "nome": "Backlog do Tekto Docs",
       "frequencia": "diária",
-      "ultima_execucao": "2026-10-28T08:16:00-03:00",
+      "ultima_execucao": "2026-10-28T10:46:00-03:00",
       "status": "em_dia",
       "nota": "1 tarefa/dia"
     }
@@ -605,16 +605,16 @@
   ],
   "atividade": [
     {
+      "quando": "2026-10-28T10:46:00-03:00",
+      "resumo": "Mesclou em Tekto Docs: Manutenção quinzenal 2026-10-28",
+      "projeto_id": "docs",
+      "link": "https://github.com/SamAlencar/tek-docs/pull/30"
+    },
+    {
       "quando": "2026-10-28T08:16:00-03:00",
       "resumo": "Mesclou em Tekto Docs: TD-030: índice da NBR 12655:2022",
       "projeto_id": "docs",
       "link": "https://github.com/SamAlencar/tek-docs/pull/29"
-    },
-    {
-      "quando": "2026-10-27T08:18:00-03:00",
-      "resumo": "Mesclou em Tekto Docs: TD-026: ficha de agregados para concreto (NBR 7211:2022)",
-      "projeto_id": "docs",
-      "link": "https://github.com/SamAlencar/tek-docs/pull/28"
     }
   ],
   "links": [

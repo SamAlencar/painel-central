@@ -7,7 +7,7 @@
     "nome": "Eng/Tek",
     "papel": "Engenharia: cálculo, documento, modelo e estúdio"
   },
-  "resumo": "Tek Catalog — 5 de 31 tarefas concluídas (16,1%). 10 dúvidas de backlog abertas.",
+  "resumo": "Tek Catalog — 6 de 31 tarefas concluídas (19,4%). 10 dúvidas de backlog abertas.",
   "exemplo": false,
   "fonte": {
     "tipo": "github",
@@ -15,9 +15,9 @@
   },
   "status": "saudavel",
   "saude": {
-    "motivo": "Entrega em 27/10/2026."
+    "motivo": "Entrega em 28/10/2026."
   },
-  "atualizado_em": "2026-10-27T11:22:00-03:00",
+  "atualizado_em": "2026-10-28T11:23:00-03:00",
   "projetos": [
     {
       "id": "catalog",
@@ -27,27 +27,23 @@
       "descricao": "Catálogo Tekto de materiais da construção civil com IFC 4.3",
       "status": "ativo",
       "saude": "saudavel",
-      "saude_motivo": "Entrega em 27/10/2026.",
+      "saude_motivo": "Entrega em 28/10/2026.",
       "progresso": {
-        "feitos": 5,
+        "feitos": 6,
         "total": 31,
-        "percentual": 16.1
+        "percentual": 19.4
       },
-      "ultima_atividade": "2026-10-27T11:22:00-03:00",
-      "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2026-11-23.",
+      "ultima_atividade": "2026-10-28T11:23:00-03:00",
+      "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2026-11-22.",
       "frentes": [
         {
           "nome": "Etapas",
-          "feitos": 5,
+          "feitos": 6,
           "total": 31,
-          "percentual": 16.1
+          "percentual": 19.4
         }
       ],
       "destaques": [
-        {
-          "id": "TK-006",
-          "texto": "Base comum IfcOpenShell (projeto, unidades, tipo, material)"
-        },
         {
           "id": "TK-007",
           "texto": "IDS base por categoria (classe, PredefinedType, Psets)"
@@ -59,6 +55,10 @@
         {
           "id": "TK-009",
           "texto": "Guia de busca de modelos do fabricante e regra de licença"
+        },
+        {
+          "id": "TK-010",
+          "texto": "Item 01: bloco cerâmico 14×19×29"
         }
       ]
     }
@@ -67,7 +67,7 @@
     {
       "id": "catalog-previsao",
       "titulo": "Previsão de término no ritmo planejado — Tek Catalog",
-      "data": "2026-11-23",
+      "data": "2026-11-22",
       "projeto_id": "catalog",
       "tipo": "previsao"
     }
@@ -76,7 +76,7 @@
     {
       "nome": "Backlog do Tek Catalog",
       "frequencia": "diária",
-      "ultima_execucao": "2026-10-27T11:22:00-03:00",
+      "ultima_execucao": "2026-10-28T11:23:00-03:00",
       "status": "em_dia",
       "nota": "1 tarefa/dia"
     }
@@ -185,10 +185,10 @@
   ],
   "atividade": [
     {
-      "quando": "2026-10-27T11:22:00-03:00",
-      "resumo": "Mesclou em Tek Catalog: TK-005: busca no index.json (tools/buscar.py)",
+      "quando": "2026-10-28T11:23:00-03:00",
+      "resumo": "Mesclou em Tek Catalog: TK-006: base comum IfcOpenShell (projeto, unidades, tipo, material)",
       "projeto_id": "catalog",
-      "link": "https://github.com/SamAlencar/tek-catalog/pull/6"
+      "link": "https://github.com/SamAlencar/tek-catalog/pull/7"
     }
   ],
   "links": [

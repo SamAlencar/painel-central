@@ -28,14 +28,14 @@ Dúvida aberta no backlog não é, sozinha, uma aprovação formal. Itens de mó
 - D-005 — Escala de nível de desenvolvimento BIM
 - … e mais 41 no site e em `modulos/tek-docs.json`
 
-### Tekto Model · Eng/Tek · 70
+### Tekto Model · Eng/Tek · 71
 
 - Verificação de 21/10/2026
 - Verificação de 24/10/2026
 - Verificação de 25/10/2026
 - Verificação de 18/10/2026
 - Verificação de 23/10/2026
-- … e mais 65 no site e em `modulos/tek-model.json`
+- … e mais 66 no site e em `modulos/tek-model.json`
 
 ### Tek Team · Eng/Tek · 15
 
@@ -119,7 +119,7 @@ Prazos:
 
 ### Tekto Model · Eng/Tek · saudável
 
-Tekto Model — 96 de 260 tarefas concluídas (36,9%). 70 dúvidas de backlog abertas.
+Tekto Model — 97 de 260 tarefas concluídas (37,3%). 71 dúvidas de backlog abertas.
 
 Fonte: github. Atualizado em: 28/10/2026.
 
@@ -127,7 +127,7 @@ Entrega em 28/10/2026.
 
 | Projeto | Saúde | Progresso | Última atividade |
 | --- | --- | --- | --- |
-| Tekto Model | saudável | 96/260 (36,9%) | 28/10/2026 |
+| Tekto Model | saudável | 97/260 (37,3%) | 28/10/2026 |
 
 Rotinas:
 
@@ -142,23 +142,23 @@ Prazos:
 
 ### Tekto Studio · Eng/Tek · saudável
 
-Tekto Studio — 13 de 58 tarefas concluídas (22,4%). 0 dúvidas de backlog abertas.
+Tekto Studio — 14 de 58 tarefas concluídas (24,1%). 0 dúvidas de backlog abertas.
 
-Fonte: github. Atualizado em: 27/10/2026.
+Fonte: github. Atualizado em: 28/10/2026.
 
-Entrega em 27/10/2026.
+Entrega em 28/10/2026.
 
 | Projeto | Saúde | Progresso | Última atividade |
 | --- | --- | --- | --- |
-| Tekto Studio | saudável | 13/58 (22,4%) | 27/10/2026 |
+| Tekto Studio | saudável | 14/58 (24,1%) | 28/10/2026 |
 
 Rotinas:
 
-- Backlog do Tekto Studio — diária — última 27/10/2026 — em dia
+- Backlog do Tekto Studio — diária — última 28/10/2026 — em dia
 
 Prazos:
 
-- 12/12/2026 — Previsão de término no ritmo planejado — Tekto Studio
+- 11/12/2026 — Previsão de término no ritmo planejado — Tekto Studio
 
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
 > 2 trechos omitidos pelo filtro público.
@@ -190,17 +190,17 @@ Prazos:
 
 Tek Hunter — 3 de 24 tarefas concluídas (12,5%). 2 dúvidas de backlog abertas.
 
-Fonte: github. Atualizado em: 26/10/2026.
+Fonte: github. Atualizado em: 28/10/2026.
 
-Entrega em 26/10/2026.
+Entrega em 28/10/2026.
 
 | Projeto | Saúde | Progresso | Última atividade |
 | --- | --- | --- | --- |
-| Tek Hunter | saudável | 3/24 (12,5%) | 26/10/2026 |
+| Tek Hunter | saudável | 3/24 (12,5%) | 28/10/2026 |
 
 Rotinas:
 
-- Backlog do Tek Hunter — semanal — última 26/10/2026 — em dia
+- Backlog do Tek Hunter — semanal — última 28/10/2026 — em dia
 
 Prazos:
 
@@ -211,46 +211,46 @@ Prazos:
 
 ### Tek Catalog · Eng/Tek · saudável
 
-Tek Catalog — 5 de 31 tarefas concluídas (16,1%). 10 dúvidas de backlog abertas.
+Tek Catalog — 6 de 31 tarefas concluídas (19,4%). 10 dúvidas de backlog abertas.
 
-Fonte: github. Atualizado em: 27/10/2026.
+Fonte: github. Atualizado em: 28/10/2026.
 
-Entrega em 27/10/2026.
+Entrega em 28/10/2026.
 
 | Projeto | Saúde | Progresso | Última atividade |
 | --- | --- | --- | --- |
-| Tek Catalog | saudável | 5/31 (16,1%) | 27/10/2026 |
+| Tek Catalog | saudável | 6/31 (19,4%) | 28/10/2026 |
 
 Rotinas:
 
-- Backlog do Tek Catalog — diária — última 27/10/2026 — em dia
+- Backlog do Tek Catalog — diária — última 28/10/2026 — em dia
 
 Prazos:
 
-- 23/11/2026 — Previsão de término no ritmo planejado — Tek Catalog
+- 22/11/2026 — Previsão de término no ritmo planejado — Tek Catalog
 
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
 > 2 trechos omitidos pelo filtro público.
 
 ### Tek Token · Eng/Tek · saudável
 
-Tek Token — 3 de 46 tarefas concluídas (6,5%). 10 dúvidas de backlog abertas.
+Tek Token — 4 de 46 tarefas concluídas (8,7%). 10 dúvidas de backlog abertas.
 
-Fonte: github. Atualizado em: 27/10/2026.
+Fonte: github. Atualizado em: 28/10/2026.
 
-Entrega em 27/10/2026.
+Entrega em 28/10/2026.
 
 | Projeto | Saúde | Progresso | Última atividade |
 | --- | --- | --- | --- |
-| Tek Token | saudável | 3/46 (6,5%) | 27/10/2026 |
+| Tek Token | saudável | 4/46 (8,7%) | 28/10/2026 |
 
 Rotinas:
 
-- Backlog do Tek Token — diária — última 27/10/2026 — em dia
+- Backlog do Tek Token — diária — última 28/10/2026 — em dia
 
 Prazos:
 
-- 10/12/2026 — Previsão de término no ritmo planejado — Tek Token
+- 09/12/2026 — Previsão de término no ritmo planejado — Tek Token
 
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
 > 2 trechos omitidos pelo filtro público.

@@ -7,7 +7,7 @@
     "nome": "Eng/Tek",
     "papel": "Engenharia: cálculo, documento, modelo e estúdio"
   },
-  "resumo": "Tekto Model — 96 de 260 tarefas concluídas (36,9%). 70 dúvidas de backlog abertas.",
+  "resumo": "Tekto Model — 97 de 260 tarefas concluídas (37,3%). 71 dúvidas de backlog abertas.",
   "exemplo": false,
   "fonte": {
     "tipo": "github",
@@ -17,7 +17,7 @@
   "saude": {
     "motivo": "Entrega em 28/10/2026."
   },
-  "atualizado_em": "2026-10-28T08:55:00-03:00",
+  "atualizado_em": "2026-10-28T15:51:00-03:00",
   "projetos": [
     {
       "id": "model",
@@ -29,11 +29,11 @@
       "saude": "saudavel",
       "saude_motivo": "Entrega em 28/10/2026.",
       "progresso": {
-        "feitos": 96,
+        "feitos": 97,
         "total": 260,
-        "percentual": 36.9
+        "percentual": 37.3
       },
-      "ultima_atividade": "2026-10-28T08:55:00-03:00",
+      "ultima_atividade": "2026-10-28T15:51:00-03:00",
       "nota": "Ritmo planejado: 2 tarefas/dia. Previsão de término: 2027-01-18.",
       "frentes": [
         {
@@ -56,9 +56,9 @@
         },
         {
           "nome": "Nova visão do Model (D-075)",
-          "feitos": 8,
+          "feitos": 9,
           "total": 20,
-          "percentual": 40.0
+          "percentual": 45.0
         },
         {
           "nome": "Aço",
@@ -111,10 +111,6 @@
       ],
       "destaques": [
         {
-          "id": "TM-259",
-          "texto": "Regras neutras de modelagem (Revit e IFC)"
-        },
-        {
           "id": "TM-260",
           "texto": "Script de exemplo IfcOpenShell: modificar um elemento do catálogo"
         },
@@ -125,6 +121,10 @@
         {
           "id": "TM-247",
           "texto": "Desfazer e refazer a última alteração da IA"
+        },
+        {
+          "id": "TM-248",
+          "texto": "Predefinições de estilo visual de vistas"
         }
       ]
     }
@@ -142,7 +142,7 @@
     {
       "nome": "Backlog do Tekto Model",
       "frequencia": "diária",
-      "ultima_execucao": "2026-10-28T08:55:00-03:00",
+      "ultima_execucao": "2026-10-28T15:51:00-03:00",
       "status": "em_dia",
       "nota": "2 tarefas/dia"
     }
@@ -839,6 +839,16 @@
       "link": null
     },
     {
+      "id": "model-D-083",
+      "titulo": "D-083 — Padrão de nomes da Tekto e troca de nível nas regras neutras de modelagem",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "model",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
       "id": "model-TM-234",
       "titulo": "Decisão na TM-234 (24/10/2026)",
       "detalhe": null,
@@ -851,28 +861,22 @@
   ],
   "atividade": [
     {
+      "quando": "2026-10-28T15:51:00-03:00",
+      "resumo": "Mesclou em Tekto Model: TM-259: regras neutras de modelagem (Revit e IFC); D-083; verificação da D-030",
+      "projeto_id": "model",
+      "link": "https://github.com/SamAlencar/tek-model/pull/61"
+    },
+    {
+      "quando": "2026-10-28T10:46:00-03:00",
+      "resumo": "Mesclou em Tekto Model: Manutenção quinzenal 2026-10-28",
+      "projeto_id": "model",
+      "link": "https://github.com/SamAlencar/tek-model/pull/60"
+    },
+    {
       "quando": "2026-10-28T08:55:00-03:00",
       "resumo": "Mesclou em Tekto Model: TM-258: exemplo IfcOpenShell que cria uma parede genérica; D-082; verificação da D-032",
       "projeto_id": "model",
       "link": "https://github.com/SamAlencar/tek-model/pull/59"
-    },
-    {
-      "quando": "2026-10-27T15:47:00-03:00",
-      "resumo": "Mesclou em Tekto Model: TM-257: índice conhecimento.json da base de conhecimento (tek-studio)",
-      "projeto_id": "model",
-      "link": "https://github.com/SamAlencar/tek-model/pull/58"
-    },
-    {
-      "quando": "2026-10-27T08:59:00-03:00",
-      "resumo": "Mesclou em Tekto Model: TM-256: pasta de exemplos IfcOpenShell para o tek-studio",
-      "projeto_id": "model",
-      "link": "https://github.com/SamAlencar/tek-model/pull/57"
-    },
-    {
-      "quando": "2026-10-27T08:57:00-03:00",
-      "resumo": "Mesclou em Tekto Model: TM-245: botão Pendências (listar, selecionar e isolar); D-080; verificação da D-079",
-      "projeto_id": "model",
-      "link": "https://github.com/SamAlencar/tek-model/pull/56"
     }
   ],
   "links": [
