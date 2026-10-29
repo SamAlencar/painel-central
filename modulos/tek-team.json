@@ -34,7 +34,7 @@
         "percentual": 10.5
       },
       "ultima_atividade": "2026-10-28T10:47:00-03:00",
-      "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2027-02-07.",
+      "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2027-02-08.",
       "frentes": [
         {
           "nome": "Papéis",
@@ -121,7 +121,7 @@
     {
       "id": "team-previsao",
       "titulo": "Previsão de término no ritmo planejado — Tek Team",
-      "data": "2027-02-07",
+      "data": "2027-02-08",
       "projeto_id": "team",
       "tipo": "previsao"
     }

@@ -34,7 +34,7 @@
         "percentual": 19.4
       },
       "ultima_atividade": "2026-10-28T11:23:00-03:00",
-      "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2026-11-22.",
+      "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2026-11-23.",
       "frentes": [
         {
           "nome": "Etapas",
@@ -67,7 +67,7 @@
     {
       "id": "catalog-previsao",
       "titulo": "Previsão de término no ritmo planejado — Tek Catalog",
-      "data": "2026-11-22",
+      "data": "2026-11-23",
       "projeto_id": "catalog",
       "tipo": "previsao"
     }
