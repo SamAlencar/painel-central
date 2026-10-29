@@ -7,7 +7,7 @@
     "nome": "Eng/Tek",
     "papel": "Engenharia: cálculo, documento, modelo e estúdio"
   },
-  "resumo": "Tekto Docs — 35 de 84 tarefas concluídas (41,7%). 46 dúvidas de backlog abertas.",
+  "resumo": "Tekto Docs — 37 de 84 tarefas concluídas (44%). 46 dúvidas de backlog abertas.",
   "exemplo": false,
   "fonte": {
     "tipo": "github",
@@ -15,9 +15,9 @@
   },
   "status": "saudavel",
   "saude": {
-    "motivo": "Entrega em 28/10/2026."
+    "motivo": "Entrega em 29/10/2026."
   },
-  "atualizado_em": "2026-10-28T10:46:00-03:00",
+  "atualizado_em": "2026-10-29T08:18:00-03:00",
   "projetos": [
     {
       "id": "docs",
@@ -27,14 +27,14 @@
       "descricao": "Memoriais, especificações, laudos e fichas técnicas",
       "status": "ativo",
       "saude": "saudavel",
-      "saude_motivo": "Entrega em 28/10/2026.",
+      "saude_motivo": "Entrega em 29/10/2026.",
       "progresso": {
-        "feitos": 35,
+        "feitos": 37,
         "total": 84,
-        "percentual": 41.7
+        "percentual": 44.0
       },
-      "ultima_atividade": "2026-10-28T10:46:00-03:00",
-      "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2026-12-17.",
+      "ultima_atividade": "2026-10-29T08:18:00-03:00",
+      "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2026-12-15.",
       "frentes": [
         {
           "nome": "Instalações",
@@ -44,9 +44,9 @@
         },
         {
           "nome": "Normas",
-          "feitos": 1,
+          "feitos": 3,
           "total": 8,
-          "percentual": 12.5
+          "percentual": 37.5
         },
         {
           "nome": "Normas internacionais (comparativos)",
@@ -127,7 +127,7 @@
     {
       "id": "docs-previsao",
       "titulo": "Previsão de término no ritmo planejado — Tekto Docs",
-      "data": "2026-12-17",
+      "data": "2026-12-15",
       "projeto_id": "docs",
       "tipo": "previsao"
     }
@@ -136,7 +136,7 @@
     {
       "nome": "Backlog do Tekto Docs",
       "frequencia": "diária",
-      "ultima_execucao": "2026-10-28T10:46:00-03:00",
+      "ultima_execucao": "2026-10-29T08:18:00-03:00",
       "status": "em_dia",
       "nota": "1 tarefa/dia"
     }
@@ -605,16 +605,16 @@
   ],
   "atividade": [
     {
-      "quando": "2026-10-28T10:46:00-03:00",
-      "resumo": "Mesclou em Tekto Docs: Manutenção quinzenal 2026-10-28",
+      "quando": "2026-10-29T08:18:00-03:00",
+      "resumo": "Mesclou em Tekto Docs: TD-031: índice da NBR 14931",
       "projeto_id": "docs",
-      "link": "https://github.com/SamAlencar/tek-docs/pull/30"
+      "link": "https://github.com/SamAlencar/tek-docs/pull/32"
     },
     {
-      "quando": "2026-10-28T08:16:00-03:00",
-      "resumo": "Mesclou em Tekto Docs: TD-030: índice da NBR 12655:2022",
+      "quando": "2026-10-29T08:16:00-03:00",
+      "resumo": "Mesclou em Tekto Docs: TD-029: índice da NBR 6118",
       "projeto_id": "docs",
-      "link": "https://github.com/SamAlencar/tek-docs/pull/29"
+      "link": "https://github.com/SamAlencar/tek-docs/pull/31"
     }
   ],
   "links": [
@@ -625,6 +625,6 @@
   ],
   "avisos": [
     "Cada projeto mostra no máximo 12 frentes, as de maior volume.",
-    "2 trechos omitidos pelo filtro público."
+    "3 trechos omitidos pelo filtro público."
   ]
 }

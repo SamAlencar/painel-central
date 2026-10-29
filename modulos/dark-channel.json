@@ -15,9 +15,9 @@
   },
   "status": "saudavel",
   "saude": {
-    "motivo": "Saúde pelo push mais recente (28/10/2026)."
+    "motivo": "Saúde pelo push mais recente (29/10/2026)."
   },
-  "atualizado_em": "2026-10-28T12:05:55+00:00",
+  "atualizado_em": "2026-10-29T12:04:05+00:00",
   "projetos": [
     {
       "id": "dark-channel-playbook",
@@ -27,9 +27,9 @@
       "descricao": "Sem descrição pública.",
       "status": "ativo",
       "saude": "saudavel",
-      "saude_motivo": "Último push em 28/10/2026.",
+      "saude_motivo": "Último push em 29/10/2026.",
       "progresso": null,
-      "ultima_atividade": "2026-10-28T12:05:55+00:00",
+      "ultima_atividade": "2026-10-29T12:04:05+00:00",
       "nota": "Só metadados. Arquivo e issue não são lidos.",
       "frentes": [],
       "destaques": []
@@ -39,6 +39,12 @@
   "rotinas": [],
   "aguardando_samuel": [],
   "atividade": [
+    {
+      "quando": "2026-10-29T12:04:03+00:00",
+      "resumo": "dark-channel-playbook: Passo 05: auditoria de hardware e ambiente (perfil RTX 3050 6 GB, matriz ferramenta × viabilidade, regra de uma carga na GPU, instalação e caches no E:, orçamento de disco, script de auditoria soment…",
+      "projeto_id": "dark-channel-playbook",
+      "link": "https://github.com/SamAlencar/dark-channel-playbook"
+    },
     {
       "quando": "2026-10-28T12:05:52+00:00",
       "resumo": "dark-channel-playbook: Passo 04: guia de licenças livres (tabela de uso comercial, CC/SA/ND em vídeo, domínio público pela Lei 9.610, licenças de modelos de IA, modelo de crédito TASL, checklist)",
@@ -60,12 +66,6 @@
     {
       "quando": "2026-10-26T12:10:01+00:00",
       "resumo": "dark-channel-playbook: Passo 02: políticas de monetização e conteúdo reutilizado (genérico/repetitivo, insatisfatório, personas de IA, spam, Shorts, multi-canal, checklists)",
-      "projeto_id": "dark-channel-playbook",
-      "link": "https://github.com/SamAlencar/dark-channel-playbook"
-    },
-    {
-      "quando": "2026-10-25T20:59:56+00:00",
-      "resumo": "dark-channel-playbook: Ferramentas: motionmaxxing como candidato (Passo 08)",
       "projeto_id": "dark-channel-playbook",
       "link": "https://github.com/SamAlencar/dark-channel-playbook"
     }

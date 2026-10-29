@@ -7,7 +7,7 @@
     "nome": "Eng/Tek",
     "papel": "Engenharia: cálculo, documento, modelo e estúdio"
   },
-  "resumo": "Tekto Studio — 14 de 58 tarefas concluídas (24,1%). 0 dúvidas de backlog abertas.",
+  "resumo": "Tekto Studio — 15 de 58 tarefas concluídas (25,9%). 0 dúvidas de backlog abertas.",
   "exemplo": false,
   "fonte": {
     "tipo": "github",
@@ -15,9 +15,9 @@
   },
   "status": "saudavel",
   "saude": {
-    "motivo": "Entrega em 28/10/2026."
+    "motivo": "Entrega em 29/10/2026."
   },
-  "atualizado_em": "2026-10-28T10:37:00-03:00",
+  "atualizado_em": "2026-10-29T10:39:00-03:00",
   "projetos": [
     {
       "id": "studio",
@@ -27,20 +27,20 @@
       "descricao": "Plataforma de engenharia com agente de IA e núcleo determinístico",
       "status": "ativo",
       "saude": "saudavel",
-      "saude_motivo": "Entrega em 28/10/2026.",
+      "saude_motivo": "Entrega em 29/10/2026.",
       "progresso": {
-        "feitos": 14,
+        "feitos": 15,
         "total": 58,
-        "percentual": 24.1
+        "percentual": 25.9
       },
-      "ultima_atividade": "2026-10-28T10:37:00-03:00",
-      "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2026-12-12.",
+      "ultima_atividade": "2026-10-29T10:39:00-03:00",
+      "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2026-12-11.",
       "frentes": [
         {
           "nome": "Fase M — MVP da especificação \"Vibe Coding BIM\" (25/10/2026, TS-D12)",
-          "feitos": 3,
+          "feitos": 4,
           "total": 20,
-          "percentual": 15.0
+          "percentual": 20.0
         },
         {
           "nome": "Fase 2 — Integração do núcleo (8)",
@@ -87,10 +87,6 @@
       ],
       "destaques": [
         {
-          "id": "TS-079",
-          "texto": "Cliente MCP direto ao servidor tekto-calc (sem tek-model)"
-        },
-        {
           "id": "TS-073",
           "texto": "Ponte tek-calc → cartão: resultado da flexão de viga vira proposta"
         },
@@ -101,6 +97,10 @@
         {
           "id": "TS-075",
           "texto": "Dependência ifcopenshell e IFC de exemplo próprio pequeno em tests/dados/"
+        },
+        {
+          "id": "TS-076",
+          "texto": "Executor: proposta aprovada altera uma propriedade no IFC e salva nova versão"
         }
       ]
     }
@@ -109,7 +109,7 @@
     {
       "id": "studio-previsao",
       "titulo": "Previsão de término no ritmo planejado — Tekto Studio",
-      "data": "2026-12-12",
+      "data": "2026-12-11",
       "projeto_id": "studio",
       "tipo": "previsao"
     }
@@ -118,7 +118,7 @@
     {
       "nome": "Backlog do Tekto Studio",
       "frequencia": "diária",
-      "ultima_execucao": "2026-10-28T10:37:00-03:00",
+      "ultima_execucao": "2026-10-29T10:39:00-03:00",
       "status": "em_dia",
       "nota": "1 tarefa/dia"
     }
@@ -126,10 +126,10 @@
   "aguardando_samuel": [],
   "atividade": [
     {
-      "quando": "2026-10-28T10:37:00-03:00",
-      "resumo": "Mesclou em Tekto Studio: TS-072: fila de propostas com auditoria de cada decisão",
+      "quando": "2026-10-29T10:39:00-03:00",
+      "resumo": "Mesclou em Tekto Studio: TS-079: cliente MCP direto ao servidor do tekto-calc (sem tek-model)",
       "projeto_id": "studio",
-      "link": "https://github.com/SamAlencar/tek-studio/pull/14"
+      "link": "https://github.com/SamAlencar/tek-studio/pull/15"
     }
   ],
   "links": [
@@ -140,6 +140,6 @@
   ],
   "avisos": [
     "Cada projeto mostra no máximo 12 frentes, as de maior volume.",
-    "2 trechos omitidos pelo filtro público."
+    "3 trechos omitidos pelo filtro público."
   ]
 }

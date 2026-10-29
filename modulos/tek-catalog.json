@@ -7,7 +7,7 @@
     "nome": "Eng/Tek",
     "papel": "Engenharia: cálculo, documento, modelo e estúdio"
   },
-  "resumo": "Tek Catalog — 6 de 31 tarefas concluídas (19,4%). 10 dúvidas de backlog abertas.",
+  "resumo": "Tek Catalog — 7 de 31 tarefas concluídas (22,6%). 13 dúvidas de backlog abertas.",
   "exemplo": false,
   "fonte": {
     "tipo": "github",
@@ -15,9 +15,9 @@
   },
   "status": "saudavel",
   "saude": {
-    "motivo": "Entrega em 28/10/2026."
+    "motivo": "Entrega em 29/10/2026."
   },
-  "atualizado_em": "2026-10-28T11:23:00-03:00",
+  "atualizado_em": "2026-10-29T11:20:00-03:00",
   "projetos": [
     {
       "id": "catalog",
@@ -27,27 +27,23 @@
       "descricao": "Catálogo Tekto de materiais da construção civil com IFC 4.3",
       "status": "ativo",
       "saude": "saudavel",
-      "saude_motivo": "Entrega em 28/10/2026.",
+      "saude_motivo": "Entrega em 29/10/2026.",
       "progresso": {
-        "feitos": 6,
+        "feitos": 7,
         "total": 31,
-        "percentual": 19.4
+        "percentual": 22.6
       },
-      "ultima_atividade": "2026-10-28T11:23:00-03:00",
-      "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2026-11-23.",
+      "ultima_atividade": "2026-10-29T11:20:00-03:00",
+      "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2026-11-22.",
       "frentes": [
         {
           "nome": "Etapas",
-          "feitos": 6,
+          "feitos": 7,
           "total": 31,
-          "percentual": 19.4
+          "percentual": 22.6
         }
       ],
       "destaques": [
-        {
-          "id": "TK-007",
-          "texto": "IDS base por categoria (classe, PredefinedType, Psets)"
-        },
         {
           "id": "TK-008",
           "texto": "Script validar.py (ficha, IFC, IDS, índice); CI só com autorização do Samuel"
@@ -59,6 +55,10 @@
         {
           "id": "TK-010",
           "texto": "Item 01: bloco cerâmico 14×19×29"
+        },
+        {
+          "id": "TK-011",
+          "texto": "Item 02: bloco de concreto estrutural 14×19×39"
         }
       ]
     }
@@ -67,7 +67,7 @@
     {
       "id": "catalog-previsao",
       "titulo": "Previsão de término no ritmo planejado — Tek Catalog",
-      "data": "2026-11-23",
+      "data": "2026-11-22",
       "projeto_id": "catalog",
       "tipo": "previsao"
     }
@@ -76,7 +76,7 @@
     {
       "nome": "Backlog do Tek Catalog",
       "frequencia": "diária",
-      "ultima_execucao": "2026-10-28T11:23:00-03:00",
+      "ultima_execucao": "2026-10-29T11:20:00-03:00",
       "status": "em_dia",
       "nota": "1 tarefa/dia"
     }
@@ -95,6 +95,26 @@
     {
       "id": "catalog-10",
       "titulo": "Decisão: a textura importa e variantes de textura por item são válidas. Só ficam no repo texturas próprias ou de licença livre (CC0), com fonte e licença; imagens de fabricantes f…",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "catalog",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "catalog-11",
+      "titulo": "Status: decisão provisória do agente em 29/10/2026, para revisão do Samuel",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "catalog",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "catalog-12",
+      "titulo": "Contexto: o plano pede que o IDS confira os Psets obrigatórios, mas quais Psets e propriedades cada item terá dependem das fontes do item (fabricante, catálogo técnico, norma), qu…",
       "detalhe": null,
       "desde": null,
       "projeto_id": "catalog",
@@ -181,9 +201,25 @@
       "urgencia": "media",
       "tipo": "duvida",
       "link": null
+    },
+    {
+      "id": "catalog-TK-010",
+      "titulo": "Decisão provisória: a regra base por categoria confere só classe, PredefinedType (ou ElementType em USERDEFINED), Name e Tag. Cada item, ao ser criado (TK-010 a TK-022), acrescent…",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "catalog",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
     }
   ],
   "atividade": [
+    {
+      "quando": "2026-10-29T11:20:00-03:00",
+      "resumo": "Mesclou em Tek Catalog: TK-007: regras IDS base por categoria",
+      "projeto_id": "catalog",
+      "link": "https://github.com/SamAlencar/tek-catalog/pull/8"
+    },
     {
       "quando": "2026-10-28T11:23:00-03:00",
       "resumo": "Mesclou em Tek Catalog: TK-006: base comum IfcOpenShell (projeto, unidades, tipo, material)",
@@ -199,6 +235,6 @@
   ],
   "avisos": [
     "Cada projeto mostra no máximo 12 frentes, as de maior volume.",
-    "2 trechos omitidos pelo filtro público."
+    "3 trechos omitidos pelo filtro público."
   ]
 }

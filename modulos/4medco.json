@@ -7,7 +7,7 @@
     "nome": "Bil",
     "papel": "Produtos e operação da 4med.co"
   },
-  "resumo": "Repositório ativo: 4medco-base-conhecimento. 8 de 18 tarefas da etapa 4 concluídas (44,4%). Em espera: 4medco-platform, 4medco-website.",
+  "resumo": "Repositório ativo: 4medco-base-conhecimento. 9 de 18 tarefas da etapa 4 concluídas (50%). Em espera: 4medco-platform, 4medco-website.",
   "exemplo": false,
   "fonte": {
     "tipo": "github",
@@ -15,9 +15,9 @@
   },
   "status": "saudavel",
   "saude": {
-    "motivo": "Último push em 28/10/2026."
+    "motivo": "Último push em 29/10/2026."
   },
-  "atualizado_em": "2026-10-28T12:13:41+00:00",
+  "atualizado_em": "2026-10-29T12:11:24+00:00",
   "projetos": [
     {
       "id": "4medco-base-conhecimento",
@@ -27,27 +27,23 @@
       "descricao": "Base de conhecimento e planejamento do 4med.co (med-hub): escopo, funcionalidades, MCPs e conteúdo contábil/jurídico",
       "status": "ativo",
       "saude": "saudavel",
-      "saude_motivo": "Último push em 28/10/2026.",
+      "saude_motivo": "Último push em 29/10/2026.",
       "progresso": {
-        "feitos": 8,
+        "feitos": 9,
         "total": 18,
-        "percentual": 44.4
+        "percentual": 50.0
       },
-      "ultima_atividade": "2026-10-28T12:13:41+00:00",
+      "ultima_atividade": "2026-10-29T12:11:24+00:00",
       "nota": "Progresso do checklist planejamento/etapa4-plano.md (uma tarefa por dia útil).",
       "frentes": [
         {
           "nome": "Etapa 4",
-          "feitos": 8,
+          "feitos": 9,
           "total": 18,
-          "percentual": 44.4
+          "percentual": 50.0
         }
       ],
       "destaques": [
-        {
-          "id": "T09",
-          "texto": "T09 (qui 29/10): Tabelas estruturadas: Presumido, INSS, IRRF e ISS municipal"
-        },
         {
           "id": "T10",
           "texto": "T10 (sex 30/10): NFS-e de plantão e retenções"
@@ -59,6 +55,10 @@
         {
           "id": "T12",
           "texto": "T12 (qua 04/11): Obrigações acessórias e calendário fiscal"
+        },
+        {
+          "id": "T13",
+          "texto": "T13 (qui 05/11): Reforma tributária: IBS/CBS (LC 214/2025)"
         }
       ]
     },
@@ -98,6 +98,12 @@
   "aguardando_samuel": [],
   "atividade": [
     {
+      "quando": "2026-10-29T12:11:22+00:00",
+      "resumo": "4medco-base-conhecimento: Etapa 4, T09: tabelas estruturadas do Lucro Presumido, INSS 2026, IRRF 2026, dividendos 2026 e ISS municipal (SP, DF, BH, RJ, Curitiba, Porto Alegre); glossário 84 termos",
+      "projeto_id": "4medco-base-conhecimento",
+      "link": "https://github.com/SamAlencar/4medco-base-conhecimento"
+    },
+    {
       "quando": "2026-10-26T12:09:42+00:00",
       "resumo": "4medco-base-conhecimento: Etapa 4, T06: ISS e sociedade uniprofissional (STF Tema 918 confirmado, STJ Tema 1.323, SP/DF/BH 2026); glossário 66 termos",
       "projeto_id": "4medco-base-conhecimento",
@@ -106,12 +112,6 @@
     {
       "quando": "2026-10-23T12:04:58+00:00",
       "resumo": "4medco-base-conhecimento: Etapa 4, T05: Lucro Presumido e equiparação hospitalar (IN RFB 2.343/2026, LC 224/2025); glossário 61 termos",
-      "projeto_id": "4medco-base-conhecimento",
-      "link": "https://github.com/SamAlencar/4medco-base-conhecimento"
-    },
-    {
-      "quando": "2026-10-23T09:52:19+00:00",
-      "resumo": "4medco-base-conhecimento: T04: tabelas estruturadas do Simples Nacional (dados JSON e conferência)",
       "projeto_id": "4medco-base-conhecimento",
       "link": "https://github.com/SamAlencar/4medco-base-conhecimento"
     },

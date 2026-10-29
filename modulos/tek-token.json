@@ -7,7 +7,7 @@
     "nome": "Eng/Tek",
     "papel": "Engenharia: cálculo, documento, modelo e estúdio"
   },
-  "resumo": "Tek Token — 4 de 46 tarefas concluídas (8,7%). 10 dúvidas de backlog abertas.",
+  "resumo": "Tek Token — 5 de 46 tarefas concluídas (10,9%). 10 dúvidas de backlog abertas.",
   "exemplo": false,
   "fonte": {
     "tipo": "github",
@@ -15,9 +15,9 @@
   },
   "status": "saudavel",
   "saude": {
-    "motivo": "Entrega em 28/10/2026."
+    "motivo": "Entrega em 29/10/2026."
   },
-  "atualizado_em": "2026-10-28T11:45:00-03:00",
+  "atualizado_em": "2026-10-29T11:44:00-03:00",
   "projetos": [
     {
       "id": "token",
@@ -27,14 +27,14 @@
       "descricao": "Sem descrição publicada.",
       "status": "ativo",
       "saude": "saudavel",
-      "saude_motivo": "Entrega em 28/10/2026.",
+      "saude_motivo": "Entrega em 29/10/2026.",
       "progresso": {
-        "feitos": 4,
+        "feitos": 5,
         "total": 46,
-        "percentual": 8.7
+        "percentual": 10.9
       },
-      "ultima_atividade": "2026-10-28T11:45:00-03:00",
-      "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2026-12-10.",
+      "ultima_atividade": "2026-10-29T11:44:00-03:00",
+      "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2026-12-09.",
       "frentes": [
         {
           "nome": "M4 — Governança e conformidade",
@@ -50,9 +50,9 @@
         },
         {
           "nome": "Fundação",
-          "feitos": 4,
+          "feitos": 5,
           "total": 7,
-          "percentual": 57.1
+          "percentual": 71.4
         },
         {
           "nome": "M1 — Tokenização de PI",
@@ -75,10 +75,6 @@
       ],
       "destaques": [
         {
-          "id": "TK-T005",
-          "texto": "Catálogo de fontes oficiais"
-        },
-        {
           "id": "TK-T006",
           "texto": "Relação com os repositórios Tekto"
         },
@@ -89,6 +85,10 @@
         {
           "id": "TK-T008",
           "texto": "Visão do M1 e personas do lado da oferta"
+        },
+        {
+          "id": "TK-T009",
+          "texto": "Autoria e direitos sobre projeto de engenharia"
         }
       ]
     }
@@ -97,7 +97,7 @@
     {
       "id": "token-previsao",
       "titulo": "Previsão de término no ritmo planejado — Tek Token",
-      "data": "2026-12-10",
+      "data": "2026-12-09",
       "projeto_id": "token",
       "tipo": "previsao"
     }
@@ -106,7 +106,7 @@
     {
       "nome": "Backlog do Tek Token",
       "frequencia": "diária",
-      "ultima_execucao": "2026-10-28T11:45:00-03:00",
+      "ultima_execucao": "2026-10-29T11:44:00-03:00",
       "status": "em_dia",
       "nota": "1 tarefa/dia"
     }
@@ -215,6 +215,12 @@
   ],
   "atividade": [
     {
+      "quando": "2026-10-29T11:44:00-03:00",
+      "resumo": "Mesclou uma entrega em Tek Token.",
+      "projeto_id": "token",
+      "link": "https://github.com/SamAlencar/tek-token/pull/5"
+    },
+    {
       "quando": "2026-10-28T11:45:00-03:00",
       "resumo": "Mesclou uma entrega em Tek Token.",
       "projeto_id": "token",
@@ -229,6 +235,6 @@
   ],
   "avisos": [
     "Cada projeto mostra no máximo 12 frentes, as de maior volume.",
-    "2 trechos omitidos pelo filtro público."
+    "3 trechos omitidos pelo filtro público."
   ]
 }

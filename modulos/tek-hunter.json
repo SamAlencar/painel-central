@@ -7,7 +7,7 @@
     "nome": "Eng/Tek",
     "papel": "Engenharia: cálculo, documento, modelo e estúdio"
   },
-  "resumo": "Tek Hunter — 3 de 24 tarefas concluídas (12,5%). 2 dúvidas de backlog abertas.",
+  "resumo": "Tek Hunter — 4 de 24 tarefas concluídas (16,7%). 3 dúvidas de backlog abertas.",
   "exemplo": false,
   "fonte": {
     "tipo": "github",
@@ -15,9 +15,9 @@
   },
   "status": "saudavel",
   "saude": {
-    "motivo": "Entrega em 28/10/2026."
+    "motivo": "Entrega em 29/10/2026."
   },
-  "atualizado_em": "2026-10-28T10:46:00-03:00",
+  "atualizado_em": "2026-10-29T09:28:00-03:00",
   "projetos": [
     {
       "id": "hunter",
@@ -27,14 +27,14 @@
       "descricao": "Base para captação de elaboração de projetos",
       "status": "ativo",
       "saude": "saudavel",
-      "saude_motivo": "Entrega em 28/10/2026.",
+      "saude_motivo": "Entrega em 29/10/2026.",
       "progresso": {
-        "feitos": 3,
+        "feitos": 4,
         "total": 24,
-        "percentual": 12.5
+        "percentual": 16.7
       },
-      "ultima_atividade": "2026-10-28T10:46:00-03:00",
-      "nota": "Ritmo planejado: 2 etapas/semana. Previsão de término: 2027-01-11.",
+      "ultima_atividade": "2026-10-29T09:28:00-03:00",
+      "nota": "Ritmo planejado: 2 etapas/semana. Previsão de término: 2027-01-07.",
       "frentes": [
         {
           "nome": "Amostra",
@@ -44,9 +44,9 @@
         },
         {
           "nome": "Fontes",
-          "feitos": 2,
+          "feitos": 3,
           "total": 6,
-          "percentual": 33.3
+          "percentual": 50.0
         },
         {
           "nome": "Sínteses",
@@ -75,10 +75,6 @@
       ],
       "destaques": [
         {
-          "id": "TH-004",
-          "texto": "Catálogo de plataformas privadas de licitação"
-        },
-        {
           "id": "TH-005",
           "texto": "Catálogo de diários oficiais e sites municipais"
         },
@@ -89,6 +85,10 @@
         {
           "id": "TH-007",
           "texto": "Guia da API pública do PNCP"
+        },
+        {
+          "id": "TH-008",
+          "texto": "Quadro legal dos documentos de habilitação"
         }
       ]
     }
@@ -97,7 +97,7 @@
     {
       "id": "hunter-previsao",
       "titulo": "Previsão de término no ritmo planejado — Tek Hunter",
-      "data": "2027-01-11",
+      "data": "2027-01-07",
       "projeto_id": "hunter",
       "tipo": "previsao"
     }
@@ -106,7 +106,7 @@
     {
       "nome": "Backlog do Tek Hunter",
       "frequencia": "semanal",
-      "ultima_execucao": "2026-10-28T10:46:00-03:00",
+      "ultima_execucao": "2026-10-29T09:28:00-03:00",
       "status": "em_dia",
       "nota": "2 etapas/semana"
     }
@@ -131,14 +131,24 @@
       "urgencia": "media",
       "tipo": "duvida",
       "link": null
+    },
+    {
+      "id": "hunter-D-003",
+      "titulo": "D-003 — Licitanet: aceitar fonte oficial de terceiro?",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "hunter",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
     }
   ],
   "atividade": [
     {
-      "quando": "2026-10-28T10:46:00-03:00",
-      "resumo": "Mesclou em Tek Hunter: Manutenção quinzenal 2026-10-28",
+      "quando": "2026-10-29T09:28:00-03:00",
+      "resumo": "Mesclou em Tek Hunter: TH-004: catálogo de plataformas privadas de licitação",
       "projeto_id": "hunter",
-      "link": "https://github.com/SamAlencar/tek-hunter/pull/7"
+      "link": "https://github.com/SamAlencar/tek-hunter/pull/8"
     }
   ],
   "links": [
@@ -149,6 +159,6 @@
   ],
   "avisos": [
     "Cada projeto mostra no máximo 12 frentes, as de maior volume.",
-    "2 trechos omitidos pelo filtro público."
+    "3 trechos omitidos pelo filtro público."
   ]
 }

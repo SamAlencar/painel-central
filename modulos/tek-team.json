@@ -7,7 +7,7 @@
     "nome": "Eng/Tek",
     "papel": "Engenharia: cálculo, documento, modelo e estúdio"
   },
-  "resumo": "Tek Team — 12 de 114 tarefas concluídas (10,5%). 15 dúvidas de backlog abertas.",
+  "resumo": "Tek Team — 13 de 114 tarefas concluídas (11,4%). 16 dúvidas de backlog abertas.",
   "exemplo": false,
   "fonte": {
     "tipo": "github",
@@ -15,9 +15,9 @@
   },
   "status": "saudavel",
   "saude": {
-    "motivo": "Entrega em 28/10/2026."
+    "motivo": "Entrega em 29/10/2026."
   },
-  "atualizado_em": "2026-10-28T10:47:00-03:00",
+  "atualizado_em": "2026-10-29T09:49:00-03:00",
   "projetos": [
     {
       "id": "team",
@@ -27,14 +27,14 @@
       "descricao": "Equipe de agentes de IA: papéis, skills e diretrizes BIM",
       "status": "ativo",
       "saude": "saudavel",
-      "saude_motivo": "Entrega em 28/10/2026.",
+      "saude_motivo": "Entrega em 29/10/2026.",
       "progresso": {
-        "feitos": 12,
+        "feitos": 13,
         "total": 114,
-        "percentual": 10.5
+        "percentual": 11.4
       },
-      "ultima_atividade": "2026-10-28T10:47:00-03:00",
-      "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2027-02-08.",
+      "ultima_atividade": "2026-10-29T09:49:00-03:00",
+      "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2027-02-07.",
       "frentes": [
         {
           "nome": "Papéis",
@@ -74,9 +74,9 @@
         },
         {
           "nome": "BIM",
-          "feitos": 0,
+          "feitos": 1,
           "total": 6,
-          "percentual": 0.0
+          "percentual": 16.7
         },
         {
           "nome": "Piloto",
@@ -99,10 +99,6 @@
       ],
       "destaques": [
         {
-          "id": "TT-012",
-          "texto": "Pesquisa: ISO 19650 e NBR ISO 19650"
-        },
-        {
           "id": "TT-013",
           "texto": "Pesquisa: papéis e funções de gestão da informação na ISO 19650"
         },
@@ -113,6 +109,10 @@
         {
           "id": "TT-015",
           "texto": "Pesquisa: CDE, estados da informação, nomenclatura e metadados"
+        },
+        {
+          "id": "TT-016",
+          "texto": "Pesquisa: níveis de informação necessária, LOD/LOI e IFC 4.3"
         }
       ]
     }
@@ -121,7 +121,7 @@
     {
       "id": "team-previsao",
       "titulo": "Previsão de término no ritmo planejado — Tek Team",
-      "data": "2027-02-08",
+      "data": "2027-02-07",
       "projeto_id": "team",
       "tipo": "previsao"
     }
@@ -130,7 +130,7 @@
     {
       "nome": "Backlog do Tek Team",
       "frequencia": "diária",
-      "ultima_execucao": "2026-10-28T10:47:00-03:00",
+      "ultima_execucao": "2026-10-29T09:49:00-03:00",
       "status": "em_dia",
       "nota": "1 tarefa/dia"
     }
@@ -285,20 +285,24 @@
       "urgencia": "media",
       "tipo": "duvida",
       "link": null
+    },
+    {
+      "id": "team-D-016",
+      "titulo": "D-016 — Situação da NBR ISO 19650-4 e papel da Tekto na equipe ISO 19650",
+      "detalhe": null,
+      "desde": "2026-10-29",
+      "projeto_id": "team",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
     }
   ],
   "atividade": [
     {
-      "quando": "2026-10-28T10:47:00-03:00",
-      "resumo": "Mesclou em Tek Team: Manutenção quinzenal 2026-10-28",
+      "quando": "2026-10-29T09:49:00-03:00",
+      "resumo": "Mesclou em Tek Team: TT-012 — Pesquisa: ISO 19650 e NBR ISO 19650 — partes, status e conceitos",
       "projeto_id": "team",
-      "link": "https://github.com/SamAlencar/tek-team/pull/18"
-    },
-    {
-      "quando": "2026-10-28T09:53:00-03:00",
-      "resumo": "Mesclou em Tek Team: TT-018 — Pesquisa: departamentos e funções de uma empresa completa de engenharia e arquitetura",
-      "projeto_id": "team",
-      "link": "https://github.com/SamAlencar/tek-team/pull/17"
+      "link": "https://github.com/SamAlencar/tek-team/pull/19"
     }
   ],
   "links": [
@@ -309,6 +313,6 @@
   ],
   "avisos": [
     "Cada projeto mostra no máximo 12 frentes, as de maior volume.",
-    "2 trechos omitidos pelo filtro público."
+    "3 trechos omitidos pelo filtro público."
   ]
 }
