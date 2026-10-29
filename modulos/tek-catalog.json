@@ -219,12 +219,6 @@
       "resumo": "Mesclou em Tek Catalog: TK-007: regras IDS base por categoria",
       "projeto_id": "catalog",
       "link": "https://github.com/SamAlencar/tek-catalog/pull/8"
-    },
-    {
-      "quando": "2026-10-28T11:23:00-03:00",
-      "resumo": "Mesclou em Tek Catalog: TK-006: base comum IfcOpenShell (projeto, unidades, tipo, material)",
-      "projeto_id": "catalog",
-      "link": "https://github.com/SamAlencar/tek-catalog/pull/7"
     }
   ],
   "links": [

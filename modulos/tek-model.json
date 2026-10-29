@@ -7,7 +7,7 @@
     "nome": "Eng/Tek",
     "papel": "Engenharia: cálculo, documento, modelo e estúdio"
   },
-  "resumo": "Tekto Model — 98 de 260 tarefas concluídas (37,7%). 72 dúvidas de backlog abertas.",
+  "resumo": "Tekto Model — 99 de 260 tarefas concluídas (38,1%). 73 dúvidas de backlog abertas.",
   "exemplo": false,
   "fonte": {
     "tipo": "github",
@@ -17,7 +17,7 @@
   "saude": {
     "motivo": "Entrega em 29/10/2026."
   },
-  "atualizado_em": "2026-10-29T08:58:00-03:00",
+  "atualizado_em": "2026-10-29T15:54:00-03:00",
   "projetos": [
     {
       "id": "model",
@@ -29,11 +29,11 @@
       "saude": "saudavel",
       "saude_motivo": "Entrega em 29/10/2026.",
       "progresso": {
-        "feitos": 98,
+        "feitos": 99,
         "total": 260,
-        "percentual": 37.7
+        "percentual": 38.1
       },
-      "ultima_atividade": "2026-10-29T08:58:00-03:00",
+      "ultima_atividade": "2026-10-29T15:54:00-03:00",
       "nota": "Ritmo planejado: 2 tarefas/dia. Previsão de término: 2027-01-18.",
       "frentes": [
         {
@@ -56,9 +56,9 @@
         },
         {
           "nome": "Nova visão do Model (D-075)",
-          "feitos": 10,
+          "feitos": 11,
           "total": 20,
-          "percentual": 50.0
+          "percentual": 55.0
         },
         {
           "nome": "Aço",
@@ -111,10 +111,6 @@
       ],
       "destaques": [
         {
-          "id": "TM-246",
-          "texto": "Aprovar ou rejeitar uma pendência"
-        },
-        {
           "id": "TM-247",
           "texto": "Desfazer e refazer a última alteração da IA"
         },
@@ -125,6 +121,10 @@
         {
           "id": "TM-249",
           "texto": "Fluxo recomendado IA, lista e aprovação no Revit"
+        },
+        {
+          "id": "TM-250",
+          "texto": "Modelo de aprendizado e de erro comum"
         }
       ]
     }
@@ -142,7 +142,7 @@
     {
       "nome": "Backlog do Tekto Model",
       "frequencia": "diária",
-      "ultima_execucao": "2026-10-29T08:58:00-03:00",
+      "ultima_execucao": "2026-10-29T15:54:00-03:00",
       "status": "em_dia",
       "nota": "2 tarefas/dia"
     }
@@ -859,6 +859,16 @@
       "link": null
     },
     {
+      "id": "model-D-085",
+      "titulo": "D-085 — Quem decidiu, rejeição antes do desfazer e schema 0.1.1 na aprovação de pendências",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "model",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
       "id": "model-TM-234",
       "titulo": "Decisão na TM-234 (24/10/2026)",
       "detalhe": null,
@@ -870,6 +880,12 @@
     }
   ],
   "atividade": [
+    {
+      "quando": "2026-10-29T15:54:00-03:00",
+      "resumo": "Mesclou em Tekto Model: TM-246: aprovar ou rejeitar uma pendência",
+      "projeto_id": "model",
+      "link": "https://github.com/SamAlencar/tek-model/pull/63"
+    },
     {
       "quando": "2026-10-29T08:58:00-03:00",
       "resumo": "Mesclou em Tekto Model: TM-260: exemplo IfcOpenShell para modificar um item do tek-catalog",
