@@ -259,12 +259,6 @@
       "resumo": "Mesclou em Tek Catalog: TK-008: validador local do catálogo (tools/validar.py)",
       "projeto_id": "catalog",
       "link": "https://github.com/SamAlencar/tek-catalog/pull/9"
-    },
-    {
-      "quando": "2026-10-29T11:20:00-03:00",
-      "resumo": "Mesclou em Tek Catalog: TK-007: regras IDS base por categoria",
-      "projeto_id": "catalog",
-      "link": "https://github.com/SamAlencar/tek-catalog/pull/8"
     }
   ],
   "links": [
@@ -275,6 +269,6 @@
   ],
   "avisos": [
     "Cada projeto mostra no máximo 12 frentes, as de maior volume.",
-    "3 trechos omitidos pelo filtro público."
+    "2 trechos omitidos pelo filtro público."
   ]
 }

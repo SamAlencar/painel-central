@@ -7,7 +7,7 @@
     "nome": "Eng/Tek",
     "papel": "Engenharia: cálculo, documento, modelo e estúdio"
   },
-  "resumo": "Tekto Docs — 38 de 84 tarefas concluídas (45,2%). 46 dúvidas de backlog abertas.",
+  "resumo": "Tekto Docs — 38 de 84 tarefas concluídas (45,2%). 44 dúvidas de backlog abertas.",
   "exemplo": false,
   "fonte": {
     "tipo": "github",
@@ -17,7 +17,7 @@
   "saude": {
     "motivo": "Entrega em 30/10/2026."
   },
-  "atualizado_em": "2026-10-30T08:18:00-03:00",
+  "atualizado_em": "2026-10-30T14:17:00-03:00",
   "projetos": [
     {
       "id": "docs",
@@ -33,7 +33,7 @@
         "total": 84,
         "percentual": 45.2
       },
-      "ultima_atividade": "2026-10-30T08:18:00-03:00",
+      "ultima_atividade": "2026-10-30T14:17:00-03:00",
       "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2026-12-15.",
       "frentes": [
         {
@@ -136,7 +136,7 @@
     {
       "nome": "Backlog do Tekto Docs",
       "frequencia": "diária",
-      "ultima_execucao": "2026-10-30T08:18:00-03:00",
+      "ultima_execucao": "2026-10-30T14:17:00-03:00",
       "status": "em_dia",
       "nota": "1 tarefa/dia"
     }
@@ -183,16 +183,6 @@
       "link": null
     },
     {
-      "id": "docs-D-005",
-      "titulo": "D-005 — Escala de nível de desenvolvimento BIM",
-      "detalhe": null,
-      "desde": null,
-      "projeto_id": "docs",
-      "urgencia": "media",
-      "tipo": "duvida",
-      "link": null
-    },
-    {
       "id": "docs-D-006",
       "titulo": "D-006 — UF do Corpo de Bombeiros no escopo imediato",
       "detalhe": null,
@@ -205,16 +195,6 @@
     {
       "id": "docs-D-008",
       "titulo": "D-008 — NBR 15358 ao lado da NBR 15526",
-      "detalhe": null,
-      "desde": null,
-      "projeto_id": "docs",
-      "urgencia": "media",
-      "tipo": "duvida",
-      "link": null
-    },
-    {
-      "id": "docs-D-009",
-      "titulo": "D-009 — Aplicabilidade obrigatória da NBR 9050 à residência unifamiliar",
       "detalhe": null,
       "desde": null,
       "projeto_id": "docs",
@@ -605,6 +585,12 @@
   ],
   "atividade": [
     {
+      "quando": "2026-10-30T14:17:00-03:00",
+      "resumo": "Mesclou em Tekto Docs: DUVIDAS: D-005 (nível de informação necessário) e D-009 (NBR 9050 em casa unifamiliar) decididas",
+      "projeto_id": "docs",
+      "link": "https://github.com/SamAlencar/tek-docs/pull/34"
+    },
+    {
       "quando": "2026-10-30T08:18:00-03:00",
       "resumo": "Mesclou em Tekto Docs: TD-033: índice da NBR 6122",
       "projeto_id": "docs",
@@ -619,6 +605,6 @@
   ],
   "avisos": [
     "Cada projeto mostra no máximo 12 frentes, as de maior volume.",
-    "3 trechos omitidos pelo filtro público."
+    "2 trechos omitidos pelo filtro público."
   ]
 }

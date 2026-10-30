@@ -19,23 +19,23 @@ Dúvida aberta no backlog não é, sozinha, uma aprovação formal. Itens de mó
 - D-015 — Gancho com cobrimento menor que 3φ no item 9.4.2.5
 - … e mais 3 no site e em `modulos/tek-calc.json`
 
-### Tekto Docs · Eng/Tek · 46
+### Tekto Docs · Eng/Tek · 44
 
 - D-001 — Edições vigentes no acervo da Tekto
 - D-002 — Identificador estável das rotinas do tekto-calc
 - D-003 — Tipos de obra no escopo imediato
 - D-004 — Estrutura de laudo diante da NBR 13752 e da NBR 16747
-- D-005 — Escala de nível de desenvolvimento BIM
-- … e mais 41 no site e em `modulos/tek-docs.json`
+- D-006 — UF do Corpo de Bombeiros no escopo imediato
+- … e mais 39 no site e em `modulos/tek-docs.json`
 
-### Tekto Model · Eng/Tek · 74
+### Tekto Model · Eng/Tek · 71
 
 - Verificação de 21/10/2026
 - Verificação de 24/10/2026
 - Verificação de 25/10/2026
 - Verificação de 18/10/2026
 - Verificação de 23/10/2026
-- … e mais 69 no site e em `modulos/tek-model.json`
+- … e mais 66 no site e em `modulos/tek-model.json`
 
 ### Tek Team · Eng/Tek · 17
 
@@ -93,11 +93,11 @@ Prazos:
 - 16/01/2027 — Previsão de término no ritmo planejado — Tekto Calc
 
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
-> 3 trechos omitidos pelo filtro público.
+> 2 trechos omitidos pelo filtro público.
 
 ### Tekto Docs · Eng/Tek · saudável
 
-Tekto Docs — 38 de 84 tarefas concluídas (45,2%). 46 dúvidas de backlog abertas.
+Tekto Docs — 38 de 84 tarefas concluídas (45,2%). 44 dúvidas de backlog abertas.
 
 Fonte: github. Atualizado em: 30/10/2026.
 
@@ -116,11 +116,11 @@ Prazos:
 - 15/12/2026 — Previsão de término no ritmo planejado — Tekto Docs
 
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
-> 3 trechos omitidos pelo filtro público.
+> 2 trechos omitidos pelo filtro público.
 
 ### Tekto Model · Eng/Tek · saudável
 
-Tekto Model — 100 de 260 tarefas concluídas (38,5%). 74 dúvidas de backlog abertas.
+Tekto Model — 102 de 260 tarefas concluídas (39,2%). 71 dúvidas de backlog abertas.
 
 Fonte: github. Atualizado em: 30/10/2026.
 
@@ -128,7 +128,7 @@ Entrega em 30/10/2026.
 
 | Projeto | Saúde | Progresso | Última atividade |
 | --- | --- | --- | --- |
-| Tekto Model | saudável | 100/260 (38,5%) | 30/10/2026 |
+| Tekto Model | saudável | 102/260 (39,2%) | 30/10/2026 |
 
 Rotinas:
 
@@ -136,10 +136,10 @@ Rotinas:
 
 Prazos:
 
-- 18/01/2027 — Previsão de término no ritmo planejado — Tekto Model
+- 17/01/2027 — Previsão de término no ritmo planejado — Tekto Model
 
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
-> 3 trechos omitidos pelo filtro público.
+> 2 trechos omitidos pelo filtro público.
 
 ### Tekto Studio · Eng/Tek · saudável
 
@@ -162,7 +162,7 @@ Prazos:
 - 11/12/2026 — Previsão de término no ritmo planejado — Tekto Studio
 
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
-> 3 trechos omitidos pelo filtro público.
+> 2 trechos omitidos pelo filtro público.
 
 ### Tek Team · Eng/Tek · saudável
 
@@ -185,7 +185,7 @@ Prazos:
 - 07/02/2027 — Previsão de término no ritmo planejado — Tek Team
 
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
-> 3 trechos omitidos pelo filtro público.
+> 2 trechos omitidos pelo filtro público.
 
 ### Tek Hunter · Eng/Tek · saudável
 
@@ -208,7 +208,7 @@ Prazos:
 - 08/01/2027 — Previsão de término no ritmo planejado — Tek Hunter
 
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
-> 3 trechos omitidos pelo filtro público.
+> 2 trechos omitidos pelo filtro público.
 
 ### Tek Catalog · Eng/Tek · saudável
 
@@ -231,7 +231,7 @@ Prazos:
 - 22/11/2026 — Previsão de término no ritmo planejado — Tek Catalog
 
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
-> 3 trechos omitidos pelo filtro público.
+> 2 trechos omitidos pelo filtro público.
 
 ### Tek Token · Eng/Tek · saudável
 
@@ -254,7 +254,7 @@ Prazos:
 - 09/12/2026 — Previsão de término no ritmo planejado — Tek Token
 
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
-> 3 trechos omitidos pelo filtro público.
+> 2 trechos omitidos pelo filtro público.
 
 ### VTX · Vix · saudável
 

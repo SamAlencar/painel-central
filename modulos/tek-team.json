@@ -313,12 +313,6 @@
       "resumo": "Mesclou em Tek Team: TT-058 — Segurança, sigilo e dados de clientes",
       "projeto_id": "team",
       "link": "https://github.com/SamAlencar/tek-team/pull/20"
-    },
-    {
-      "quando": "2026-10-29T09:49:00-03:00",
-      "resumo": "Mesclou em Tek Team: TT-012 — Pesquisa: ISO 19650 e NBR ISO 19650 — partes, status e conceitos",
-      "projeto_id": "team",
-      "link": "https://github.com/SamAlencar/tek-team/pull/19"
     }
   ],
   "links": [
@@ -329,6 +323,6 @@
   ],
   "avisos": [
     "Cada projeto mostra no máximo 12 frentes, as de maior volume.",
-    "3 trechos omitidos pelo filtro público."
+    "2 trechos omitidos pelo filtro público."
   ]
 }

@@ -7,7 +7,7 @@
     "nome": "Eng/Tek",
     "papel": "Engenharia: cálculo, documento, modelo e estúdio"
   },
-  "resumo": "Tekto Model — 100 de 260 tarefas concluídas (38,5%). 74 dúvidas de backlog abertas.",
+  "resumo": "Tekto Model — 102 de 260 tarefas concluídas (39,2%). 71 dúvidas de backlog abertas.",
   "exemplo": false,
   "fonte": {
     "tipo": "github",
@@ -17,7 +17,7 @@
   "saude": {
     "motivo": "Entrega em 30/10/2026."
   },
-  "atualizado_em": "2026-10-30T08:58:00-03:00",
+  "atualizado_em": "2026-10-30T16:02:00-03:00",
   "projetos": [
     {
       "id": "model",
@@ -29,12 +29,12 @@
       "saude": "saudavel",
       "saude_motivo": "Entrega em 30/10/2026.",
       "progresso": {
-        "feitos": 100,
+        "feitos": 102,
         "total": 260,
-        "percentual": 38.5
+        "percentual": 39.2
       },
-      "ultima_atividade": "2026-10-30T08:58:00-03:00",
-      "nota": "Ritmo planejado: 2 tarefas/dia. Previsão de término: 2027-01-18.",
+      "ultima_atividade": "2026-10-30T16:02:00-03:00",
+      "nota": "Ritmo planejado: 2 tarefas/dia. Previsão de término: 2027-01-17.",
       "frentes": [
         {
           "nome": "Viabilidade para a plataforma",
@@ -56,9 +56,9 @@
         },
         {
           "nome": "Nova visão do Model (D-075)",
-          "feitos": 12,
+          "feitos": 14,
           "total": 20,
-          "percentual": 60.0
+          "percentual": 70.0
         },
         {
           "nome": "Aço",
@@ -111,20 +111,20 @@
       ],
       "destaques": [
         {
-          "id": "TM-248",
-          "texto": "Predefinições de estilo visual de vistas"
-        },
-        {
-          "id": "TM-249",
-          "texto": "Fluxo recomendado IA, lista e aprovação no Revit"
-        },
-        {
           "id": "TM-250",
           "texto": "Modelo de aprendizado e de erro comum"
         },
         {
           "id": "TM-251",
           "texto": "Primeira skill da IA para Revit"
+        },
+        {
+          "id": "TM-252",
+          "texto": "Exemplo de código: botão Dimensionar da viga"
+        },
+        {
+          "id": "TM-253",
+          "texto": "Primeiras regras e skill para AutoCAD"
         }
       ]
     }
@@ -133,7 +133,7 @@
     {
       "id": "model-previsao",
       "titulo": "Previsão de término no ritmo planejado — Tekto Model",
-      "data": "2027-01-18",
+      "data": "2027-01-17",
       "projeto_id": "model",
       "tipo": "previsao"
     }
@@ -142,14 +142,14 @@
     {
       "nome": "Backlog do Tekto Model",
       "frequencia": "diária",
-      "ultima_execucao": "2026-10-30T08:58:00-03:00",
+      "ultima_execucao": "2026-10-30T16:02:00-03:00",
       "status": "em_dia",
       "nota": "2 tarefas/dia"
     }
   ],
   "aguardando_samuel": [
     {
-      "id": "model-27",
+      "id": "model-26",
       "titulo": "Verificação de 21/10/2026",
       "detalhe": null,
       "desde": null,
@@ -159,7 +159,7 @@
       "link": null
     },
     {
-      "id": "model-59",
+      "id": "model-56",
       "titulo": "Verificação de 24/10/2026",
       "detalhe": null,
       "desde": null,
@@ -169,7 +169,7 @@
       "link": null
     },
     {
-      "id": "model-66",
+      "id": "model-63",
       "titulo": "Verificação de 25/10/2026",
       "detalhe": null,
       "desde": null,
@@ -189,6 +189,26 @@
       "link": null
     },
     {
+      "id": "model-71",
+      "titulo": "Verificação de 23/10/2026",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "model",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "model-73",
+      "titulo": "Verificação de 21/10/2026",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "model",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
       "id": "model-75",
       "titulo": "Verificação de 23/10/2026",
       "detalhe": null,
@@ -200,26 +220,6 @@
     },
     {
       "id": "model-77",
-      "titulo": "Verificação de 21/10/2026",
-      "detalhe": null,
-      "desde": null,
-      "projeto_id": "model",
-      "urgencia": "media",
-      "tipo": "duvida",
-      "link": null
-    },
-    {
-      "id": "model-79",
-      "titulo": "Verificação de 23/10/2026",
-      "detalhe": null,
-      "desde": null,
-      "projeto_id": "model",
-      "urgencia": "media",
-      "tipo": "duvida",
-      "link": null
-    },
-    {
-      "id": "model-81",
       "titulo": "Verificação de 23/10/2026",
       "detalhe": null,
       "desde": null,
@@ -271,16 +271,6 @@
     {
       "id": "model-D-018",
       "titulo": "D-018 — Terça e a definição de PURLIN",
-      "detalhe": null,
-      "desde": null,
-      "projeto_id": "model",
-      "urgencia": "media",
-      "tipo": "duvida",
-      "link": null
-    },
-    {
-      "id": "model-D-020",
-      "titulo": "D-020 — Escala de nível de informação da Tekto",
       "detalhe": null,
       "desde": null,
       "projeto_id": "model",
@@ -369,28 +359,8 @@
       "link": null
     },
     {
-      "id": "model-D-030",
-      "titulo": "D-030 — Identificador da seção no arquivo IFC",
-      "detalhe": null,
-      "desde": null,
-      "projeto_id": "model",
-      "urgencia": "media",
-      "tipo": "duvida",
-      "link": null
-    },
-    {
       "id": "model-D-031",
       "titulo": "D-031 — Gravação IFC do resultado de cálculo",
-      "detalhe": null,
-      "desde": null,
-      "projeto_id": "model",
-      "urgencia": "media",
-      "tipo": "duvida",
-      "link": null
-    },
-    {
-      "id": "model-D-032",
-      "titulo": "D-032 — Entidade IFC do elemento genérico",
       "detalhe": null,
       "desde": null,
       "projeto_id": "model",
@@ -639,16 +609,6 @@
       "link": null
     },
     {
-      "id": "model-D-061",
-      "titulo": "D-061 — BEAM ou T_BEAM para a viga moldada com a laje",
-      "detalhe": null,
-      "desde": null,
-      "projeto_id": "model",
-      "urgencia": "media",
-      "tipo": "duvida",
-      "link": null
-    },
-    {
       "id": "model-D-062",
       "titulo": "D-062 — Um só momento e um só cortante por viga",
       "detalhe": null,
@@ -879,6 +839,16 @@
       "link": null
     },
     {
+      "id": "model-D-087",
+      "titulo": "D-087 — Valores das predefinições de estilo de vista, recusa por modelo de vista e sombras",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "model",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
       "id": "model-TM-234",
       "titulo": "Decisão na TM-234 (24/10/2026)",
       "detalhe": null,
@@ -890,6 +860,24 @@
     }
   ],
   "atividade": [
+    {
+      "quando": "2026-10-30T16:02:00-03:00",
+      "resumo": "Mesclou em Tekto Model: TM-249: fluxo recomendado IA, lista de pendências e aprovação no Revit",
+      "projeto_id": "model",
+      "link": "https://github.com/SamAlencar/tek-model/pull/67"
+    },
+    {
+      "quando": "2026-10-30T15:55:00-03:00",
+      "resumo": "Mesclou em Tekto Model: TM-248: predefinições de estilo visual de vistas e botão Estilos de vista",
+      "projeto_id": "model",
+      "link": "https://github.com/SamAlencar/tek-model/pull/66"
+    },
+    {
+      "quando": "2026-10-30T14:17:00-03:00",
+      "resumo": "Mesclou em Tekto Model: DUVIDAS: D-020, D-030, D-032 e D-061 decididas",
+      "projeto_id": "model",
+      "link": "https://github.com/SamAlencar/tek-model/pull/65"
+    },
     {
       "quando": "2026-10-30T08:58:00-03:00",
       "resumo": "Mesclou em Tekto Model: TM-247: desfazer e refazer a última alteração da IA; D-086; verificação da D-085",
@@ -911,6 +899,6 @@
   ],
   "avisos": [
     "Cada projeto mostra no máximo 12 frentes, as de maior volume.",
-    "3 trechos omitidos pelo filtro público."
+    "2 trechos omitidos pelo filtro público."
   ]
 }

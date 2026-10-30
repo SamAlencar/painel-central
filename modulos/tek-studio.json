@@ -130,12 +130,6 @@
       "resumo": "Mesclou em Tekto Studio: TS-073: ponte tek-calc → cartão (flexão de viga vira proposta)",
       "projeto_id": "studio",
       "link": "https://github.com/SamAlencar/tek-studio/pull/16"
-    },
-    {
-      "quando": "2026-10-29T10:39:00-03:00",
-      "resumo": "Mesclou em Tekto Studio: TS-079: cliente MCP direto ao servidor do tekto-calc (sem tek-model)",
-      "projeto_id": "studio",
-      "link": "https://github.com/SamAlencar/tek-studio/pull/15"
     }
   ],
   "links": [
@@ -146,6 +140,6 @@
   ],
   "avisos": [
     "Cada projeto mostra no máximo 12 frentes, as de maior volume.",
-    "3 trechos omitidos pelo filtro público."
+    "2 trechos omitidos pelo filtro público."
   ]
 }
