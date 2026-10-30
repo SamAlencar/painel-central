@@ -143,14 +143,7 @@
       "link": null
     }
   ],
-  "atividade": [
-    {
-      "quando": "2026-10-29T09:28:00-03:00",
-      "resumo": "Mesclou em Tek Hunter: TH-004: catálogo de plataformas privadas de licitação",
-      "projeto_id": "hunter",
-      "link": "https://github.com/SamAlencar/tek-hunter/pull/8"
-    }
-  ],
+  "atividade": [],
   "links": [
     {
       "rotulo": "Tek Hunter",

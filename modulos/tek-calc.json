@@ -7,7 +7,7 @@
     "nome": "Eng/Tek",
     "papel": "Engenharia: cálculo, documento, modelo e estúdio"
   },
-  "resumo": "Tekto Calc — 47 de 126 tarefas concluídas (37,3%). 7 dúvidas de backlog abertas.",
+  "resumo": "Tekto Calc — 48 de 126 tarefas concluídas (38,1%). 8 dúvidas de backlog abertas.",
   "exemplo": false,
   "fonte": {
     "tipo": "github",
@@ -15,9 +15,9 @@
   },
   "status": "saudavel",
   "saude": {
-    "motivo": "Entrega em 29/10/2026."
+    "motivo": "Entrega em 30/10/2026."
   },
-  "atualizado_em": "2026-10-29T07:47:00-03:00",
+  "atualizado_em": "2026-10-30T07:44:00-03:00",
   "projetos": [
     {
       "id": "calc",
@@ -27,20 +27,20 @@
       "descricao": "Rotinas de cálculo de engenharia em Python",
       "status": "ativo",
       "saude": "saudavel",
-      "saude_motivo": "Entrega em 29/10/2026.",
+      "saude_motivo": "Entrega em 30/10/2026.",
       "progresso": {
-        "feitos": 47,
+        "feitos": 48,
         "total": 126,
-        "percentual": 37.3
+        "percentual": 38.1
       },
-      "ultima_atividade": "2026-10-29T07:47:00-03:00",
-      "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2027-01-17.",
+      "ultima_atividade": "2026-10-30T07:44:00-03:00",
+      "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2027-01-16.",
       "frentes": [
         {
           "nome": "Concreto armado",
-          "feitos": 14,
+          "feitos": 15,
           "total": 22,
-          "percentual": 63.6
+          "percentual": 68.2
         },
         {
           "nome": "Normas internacionais (comparativos)",
@@ -111,10 +111,6 @@
       ],
       "destaques": [
         {
-          "id": "TC-010",
-          "texto": "Flecha diferida no tempo"
-        },
-        {
           "id": "TC-011",
           "texto": "Abertura característica de fissuras"
         },
@@ -125,6 +121,10 @@
         {
           "id": "TC-013",
           "texto": "Laje maciça armada em uma direção"
+        },
+        {
+          "id": "TC-014",
+          "texto": "Laje maciça com quatro bordas apoiadas"
         }
       ]
     }
@@ -133,7 +133,7 @@
     {
       "id": "calc-previsao",
       "titulo": "Previsão de término no ritmo planejado — Tekto Calc",
-      "data": "2027-01-17",
+      "data": "2027-01-16",
       "projeto_id": "calc",
       "tipo": "previsao"
     }
@@ -142,7 +142,7 @@
     {
       "nome": "Backlog do Tekto Calc",
       "frequencia": "diária",
-      "ultima_execucao": "2026-10-29T07:47:00-03:00",
+      "ultima_execucao": "2026-10-30T07:44:00-03:00",
       "status": "em_dia",
       "nota": "1 tarefa/dia"
     }
@@ -217,14 +217,24 @@
       "urgencia": "media",
       "tipo": "duvida",
       "link": null
+    },
+    {
+      "id": "calc-D-018",
+      "titulo": "D-018 — Expressão de ξ(t) e Tabela 17.1 na flecha diferida",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "calc",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
     }
   ],
   "atividade": [
     {
-      "quando": "2026-10-29T07:47:00-03:00",
-      "resumo": "Mesclou em Tekto Calc: TC-008: comprimento de traspasse l0t (NBR 6118:2026, 9.5.2.2.1)",
+      "quando": "2026-10-30T07:44:00-03:00",
+      "resumo": "Mesclou em Tekto Calc: TC-010: flecha diferida no tempo (NBR 6118:2026, 17.3.2.1, Tabela 17.1)",
       "projeto_id": "calc",
-      "link": "https://github.com/SamAlencar/tek-calc/pull/47"
+      "link": "https://github.com/SamAlencar/tek-calc/pull/48"
     }
   ],
   "links": [

@@ -7,7 +7,7 @@
     "nome": "Eng/Tek",
     "papel": "Engenharia: cálculo, documento, modelo e estúdio"
   },
-  "resumo": "Tek Catalog — 7 de 31 tarefas concluídas (22,6%). 13 dúvidas de backlog abertas.",
+  "resumo": "Tek Catalog — 8 de 31 tarefas concluídas (25,8%). 17 dúvidas de backlog abertas.",
   "exemplo": false,
   "fonte": {
     "tipo": "github",
@@ -15,9 +15,9 @@
   },
   "status": "saudavel",
   "saude": {
-    "motivo": "Entrega em 29/10/2026."
+    "motivo": "Entrega em 30/10/2026."
   },
-  "atualizado_em": "2026-10-29T11:20:00-03:00",
+  "atualizado_em": "2026-10-30T11:16:00-03:00",
   "projetos": [
     {
       "id": "catalog",
@@ -27,27 +27,23 @@
       "descricao": "Catálogo Tekto de materiais da construção civil com IFC 4.3",
       "status": "ativo",
       "saude": "saudavel",
-      "saude_motivo": "Entrega em 29/10/2026.",
+      "saude_motivo": "Entrega em 30/10/2026.",
       "progresso": {
-        "feitos": 7,
+        "feitos": 8,
         "total": 31,
-        "percentual": 22.6
+        "percentual": 25.8
       },
-      "ultima_atividade": "2026-10-29T11:20:00-03:00",
-      "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2026-11-23.",
+      "ultima_atividade": "2026-10-30T11:16:00-03:00",
+      "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2026-11-22.",
       "frentes": [
         {
           "nome": "Etapas",
-          "feitos": 7,
+          "feitos": 8,
           "total": 31,
-          "percentual": 22.6
+          "percentual": 25.8
         }
       ],
       "destaques": [
-        {
-          "id": "TK-008",
-          "texto": "Script validar.py (ficha, IFC, IDS, índice); CI só com autorização do Samuel"
-        },
         {
           "id": "TK-009",
           "texto": "Guia de busca de modelos do fabricante e regra de licença"
@@ -59,6 +55,10 @@
         {
           "id": "TK-011",
           "texto": "Item 02: bloco de concreto estrutural 14×19×39"
+        },
+        {
+          "id": "TK-012",
+          "texto": "Item 03: vergalhão CA-50 Ø10"
         }
       ]
     }
@@ -67,7 +67,7 @@
     {
       "id": "catalog-previsao",
       "titulo": "Previsão de término no ritmo planejado — Tek Catalog",
-      "data": "2026-11-23",
+      "data": "2026-11-22",
       "projeto_id": "catalog",
       "tipo": "previsao"
     }
@@ -76,7 +76,7 @@
     {
       "nome": "Backlog do Tek Catalog",
       "frequencia": "diária",
-      "ultima_execucao": "2026-10-29T11:20:00-03:00",
+      "ultima_execucao": "2026-10-30T11:16:00-03:00",
       "status": "em_dia",
       "nota": "1 tarefa/dia"
     }
@@ -115,6 +115,46 @@
     {
       "id": "catalog-12",
       "titulo": "Contexto: o plano pede que o IDS confira os Psets obrigatórios, mas quais Psets e propriedades cada item terá dependem das fontes do item (fabricante, catálogo técnico, norma), qu…",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "catalog",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "catalog-14",
+      "titulo": "Status: decisão provisória do agente em 30/10/2026, para revisão do Samuel",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "catalog",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "catalog-15",
+      "titulo": "Contexto: o plano (seção 6, passo 4) pede que volume e bbox batam com as dimensões. A bbox vale para qualquer item com três dimensões, mas o volume só bate com largura × altura ×…",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "catalog",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "catalog-16",
+      "titulo": "Decisão provisória: o validar.py confere só a bbox (tolerância de 1 mm, comparando as três extensões ordenadas com as três dimensões da ficha) e avisa quando a ficha não tem exata…",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "catalog",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
+      "id": "catalog-17",
+      "titulo": "Em aberto: criar no esquema um campo de volume esperado (com fonte) para o validar.py conferir de forma geral.",
       "detalhe": null,
       "desde": null,
       "projeto_id": "catalog",
@@ -214,6 +254,12 @@
     }
   ],
   "atividade": [
+    {
+      "quando": "2026-10-30T11:16:00-03:00",
+      "resumo": "Mesclou em Tek Catalog: TK-008: validador local do catálogo (tools/validar.py)",
+      "projeto_id": "catalog",
+      "link": "https://github.com/SamAlencar/tek-catalog/pull/9"
+    },
     {
       "quando": "2026-10-29T11:20:00-03:00",
       "resumo": "Mesclou em Tek Catalog: TK-007: regras IDS base por categoria",

@@ -7,7 +7,7 @@
     "nome": "Eng/Tek",
     "papel": "Engenharia: cálculo, documento, modelo e estúdio"
   },
-  "resumo": "Tekto Model — 99 de 260 tarefas concluídas (38,1%). 73 dúvidas de backlog abertas.",
+  "resumo": "Tekto Model — 100 de 260 tarefas concluídas (38,5%). 74 dúvidas de backlog abertas.",
   "exemplo": false,
   "fonte": {
     "tipo": "github",
@@ -15,9 +15,9 @@
   },
   "status": "saudavel",
   "saude": {
-    "motivo": "Entrega em 29/10/2026."
+    "motivo": "Entrega em 30/10/2026."
   },
-  "atualizado_em": "2026-10-29T15:54:00-03:00",
+  "atualizado_em": "2026-10-30T08:58:00-03:00",
   "projetos": [
     {
       "id": "model",
@@ -27,14 +27,14 @@
       "descricao": "Modelagem e BIM",
       "status": "ativo",
       "saude": "saudavel",
-      "saude_motivo": "Entrega em 29/10/2026.",
+      "saude_motivo": "Entrega em 30/10/2026.",
       "progresso": {
-        "feitos": 99,
+        "feitos": 100,
         "total": 260,
-        "percentual": 38.1
+        "percentual": 38.5
       },
-      "ultima_atividade": "2026-10-29T15:54:00-03:00",
-      "nota": "Ritmo planejado: 2 tarefas/dia. Previsão de término: 2027-01-19.",
+      "ultima_atividade": "2026-10-30T08:58:00-03:00",
+      "nota": "Ritmo planejado: 2 tarefas/dia. Previsão de término: 2027-01-18.",
       "frentes": [
         {
           "nome": "Viabilidade para a plataforma",
@@ -56,9 +56,9 @@
         },
         {
           "nome": "Nova visão do Model (D-075)",
-          "feitos": 11,
+          "feitos": 12,
           "total": 20,
-          "percentual": 55.0
+          "percentual": 60.0
         },
         {
           "nome": "Aço",
@@ -111,10 +111,6 @@
       ],
       "destaques": [
         {
-          "id": "TM-247",
-          "texto": "Desfazer e refazer a última alteração da IA"
-        },
-        {
           "id": "TM-248",
           "texto": "Predefinições de estilo visual de vistas"
         },
@@ -125,6 +121,10 @@
         {
           "id": "TM-250",
           "texto": "Modelo de aprendizado e de erro comum"
+        },
+        {
+          "id": "TM-251",
+          "texto": "Primeira skill da IA para Revit"
         }
       ]
     }
@@ -133,7 +133,7 @@
     {
       "id": "model-previsao",
       "titulo": "Previsão de término no ritmo planejado — Tekto Model",
-      "data": "2027-01-19",
+      "data": "2027-01-18",
       "projeto_id": "model",
       "tipo": "previsao"
     }
@@ -142,7 +142,7 @@
     {
       "nome": "Backlog do Tekto Model",
       "frequencia": "diária",
-      "ultima_execucao": "2026-10-29T15:54:00-03:00",
+      "ultima_execucao": "2026-10-30T08:58:00-03:00",
       "status": "em_dia",
       "nota": "2 tarefas/dia"
     }
@@ -869,6 +869,16 @@
       "link": null
     },
     {
+      "id": "model-D-086",
+      "titulo": "D-086 — Conteúdo do lote, conferência antes de desfazer e porta de parâmetros do Desfazer IA",
+      "detalhe": null,
+      "desde": null,
+      "projeto_id": "model",
+      "urgencia": "media",
+      "tipo": "duvida",
+      "link": null
+    },
+    {
       "id": "model-TM-234",
       "titulo": "Decisão na TM-234 (24/10/2026)",
       "detalhe": null,
@@ -881,22 +891,16 @@
   ],
   "atividade": [
     {
+      "quando": "2026-10-30T08:58:00-03:00",
+      "resumo": "Mesclou em Tekto Model: TM-247: desfazer e refazer a última alteração da IA; D-086; verificação da D-085",
+      "projeto_id": "model",
+      "link": "https://github.com/SamAlencar/tek-model/pull/64"
+    },
+    {
       "quando": "2026-10-29T15:54:00-03:00",
       "resumo": "Mesclou em Tekto Model: TM-246: aprovar ou rejeitar uma pendência",
       "projeto_id": "model",
       "link": "https://github.com/SamAlencar/tek-model/pull/63"
-    },
-    {
-      "quando": "2026-10-29T08:58:00-03:00",
-      "resumo": "Mesclou em Tekto Model: TM-260: exemplo IfcOpenShell para modificar um item do tek-catalog",
-      "projeto_id": "model",
-      "link": "https://github.com/SamAlencar/tek-model/pull/62"
-    },
-    {
-      "quando": "2026-10-28T15:51:00-03:00",
-      "resumo": "Mesclou em Tekto Model: TM-259: regras neutras de modelagem (Revit e IFC); D-083; verificação da D-030",
-      "projeto_id": "model",
-      "link": "https://github.com/SamAlencar/tek-model/pull/61"
     }
   ],
   "links": [
