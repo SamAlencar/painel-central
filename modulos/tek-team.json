@@ -307,14 +307,7 @@
       "link": null
     }
   ],
-  "atividade": [
-    {
-      "quando": "2026-10-30T09:55:00-03:00",
-      "resumo": "Mesclou em Tek Team: TT-058 — Segurança, sigilo e dados de clientes",
-      "projeto_id": "team",
-      "link": "https://github.com/SamAlencar/tek-team/pull/20"
-    }
-  ],
+  "atividade": [],
   "links": [
     {
       "rotulo": "Tek Team",

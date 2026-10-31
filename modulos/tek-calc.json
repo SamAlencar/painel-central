@@ -7,7 +7,7 @@
     "nome": "Eng/Tek",
     "papel": "Engenharia: cálculo, documento, modelo e estúdio"
   },
-  "resumo": "Tekto Calc — 48 de 126 tarefas concluídas (38,1%). 8 dúvidas de backlog abertas.",
+  "resumo": "Tekto Calc — 48 de 130 tarefas concluídas (36,9%). 8 dúvidas de backlog abertas.",
   "exemplo": false,
   "fonte": {
     "tipo": "github",
@@ -15,9 +15,9 @@
   },
   "status": "saudavel",
   "saude": {
-    "motivo": "Entrega em 30/10/2026."
+    "motivo": "Entrega em 31/10/2026."
   },
-  "atualizado_em": "2026-10-30T07:44:00-03:00",
+  "atualizado_em": "2026-10-31T12:19:00-03:00",
   "projetos": [
     {
       "id": "calc",
@@ -27,14 +27,14 @@
       "descricao": "Rotinas de cálculo de engenharia em Python",
       "status": "ativo",
       "saude": "saudavel",
-      "saude_motivo": "Entrega em 30/10/2026.",
+      "saude_motivo": "Entrega em 31/10/2026.",
       "progresso": {
         "feitos": 48,
-        "total": 126,
-        "percentual": 38.1
+        "total": 130,
+        "percentual": 36.9
       },
-      "ultima_atividade": "2026-10-30T07:44:00-03:00",
-      "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2027-01-17.",
+      "ultima_atividade": "2026-10-31T12:19:00-03:00",
+      "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2027-01-21.",
       "frentes": [
         {
           "nome": "Concreto armado",
@@ -133,7 +133,7 @@
     {
       "id": "calc-previsao",
       "titulo": "Previsão de término no ritmo planejado — Tekto Calc",
-      "data": "2027-01-17",
+      "data": "2027-01-21",
       "projeto_id": "calc",
       "tipo": "previsao"
     }
@@ -142,7 +142,7 @@
     {
       "nome": "Backlog do Tekto Calc",
       "frequencia": "diária",
-      "ultima_execucao": "2026-10-30T07:44:00-03:00",
+      "ultima_execucao": "2026-10-31T12:19:00-03:00",
       "status": "em_dia",
       "nota": "1 tarefa/dia"
     }
@@ -231,10 +231,10 @@
   ],
   "atividade": [
     {
-      "quando": "2026-10-30T07:44:00-03:00",
-      "resumo": "Mesclou em Tekto Calc: TC-010: flecha diferida no tempo (NBR 6118:2026, 17.3.2.1, Tabela 17.1)",
+      "quando": "2026-10-31T12:19:00-03:00",
+      "resumo": "Mesclou em Tekto Calc: Backlog: Integração VTX (F13) — TC-126..TC-129",
       "projeto_id": "calc",
-      "link": "https://github.com/SamAlencar/tek-calc/pull/48"
+      "link": "https://github.com/SamAlencar/tek-calc/pull/49"
     }
   ],
   "links": [

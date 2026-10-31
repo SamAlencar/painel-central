@@ -7,7 +7,7 @@
     "nome": "Eng/Tek",
     "papel": "Engenharia: cálculo, documento, modelo e estúdio"
   },
-  "resumo": "Tekto Docs — 38 de 84 tarefas concluídas (45,2%). 44 dúvidas de backlog abertas.",
+  "resumo": "Tekto Docs — 38 de 86 tarefas concluídas (44,2%). 44 dúvidas de backlog abertas.",
   "exemplo": false,
   "fonte": {
     "tipo": "github",
@@ -15,9 +15,9 @@
   },
   "status": "saudavel",
   "saude": {
-    "motivo": "Entrega em 30/10/2026."
+    "motivo": "Entrega em 31/10/2026."
   },
-  "atualizado_em": "2026-10-30T14:17:00-03:00",
+  "atualizado_em": "2026-10-31T12:19:00-03:00",
   "projetos": [
     {
       "id": "docs",
@@ -27,14 +27,14 @@
       "descricao": "Memoriais, especificações, laudos e fichas técnicas",
       "status": "ativo",
       "saude": "saudavel",
-      "saude_motivo": "Entrega em 30/10/2026.",
+      "saude_motivo": "Entrega em 31/10/2026.",
       "progresso": {
         "feitos": 38,
-        "total": 84,
-        "percentual": 45.2
+        "total": 86,
+        "percentual": 44.2
       },
-      "ultima_atividade": "2026-10-30T14:17:00-03:00",
-      "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2026-12-16.",
+      "ultima_atividade": "2026-10-31T12:19:00-03:00",
+      "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2026-12-18.",
       "frentes": [
         {
           "nome": "Instalações",
@@ -97,6 +97,12 @@
           "percentual": 33.3
         },
         {
+          "nome": "Integração VTX (F13)",
+          "feitos": 0,
+          "total": 2,
+          "percentual": 0.0
+        },
+        {
           "nome": "Estrutura NBR 6118:2026",
           "feitos": 1,
           "total": 1,
@@ -127,7 +133,7 @@
     {
       "id": "docs-previsao",
       "titulo": "Previsão de término no ritmo planejado — Tekto Docs",
-      "data": "2026-12-16",
+      "data": "2026-12-18",
       "projeto_id": "docs",
       "tipo": "previsao"
     }
@@ -136,7 +142,7 @@
     {
       "nome": "Backlog do Tekto Docs",
       "frequencia": "diária",
-      "ultima_execucao": "2026-10-30T14:17:00-03:00",
+      "ultima_execucao": "2026-10-31T12:19:00-03:00",
       "status": "em_dia",
       "nota": "1 tarefa/dia"
     }
@@ -585,16 +591,16 @@
   ],
   "atividade": [
     {
+      "quando": "2026-10-31T12:19:00-03:00",
+      "resumo": "Mesclou em Tekto Docs: Backlog: Integração VTX (F13) — TD-085..TD-086",
+      "projeto_id": "docs",
+      "link": "https://github.com/SamAlencar/tek-docs/pull/35"
+    },
+    {
       "quando": "2026-10-30T14:17:00-03:00",
       "resumo": "Mesclou em Tekto Docs: DUVIDAS: D-005 (nível de informação necessário) e D-009 (NBR 9050 em casa unifamiliar) decididas",
       "projeto_id": "docs",
       "link": "https://github.com/SamAlencar/tek-docs/pull/34"
-    },
-    {
-      "quando": "2026-10-30T08:18:00-03:00",
-      "resumo": "Mesclou em Tekto Docs: TD-033: índice da NBR 6122",
-      "projeto_id": "docs",
-      "link": "https://github.com/SamAlencar/tek-docs/pull/33"
     }
   ],
   "links": [

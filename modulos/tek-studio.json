@@ -7,7 +7,7 @@
     "nome": "Eng/Tek",
     "papel": "Engenharia: cálculo, documento, modelo e estúdio"
   },
-  "resumo": "Tekto Studio — 16 de 58 tarefas concluídas (27,6%). 0 dúvidas de backlog abertas.",
+  "resumo": "Tekto Studio — 16 de 59 tarefas concluídas (27,1%). 0 dúvidas de backlog abertas.",
   "exemplo": false,
   "fonte": {
     "tipo": "github",
@@ -15,9 +15,9 @@
   },
   "status": "saudavel",
   "saude": {
-    "motivo": "Entrega em 30/10/2026."
+    "motivo": "Entrega em 31/10/2026."
   },
-  "atualizado_em": "2026-10-30T10:43:00-03:00",
+  "atualizado_em": "2026-10-31T12:19:00-03:00",
   "projetos": [
     {
       "id": "studio",
@@ -27,14 +27,14 @@
       "descricao": "Plataforma de engenharia com agente de IA e núcleo determinístico",
       "status": "ativo",
       "saude": "saudavel",
-      "saude_motivo": "Entrega em 30/10/2026.",
+      "saude_motivo": "Entrega em 31/10/2026.",
       "progresso": {
         "feitos": 16,
-        "total": 58,
-        "percentual": 27.6
+        "total": 59,
+        "percentual": 27.1
       },
-      "ultima_atividade": "2026-10-30T10:43:00-03:00",
-      "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2026-12-12.",
+      "ultima_atividade": "2026-10-31T12:19:00-03:00",
+      "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2026-12-13.",
       "frentes": [
         {
           "nome": "Fase M — MVP da especificação \"Vibe Coding BIM\" (25/10/2026, TS-D12)",
@@ -83,6 +83,12 @@
           "feitos": 0,
           "total": 4,
           "percentual": 0.0
+        },
+        {
+          "nome": "Integração VTX (F13)",
+          "feitos": 0,
+          "total": 1,
+          "percentual": 0.0
         }
       ],
       "destaques": [
@@ -109,7 +115,7 @@
     {
       "id": "studio-previsao",
       "titulo": "Previsão de término no ritmo planejado — Tekto Studio",
-      "data": "2026-12-12",
+      "data": "2026-12-13",
       "projeto_id": "studio",
       "tipo": "previsao"
     }
@@ -118,13 +124,19 @@
     {
       "nome": "Backlog do Tekto Studio",
       "frequencia": "diária",
-      "ultima_execucao": "2026-10-30T10:43:00-03:00",
+      "ultima_execucao": "2026-10-31T12:19:00-03:00",
       "status": "em_dia",
       "nota": "1 tarefa/dia"
     }
   ],
   "aguardando_samuel": [],
   "atividade": [
+    {
+      "quando": "2026-10-31T12:19:00-03:00",
+      "resumo": "Mesclou em Tekto Studio: Backlog: Integração VTX (F13) — TS-090",
+      "projeto_id": "studio",
+      "link": "https://github.com/SamAlencar/tek-studio/pull/17"
+    },
     {
       "quando": "2026-10-30T10:43:00-03:00",
       "resumo": "Mesclou em Tekto Studio: TS-073: ponte tek-calc → cartão (flexão de viga vira proposta)",

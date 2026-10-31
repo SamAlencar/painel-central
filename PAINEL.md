@@ -74,92 +74,92 @@ Dúvida aberta no backlog não é, sozinha, uma aprovação formal. Itens de mó
 
 ### Tekto Calc · Eng/Tek · saudável
 
-Tekto Calc — 48 de 126 tarefas concluídas (38,1%). 8 dúvidas de backlog abertas.
+Tekto Calc — 48 de 130 tarefas concluídas (36,9%). 8 dúvidas de backlog abertas.
 
-Fonte: github. Atualizado em: 30/10/2026.
+Fonte: github. Atualizado em: 31/10/2026.
 
-Entrega em 30/10/2026.
+Entrega em 31/10/2026.
 
 | Projeto | Saúde | Progresso | Última atividade |
 | --- | --- | --- | --- |
-| Tekto Calc | saudável | 48/126 (38,1%) | 30/10/2026 |
+| Tekto Calc | saudável | 48/130 (36,9%) | 31/10/2026 |
 
 Rotinas:
 
-- Backlog do Tekto Calc — diária — última 30/10/2026 — em dia
+- Backlog do Tekto Calc — diária — última 31/10/2026 — em dia
 
 Prazos:
 
-- 17/01/2027 — Previsão de término no ritmo planejado — Tekto Calc
+- 21/01/2027 — Previsão de término no ritmo planejado — Tekto Calc
 
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
 > 2 trechos omitidos pelo filtro público.
 
 ### Tekto Docs · Eng/Tek · saudável
 
-Tekto Docs — 38 de 84 tarefas concluídas (45,2%). 44 dúvidas de backlog abertas.
+Tekto Docs — 38 de 86 tarefas concluídas (44,2%). 44 dúvidas de backlog abertas.
 
-Fonte: github. Atualizado em: 30/10/2026.
+Fonte: github. Atualizado em: 31/10/2026.
 
-Entrega em 30/10/2026.
+Entrega em 31/10/2026.
 
 | Projeto | Saúde | Progresso | Última atividade |
 | --- | --- | --- | --- |
-| Tekto Docs | saudável | 38/84 (45,2%) | 30/10/2026 |
+| Tekto Docs | saudável | 38/86 (44,2%) | 31/10/2026 |
 
 Rotinas:
 
-- Backlog do Tekto Docs — diária — última 30/10/2026 — em dia
+- Backlog do Tekto Docs — diária — última 31/10/2026 — em dia
 
 Prazos:
 
-- 16/12/2026 — Previsão de término no ritmo planejado — Tekto Docs
+- 18/12/2026 — Previsão de término no ritmo planejado — Tekto Docs
 
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
 > 2 trechos omitidos pelo filtro público.
 
 ### Tekto Model · Eng/Tek · saudável
 
-Tekto Model — 102 de 260 tarefas concluídas (39,2%). 71 dúvidas de backlog abertas.
+Tekto Model — 102 de 264 tarefas concluídas (38,6%). 71 dúvidas de backlog abertas.
 
-Fonte: github. Atualizado em: 30/10/2026.
+Fonte: github. Atualizado em: 31/10/2026.
 
-Entrega em 30/10/2026.
+Entrega em 31/10/2026.
 
 | Projeto | Saúde | Progresso | Última atividade |
 | --- | --- | --- | --- |
-| Tekto Model | saudável | 102/260 (39,2%) | 30/10/2026 |
+| Tekto Model | saudável | 102/264 (38,6%) | 31/10/2026 |
 
 Rotinas:
 
-- Backlog do Tekto Model — diária — última 30/10/2026 — em dia
+- Backlog do Tekto Model — diária — última 31/10/2026 — em dia
 
 Prazos:
 
-- 18/01/2027 — Previsão de término no ritmo planejado — Tekto Model
+- 20/01/2027 — Previsão de término no ritmo planejado — Tekto Model
 
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
 > 2 trechos omitidos pelo filtro público.
 
 ### Tekto Studio · Eng/Tek · saudável
 
-Tekto Studio — 16 de 58 tarefas concluídas (27,6%). 0 dúvidas de backlog abertas.
+Tekto Studio — 16 de 59 tarefas concluídas (27,1%). 0 dúvidas de backlog abertas.
 
-Fonte: github. Atualizado em: 30/10/2026.
+Fonte: github. Atualizado em: 31/10/2026.
 
-Entrega em 30/10/2026.
+Entrega em 31/10/2026.
 
 | Projeto | Saúde | Progresso | Última atividade |
 | --- | --- | --- | --- |
-| Tekto Studio | saudável | 16/58 (27,6%) | 30/10/2026 |
+| Tekto Studio | saudável | 16/59 (27,1%) | 31/10/2026 |
 
 Rotinas:
 
-- Backlog do Tekto Studio — diária — última 30/10/2026 — em dia
+- Backlog do Tekto Studio — diária — última 31/10/2026 — em dia
 
 Prazos:
 
-- 12/12/2026 — Previsão de término no ritmo planejado — Tekto Studio
+- 13/12/2026 — Previsão de término no ritmo planejado — Tekto Studio
 
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
 > 2 trechos omitidos pelo filtro público.
@@ -212,23 +212,23 @@ Prazos:
 
 ### Tek Catalog · Eng/Tek · saudável
 
-Tek Catalog — 8 de 31 tarefas concluídas (25,8%). 17 dúvidas de backlog abertas.
+Tek Catalog — 8 de 32 tarefas concluídas (25%). 17 dúvidas de backlog abertas.
 
-Fonte: github. Atualizado em: 30/10/2026.
+Fonte: github. Atualizado em: 31/10/2026.
 
-Entrega em 30/10/2026.
+Entrega em 31/10/2026.
 
 | Projeto | Saúde | Progresso | Última atividade |
 | --- | --- | --- | --- |
-| Tek Catalog | saudável | 8/31 (25,8%) | 30/10/2026 |
+| Tek Catalog | saudável | 8/32 (25%) | 31/10/2026 |
 
 Rotinas:
 
-- Backlog do Tek Catalog — diária — última 30/10/2026 — em dia
+- Backlog do Tek Catalog — diária — última 31/10/2026 — em dia
 
 Prazos:
 
-- 23/11/2026 — Previsão de término no ritmo planejado — Tek Catalog
+- 24/11/2026 — Previsão de término no ritmo planejado — Tek Catalog
 
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
 > 2 trechos omitidos pelo filtro público.
@@ -258,19 +258,19 @@ Prazos:
 
 ### VTX · Vix · saudável
 
-Criação da base de conhecimento e documentação de diretrizes. 48 de 142 tarefas concluídas. A rotina diária tem registro em 30/10/2026.
+Criação da base de conhecimento e documentação de diretrizes. 53 de 165 tarefas concluídas. A rotina diária tem registro em 31/10/2026.
 
-Fonte: github. Atualizado em: 30/10/2026.
+Fonte: github. Atualizado em: 31/10/2026.
 
-Rotina diária em 30/10/2026.
+Rotina diária em 31/10/2026.
 
 | Projeto | Saúde | Progresso | Última atividade |
 | --- | --- | --- | --- |
-| VTX Core | saudável | 48/142 (33,8%) | 30/10/2026 |
+| VTX Core | saudável | 53/165 (32,1%) | 31/10/2026 |
 
 Rotinas:
 
-- Backlog diário da VTX — diária — última 30/10/2026 — em dia
+- Backlog diário da VTX — diária — última 31/10/2026 — em dia
 
 > Nenhum item do backlog está marcado como aprovação pendente do Samuel.
 
