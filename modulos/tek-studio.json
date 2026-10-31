@@ -34,7 +34,7 @@
         "percentual": 27.6
       },
       "ultima_atividade": "2026-10-30T10:43:00-03:00",
-      "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2026-12-11.",
+      "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2026-12-12.",
       "frentes": [
         {
           "nome": "Fase M — MVP da especificação \"Vibe Coding BIM\" (25/10/2026, TS-D12)",
@@ -109,7 +109,7 @@
     {
       "id": "studio-previsao",
       "titulo": "Previsão de término no ritmo planejado — Tekto Studio",
-      "data": "2026-12-11",
+      "data": "2026-12-12",
       "projeto_id": "studio",
       "tipo": "previsao"
     }
