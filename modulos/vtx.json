@@ -7,7 +7,7 @@
     "nome": "Vix",
     "papel": "Operação da VTX, empresa de TI tocada por agentes"
   },
-  "resumo": "Criação da base de conhecimento e documentação de diretrizes. 53 de 165 tarefas concluídas. A rotina diária tem registro em 31/10/2026.",
+  "resumo": "Criação da base de conhecimento e documentação de diretrizes. 57 de 165 tarefas concluídas. A rotina diária tem registro em 31/10/2026.",
   "exemplo": false,
   "fonte": {
     "tipo": "github",
@@ -29,9 +29,9 @@
       "saude": "saudavel",
       "saude_motivo": "Rotina diária em 31/10/2026.",
       "progresso": {
-        "feitos": 53,
+        "feitos": 57,
         "total": 165,
-        "percentual": 32.1
+        "percentual": 34.5
       },
       "ultima_atividade": "2026-10-31T12:00:00-03:00",
       "nota": "Tarefas de construir a fila de aprovação não entram como pedido ao Samuel.",
@@ -44,9 +44,9 @@
         },
         {
           "nome": "Capacidades para o piloto plataforma-projetos",
-          "feitos": 1,
+          "feitos": 5,
           "total": 23,
-          "percentual": 4.3
+          "percentual": 21.7
         },
         {
           "nome": "Plataforma de acompanhamento (projeto interno)",
@@ -172,6 +172,30 @@
       "link": null
     },
     {
+      "quando": "2026-10-31T12:00:00-03:00",
+      "resumo": "Concluiu VTX-145 — Skill IFC no backend (IfcOpenShell 0.9, validação e IDS)",
+      "projeto_id": "vtx-core",
+      "link": null
+    },
+    {
+      "quando": "2026-10-31T12:00:00-03:00",
+      "resumo": "Concluiu VTX-151 — Versionamento de modelos IFC: versões, branches, diff e merge",
+      "projeto_id": "vtx-core",
+      "link": null
+    },
+    {
+      "quando": "2026-10-31T12:00:00-03:00",
+      "resumo": "Concluiu VTX-144 — Skill IFC no navegador (That Open Components e web-ifc)",
+      "projeto_id": "vtx-core",
+      "link": null
+    },
+    {
+      "quando": "2026-10-31T12:00:00-03:00",
+      "resumo": "Concluiu VTX-146 — Padrão de biblioteca de funções de domínio para tool-calling da IA",
+      "projeto_id": "vtx-core",
+      "link": null
+    },
+    {
       "quando": "2026-10-30T12:00:00-03:00",
       "resumo": "Concluiu VTX-104 — Ferramenta: Firebase",
       "projeto_id": "vtx-core",
@@ -186,30 +210,6 @@
     {
       "quando": "2026-10-29T12:00:00-03:00",
       "resumo": "Concluiu VTX-102 — Ferramenta: Cursor (regras, agentes locais e na nuvem)",
-      "projeto_id": "vtx-core",
-      "link": null
-    },
-    {
-      "quando": "2026-10-29T12:00:00-03:00",
-      "resumo": "Concluiu VTX-103 — Ferramenta: Appwrite",
-      "projeto_id": "vtx-core",
-      "link": null
-    },
-    {
-      "quando": "2026-10-28T12:00:00-03:00",
-      "resumo": "Concluiu VTX-100 — Ferramenta: Supabase (banco, auth, storage)",
-      "projeto_id": "vtx-core",
-      "link": null
-    },
-    {
-      "quando": "2026-10-28T12:00:00-03:00",
-      "resumo": "Concluiu VTX-101 — Ferramenta: GitHub e GitHub Actions",
-      "projeto_id": "vtx-core",
-      "link": null
-    },
-    {
-      "quando": "2026-10-27T12:00:00-03:00",
-      "resumo": "Concluiu VTX-028 — UX/UI e acessibilidade",
       "projeto_id": "vtx-core",
       "link": null
     }
