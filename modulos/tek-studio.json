@@ -136,12 +136,6 @@
       "resumo": "Mesclou em Tekto Studio: Backlog: Integração VTX (F13) — TS-090",
       "projeto_id": "studio",
       "link": "https://github.com/SamAlencar/tek-studio/pull/17"
-    },
-    {
-      "quando": "2026-10-30T10:43:00-03:00",
-      "resumo": "Mesclou em Tekto Studio: TS-073: ponte tek-calc → cartão (flexão de viga vira proposta)",
-      "projeto_id": "studio",
-      "link": "https://github.com/SamAlencar/tek-studio/pull/16"
     }
   ],
   "links": [

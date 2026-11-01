@@ -212,23 +212,23 @@ Prazos:
 
 ### Tek Catalog · Eng/Tek · saudável
 
-Tek Catalog — 8 de 32 tarefas concluídas (25%). 17 dúvidas de backlog abertas.
+Tek Catalog — 9 de 32 tarefas concluídas (28,1%). 17 dúvidas de backlog abertas.
 
-Fonte: github. Atualizado em: 31/10/2026.
+Fonte: github. Atualizado em: 01/11/2026.
 
-Entrega em 31/10/2026.
+Entrega em 01/11/2026.
 
 | Projeto | Saúde | Progresso | Última atividade |
 | --- | --- | --- | --- |
-| Tek Catalog | saudável | 8/32 (25%) | 31/10/2026 |
+| Tek Catalog | saudável | 9/32 (28,1%) | 01/11/2026 |
 
 Rotinas:
 
-- Backlog do Tek Catalog — diária — última 31/10/2026 — em dia
+- Backlog do Tek Catalog — diária — última 01/11/2026 — em dia
 
 Prazos:
 
-- 25/11/2026 — Previsão de término no ritmo planejado — Tek Catalog
+- 24/11/2026 — Previsão de término no ritmo planejado — Tek Catalog
 
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
 > 2 trechos omitidos pelo filtro público.
@@ -294,13 +294,13 @@ Fonte: github. Atualizado em: 30/10/2026.
 
 Repositórios visíveis: dark-channel-playbook. Entram só metadados e títulos de commits já filtrados; arquivos e issues não entram no painel.
 
-Fonte: github. Atualizado em: 30/10/2026.
+Fonte: github. Atualizado em: 01/11/2026.
 
-Saúde pelo push mais recente (30/10/2026).
+Saúde pelo push mais recente (01/11/2026).
 
 | Projeto | Saúde | Progresso | Última atividade |
 | --- | --- | --- | --- |
-| dark-channel-playbook | saudável | sem contagem | 30/10/2026 |
+| dark-channel-playbook | saudável | sem contagem | 01/11/2026 |
 
 > Issues e arquivos não são lidos. Esta frente não leva valor, cliente nem conteúdo interno.
 

@@ -15,9 +15,9 @@
   },
   "status": "saudavel",
   "saude": {
-    "motivo": "Saúde pelo push mais recente (30/10/2026)."
+    "motivo": "Saúde pelo push mais recente (01/11/2026)."
   },
-  "atualizado_em": "2026-10-30T12:06:55+00:00",
+  "atualizado_em": "2026-11-01T13:13:51+00:00",
   "projetos": [
     {
       "id": "dark-channel-playbook",
@@ -27,9 +27,9 @@
       "descricao": "Sem descrição pública.",
       "status": "ativo",
       "saude": "saudavel",
-      "saude_motivo": "Último push em 30/10/2026.",
+      "saude_motivo": "Último push em 01/11/2026.",
       "progresso": null,
-      "ultima_atividade": "2026-10-30T12:06:55+00:00",
+      "ultima_atividade": "2026-11-01T13:13:51+00:00",
       "nota": "Só metadados. Arquivo e issue não são lidos.",
       "frentes": [],
       "destaques": []
@@ -40,6 +40,24 @@
   "aguardando_samuel": [],
   "atividade": [
     {
+      "quando": "2026-11-01T13:13:49+00:00",
+      "resumo": "dark-channel-playbook: DUVIDAS #10: OmniVoice mantido por decisão do Samuel",
+      "projeto_id": "dark-channel-playbook",
+      "link": "https://github.com/SamAlencar/dark-channel-playbook"
+    },
+    {
+      "quando": "2026-11-01T12:52:49+00:00",
+      "resumo": "dark-channel-playbook: midia: fontes de música e SFX verificadas; correção da licença dos pesos do OmniVoice (DUVIDAS #10)",
+      "projeto_id": "dark-channel-playbook",
+      "link": "https://github.com/SamAlencar/dark-channel-playbook"
+    },
+    {
+      "quando": "2026-11-01T12:42:56+00:00",
+      "resumo": "dark-channel-playbook: ferramentas: levantamento de ferramentas de edição de vídeo",
+      "projeto_id": "dark-channel-playbook",
+      "link": "https://github.com/SamAlencar/dark-channel-playbook"
+    },
+    {
       "quando": "2026-10-30T12:06:53+00:00",
       "resumo": "dark-channel-playbook: Passo 06: skills dos 7 agentes (pesquisador, roteirista, revisor de texto, narrador, editor, revisor de vídeo, publicador) no formato Agent Skills, com fluxo e gates humanos, entradas/saídas, checkli…",
       "projeto_id": "dark-channel-playbook",
@@ -48,24 +66,6 @@
     {
       "quando": "2026-10-29T12:04:03+00:00",
       "resumo": "dark-channel-playbook: Passo 05: auditoria de hardware e ambiente (perfil RTX 3050 6 GB, matriz ferramenta × viabilidade, regra de uma carga na GPU, instalação e caches no E:, orçamento de disco, script de auditoria soment…",
-      "projeto_id": "dark-channel-playbook",
-      "link": "https://github.com/SamAlencar/dark-channel-playbook"
-    },
-    {
-      "quando": "2026-10-28T12:05:52+00:00",
-      "resumo": "dark-channel-playbook: Passo 04: guia de licenças livres (tabela de uso comercial, CC/SA/ND em vídeo, domínio público pela Lei 9.610, licenças de modelos de IA, modelo de crédito TASL, checklist)",
-      "projeto_id": "dark-channel-playbook",
-      "link": "https://github.com/SamAlencar/dark-channel-playbook"
-    },
-    {
-      "quando": "2026-10-27T12:02:45+00:00",
-      "resumo": "dark-channel-playbook: Passo 03: conteúdo sintético/IA e direitos autorais (divulgação 'Uso de IA', Content ID, advertências, semelhança, Lei 9.610, autoria de obras de IA, registro de origem, checklists)",
-      "projeto_id": "dark-channel-playbook",
-      "link": "https://github.com/SamAlencar/dark-channel-playbook"
-    },
-    {
-      "quando": "2026-10-26T18:34:53+00:00",
-      "resumo": "dark-channel-playbook: Aproveita youtube-agent-skill (MIT): scripts com licença + regras de gancho, título/thumb/SEO/capítulos, retenção, Shorts e padrões de skills em pt-BR",
       "projeto_id": "dark-channel-playbook",
       "link": "https://github.com/SamAlencar/dark-channel-playbook"
     }
