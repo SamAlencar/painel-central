@@ -7,7 +7,7 @@
     "nome": "Vix",
     "papel": "Operação da VTX, empresa de TI tocada por agentes"
   },
-  "resumo": "Criação da base de conhecimento e documentação de diretrizes. 57 de 165 tarefas concluídas. A rotina diária tem registro em 31/10/2026.",
+  "resumo": "Criação da base de conhecimento e documentação de diretrizes. 59 de 165 tarefas concluídas. A rotina diária tem registro em 01/11/2026.",
   "exemplo": false,
   "fonte": {
     "tipo": "github",
@@ -15,9 +15,9 @@
   },
   "status": "saudavel",
   "saude": {
-    "motivo": "Rotina diária em 31/10/2026."
+    "motivo": "Rotina diária em 01/11/2026."
   },
-  "atualizado_em": "2026-10-31T12:00:00-03:00",
+  "atualizado_em": "2026-11-01T12:00:00-03:00",
   "projetos": [
     {
       "id": "vtx-core",
@@ -27,20 +27,20 @@
       "descricao": "Criação da base de conhecimento e documentação de diretrizes",
       "status": "ativo",
       "saude": "saudavel",
-      "saude_motivo": "Rotina diária em 31/10/2026.",
+      "saude_motivo": "Rotina diária em 01/11/2026.",
       "progresso": {
-        "feitos": 57,
+        "feitos": 59,
         "total": 165,
-        "percentual": 34.5
+        "percentual": 35.8
       },
-      "ultima_atividade": "2026-10-31T12:00:00-03:00",
+      "ultima_atividade": "2026-11-01T12:00:00-03:00",
       "nota": "Tarefas de construir a fila de aprovação não entram como pedido ao Samuel.",
       "frentes": [
         {
           "nome": "Catálogo de ferramentas",
-          "feitos": 13,
+          "feitos": 15,
           "total": 35,
-          "percentual": 37.1
+          "percentual": 42.9
         },
         {
           "nome": "Capacidades para o piloto plataforma-projetos",
@@ -115,16 +115,16 @@
           "texto": "Vídeos de divulgação com HyperFrames (render local)"
         },
         {
-          "id": "VTX-110",
-          "texto": "Ferramenta: Figma"
-        },
-        {
-          "id": "VTX-111",
-          "texto": "Ferramentas de comunicação e gestão (Google Workspace, Grok Bot)"
-        },
-        {
           "id": "VTX-112",
           "texto": "Matriz ferramenta × fluxo completa e links nos fluxos"
+        },
+        {
+          "id": "VTX-113",
+          "texto": "Processo periódico de revisão de ferramentas"
+        },
+        {
+          "id": "VTX-120",
+          "texto": "Pesquisa de recursos: frontend, UI e design"
         }
       ]
     }
@@ -134,13 +134,25 @@
     {
       "nome": "Backlog diário da VTX",
       "frequencia": "diária",
-      "ultima_execucao": "2026-10-31T12:00:00-03:00",
+      "ultima_execucao": "2026-11-01T12:00:00-03:00",
       "status": "em_dia",
       "nota": "Conclusões do dia no backlog público."
     }
   ],
   "aguardando_samuel": [],
   "atividade": [
+    {
+      "quando": "2026-11-01T12:00:00-03:00",
+      "resumo": "Concluiu VTX-110 — Ferramenta: Figma",
+      "projeto_id": "vtx-core",
+      "link": null
+    },
+    {
+      "quando": "2026-11-01T12:00:00-03:00",
+      "resumo": "Concluiu VTX-111 — Ferramentas de comunicação e gestão (Google Workspace, Grok Bot)",
+      "projeto_id": "vtx-core",
+      "link": null
+    },
     {
       "quando": "2026-10-31T12:00:00-03:00",
       "resumo": "Concluiu VTX-106 — Ferramentas de pagamento: Stripe e Mercado Pago",
@@ -198,18 +210,6 @@
     {
       "quando": "2026-10-30T12:00:00-03:00",
       "resumo": "Concluiu VTX-104 — Ferramenta: Firebase",
-      "projeto_id": "vtx-core",
-      "link": null
-    },
-    {
-      "quando": "2026-10-30T12:00:00-03:00",
-      "resumo": "Concluiu VTX-105 — Ferramenta: Expo e EAS",
-      "projeto_id": "vtx-core",
-      "link": null
-    },
-    {
-      "quando": "2026-10-29T12:00:00-03:00",
-      "resumo": "Concluiu VTX-102 — Ferramenta: Cursor (regras, agentes locais e na nuvem)",
       "projeto_id": "vtx-core",
       "link": null
     }
