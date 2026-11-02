@@ -178,7 +178,7 @@ Entrega em 30/10/2026.
 
 Rotinas:
 
-- Backlog do Tek Team — diária — última 30/10/2026 — em dia
+- Backlog do Tek Team — diária — última 30/10/2026 — atrasada
 
 Prazos:
 
@@ -247,7 +247,7 @@ Entrega em 30/10/2026.
 
 Rotinas:
 
-- Backlog do Tek Token — diária — última 30/10/2026 — em dia
+- Backlog do Tek Token — diária — última 30/10/2026 — atrasada
 
 Prazos:
 
