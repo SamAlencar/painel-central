@@ -86,7 +86,7 @@ Entrega em 31/10/2026.
 
 Rotinas:
 
-- Backlog do Tekto Calc — diária — última 31/10/2026 — em dia
+- Backlog do Tekto Calc — diária — última 31/10/2026 — atrasada
 
 Prazos:
 
@@ -109,7 +109,7 @@ Entrega em 31/10/2026.
 
 Rotinas:
 
-- Backlog do Tekto Docs — diária — última 31/10/2026 — em dia
+- Backlog do Tekto Docs — diária — última 31/10/2026 — atrasada
 
 Prazos:
 
@@ -132,7 +132,7 @@ Entrega em 31/10/2026.
 
 Rotinas:
 
-- Backlog do Tekto Model — diária — última 31/10/2026 — em dia
+- Backlog do Tekto Model — diária — última 31/10/2026 — atrasada
 
 Prazos:
 
@@ -155,7 +155,7 @@ Entrega em 31/10/2026.
 
 Rotinas:
 
-- Backlog do Tekto Studio — diária — última 31/10/2026 — em dia
+- Backlog do Tekto Studio — diária — última 31/10/2026 — atrasada
 
 Prazos:
 
