@@ -224,7 +224,7 @@ Entrega em 01/11/2026.
 
 Rotinas:
 
-- Backlog do Tek Catalog — diária — última 01/11/2026 — em dia
+- Backlog do Tek Catalog — diária — última 01/11/2026 — atrasada
 
 Prazos:
 
@@ -270,7 +270,7 @@ Rotina diária em 01/11/2026.
 
 Rotinas:
 
-- Backlog diário da VTX — diária — última 01/11/2026 — em dia
+- Backlog diário da VTX — diária — última 01/11/2026 — atrasada
 
 > Nenhum item do backlog está marcado como aprovação pendente do Samuel.
 

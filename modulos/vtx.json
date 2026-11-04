@@ -135,7 +135,7 @@
       "nome": "Backlog diário da VTX",
       "frequencia": "diária",
       "ultima_execucao": "2026-11-01T12:00:00-03:00",
-      "status": "em_dia",
+      "status": "atrasada",
       "nota": "Conclusões do dia no backlog público."
     }
   ],
