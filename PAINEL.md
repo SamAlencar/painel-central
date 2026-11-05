@@ -187,7 +187,7 @@ Prazos:
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
 > 2 trechos omitidos pelo filtro público.
 
-### Tek Hunter · Eng/Tek · saudável
+### Tek Hunter · Eng/Tek · atenção
 
 Tek Hunter — 4 de 24 tarefas concluídas (16,7%). 3 dúvidas de backlog abertas.
 
@@ -197,7 +197,7 @@ Entrega em 29/10/2026.
 
 | Projeto | Saúde | Progresso | Última atividade |
 | --- | --- | --- | --- |
-| Tek Hunter | saudável | 4/24 (16,7%) | 29/10/2026 |
+| Tek Hunter | atenção | 4/24 (16,7%) | 29/10/2026 |
 
 Rotinas:
 
