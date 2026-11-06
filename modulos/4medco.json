@@ -13,7 +13,7 @@
     "tipo": "github",
     "detalhe": "API do GitHub: checklist planejamento/etapa4-plano.md de 4medco-base-conhecimento (só contagem e títulos curtos filtrados) e metadados dos demais repositórios."
   },
-  "status": "saudavel",
+  "status": "atencao",
   "saude": {
     "motivo": "Último push em 30/10/2026."
   },
@@ -26,7 +26,7 @@
       "url": "https://github.com/SamAlencar/4medco-base-conhecimento",
       "descricao": "Base de conhecimento e planejamento do 4med.co (med-hub): escopo, funcionalidades, MCPs e conteúdo contábil/jurídico",
       "status": "ativo",
-      "saude": "saudavel",
+      "saude": "atencao",
       "saude_motivo": "Último push em 30/10/2026.",
       "progresso": {
         "feitos": 10,

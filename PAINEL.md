@@ -164,7 +164,7 @@ Prazos:
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
 > 2 trechos omitidos pelo filtro público.
 
-### Tek Team · Eng/Tek · saudável
+### Tek Team · Eng/Tek · atenção
 
 Tek Team — 14 de 114 tarefas concluídas (12,3%). 17 dúvidas de backlog abertas.
 
@@ -174,7 +174,7 @@ Entrega em 30/10/2026.
 
 | Projeto | Saúde | Progresso | Última atividade |
 | --- | --- | --- | --- |
-| Tek Team | saudável | 14/114 (12,3%) | 30/10/2026 |
+| Tek Team | atenção | 14/114 (12,3%) | 30/10/2026 |
 
 Rotinas:
 
@@ -201,7 +201,7 @@ Entrega em 29/10/2026.
 
 Rotinas:
 
-- Backlog do Tek Hunter — semanal — última 29/10/2026 — em dia
+- Backlog do Tek Hunter — semanal — última 29/10/2026 — atrasada
 
 Prazos:
 
@@ -233,7 +233,7 @@ Prazos:
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
 > 2 trechos omitidos pelo filtro público.
 
-### Tek Token · Eng/Tek · saudável
+### Tek Token · Eng/Tek · atenção
 
 Tek Token — 6 de 46 tarefas concluídas (13%). 11 dúvidas de backlog abertas.
 
@@ -243,7 +243,7 @@ Entrega em 30/10/2026.
 
 | Projeto | Saúde | Progresso | Última atividade |
 | --- | --- | --- | --- |
-| Tek Token | saudável | 6/46 (13%) | 30/10/2026 |
+| Tek Token | atenção | 6/46 (13%) | 30/10/2026 |
 
 Rotinas:
 
@@ -274,7 +274,7 @@ Rotinas:
 
 > Nenhum item do backlog está marcado como aprovação pendente do Samuel.
 
-### 4med.co · Bil · saudável
+### 4med.co · Bil · atenção
 
 Repositório ativo: 4medco-base-conhecimento. 10 de 18 tarefas da etapa 4 concluídas (55,6%). Em espera: 4medco-platform, 4medco-website.
 
@@ -284,7 +284,7 @@ Fonte: github. Atualizado em: 30/10/2026.
 
 | Projeto | Saúde | Progresso | Última atividade |
 | --- | --- | --- | --- |
-| 4medco-base-conhecimento | saudável | 10/18 (55,6%) | 30/10/2026 |
+| 4medco-base-conhecimento | atenção | 10/18 (55,6%) | 30/10/2026 |
 | 4medco-platform | planejado | sem contagem | 17/02/2026 |
 | 4medco-website | planejado | sem contagem | 26/12/2025 |
 
