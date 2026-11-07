@@ -13,7 +13,7 @@
     "tipo": "github",
     "detalhe": "Lido via API do GitHub: docs/BACKLOG.md, docs/DUVIDAS.md e PRs mesclados. Só entram contagens, títulos curtos e datas."
   },
-  "status": "saudavel",
+  "status": "atencao",
   "saude": {
     "motivo": "Entrega em 31/10/2026."
   },
@@ -26,7 +26,7 @@
       "url": "https://github.com/SamAlencar/tek-model",
       "descricao": "Modelagem e BIM",
       "status": "ativo",
-      "saude": "saudavel",
+      "saude": "atencao",
       "saude_motivo": "Entrega em 31/10/2026.",
       "progresso": {
         "feitos": 102,

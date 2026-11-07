@@ -72,7 +72,7 @@ Dúvida aberta no backlog não é, sozinha, uma aprovação formal. Itens de mó
 
 ## Frentes
 
-### Tekto Calc · Eng/Tek · saudável
+### Tekto Calc · Eng/Tek · atenção
 
 Tekto Calc — 48 de 130 tarefas concluídas (36,9%). 8 dúvidas de backlog abertas.
 
@@ -82,7 +82,7 @@ Entrega em 31/10/2026.
 
 | Projeto | Saúde | Progresso | Última atividade |
 | --- | --- | --- | --- |
-| Tekto Calc | saudável | 48/130 (36,9%) | 31/10/2026 |
+| Tekto Calc | atenção | 48/130 (36,9%) | 31/10/2026 |
 
 Rotinas:
 
@@ -95,7 +95,7 @@ Prazos:
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
 > 2 trechos omitidos pelo filtro público.
 
-### Tekto Docs · Eng/Tek · saudável
+### Tekto Docs · Eng/Tek · atenção
 
 Tekto Docs — 38 de 86 tarefas concluídas (44,2%). 44 dúvidas de backlog abertas.
 
@@ -105,7 +105,7 @@ Entrega em 31/10/2026.
 
 | Projeto | Saúde | Progresso | Última atividade |
 | --- | --- | --- | --- |
-| Tekto Docs | saudável | 38/86 (44,2%) | 31/10/2026 |
+| Tekto Docs | atenção | 38/86 (44,2%) | 31/10/2026 |
 
 Rotinas:
 
@@ -118,7 +118,7 @@ Prazos:
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
 > 2 trechos omitidos pelo filtro público.
 
-### Tekto Model · Eng/Tek · saudável
+### Tekto Model · Eng/Tek · atenção
 
 Tekto Model — 102 de 264 tarefas concluídas (38,6%). 71 dúvidas de backlog abertas.
 
@@ -128,7 +128,7 @@ Entrega em 31/10/2026.
 
 | Projeto | Saúde | Progresso | Última atividade |
 | --- | --- | --- | --- |
-| Tekto Model | saudável | 102/264 (38,6%) | 31/10/2026 |
+| Tekto Model | atenção | 102/264 (38,6%) | 31/10/2026 |
 
 Rotinas:
 
@@ -141,7 +141,7 @@ Prazos:
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
 > 2 trechos omitidos pelo filtro público.
 
-### Tekto Studio · Eng/Tek · saudável
+### Tekto Studio · Eng/Tek · atenção
 
 Tekto Studio — 16 de 59 tarefas concluídas (27,1%). 0 dúvidas de backlog abertas.
 
@@ -151,7 +151,7 @@ Entrega em 31/10/2026.
 
 | Projeto | Saúde | Progresso | Última atividade |
 | --- | --- | --- | --- |
-| Tekto Studio | saudável | 16/59 (27,1%) | 31/10/2026 |
+| Tekto Studio | atenção | 16/59 (27,1%) | 31/10/2026 |
 
 Rotinas:
 
