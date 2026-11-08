@@ -13,7 +13,7 @@
     "tipo": "github",
     "detalhe": "Lido via API em SamAlencar/vtx-core/backlog (projeto.yaml e diários). Só entram id, título, área, fase e status."
   },
-  "status": "saudavel",
+  "status": "atencao",
   "saude": {
     "motivo": "Rotina diária em 01/11/2026."
   },
@@ -26,7 +26,7 @@
       "url": "https://github.com/SamAlencar/vtx-core",
       "descricao": "Criação da base de conhecimento e documentação de diretrizes",
       "status": "ativo",
-      "saude": "saudavel",
+      "saude": "atencao",
       "saude_motivo": "Rotina diária em 01/11/2026.",
       "progresso": {
         "feitos": 59,

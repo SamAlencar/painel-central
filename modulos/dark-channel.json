@@ -13,7 +13,7 @@
     "tipo": "github",
     "detalhe": "Listagem da API do GitHub. Conteúdo de arquivo não é lido nesta frente; títulos de commit passam pelo filtro público."
   },
-  "status": "saudavel",
+  "status": "atencao",
   "saude": {
     "motivo": "Saúde pelo push mais recente (01/11/2026)."
   },
@@ -26,7 +26,7 @@
       "url": "https://github.com/SamAlencar/dark-channel-playbook",
       "descricao": "Sem descrição pública.",
       "status": "ativo",
-      "saude": "saudavel",
+      "saude": "atencao",
       "saude_motivo": "Último push em 01/11/2026.",
       "progresso": null,
       "ultima_atividade": "2026-11-01T13:13:51+00:00",

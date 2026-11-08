@@ -210,7 +210,7 @@ Prazos:
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
 > 2 trechos omitidos pelo filtro público.
 
-### Tek Catalog · Eng/Tek · saudável
+### Tek Catalog · Eng/Tek · atenção
 
 Tek Catalog — 9 de 32 tarefas concluídas (28,1%). 17 dúvidas de backlog abertas.
 
@@ -220,7 +220,7 @@ Entrega em 01/11/2026.
 
 | Projeto | Saúde | Progresso | Última atividade |
 | --- | --- | --- | --- |
-| Tek Catalog | saudável | 9/32 (28,1%) | 01/11/2026 |
+| Tek Catalog | atenção | 9/32 (28,1%) | 01/11/2026 |
 
 Rotinas:
 
@@ -256,7 +256,7 @@ Prazos:
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
 > 2 trechos omitidos pelo filtro público.
 
-### VTX · Vix · saudável
+### VTX · Vix · atenção
 
 Criação da base de conhecimento e documentação de diretrizes. 59 de 165 tarefas concluídas. A rotina diária tem registro em 01/11/2026.
 
@@ -266,7 +266,7 @@ Rotina diária em 01/11/2026.
 
 | Projeto | Saúde | Progresso | Última atividade |
 | --- | --- | --- | --- |
-| VTX Core | saudável | 59/165 (35,8%) | 01/11/2026 |
+| VTX Core | atenção | 59/165 (35,8%) | 01/11/2026 |
 
 Rotinas:
 
@@ -290,7 +290,7 @@ Fonte: github. Atualizado em: 30/10/2026.
 
 > Só entram contagem e títulos de tarefa filtrados. Esta frente não leva valor, cliente nem conteúdo interno.
 
-### Dark Channel · Dar · saudável
+### Dark Channel · Dar · atenção
 
 Repositórios visíveis: dark-channel-playbook. Entram só metadados e títulos de commits já filtrados; arquivos e issues não entram no painel.
 
@@ -300,7 +300,7 @@ Saúde pelo push mais recente (01/11/2026).
 
 | Projeto | Saúde | Progresso | Última atividade |
 | --- | --- | --- | --- |
-| dark-channel-playbook | saudável | sem contagem | 01/11/2026 |
+| dark-channel-playbook | atenção | sem contagem | 01/11/2026 |
 
 > Issues e arquivos não são lidos. Esta frente não leva valor, cliente nem conteúdo interno.
 
