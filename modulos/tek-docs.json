@@ -34,7 +34,7 @@
         "percentual": 44.2
       },
       "ultima_atividade": "2026-10-31T12:19:00-03:00",
-      "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2026-12-27.",
+      "nota": "Ritmo planejado: 1 tarefa/dia. Previsão de término: 2026-12-28.",
       "frentes": [
         {
           "nome": "Instalações",
@@ -133,7 +133,7 @@
     {
       "id": "docs-previsao",
       "titulo": "Previsão de término no ritmo planejado — Tekto Docs",
-      "data": "2026-12-27",
+      "data": "2026-12-28",
       "projeto_id": "docs",
       "tipo": "previsao"
     }
