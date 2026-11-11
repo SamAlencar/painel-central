@@ -90,7 +90,7 @@ Rotinas:
 
 Prazos:
 
-- 31/01/2027 — Previsão de término no ritmo planejado — Tekto Calc
+- 01/02/2027 — Previsão de término no ritmo planejado — Tekto Calc
 
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
 > 2 trechos omitidos pelo filtro público.
@@ -113,7 +113,7 @@ Rotinas:
 
 Prazos:
 
-- 28/12/2026 — Previsão de término no ritmo planejado — Tekto Docs
+- 29/12/2026 — Previsão de término no ritmo planejado — Tekto Docs
 
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
 > 2 trechos omitidos pelo filtro público.
@@ -136,7 +136,7 @@ Rotinas:
 
 Prazos:
 
-- 30/01/2027 — Previsão de término no ritmo planejado — Tekto Model
+- 31/01/2027 — Previsão de término no ritmo planejado — Tekto Model
 
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
 > 2 trechos omitidos pelo filtro público.
@@ -159,7 +159,7 @@ Rotinas:
 
 Prazos:
 
-- 23/12/2026 — Previsão de término no ritmo planejado — Tekto Studio
+- 24/12/2026 — Previsão de término no ritmo planejado — Tekto Studio
 
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
 > 2 trechos omitidos pelo filtro público.
@@ -182,7 +182,7 @@ Rotinas:
 
 Prazos:
 
-- 18/02/2027 — Previsão de término no ritmo planejado — Tek Team
+- 19/02/2027 — Previsão de término no ritmo planejado — Tek Team
 
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
 > 2 trechos omitidos pelo filtro público.
@@ -205,7 +205,7 @@ Rotinas:
 
 Prazos:
 
-- 19/01/2027 — Previsão de término no ritmo planejado — Tek Hunter
+- 20/01/2027 — Previsão de término no ritmo planejado — Tek Hunter
 
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
 > 2 trechos omitidos pelo filtro público.
@@ -228,7 +228,7 @@ Rotinas:
 
 Prazos:
 
-- 03/12/2026 — Previsão de término no ritmo planejado — Tek Catalog
+- 04/12/2026 — Previsão de término no ritmo planejado — Tek Catalog
 
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
 > 2 trechos omitidos pelo filtro público.
@@ -251,7 +251,7 @@ Rotinas:
 
 Prazos:
 
-- 20/12/2026 — Previsão de término no ritmo planejado — Tek Token
+- 21/12/2026 — Previsão de término no ritmo planejado — Tek Token
 
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
 > 2 trechos omitidos pelo filtro público.
