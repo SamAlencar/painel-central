@@ -90,7 +90,7 @@ Rotinas:
 
 Prazos:
 
-- 14/02/2027 — Previsão de término no ritmo planejado — Tekto Calc
+- 15/02/2027 — Previsão de término no ritmo planejado — Tekto Calc
 
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
 > 2 trechos omitidos pelo filtro público.
@@ -113,7 +113,7 @@ Rotinas:
 
 Prazos:
 
-- 11/01/2027 — Previsão de término no ritmo planejado — Tekto Docs
+- 12/01/2027 — Previsão de término no ritmo planejado — Tekto Docs
 
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
 > 2 trechos omitidos pelo filtro público.
@@ -136,7 +136,7 @@ Rotinas:
 
 Prazos:
 
-- 13/02/2027 — Previsão de término no ritmo planejado — Tekto Model
+- 14/02/2027 — Previsão de término no ritmo planejado — Tekto Model
 
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
 > 2 trechos omitidos pelo filtro público.
@@ -159,7 +159,7 @@ Rotinas:
 
 Prazos:
 
-- 06/01/2027 — Previsão de término no ritmo planejado — Tekto Studio
+- 07/01/2027 — Previsão de término no ritmo planejado — Tekto Studio
 
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
 > 2 trechos omitidos pelo filtro público.
@@ -182,7 +182,7 @@ Rotinas:
 
 Prazos:
 
-- 04/03/2027 — Previsão de término no ritmo planejado — Tek Team
+- 05/03/2027 — Previsão de término no ritmo planejado — Tek Team
 
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
 > 2 trechos omitidos pelo filtro público.
@@ -205,7 +205,7 @@ Rotinas:
 
 Prazos:
 
-- 02/02/2027 — Previsão de término no ritmo planejado — Tek Hunter
+- 03/02/2027 — Previsão de término no ritmo planejado — Tek Hunter
 
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
 > 2 trechos omitidos pelo filtro público.
@@ -228,7 +228,7 @@ Rotinas:
 
 Prazos:
 
-- 17/12/2026 — Previsão de término no ritmo planejado — Tek Catalog
+- 18/12/2026 — Previsão de término no ritmo planejado — Tek Catalog
 
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
 > 2 trechos omitidos pelo filtro público.
@@ -251,26 +251,26 @@ Rotinas:
 
 Prazos:
 
-- 03/01/2027 — Previsão de término no ritmo planejado — Tek Token
+- 04/01/2027 — Previsão de término no ritmo planejado — Tek Token
 
 > Cada projeto mostra no máximo 12 frentes, as de maior volume.
 > 2 trechos omitidos pelo filtro público.
 
-### VTX · Vix · atenção
+### VTX · Vix · saudável
 
-Criação da base de conhecimento e documentação de diretrizes. 59 de 165 tarefas concluídas. A rotina diária tem registro em 01/11/2026.
+Criação da base de conhecimento e documentação de diretrizes. 89 de 207 tarefas concluídas. A rotina diária tem registro em 24/11/2026.
 
-Fonte: github. Atualizado em: 01/11/2026.
+Fonte: github. Atualizado em: 24/11/2026.
 
-Rotina diária em 01/11/2026.
+Rotina diária em 24/11/2026.
 
 | Projeto | Saúde | Progresso | Última atividade |
 | --- | --- | --- | --- |
-| VTX Core | atenção | 59/165 (35,8%) | 01/11/2026 |
+| VTX Core | saudável | 89/207 (43%) | 24/11/2026 |
 
 Rotinas:
 
-- Backlog diário da VTX — diária — última 01/11/2026 — atrasada
+- Backlog diário da VTX — diária — última 24/11/2026 — em dia
 
 > Nenhum item do backlog está marcado como aprovação pendente do Samuel.
 

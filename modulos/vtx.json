@@ -7,17 +7,17 @@
     "nome": "Vix",
     "papel": "Operação da VTX, empresa de TI tocada por agentes"
   },
-  "resumo": "Criação da base de conhecimento e documentação de diretrizes. 59 de 165 tarefas concluídas. A rotina diária tem registro em 01/11/2026.",
+  "resumo": "Criação da base de conhecimento e documentação de diretrizes. 89 de 207 tarefas concluídas. A rotina diária tem registro em 24/11/2026.",
   "exemplo": false,
   "fonte": {
     "tipo": "github",
     "detalhe": "Lido via API em SamAlencar/vtx-core/backlog (projeto.yaml e diários). Só entram id, título, área, fase e status."
   },
-  "status": "atencao",
+  "status": "saudavel",
   "saude": {
-    "motivo": "Rotina diária em 01/11/2026."
+    "motivo": "Rotina diária em 24/11/2026."
   },
-  "atualizado_em": "2026-11-01T12:00:00-03:00",
+  "atualizado_em": "2026-11-24T12:00:00-03:00",
   "projetos": [
     {
       "id": "vtx-core",
@@ -26,45 +26,63 @@
       "url": "https://github.com/SamAlencar/vtx-core",
       "descricao": "Criação da base de conhecimento e documentação de diretrizes",
       "status": "ativo",
-      "saude": "atencao",
-      "saude_motivo": "Rotina diária em 01/11/2026.",
+      "saude": "saudavel",
+      "saude_motivo": "Rotina diária em 24/11/2026.",
       "progresso": {
-        "feitos": 59,
-        "total": 165,
-        "percentual": 35.8
+        "feitos": 89,
+        "total": 207,
+        "percentual": 43.0
       },
-      "ultima_atividade": "2026-11-01T12:00:00-03:00",
+      "ultima_atividade": "2026-11-24T12:00:00-03:00",
       "nota": "Tarefas de construir a fila de aprovação não entram como pedido ao Samuel.",
       "frentes": [
         {
           "nome": "Catálogo de ferramentas",
-          "feitos": 15,
-          "total": 35,
-          "percentual": 42.9
+          "feitos": 31,
+          "total": 36,
+          "percentual": 86.1
         },
         {
           "nome": "Capacidades para o piloto plataforma-projetos",
-          "feitos": 5,
-          "total": 23,
-          "percentual": 21.7
-        },
-        {
-          "nome": "Plataforma de acompanhamento (projeto interno)",
-          "feitos": 2,
-          "total": 18,
-          "percentual": 11.1
+          "feitos": 6,
+          "total": 28,
+          "percentual": 21.4
         },
         {
           "nome": "Integração com o Cursor e operação",
-          "feitos": 0,
-          "total": 16,
-          "percentual": 0.0
+          "feitos": 2,
+          "total": 21,
+          "percentual": 9.5
+        },
+        {
+          "nome": "Plataforma de acompanhamento (projeto interno)",
+          "feitos": 3,
+          "total": 19,
+          "percentual": 15.8
         },
         {
           "nome": "Processo e operação de agentes",
           "feitos": 14,
-          "total": 14,
-          "percentual": 100.0
+          "total": 16,
+          "percentual": 87.5
+        },
+        {
+          "nome": "Consolidação e validação",
+          "feitos": 4,
+          "total": 15,
+          "percentual": 26.7
+        },
+        {
+          "nome": "Primeiros clientes",
+          "feitos": 1,
+          "total": 13,
+          "percentual": 7.7
+        },
+        {
+          "nome": "Diretrizes por papel",
+          "feitos": 0,
+          "total": 10,
+          "percentual": 0.0
         },
         {
           "nome": "Fundação",
@@ -74,57 +92,39 @@
         },
         {
           "nome": "Arsenal de scripts e papéis administrativos",
-          "feitos": 0,
+          "feitos": 1,
           "total": 9,
-          "percentual": 0.0
+          "percentual": 11.1
         },
         {
-          "nome": "Consolidação e validação",
-          "feitos": 0,
-          "total": 9,
-          "percentual": 0.0
-        },
-        {
-          "nome": "Diretrizes por papel",
-          "feitos": 0,
+          "nome": "Segurança e operação",
+          "feitos": 5,
           "total": 8,
-          "percentual": 0.0
-        },
-        {
-          "nome": "Tecnologia e plataformas",
-          "feitos": 6,
-          "total": 6,
-          "percentual": 100.0
+          "percentual": 62.5
         },
         {
           "nome": "Templates de artefatos",
-          "feitos": 0,
-          "total": 6,
-          "percentual": 0.0
-        },
-        {
-          "nome": "Engenharia de software",
-          "feitos": 5,
-          "total": 5,
-          "percentual": 100.0
+          "feitos": 2,
+          "total": 8,
+          "percentual": 25.0
         }
       ],
       "destaques": [
         {
-          "id": "VTX-142",
-          "texto": "Vídeos de divulgação com HyperFrames (render local)"
+          "id": "VTX-194",
+          "texto": "Template TypeScript de web e plataforma no bootstrap"
         },
         {
-          "id": "VTX-112",
-          "texto": "Matriz ferramenta × fluxo completa e links nos fluxos"
+          "id": "VTX-195",
+          "texto": "Política técnica de hospedagem por cliente e de custos de infra"
         },
         {
-          "id": "VTX-113",
-          "texto": "Processo periódico de revisão de ferramentas"
+          "id": "VTX-196",
+          "texto": "med-hub: incremento 1 interno, com prazo e teto de esforço"
         },
         {
-          "id": "VTX-120",
-          "texto": "Pesquisa de recursos: frontend, UI e design"
+          "id": "VTX-197",
+          "texto": "med-hub: tarefas de entrega e repositório do piloto"
         }
       ]
     }
@@ -134,82 +134,82 @@
     {
       "nome": "Backlog diário da VTX",
       "frequencia": "diária",
-      "ultima_execucao": "2026-11-01T12:00:00-03:00",
-      "status": "atrasada",
+      "ultima_execucao": "2026-11-24T12:00:00-03:00",
+      "status": "em_dia",
       "nota": "Conclusões do dia no backlog público."
     }
   ],
   "aguardando_samuel": [],
   "atividade": [
     {
-      "quando": "2026-11-01T12:00:00-03:00",
-      "resumo": "Concluiu VTX-110 — Ferramenta: Figma",
+      "quando": "2026-11-24T12:00:00-03:00",
+      "resumo": "Concluiu VTX-112 — Matriz ferramenta × fluxo completa e links nos fluxos",
       "projeto_id": "vtx-core",
       "link": null
     },
     {
-      "quando": "2026-11-01T12:00:00-03:00",
-      "resumo": "Concluiu VTX-111 — Ferramentas de comunicação e gestão (Google Workspace, Grok Bot)",
+      "quando": "2026-11-24T12:00:00-03:00",
+      "resumo": "Concluiu VTX-142 — Vídeos de divulgação com HyperFrames (render local)",
       "projeto_id": "vtx-core",
       "link": null
     },
     {
-      "quando": "2026-10-31T12:00:00-03:00",
-      "resumo": "Concluiu VTX-106 — Ferramentas de pagamento: Stripe e Mercado Pago",
+      "quando": "2026-11-24T12:00:00-03:00",
+      "resumo": "Concluiu VTX-113 — Processo periódico de revisão de ferramentas",
       "projeto_id": "vtx-core",
       "link": null
     },
     {
-      "quando": "2026-10-31T12:00:00-03:00",
-      "resumo": "Concluiu VTX-107 — Ferramenta: Sentry",
+      "quando": "2026-11-24T12:00:00-03:00",
+      "resumo": "Concluiu VTX-120 — Pesquisa de recursos: frontend, UI e design",
       "projeto_id": "vtx-core",
       "link": null
     },
     {
-      "quando": "2026-10-31T12:00:00-03:00",
-      "resumo": "Concluiu VTX-108 — Ferramenta: Cloudflare (DNS, Pages, Access, WAF)",
+      "quando": "2026-11-24T12:00:00-03:00",
+      "resumo": "Concluiu VTX-121 — Pesquisa de recursos: backend e APIs",
       "projeto_id": "vtx-core",
       "link": null
     },
     {
-      "quando": "2026-10-31T12:00:00-03:00",
-      "resumo": "Concluiu VTX-109 — Ferramenta: Docker",
+      "quando": "2026-11-24T12:00:00-03:00",
+      "resumo": "Concluiu VTX-122 — Pesquisa de recursos: testes e QA",
       "projeto_id": "vtx-core",
       "link": null
     },
     {
-      "quando": "2026-10-31T12:00:00-03:00",
-      "resumo": "Concluiu VTX-143 — Conhecimento de domínio BIM/IFC (IFC4/IFC4x3, IDS, openBIM)",
+      "quando": "2026-11-24T12:00:00-03:00",
+      "resumo": "Concluiu VTX-123 — Pesquisa de recursos: segurança e cadeia de suprimentos",
       "projeto_id": "vtx-core",
       "link": null
     },
     {
-      "quando": "2026-10-31T12:00:00-03:00",
-      "resumo": "Concluiu VTX-145 — Skill IFC no backend (IfcOpenShell 0.9, validação e IDS)",
+      "quando": "2026-11-24T12:00:00-03:00",
+      "resumo": "Concluiu VTX-124 — Pesquisa de recursos: documentação",
       "projeto_id": "vtx-core",
       "link": null
     },
     {
-      "quando": "2026-10-31T12:00:00-03:00",
-      "resumo": "Concluiu VTX-151 — Versionamento de modelos IFC: versões, branches, diff e merge",
+      "quando": "2026-11-24T12:00:00-03:00",
+      "resumo": "Concluiu VTX-125 — Pesquisa de recursos: skills de agentes e regras do Cursor",
       "projeto_id": "vtx-core",
       "link": null
     },
     {
-      "quando": "2026-10-31T12:00:00-03:00",
-      "resumo": "Concluiu VTX-144 — Skill IFC no navegador (That Open Components e web-ifc)",
+      "quando": "2026-11-24T12:00:00-03:00",
+      "resumo": "Concluiu VTX-126 — Pesquisa de recursos: servidores MCP",
       "projeto_id": "vtx-core",
       "link": null
     },
     {
-      "quando": "2026-10-31T12:00:00-03:00",
-      "resumo": "Concluiu VTX-146 — Padrão de biblioteca de funções de domínio para tool-calling da IA",
+      "quando": "2026-11-24T12:00:00-03:00",
+      "resumo": "Concluiu VTX-127 — Piloto do impeccable em uma tela de teste (fluxo frontend)",
       "projeto_id": "vtx-core",
       "link": null
     },
     {
-      "quando": "2026-10-30T12:00:00-03:00",
-      "resumo": "Concluiu VTX-104 — Ferramenta: Firebase",
+      "quando": "2026-11-24T12:00:00-03:00",
+      "resumo": "Concluiu VTX-141 — Skill de diagramas editoriais (adaptada do diagram-design)",
       "projeto_id": "vtx-core",
       "link": null
     }
