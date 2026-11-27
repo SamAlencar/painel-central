@@ -7,7 +7,7 @@
     "nome": "Vix",
     "papel": "Operação da VTX, empresa de TI tocada por agentes"
   },
-  "resumo": "Criação da base de conhecimento e documentação de diretrizes. 89 de 207 tarefas concluídas. A rotina diária tem registro em 24/11/2026.",
+  "resumo": "Criação da base de conhecimento e documentação de diretrizes. 97 de 225 tarefas concluídas. A rotina diária tem registro em 26/11/2026.",
   "exemplo": false,
   "fonte": {
     "tipo": "github",
@@ -15,9 +15,9 @@
   },
   "status": "saudavel",
   "saude": {
-    "motivo": "Rotina diária em 24/11/2026."
+    "motivo": "Rotina diária em 26/11/2026."
   },
-  "atualizado_em": "2026-11-24T12:00:00-03:00",
+  "atualizado_em": "2026-11-26T12:00:00-03:00",
   "projetos": [
     {
       "id": "vtx-core",
@@ -27,13 +27,13 @@
       "descricao": "Criação da base de conhecimento e documentação de diretrizes",
       "status": "ativo",
       "saude": "saudavel",
-      "saude_motivo": "Rotina diária em 24/11/2026.",
+      "saude_motivo": "Rotina diária em 26/11/2026.",
       "progresso": {
-        "feitos": 89,
-        "total": 207,
-        "percentual": 43.0
+        "feitos": 97,
+        "total": 225,
+        "percentual": 43.1
       },
-      "ultima_atividade": "2026-11-24T12:00:00-03:00",
+      "ultima_atividade": "2026-11-26T12:00:00-03:00",
       "nota": "Tarefas de construir a fila de aprovação não entram como pedido ao Samuel.",
       "frentes": [
         {
@@ -45,14 +45,20 @@
         {
           "nome": "Capacidades para o piloto plataforma-projetos",
           "feitos": 6,
-          "total": 28,
-          "percentual": 21.4
+          "total": 33,
+          "percentual": 18.2
         },
         {
           "nome": "Integração com o Cursor e operação",
-          "feitos": 2,
-          "total": 21,
-          "percentual": 9.5
+          "feitos": 4,
+          "total": 24,
+          "percentual": 16.7
+        },
+        {
+          "nome": "Processo e operação de agentes",
+          "feitos": 16,
+          "total": 20,
+          "percentual": 80.0
         },
         {
           "nome": "Plataforma de acompanhamento (projeto interno)",
@@ -61,22 +67,16 @@
           "percentual": 15.8
         },
         {
-          "nome": "Processo e operação de agentes",
-          "feitos": 14,
+          "nome": "Primeiros clientes",
+          "feitos": 4,
           "total": 16,
-          "percentual": 87.5
+          "percentual": 25.0
         },
         {
           "nome": "Consolidação e validação",
           "feitos": 4,
-          "total": 15,
-          "percentual": 26.7
-        },
-        {
-          "nome": "Primeiros clientes",
-          "feitos": 1,
-          "total": 13,
-          "percentual": 7.7
+          "total": 16,
+          "percentual": 25.0
         },
         {
           "nome": "Diretrizes por papel",
@@ -91,16 +91,16 @@
           "percentual": 100.0
         },
         {
+          "nome": "Segurança e operação",
+          "feitos": 6,
+          "total": 9,
+          "percentual": 66.7
+        },
+        {
           "nome": "Arsenal de scripts e papéis administrativos",
           "feitos": 1,
           "total": 9,
           "percentual": 11.1
-        },
-        {
-          "nome": "Segurança e operação",
-          "feitos": 5,
-          "total": 8,
-          "percentual": 62.5
         },
         {
           "nome": "Templates de artefatos",
@@ -111,20 +111,20 @@
       ],
       "destaques": [
         {
-          "id": "VTX-194",
-          "texto": "Template TypeScript de web e plataforma no bootstrap"
-        },
-        {
-          "id": "VTX-195",
-          "texto": "Política técnica de hospedagem por cliente e de custos de infra"
-        },
-        {
           "id": "VTX-196",
           "texto": "med-hub: incremento 1 interno, com prazo e teto de esforço"
         },
         {
           "id": "VTX-197",
           "texto": "med-hub: tarefas de entrega e repositório do piloto"
+        },
+        {
+          "id": "VTX-204",
+          "texto": "Build técnico do site da VTX"
+        },
+        {
+          "id": "VTX-199",
+          "texto": "Pacote técnico de manutenção, SLA e suporte"
         }
       ]
     }
@@ -134,13 +134,49 @@
     {
       "nome": "Backlog diário da VTX",
       "frequencia": "diária",
-      "ultima_execucao": "2026-11-24T12:00:00-03:00",
+      "ultima_execucao": "2026-11-26T12:00:00-03:00",
       "status": "em_dia",
       "nota": "Conclusões do dia no backlog público."
     }
   ],
   "aguardando_samuel": [],
   "atividade": [
+    {
+      "quando": "2026-11-26T12:00:00-03:00",
+      "resumo": "Concluiu VTX-210 — Regras do Cursor de engenharia e de agentes no template web",
+      "projeto_id": "vtx-core",
+      "link": null
+    },
+    {
+      "quando": "2026-11-26T12:00:00-03:00",
+      "resumo": "Concluiu VTX-221 — Topologia de agentes, critérios de agente novo e modelos por perfil",
+      "projeto_id": "vtx-core",
+      "link": null
+    },
+    {
+      "quando": "2026-11-26T12:00:00-03:00",
+      "resumo": "Concluiu VTX-222 — Porta para produção com revisão calibrada por risco",
+      "projeto_id": "vtx-core",
+      "link": null
+    },
+    {
+      "quando": "2026-11-26T12:00:00-03:00",
+      "resumo": "Concluiu VTX-223 — Checklist de auditoria de skills, regras e MCPs de terceiros",
+      "projeto_id": "vtx-core",
+      "link": null
+    },
+    {
+      "quando": "2026-11-26T12:00:00-03:00",
+      "resumo": "Concluiu VTX-224 — Deny rules do Cursor e segredos fora do contexto do agente",
+      "projeto_id": "vtx-core",
+      "link": null
+    },
+    {
+      "quando": "2026-11-26T12:00:00-03:00",
+      "resumo": "Concluiu VTX-198 — Fluxo de projeto: agente de IA ou IA embutida",
+      "projeto_id": "vtx-core",
+      "link": null
+    },
     {
       "quando": "2026-11-24T12:00:00-03:00",
       "resumo": "Concluiu VTX-112 — Matriz ferramenta × fluxo completa e links nos fluxos",
@@ -174,42 +210,6 @@
     {
       "quando": "2026-11-24T12:00:00-03:00",
       "resumo": "Concluiu VTX-122 — Pesquisa de recursos: testes e QA",
-      "projeto_id": "vtx-core",
-      "link": null
-    },
-    {
-      "quando": "2026-11-24T12:00:00-03:00",
-      "resumo": "Concluiu VTX-123 — Pesquisa de recursos: segurança e cadeia de suprimentos",
-      "projeto_id": "vtx-core",
-      "link": null
-    },
-    {
-      "quando": "2026-11-24T12:00:00-03:00",
-      "resumo": "Concluiu VTX-124 — Pesquisa de recursos: documentação",
-      "projeto_id": "vtx-core",
-      "link": null
-    },
-    {
-      "quando": "2026-11-24T12:00:00-03:00",
-      "resumo": "Concluiu VTX-125 — Pesquisa de recursos: skills de agentes e regras do Cursor",
-      "projeto_id": "vtx-core",
-      "link": null
-    },
-    {
-      "quando": "2026-11-24T12:00:00-03:00",
-      "resumo": "Concluiu VTX-126 — Pesquisa de recursos: servidores MCP",
-      "projeto_id": "vtx-core",
-      "link": null
-    },
-    {
-      "quando": "2026-11-24T12:00:00-03:00",
-      "resumo": "Concluiu VTX-127 — Piloto do impeccable em uma tela de teste (fluxo frontend)",
-      "projeto_id": "vtx-core",
-      "link": null
-    },
-    {
-      "quando": "2026-11-24T12:00:00-03:00",
-      "resumo": "Concluiu VTX-141 — Skill de diagramas editoriais (adaptada do diagram-design)",
       "projeto_id": "vtx-core",
       "link": null
     }
