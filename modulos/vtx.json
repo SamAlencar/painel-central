@@ -7,7 +7,7 @@
     "nome": "Vix",
     "papel": "Operação da VTX, empresa de TI tocada por agentes"
   },
-  "resumo": "Criação da base de conhecimento e documentação de diretrizes. 97 de 225 tarefas concluídas. A rotina diária tem registro em 26/11/2026.",
+  "resumo": "Criação da base de conhecimento e documentação de diretrizes. 101 de 227 tarefas concluídas. A rotina diária tem registro em 26/11/2026.",
   "exemplo": false,
   "fonte": {
     "tipo": "github",
@@ -29,9 +29,9 @@
       "saude": "saudavel",
       "saude_motivo": "Rotina diária em 26/11/2026.",
       "progresso": {
-        "feitos": 97,
-        "total": 225,
-        "percentual": 43.1
+        "feitos": 101,
+        "total": 227,
+        "percentual": 44.5
       },
       "ultima_atividade": "2026-11-26T12:00:00-03:00",
       "nota": "Tarefas de construir a fila de aprovação não entram como pedido ao Samuel.",
@@ -44,9 +44,9 @@
         },
         {
           "nome": "Capacidades para o piloto plataforma-projetos",
-          "feitos": 6,
-          "total": 33,
-          "percentual": 18.2
+          "feitos": 10,
+          "total": 34,
+          "percentual": 29.4
         },
         {
           "nome": "Integração com o Cursor e operação",
@@ -57,8 +57,8 @@
         {
           "nome": "Processo e operação de agentes",
           "feitos": 16,
-          "total": 20,
-          "percentual": 80.0
+          "total": 21,
+          "percentual": 76.2
         },
         {
           "nome": "Plataforma de acompanhamento (projeto interno)",
@@ -149,6 +149,30 @@
     },
     {
       "quando": "2026-11-26T12:00:00-03:00",
+      "resumo": "Concluiu VTX-212 — Fronteira de camadas imposta por lint no template web",
+      "projeto_id": "vtx-core",
+      "link": null
+    },
+    {
+      "quando": "2026-11-26T12:00:00-03:00",
+      "resumo": "Concluiu VTX-177 — Harness de agente de referência (loop de tool-calling)",
+      "projeto_id": "vtx-core",
+      "link": null
+    },
+    {
+      "quando": "2026-11-26T12:00:00-03:00",
+      "resumo": "Concluiu VTX-211 — Fluxo ponta a ponta de referência no template web",
+      "projeto_id": "vtx-core",
+      "link": null
+    },
+    {
+      "quando": "2026-11-26T12:00:00-03:00",
+      "resumo": "Concluiu VTX-178 — Suíte de evals mínima com portão no CI",
+      "projeto_id": "vtx-core",
+      "link": null
+    },
+    {
+      "quando": "2026-11-26T12:00:00-03:00",
       "resumo": "Concluiu VTX-221 — Topologia de agentes, critérios de agente novo e modelos por perfil",
       "projeto_id": "vtx-core",
       "link": null
@@ -186,30 +210,6 @@
     {
       "quando": "2026-11-24T12:00:00-03:00",
       "resumo": "Concluiu VTX-142 — Vídeos de divulgação com HyperFrames (render local)",
-      "projeto_id": "vtx-core",
-      "link": null
-    },
-    {
-      "quando": "2026-11-24T12:00:00-03:00",
-      "resumo": "Concluiu VTX-113 — Processo periódico de revisão de ferramentas",
-      "projeto_id": "vtx-core",
-      "link": null
-    },
-    {
-      "quando": "2026-11-24T12:00:00-03:00",
-      "resumo": "Concluiu VTX-120 — Pesquisa de recursos: frontend, UI e design",
-      "projeto_id": "vtx-core",
-      "link": null
-    },
-    {
-      "quando": "2026-11-24T12:00:00-03:00",
-      "resumo": "Concluiu VTX-121 — Pesquisa de recursos: backend e APIs",
-      "projeto_id": "vtx-core",
-      "link": null
-    },
-    {
-      "quando": "2026-11-24T12:00:00-03:00",
-      "resumo": "Concluiu VTX-122 — Pesquisa de recursos: testes e QA",
       "projeto_id": "vtx-core",
       "link": null
     }
