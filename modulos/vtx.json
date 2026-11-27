@@ -7,7 +7,7 @@
     "nome": "Vix",
     "papel": "Operação da VTX, empresa de TI tocada por agentes"
   },
-  "resumo": "Criação da base de conhecimento e documentação de diretrizes. 101 de 227 tarefas concluídas. A rotina diária tem registro em 26/11/2026.",
+  "resumo": "Criação da base de conhecimento e documentação de diretrizes. 109 de 230 tarefas concluídas. A rotina diária tem registro em 27/11/2026.",
   "exemplo": false,
   "fonte": {
     "tipo": "github",
@@ -15,9 +15,9 @@
   },
   "status": "saudavel",
   "saude": {
-    "motivo": "Rotina diária em 26/11/2026."
+    "motivo": "Rotina diária em 27/11/2026."
   },
-  "atualizado_em": "2026-11-26T12:00:00-03:00",
+  "atualizado_em": "2026-11-27T12:00:00-03:00",
   "projetos": [
     {
       "id": "vtx-core",
@@ -27,13 +27,13 @@
       "descricao": "Criação da base de conhecimento e documentação de diretrizes",
       "status": "ativo",
       "saude": "saudavel",
-      "saude_motivo": "Rotina diária em 26/11/2026.",
+      "saude_motivo": "Rotina diária em 27/11/2026.",
       "progresso": {
-        "feitos": 101,
-        "total": 227,
-        "percentual": 44.5
+        "feitos": 109,
+        "total": 230,
+        "percentual": 47.4
       },
-      "ultima_atividade": "2026-11-26T12:00:00-03:00",
+      "ultima_atividade": "2026-11-27T12:00:00-03:00",
       "nota": "Tarefas de construir a fila de aprovação não entram como pedido ao Samuel.",
       "frentes": [
         {
@@ -44,9 +44,9 @@
         },
         {
           "nome": "Capacidades para o piloto plataforma-projetos",
-          "feitos": 10,
-          "total": 34,
-          "percentual": 29.4
+          "feitos": 13,
+          "total": 35,
+          "percentual": 37.1
         },
         {
           "nome": "Integração com o Cursor e operação",
@@ -56,9 +56,9 @@
         },
         {
           "nome": "Processo e operação de agentes",
-          "feitos": 16,
-          "total": 21,
-          "percentual": 76.2
+          "feitos": 19,
+          "total": 23,
+          "percentual": 82.6
         },
         {
           "nome": "Plataforma de acompanhamento (projeto interno)",
@@ -68,15 +68,15 @@
         },
         {
           "nome": "Primeiros clientes",
-          "feitos": 4,
+          "feitos": 5,
           "total": 16,
-          "percentual": 25.0
+          "percentual": 31.2
         },
         {
           "nome": "Consolidação e validação",
-          "feitos": 4,
+          "feitos": 5,
           "total": 16,
-          "percentual": 25.0
+          "percentual": 31.2
         },
         {
           "nome": "Diretrizes por papel",
@@ -134,13 +134,55 @@
     {
       "nome": "Backlog diário da VTX",
       "frequencia": "diária",
-      "ultima_execucao": "2026-11-26T12:00:00-03:00",
+      "ultima_execucao": "2026-11-27T12:00:00-03:00",
       "status": "em_dia",
       "nota": "Conclusões do dia no backlog público."
     }
   ],
   "aguardando_samuel": [],
   "atividade": [
+    {
+      "quando": "2026-11-27T12:00:00-03:00",
+      "resumo": "Concluiu VTX-215 — Lint e tipos em Python no CI",
+      "projeto_id": "vtx-core",
+      "link": null
+    },
+    {
+      "quando": "2026-11-27T12:00:00-03:00",
+      "resumo": "Concluiu VTX-209 — CI do vtx-core rodar o pipeline npm do template web",
+      "projeto_id": "vtx-core",
+      "link": null
+    },
+    {
+      "quando": "2026-11-27T12:00:00-03:00",
+      "resumo": "Concluiu VTX-228 — permissions: contents: read no job unittest do CI do vtx-core",
+      "projeto_id": "vtx-core",
+      "link": null
+    },
+    {
+      "quando": "2026-11-27T12:00:00-03:00",
+      "resumo": "Concluiu VTX-229 — permissions: contents: read no topo do workflow testes.yml",
+      "projeto_id": "vtx-core",
+      "link": null
+    },
+    {
+      "quando": "2026-11-27T12:00:00-03:00",
+      "resumo": "Concluiu VTX-179 — Log estruturado por execução de agente e custo",
+      "projeto_id": "vtx-core",
+      "link": null
+    },
+    {
+      "quando": "2026-11-27T12:00:00-03:00",
+      "resumo": "Concluiu VTX-213 — Human-in-the-loop para tools críticas no template web",
+      "projeto_id": "vtx-core",
+      "link": null
+    },
+    {
+      "quando": "2026-11-27T12:00:00-03:00",
+      "resumo": "Concluiu VTX-230 — Repositório Supabase de ações pendentes (escrita no servidor)",
+      "projeto_id": "vtx-core",
+      "link": null
+    },
     {
       "quando": "2026-11-26T12:00:00-03:00",
       "resumo": "Concluiu VTX-210 — Regras do Cursor de engenharia e de agentes no template web",
@@ -168,48 +210,6 @@
     {
       "quando": "2026-11-26T12:00:00-03:00",
       "resumo": "Concluiu VTX-178 — Suíte de evals mínima com portão no CI",
-      "projeto_id": "vtx-core",
-      "link": null
-    },
-    {
-      "quando": "2026-11-26T12:00:00-03:00",
-      "resumo": "Concluiu VTX-221 — Topologia de agentes, critérios de agente novo e modelos por perfil",
-      "projeto_id": "vtx-core",
-      "link": null
-    },
-    {
-      "quando": "2026-11-26T12:00:00-03:00",
-      "resumo": "Concluiu VTX-222 — Porta para produção com revisão calibrada por risco",
-      "projeto_id": "vtx-core",
-      "link": null
-    },
-    {
-      "quando": "2026-11-26T12:00:00-03:00",
-      "resumo": "Concluiu VTX-223 — Checklist de auditoria de skills, regras e MCPs de terceiros",
-      "projeto_id": "vtx-core",
-      "link": null
-    },
-    {
-      "quando": "2026-11-26T12:00:00-03:00",
-      "resumo": "Concluiu VTX-224 — Deny rules do Cursor e segredos fora do contexto do agente",
-      "projeto_id": "vtx-core",
-      "link": null
-    },
-    {
-      "quando": "2026-11-26T12:00:00-03:00",
-      "resumo": "Concluiu VTX-198 — Fluxo de projeto: agente de IA ou IA embutida",
-      "projeto_id": "vtx-core",
-      "link": null
-    },
-    {
-      "quando": "2026-11-24T12:00:00-03:00",
-      "resumo": "Concluiu VTX-112 — Matriz ferramenta × fluxo completa e links nos fluxos",
-      "projeto_id": "vtx-core",
-      "link": null
-    },
-    {
-      "quando": "2026-11-24T12:00:00-03:00",
-      "resumo": "Concluiu VTX-142 — Vídeos de divulgação com HyperFrames (render local)",
       "projeto_id": "vtx-core",
       "link": null
     }
