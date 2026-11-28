@@ -7,7 +7,7 @@
     "nome": "Vix",
     "papel": "Operação da VTX, empresa de TI tocada por agentes"
   },
-  "resumo": "Criação da base de conhecimento e documentação de diretrizes. 109 de 230 tarefas concluídas. A rotina diária tem registro em 27/11/2026.",
+  "resumo": "Criação da base de conhecimento e documentação de diretrizes. 109 de 233 tarefas concluídas. A rotina diária tem registro em 27/11/2026.",
   "exemplo": false,
   "fonte": {
     "tipo": "github",
@@ -30,8 +30,8 @@
       "saude_motivo": "Rotina diária em 27/11/2026.",
       "progresso": {
         "feitos": 109,
-        "total": 230,
-        "percentual": 47.4
+        "total": 233,
+        "percentual": 46.8
       },
       "ultima_atividade": "2026-11-27T12:00:00-03:00",
       "nota": "Tarefas de construir a fila de aprovação não entram como pedido ao Samuel.",
@@ -61,16 +61,16 @@
           "percentual": 82.6
         },
         {
+          "nome": "Primeiros clientes",
+          "feitos": 5,
+          "total": 19,
+          "percentual": 26.3
+        },
+        {
           "nome": "Plataforma de acompanhamento (projeto interno)",
           "feitos": 3,
           "total": 19,
           "percentual": 15.8
-        },
-        {
-          "nome": "Primeiros clientes",
-          "feitos": 5,
-          "total": 16,
-          "percentual": 31.2
         },
         {
           "nome": "Consolidação e validação",

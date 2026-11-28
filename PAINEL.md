@@ -258,7 +258,7 @@ Prazos:
 
 ### VTX · Vix · saudável
 
-Criação da base de conhecimento e documentação de diretrizes. 109 de 230 tarefas concluídas. A rotina diária tem registro em 27/11/2026.
+Criação da base de conhecimento e documentação de diretrizes. 109 de 233 tarefas concluídas. A rotina diária tem registro em 27/11/2026.
 
 Fonte: github. Atualizado em: 27/11/2026.
 
@@ -266,7 +266,7 @@ Rotina diária em 27/11/2026.
 
 | Projeto | Saúde | Progresso | Última atividade |
 | --- | --- | --- | --- |
-| VTX Core | saudável | 109/230 (47,4%) | 27/11/2026 |
+| VTX Core | saudável | 109/233 (46,8%) | 27/11/2026 |
 
 Rotinas:
 
